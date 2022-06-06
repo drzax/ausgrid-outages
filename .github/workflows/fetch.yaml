@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '6 16 * * 0'
+    - cron:  '6 * * * *'
 
 jobs:
   scheduled:
@@ -14,7 +14,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://www.example.com/data.json | jq . > data.json
+        curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedUnplannedOutages -X POST | jq . > unplanned.json
+        curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedPlannedOutages -X POST | jq . > planned.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
