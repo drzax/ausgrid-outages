@@ -82,7 +82,7 @@
     "Customers": "45",
     "EndDateTime": "2022-06-15T15:00:00",
     "StartDateTime": "2022-06-15T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+3 hrs)",
     "Streets": "North West Arm Rd",
     "WebId": 49125,
     "JobId": "NECF67423"
@@ -764,7 +764,7 @@
     "Customers": "46",
     "EndDateTime": "2022-06-15T13:00:00",
     "StartDateTime": "2022-06-15T10:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Coronation St, Hampden St, Mulbring St, Railway St",
     "WebId": 48726,
     "JobId": "NECF66895"
@@ -3085,7 +3085,7 @@
     "Customers": "140",
     "EndDateTime": "2022-06-22T05:00:00",
     "StartDateTime": "2022-06-21T19:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Altona Ave, Cleary Ave, Deakin St, Grace Ave, Iraga Pl, Maxwell Pde, Redwood Pl, Warringah Rd, Careebong Rd, Parni Pl",
     "WebId": 49192,
     "JobId": "NECF67507"
@@ -3344,6 +3344,17 @@
     "JobId": "NECF67800"
   },
   {
+    "Area": "Empire Bay",
+    "Cause": "Overhead individual service wire replacement",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-06-22T15:00:00",
+    "StartDateTime": "2022-06-22T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Rickard Rd",
+    "WebId": 49474,
+    "JobId": "NECF67859"
+  },
+  {
     "Area": "Berowra",
     "Cause": "Overhead individual service wire replacement",
     "Customers": "30",
@@ -3558,7 +3569,7 @@
     "Customers": "267",
     "EndDateTime": "2022-06-23T00:00:00",
     "StartDateTime": "2022-06-22T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Cambridge La, Cambridge St, Cascade St, Duxford St, Gurner St, Hargrave La, Norfolk St, Suffolk St, Sutherland St",
     "WebId": 48983,
     "JobId": "NECF67095"
@@ -4103,37 +4114,15 @@
     "JobId": "NECF67105"
   },
   {
-    "Area": "Botany",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Customers": "less than 10",
-    "EndDateTime": "2022-06-24T15:00:00",
-    "StartDateTime": "2022-06-24T07:00:00",
-    "Status": "Cancelled",
-    "Streets": "Banksia St",
-    "WebId": 49108,
-    "JobId": "NECF66786"
-  },
-  {
-    "Area": "Castle Cove",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Customers": "48",
-    "EndDateTime": "2022-06-24T13:00:00",
-    "StartDateTime": "2022-06-24T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Deepwater Rd, Warrawee Ave",
-    "WebId": 49224,
-    "JobId": "NECF67538"
-  },
-  {
-    "Area": "Epping",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Customers": "less than 10",
-    "EndDateTime": "2022-06-24T16:00:00",
-    "StartDateTime": "2022-06-24T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Essex St, Pembroke St",
-    "WebId": 49444,
-    "JobId": "NECF67786"
+    "Area": "Panania",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Customers": "30",
+    "EndDateTime": "2022-06-24T15:30:00",
+    "StartDateTime": "2022-06-24T06:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Condon Ave, Tompson Rd, Victor Ave",
+    "WebId": 49473,
+    "JobId": "NECF67723"
   },
   {
     "Area": "Earlwood",
@@ -4158,6 +4147,50 @@
     "JobId": "NECF67855"
   },
   {
+    "Area": "Epping",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-06-24T16:00:00",
+    "StartDateTime": "2022-06-24T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Essex St, Pembroke St",
+    "WebId": 49444,
+    "JobId": "NECF67786"
+  },
+  {
+    "Area": "Botany",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-06-24T15:00:00",
+    "StartDateTime": "2022-06-24T07:00:00",
+    "Status": "Cancelled",
+    "Streets": "Banksia St",
+    "WebId": 49108,
+    "JobId": "NECF66786"
+  },
+  {
+    "Area": "Castle Cove",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "48",
+    "EndDateTime": "2022-06-24T13:00:00",
+    "StartDateTime": "2022-06-24T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Deepwater Rd, Warrawee Ave",
+    "WebId": 49224,
+    "JobId": "NECF67538"
+  },
+  {
+    "Area": "Cherrybrook",
+    "Cause": "Urgent underground electrical network repairs",
+    "Customers": "43",
+    "EndDateTime": "2022-06-24T15:00:00",
+    "StartDateTime": "2022-06-24T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Elliott Pl, Penrose Ave, Todd Cl, Yanderra Gr",
+    "WebId": 48886,
+    "JobId": "NECF67102"
+  },
+  {
     "Area": "Ramsgate Beach",
     "Cause": "Urgent underground electrical network repairs",
     "Customers": "less than 10",
@@ -4180,15 +4213,15 @@
     "JobId": "NECF67806"
   },
   {
-    "Area": "Cherrybrook",
-    "Cause": "Urgent underground electrical network repairs",
-    "Customers": "43",
-    "EndDateTime": "2022-06-24T15:00:00",
-    "StartDateTime": "2022-06-24T07:30:00",
+    "Area": "Berowra",
+    "Cause": "Overhead individual service wire replacement",
+    "Customers": "39",
+    "EndDateTime": "2022-06-24T16:00:00",
+    "StartDateTime": "2022-06-24T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Elliott Pl, Penrose Ave, Todd Cl, Yanderra Gr",
-    "WebId": 48886,
-    "JobId": "NECF67102"
+    "Streets": "Berowra Waters Rd, Crowley Rd, High St, Hillcrest Rd, King St, Tower Pl",
+    "WebId": 49460,
+    "JobId": "NECF67661"
   },
   {
     "Area": "Waratah West",
@@ -4207,7 +4240,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-06-24T16:00:00",
     "StartDateTime": "2022-06-24T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Stafford St",
     "WebId": 48990,
     "JobId": "NECF66483"
@@ -4299,17 +4332,6 @@
     "Streets": "Fullerton Cove Rd",
     "WebId": 49155,
     "JobId": "NECF67458"
-  },
-  {
-    "Area": "Berowra",
-    "Cause": "Overhead individual service wire replacement",
-    "Customers": "39",
-    "EndDateTime": "2022-06-24T16:00:00",
-    "StartDateTime": "2022-06-24T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Berowra Waters Rd, Crowley Rd, High St, Hillcrest Rd, King St, Tower Pl",
-    "WebId": 49460,
-    "JobId": "NECF67661"
   },
   {
     "Area": "North Bondi",
@@ -4950,6 +4972,17 @@
     "JobId": "NECF67092"
   },
   {
+    "Area": "Georges Hall",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "92",
+    "EndDateTime": "2022-06-28T02:00:00",
+    "StartDateTime": "2022-06-27T19:00:00",
+    "Status": "Proposed",
+    "Streets": "Ashcroft St, Endeavour Rd, Haig Ave, Henry Lawson Dr, Lawson Dr, Rabaul Rd",
+    "WebId": 49472,
+    "JobId": "NECF67273"
+  },
+  {
     "Area": "East Maitland",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Customers": "72",
@@ -5032,7 +5065,7 @@
     "Customers": "65",
     "EndDateTime": "2022-06-28T15:30:00",
     "StartDateTime": "2022-06-28T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Boorea St, Olympic Dr, Yarram St",
     "WebId": 49255,
     "JobId": "NECF67549"
@@ -6655,6 +6688,28 @@
     "JobId": "NECF67376"
   },
   {
+    "Area": "Chifley, Malabar",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "263",
+    "EndDateTime": "2022-07-07T18:00:00",
+    "StartDateTime": "2022-07-07T06:30:00",
+    "Status": "Proposed",
+    "Streets": "Anzac Pde, Dampier St, Eyre St, Forrest St, Giles St, Hastings Ave, Lasseter Ave, Macquarie St, Mawson Pde, Melba Ave, Wills Ave",
+    "WebId": 49475,
+    "JobId": "NECF67680"
+  },
+  {
+    "Area": "Brooklyn",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "138",
+    "EndDateTime": "2022-07-07T17:00:00",
+    "StartDateTime": "2022-07-07T07:00:00",
+    "Status": "On Hold",
+    "Streets": "Baden Powell Ave, Brooklyn Rd, Cole St, Cowan St, Hawkesbury Cres, Peat St, Ross St, Wharf St",
+    "WebId": 49399,
+    "JobId": "NECF67760"
+  },
+  {
     "Area": "Eastwood",
     "Cause": "Urgent underground electrical network repairs",
     "Customers": "179",
@@ -6675,17 +6730,6 @@
     "Streets": "Ashburner St, Darley Rd, East Esplanade",
     "WebId": 49233,
     "JobId": "NECF66829"
-  },
-  {
-    "Area": "Brooklyn",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Customers": "138",
-    "EndDateTime": "2022-07-07T17:00:00",
-    "StartDateTime": "2022-07-07T07:00:00",
-    "Status": "On Hold",
-    "Streets": "Baden Powell Ave, Brooklyn Rd, Cole St, Cowan St, Hawkesbury Cres, Peat St, Ross St, Wharf St",
-    "WebId": 49399,
-    "JobId": "NECF67760"
   },
   {
     "Area": "Illawong",
@@ -6919,15 +6963,15 @@
     "JobId": "NECF66693"
   },
   {
-    "Area": "Kurri Kurri",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Customers": "75",
-    "EndDateTime": "2022-07-10T11:00:00",
-    "StartDateTime": "2022-07-10T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Barton St, Hampden La, Hampden St, Hopetoun St, Rawson St",
-    "WebId": 48435,
-    "JobId": "NECF66529"
+    "Area": "Villawood",
+    "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-07-10T13:30:00",
+    "StartDateTime": "2022-07-10T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Shaddock Ave",
+    "WebId": 49476,
+    "JobId": "NECF67180"
   },
   {
     "Area": "Freemans Waterhole",
@@ -6939,6 +6983,17 @@
     "Streets": "Freemans Dr",
     "WebId": 49382,
     "JobId": "NECF67663"
+  },
+  {
+    "Area": "Kurri Kurri",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "75",
+    "EndDateTime": "2022-07-10T11:00:00",
+    "StartDateTime": "2022-07-10T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Barton St, Hampden La, Hampden St, Hopetoun St, Rawson St",
+    "WebId": 48435,
+    "JobId": "NECF66529"
   },
   {
     "Area": "Kurri Kurri",
