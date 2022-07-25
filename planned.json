@@ -1556,7 +1556,7 @@
     "Customers": "11",
     "EndDateTime": "2022-07-27T15:30:00",
     "StartDateTime": "2022-07-27T08:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Butlers Rd, Fordwich Rd, Charlton Rd, Milbrodale Rd",
     "WebId": 49870,
     "JobId": "NECF68182"
@@ -1567,7 +1567,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-07-27T15:30:00",
     "StartDateTime": "2022-07-27T08:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "- , Broke Rd, Putty Rd",
     "WebId": 50062,
     "JobId": "NECF68488"
@@ -3041,7 +3041,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-08-01T17:30:00",
     "StartDateTime": "2022-08-01T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Oxford Falls Rd",
     "WebId": 51035,
     "JobId": "NECF69160"
@@ -3316,7 +3316,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-08-02T14:00:00",
     "StartDateTime": "2022-08-02T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Oxford Falls Rd",
     "WebId": 51044,
     "JobId": "NECF69162"
@@ -3745,10 +3745,21 @@
     "Customers": "70",
     "EndDateTime": "2022-08-03T17:00:00",
     "StartDateTime": "2022-08-03T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Seaview St, Henson St, Herbert St, Prospect Rd, Rosemount Ave",
     "WebId": 50815,
     "JobId": "NECF69194"
+  },
+  {
+    "Area": "Longueville",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "28",
+    "EndDateTime": "2022-08-03T16:00:00",
+    "StartDateTime": "2022-08-03T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Arabella St, Dunois St, Kenneth St, Lucretia Ave, Stuart St",
+    "WebId": 51050,
+    "JobId": "NECF65959"
   },
   {
     "Area": "Green Point",
@@ -4235,13 +4246,24 @@
     "JobId": "NECF69405"
   },
   {
+    "Area": "Rosebery",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-08-04T13:30:00",
+    "StartDateTime": "2022-08-04T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Primrose Ave",
+    "WebId": 51054,
+    "JobId": "NECF69442"
+  },
+  {
     "Area": "Hornsby",
     "Cause": "Temporary isolation of power at a site to do building works",
-    "Customers": "20",
+    "Customers": "less than 10",
     "EndDateTime": "2022-08-04T15:00:00",
-    "StartDateTime": "2022-08-04T09:00:00",
-    "Status": "On Hold",
-    "Streets": "Manor Rd, Rosamond St",
+    "StartDateTime": "2022-08-04T09:30:00",
+    "Status": "Proposed",
+    "Streets": "Manor Rd",
     "WebId": 50900,
     "JobId": "NECF69435"
   },
@@ -4273,10 +4295,21 @@
     "Customers": "76",
     "EndDateTime": "2022-08-05T08:00:00",
     "StartDateTime": "2022-08-04T21:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "King St",
     "WebId": 50878,
     "JobId": "NECF69388"
+  },
+  {
+    "Area": "Rose Bay",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-08-05T13:30:00",
+    "StartDateTime": "2022-08-05T06:30:00",
+    "Status": "Proposed",
+    "Streets": "Onslow St",
+    "WebId": 51055,
+    "JobId": "NECF69583"
   },
   {
     "Area": "Mosman",
@@ -5025,6 +5058,28 @@
     "Streets": "Chapel St, Leslie St",
     "WebId": 51043,
     "JobId": "NECF69571"
+  },
+  {
+    "Area": "Pymble",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "61",
+    "EndDateTime": "2022-08-09T16:00:00",
+    "StartDateTime": "2022-08-09T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Courallie Ave, Cultowa Rd, Hamilton Pde, Livingstone Ave, Ryde Rd, Ward St",
+    "WebId": 51056,
+    "JobId": "NECF69361"
+  },
+  {
+    "Area": "Drummoyne",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "84",
+    "EndDateTime": "2022-08-09T17:00:00",
+    "StartDateTime": "2022-08-09T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bowman St, College St, Formosa St, Lyons Rd, Victoria Rd",
+    "WebId": 51052,
+    "JobId": "NECF69495"
   },
   {
     "Area": "Woy Woy",
@@ -5841,6 +5896,17 @@
     "JobId": "NECF69270"
   },
   {
+    "Area": "Killarney Vale",
+    "Cause": "Connecting power to a property",
+    "Customers": "87",
+    "EndDateTime": "2022-08-13T17:00:00",
+    "StartDateTime": "2022-08-13T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bass Ave, Brooke Ave, Hume Bvd, Robertson Rd, Sturt St",
+    "WebId": 51049,
+    "JobId": "NECF68886"
+  },
+  {
     "Area": "Auburn",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Customers": "less than 10",
@@ -5861,6 +5927,17 @@
     "Streets": "Barclay St, Bonser La, Bundabah St, Engel Ave, Franklin St, George Norman Cl, George St, Gray Dr, Holdom Rd, Johnson Ave, Longworth Rd, Malcolm Rd, Mary St, Memorial Dr, Morante Rd, Pacific Hwy, Sawyers La, Tarean Rd, Wattle St, William St, Zayne Pl",
     "WebId": 49967,
     "JobId": "NECF67819"
+  },
+  {
+    "Area": "Heathcote",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "41",
+    "EndDateTime": "2022-08-15T03:00:00",
+    "StartDateTime": "2022-08-14T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Jack La, Princes Hwy, Whitton St, Wilson Pde",
+    "WebId": 51053,
+    "JobId": "NECF63586"
   },
   {
     "Area": "Lane Cove",
@@ -5971,6 +6048,17 @@
     "Streets": "McClelland St, Stan St, Warrane Rd",
     "WebId": 50940,
     "JobId": "NECF67598"
+  },
+  {
+    "Area": "North Ryde",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Customers": "48",
+    "EndDateTime": "2022-08-16T16:00:00",
+    "StartDateTime": "2022-08-16T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Ada St, Eastview Ave, Ford St",
+    "WebId": 47863,
+    "JobId": "NECF65883"
   },
   {
     "Area": "Kareela, Kirrawee",
@@ -6169,6 +6257,17 @@
     "Streets": "Apanie Cl, Indra Ave, Muraban Rd, Warrina Ave, Yeramba Rd",
     "WebId": 50711,
     "JobId": "NECF68877"
+  },
+  {
+    "Area": "Gungal",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-08-17T15:00:00",
+    "StartDateTime": "2022-08-17T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Worondi Creek Rd",
+    "WebId": 51051,
+    "JobId": "NECF69590"
   },
   {
     "Area": "Moonan Flat, Scone",
