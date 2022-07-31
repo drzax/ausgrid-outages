@@ -709,7 +709,7 @@
     "Customers": "12",
     "EndDateTime": "2022-08-02T16:30:00",
     "StartDateTime": "2022-08-02T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Crosslands Rd",
     "WebId": 50585,
     "JobId": "NECF68963"
@@ -1446,7 +1446,7 @@
     "Customers": "23",
     "EndDateTime": "2022-08-03T15:30:00",
     "StartDateTime": "2022-08-03T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "McKay Rd, the Crest",
     "WebId": 50931,
     "JobId": "NECF69453"
@@ -1666,7 +1666,7 @@
     "Customers": "40",
     "EndDateTime": "2022-08-04T15:00:00",
     "StartDateTime": "2022-08-04T07:00:00",
-    "Status": "Proposed",
+    "Status": "Cancelled",
     "Streets": "Eynham Rd, Ganmain Cres, Goolagong Ct, Treadgold St",
     "WebId": 50555,
     "JobId": "NECF69011"
@@ -2495,6 +2495,17 @@
     "Streets": "Woids Ave",
     "WebId": 51292,
     "JobId": "NECF69850"
+  },
+  {
+    "Area": "Ryde",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-08-06T15:00:00",
+    "StartDateTime": "2022-08-06T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Malvina St",
+    "WebId": 51305,
+    "JobId": "NECF69087"
   },
   {
     "Area": "Peakhurst, Hurstville",
@@ -3872,6 +3883,17 @@
     "JobId": "NECF69034"
   },
   {
+    "Area": "Greenwich",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "102",
+    "EndDateTime": "2022-08-11T05:00:00",
+    "StartDateTime": "2022-08-10T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Allawah Pl, Gore St, Greenwich Rd, Kingslangley Rd, River Rd, Sarner Rd, St Vincents Rd, Stella Vista Pl, Wisdom Rd",
+    "WebId": 51306,
+    "JobId": "NECF67357"
+  },
+  {
     "Area": "New Lambton",
     "Cause": "Temporary isolation of power at a site to do building works",
     "Customers": "35",
@@ -4647,7 +4669,7 @@
     "Customers": "65",
     "EndDateTime": "2022-08-15T05:00:00",
     "StartDateTime": "2022-08-14T21:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Longueville Rd",
     "WebId": 50732,
     "JobId": "NECF69109"
@@ -5016,6 +5038,39 @@
     "JobId": "NECF69045"
   },
   {
+    "Area": "Dooralong, Durren Durren",
+    "Cause": "Connecting power to a property",
+    "Customers": "32",
+    "EndDateTime": "2022-08-16T17:00:00",
+    "StartDateTime": "2022-08-16T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Buangi Rd, Dickson Rd, Mandalong Rd",
+    "WebId": 51300,
+    "JobId": "NECF68949"
+  },
+  {
+    "Area": "Lochinvar",
+    "Cause": "Connecting power to a property",
+    "Customers": "22",
+    "EndDateTime": "2022-08-16T15:00:00",
+    "StartDateTime": "2022-08-16T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Christopher Rd, Lilac Ave, Loquat St",
+    "WebId": 51304,
+    "JobId": "NECF66641"
+  },
+  {
+    "Area": "Broke, Bulga, Fordwich, Garland Valley, Howes Valley, Milbrodale, Putty",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "223",
+    "EndDateTime": "2022-08-16T15:00:00",
+    "StartDateTime": "2022-08-16T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Milbrodale Rd, Putty Rd, - , Welshs Rd, Arthur Dr, Box Gap Rd, Burnt Arm Rd, Putty Valley Rd, Roswill Dr, Yengo Dr",
+    "WebId": 51276,
+    "JobId": "NECF69759"
+  },
+  {
     "Area": "Mardi",
     "Cause": "Urgent electrical pole replacement or repair",
     "Customers": "10",
@@ -5032,7 +5087,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-08-16T16:00:00",
     "StartDateTime": "2022-08-16T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Rickard Rd",
     "WebId": 51283,
     "JobId": "NECF69296"
@@ -5065,7 +5120,7 @@
     "Customers": "61",
     "EndDateTime": "2022-08-16T16:00:00",
     "StartDateTime": "2022-08-16T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Coronation Ave, Hill St, Park St",
     "WebId": 51191,
     "JobId": "NECF69705"
@@ -5102,17 +5157,6 @@
     "Streets": "New England Hwy, Wiltons La, Aberdeen St, Kayuga Rd, St Heliers Rd",
     "WebId": 50974,
     "JobId": "NECF69489"
-  },
-  {
-    "Area": "Broke, Bulga, Fordwich, Garland Valley, Howes Valley, Milbrodale, Putty",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Customers": "223",
-    "EndDateTime": "2022-08-16T15:00:00",
-    "StartDateTime": "2022-08-16T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Milbrodale Rd, Putty Rd, - , Welshs Rd, Arthur Dr, Box Gap Rd, Burnt Arm Rd, Putty Valley Rd, Roswill Dr, Yengo Dr",
-    "WebId": 51276,
-    "JobId": "NECF69759"
   },
   {
     "Area": "Branxton",
@@ -5478,6 +5522,17 @@
     "JobId": "NECF68869"
   },
   {
+    "Area": "Cardiff, Macquarie Hills",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Customers": "76",
+    "EndDateTime": "2022-08-18T06:00:00",
+    "StartDateTime": "2022-08-17T20:30:00",
+    "Status": "Proposed",
+    "Streets": "Macquarie Rd, Munibung Rd, Myall Rd, Queens Ave, Russell St, William St",
+    "WebId": 51308,
+    "JobId": "NECF67999"
+  },
+  {
     "Area": "East Killara, Killara",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Customers": "187",
@@ -5522,6 +5577,28 @@
     "JobId": "NECF69796"
   },
   {
+    "Area": "Artarmon",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-08-18T17:00:00",
+    "StartDateTime": "2022-08-18T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Hawkins St",
+    "WebId": 51307,
+    "JobId": "NECF69581"
+  },
+  {
+    "Area": "Berala",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "34",
+    "EndDateTime": "2022-08-18T14:00:00",
+    "StartDateTime": "2022-08-18T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Judith St, Pamela Cres, Wrights Ave",
+    "WebId": 51294,
+    "JobId": "NECF69798"
+  },
+  {
     "Area": "Balgowlah",
     "Cause": "Urgent electrical pole replacement or repair",
     "Customers": "158",
@@ -5542,17 +5619,6 @@
     "Streets": "Bruce Cres, Dakara Rd, Mitchell Tce, Railway Rd, Railway Sq",
     "WebId": 50499,
     "JobId": "NECF68864"
-  },
-  {
-    "Area": "Berala",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Customers": "34",
-    "EndDateTime": "2022-08-18T14:00:00",
-    "StartDateTime": "2022-08-18T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Judith St, Pamela Cres, Wrights Ave",
-    "WebId": 51294,
-    "JobId": "NECF69798"
   },
   {
     "Area": "Gillieston Heights, Maitland",
@@ -5740,6 +5806,17 @@
     "Streets": "Crawford Rd, Deaves Rd",
     "WebId": 50813,
     "JobId": "NECF67705"
+  },
+  {
+    "Area": "North Gosford, Wyoming",
+    "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
+    "Customers": "73",
+    "EndDateTime": "2022-08-19T17:00:00",
+    "StartDateTime": "2022-08-19T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bradys Gully Rd, Mooramba Ave, Jarrett St",
+    "WebId": 51303,
+    "JobId": "NECF69504"
   },
   {
     "Area": "Turrella",
@@ -6312,6 +6389,17 @@
     "Streets": "Cheltenham Rd, King Edward St, Parramatta Rd, Rostherne Ave, Royce Ave",
     "WebId": 51178,
     "JobId": "NECF68449"
+  },
+  {
+    "Area": "Calga",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "17",
+    "EndDateTime": "2022-08-26T16:00:00",
+    "StartDateTime": "2022-08-26T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Palins Rd, Peats Ridge Rd, Polins Rd",
+    "WebId": 51302,
+    "JobId": "NECF69843"
   },
   {
     "Area": "Annandale, Leichhardt",
