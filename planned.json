@@ -71,7 +71,7 @@
     "Customers": "24",
     "EndDateTime": "2022-10-05T17:00:00",
     "StartDateTime": "2022-10-05T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Cecil Rd, Crescent Rd, Suncrest Ave",
     "WebId": 53347,
     "JobId": "NECF72130"
@@ -566,7 +566,7 @@
     "Customers": "155",
     "EndDateTime": "2022-10-06T05:00:00",
     "StartDateTime": "2022-10-05T19:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Curtis Rd, Darling St, Phillip St, Rowntree St, Short St",
     "WebId": 53224,
     "JobId": "NECF70568"
@@ -577,7 +577,7 @@
     "Customers": "80",
     "EndDateTime": "2022-10-06T05:00:00",
     "StartDateTime": "2022-10-05T19:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Liverpool St, Old South Head Rd",
     "WebId": 53501,
     "JobId": "NECF72114"
@@ -929,7 +929,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-10-06T15:30:00",
     "StartDateTime": "2022-10-06T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Clarence Town Rd, Seaham Rd",
     "WebId": 52660,
     "JobId": "NECF71387"
@@ -2964,7 +2964,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-10-12T17:00:00",
     "StartDateTime": "2022-10-12T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Shirley Rd",
     "WebId": 53443,
     "JobId": "NECF72407"
@@ -3056,6 +3056,17 @@
     "Streets": "Bryce Ave, Horace St, Melaleuca Dr, Mona Vale Rd, Rosedale Rd, Shinfield Ave",
     "WebId": 53606,
     "JobId": "NECF72541"
+  },
+  {
+    "Area": "East Gosford",
+    "Cause": "Overhead individual service wire replacement",
+    "Customers": "24",
+    "EndDateTime": "2022-10-12T16:00:00",
+    "StartDateTime": "2022-10-12T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Brougham St",
+    "WebId": 53611,
+    "JobId": "NECF72660"
   },
   {
     "Area": "Penshurst",
@@ -3305,7 +3316,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2022-10-13T17:00:00",
     "StartDateTime": "2022-10-13T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Eustace Pde",
     "WebId": 53459,
     "JobId": "NECF72419"
@@ -5456,6 +5467,17 @@
     "JobId": "NECF72600"
   },
   {
+    "Area": "East Maitland, Largs, Pitnacree, Raworth",
+    "Cause": "Connecting power to a property",
+    "Customers": "30",
+    "EndDateTime": "2022-10-20T16:00:00",
+    "StartDateTime": "2022-10-20T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Brush Farm Rd, King Island Rd, Kings Island Rd, McKimms Rd, Pitnacree Rd",
+    "WebId": 53610,
+    "JobId": "NECF72027"
+  },
+  {
     "Area": "Branxton, Dalwood, Sandhills, Stanhope",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Customers": "36",
@@ -5652,6 +5674,17 @@
     "Streets": "Rothwell Ave",
     "WebId": 53071,
     "JobId": "NECF71647"
+  },
+  {
+    "Area": "Concord West, North Strathfield",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "37",
+    "EndDateTime": "2022-10-22T06:30:00",
+    "StartDateTime": "2022-10-21T19:30:00",
+    "Status": "Proposed",
+    "Streets": "Queen St, Beronga St",
+    "WebId": 53615,
+    "JobId": "NECF71833"
   },
   {
     "Area": "Palm Beach",
@@ -5874,6 +5907,39 @@
     "JobId": "NECF71995"
   },
   {
+    "Area": "Arcadia",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Customers": "less than 10",
+    "EndDateTime": "2022-10-24T18:30:00",
+    "StartDateTime": "2022-10-24T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Nollands Rd",
+    "WebId": 53613,
+    "JobId": "NECF72661"
+  },
+  {
+    "Area": "Arcadia, Fiddletown",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Customers": "18",
+    "EndDateTime": "2022-10-24T18:30:00",
+    "StartDateTime": "2022-10-24T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Peebles Rd",
+    "WebId": 53614,
+    "JobId": "NECF72664"
+  },
+  {
+    "Area": "Kingsgrove",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Customers": "39",
+    "EndDateTime": "2022-10-24T17:30:00",
+    "StartDateTime": "2022-10-24T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Wolli St",
+    "WebId": 53581,
+    "JobId": "NECF71378"
+  },
+  {
     "Area": "Dover Heights",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Customers": "70",
@@ -5894,17 +5960,6 @@
     "Streets": "Barwon Ave, Canoon Rd, Grey Horse Cl, Lyon Ave, Ulm Ave",
     "WebId": 53484,
     "JobId": "NECF72496"
-  },
-  {
-    "Area": "Kingsgrove",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Customers": "39",
-    "EndDateTime": "2022-10-24T17:30:00",
-    "StartDateTime": "2022-10-24T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Wolli St",
-    "WebId": 53581,
-    "JobId": "NECF71378"
   },
   {
     "Area": "Muswellbrook",
@@ -6312,6 +6367,17 @@
     "Streets": "Maison Dieu Rd",
     "WebId": 53602,
     "JobId": "NECF72651"
+  },
+  {
+    "Area": "Belfield, Enfield, Strathfield South",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Customers": "24",
+    "EndDateTime": "2022-10-27T03:00:00",
+    "StartDateTime": "2022-10-26T19:00:00",
+    "Status": "Proposed",
+    "Streets": "Chisholm St, Madeline St, Hope St, Cosgrove Rd",
+    "WebId": 53612,
+    "JobId": "NECF72556"
   },
   {
     "Area": "North Narrabeen",
