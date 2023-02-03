@@ -174,7 +174,7 @@
     "Customers": "27",
     "EndDateTime": "2023-02-03T15:00:00",
     "StartDateTime": "2023-02-03T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Wilson St",
     "WebId": 56842,
     "JobId": "NECF76248"
@@ -354,7 +354,7 @@
     "Customers": "47",
     "EndDateTime": "2023-02-03T11:30:00",
     "StartDateTime": "2023-02-03T08:00:00",
-    "Status": "Proposed",
+    "Status": "Cancelled",
     "Streets": "Cessnock Rd, Colliery St",
     "WebId": 55962,
     "JobId": "NECF75385"
@@ -1458,7 +1458,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-02-07T18:00:00",
     "StartDateTime": "2023-02-07T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "The Scenic Rd",
     "WebId": 56832,
     "JobId": "NECF76384"
@@ -2718,7 +2718,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-02-09T15:00:00",
     "StartDateTime": "2023-02-09T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Golden Hwy",
     "WebId": 56780,
     "JobId": "NECF76341"
@@ -3342,7 +3342,7 @@
     "Customers": "17",
     "EndDateTime": "2023-02-11T15:00:00",
     "StartDateTime": "2023-02-11T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Springdale Rd, Garnet St, Stanhope Rd",
     "WebId": 56655,
     "JobId": "NECF76165"
@@ -3402,7 +3402,7 @@
     "Customers": "49",
     "EndDateTime": "2023-02-11T15:00:00",
     "StartDateTime": "2023-02-11T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Beecroft Rd, Boronia Ave, Kirkham St, Oaklands Ave, Parker Cl",
     "WebId": 57310,
     "JobId": "NECF76914"
@@ -3606,7 +3606,7 @@
     "Customers": "16",
     "EndDateTime": "2023-02-13T03:00:00",
     "StartDateTime": "2023-02-12T21:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Nelson Bay Rd",
     "WebId": 57068,
     "JobId": "NECF76410"
@@ -5676,6 +5676,30 @@
     "JobId": "NECF75996"
   },
   {
+    "Area": "Burwood",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "55",
+    "EndDateTime": "2023-02-19T17:00:00",
+    "StartDateTime": "2023-02-19T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Belmore St",
+    "WebId": 57393,
+    "JobId": "NECF76022"
+  },
+  {
+    "Area": "Newtown",
+    "Cause": "Urgent underground electrical network repairs",
+    "Detail": "",
+    "Customers": "56",
+    "EndDateTime": "2023-02-19T15:00:00",
+    "StartDateTime": "2023-02-19T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Erskineville Rd, Linthorpe St, Wilson St",
+    "WebId": 57377,
+    "JobId": "NECF76959"
+  },
+  {
     "Area": "Beresfield",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -5698,18 +5722,6 @@
     "Streets": "Balook Dr, Boardmans Cl",
     "WebId": 55789,
     "JobId": "NECF74994"
-  },
-  {
-    "Area": "Newtown",
-    "Cause": "Urgent underground electrical network repairs",
-    "Detail": "",
-    "Customers": "56",
-    "EndDateTime": "2023-02-19T15:00:00",
-    "StartDateTime": "2023-02-19T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Erskineville Rd, Linthorpe St, Wilson St",
-    "WebId": 57377,
-    "JobId": "NECF76959"
   },
   {
     "Area": "Bunnan, Gungal, Merriwa",
@@ -5856,16 +5868,16 @@
     "JobId": "NECF75414"
   },
   {
-    "Area": "Mortdale",
-    "Cause": "Urgent electrical pole replacement or repair",
+    "Area": "Tempe",
+    "Cause": "Connecting power to a property",
     "Detail": "",
-    "Customers": "69",
-    "EndDateTime": "2023-02-20T15:30:00",
-    "StartDateTime": "2023-02-20T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Boundary Rd, Delves St, Sparkes Ave, Treloar Ave",
-    "WebId": 56792,
-    "JobId": "NECF76169"
+    "Customers": "34",
+    "EndDateTime": "2023-02-20T19:00:00",
+    "StartDateTime": "2023-02-20T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Princes Hwy, Smith St",
+    "WebId": 57396,
+    "JobId": "NECF75920"
   },
   {
     "Area": "Strathfield",
@@ -5878,6 +5890,18 @@
     "Streets": "Russell St",
     "WebId": 57371,
     "JobId": "NECF77004"
+  },
+  {
+    "Area": "Mortdale",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "69",
+    "EndDateTime": "2023-02-20T15:30:00",
+    "StartDateTime": "2023-02-20T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Boundary Rd, Delves St, Sparkes Ave, Treloar Ave",
+    "WebId": 56792,
+    "JobId": "NECF76169"
   },
   {
     "Area": "Bar Beach, Merewether, Newcastle, Newcastle West",
@@ -6084,6 +6108,30 @@
     "JobId": "NECF74380"
   },
   {
+    "Area": "Lake Munmorah",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "94",
+    "EndDateTime": "2023-02-21T11:30:00",
+    "StartDateTime": "2023-02-21T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Agatha Ave, Anita Ave, Bodalla Rd, Queens Rd",
+    "WebId": 57392,
+    "JobId": "NECF76988"
+  },
+  {
+    "Area": "Paddington",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "88",
+    "EndDateTime": "2023-02-21T15:00:00",
+    "StartDateTime": "2023-02-21T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Cascade St, Cecil St, Glenmore Rd, Hampden St, Roylston La, Roylston St, Sutherland Ave",
+    "WebId": 57366,
+    "JobId": "NECF77011"
+  },
+  {
     "Area": "Lower Mangrove",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -6154,18 +6202,6 @@
     "Streets": "Howard St, Owen St, Short St, Valley La, Valley Rd",
     "WebId": 57329,
     "JobId": "NECF76927"
-  },
-  {
-    "Area": "Paddington",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "88",
-    "EndDateTime": "2023-02-21T15:00:00",
-    "StartDateTime": "2023-02-21T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Cascade St, Cecil St, Glenmore Rd, Hampden St, Roylston La, Roylston St, Sutherland Ave",
-    "WebId": 57366,
-    "JobId": "NECF77011"
   },
   {
     "Area": "Glendon Brook",
@@ -6550,6 +6586,18 @@
     "Streets": "McClelland St",
     "WebId": 57384,
     "JobId": "NECF77034"
+  },
+  {
+    "Area": "Botany",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-02-23T14:00:00",
+    "StartDateTime": "2023-02-23T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Lord St",
+    "WebId": 57395,
+    "JobId": "NECF77046"
   },
   {
     "Area": "Pennant Hills",
