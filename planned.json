@@ -486,7 +486,7 @@
     "Customers": "201",
     "EndDateTime": "2023-02-21T16:00:00",
     "StartDateTime": "2023-02-21T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+2 hrs)",
     "Streets": "Dandaraga Rd, Maipoona Rd, Mirrabooka Rd, Mooranga Rd, Mulloka Rd, Porowi Rd, Tully Cl",
     "WebId": 57293,
     "JobId": "NECF75858"
@@ -858,7 +858,7 @@
     "Customers": "61",
     "EndDateTime": "2023-02-22T17:00:00",
     "StartDateTime": "2023-02-22T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Alexander St, Atchison St, Chandos St",
     "WebId": 56116,
     "JobId": "NECF75586"
@@ -978,7 +978,7 @@
     "Customers": "99",
     "EndDateTime": "2023-02-22T18:00:00",
     "StartDateTime": "2023-02-22T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Dickinson Ave, Malvern Ave, Murray St, the Strand , Thomas St",
     "WebId": 57195,
     "JobId": "NECF75707"
@@ -3240,6 +3240,18 @@
     "JobId": "NECF73637"
   },
   {
+    "Area": "Marrickville",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-02-28T16:00:00",
+    "StartDateTime": "2023-02-28T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Thornley St",
+    "WebId": 57994,
+    "JobId": "NECF77762"
+  },
+  {
     "Area": "Aberdeen, Upper Rouchel",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -3516,6 +3528,30 @@
     "JobId": "NECF77520"
   },
   {
+    "Area": "Lakemba",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "39",
+    "EndDateTime": "2023-03-01T13:00:00",
+    "StartDateTime": "2023-03-01T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Quigg St, the Boulevarde",
+    "WebId": 57995,
+    "JobId": "NECF77715"
+  },
+  {
+    "Area": "Clovelly",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "175",
+    "EndDateTime": "2023-03-01T15:00:00",
+    "StartDateTime": "2023-03-01T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Cliffbrook Pde, Lowe St, Melrose Pde, Thorpe St",
+    "WebId": 57990,
+    "JobId": "NECF77594"
+  },
+  {
     "Area": "Bexley, Bexley North",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -3744,16 +3780,28 @@
     "JobId": "NECF77057"
   },
   {
-    "Area": "Dalwood",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
+    "Area": "Sunshine",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
     "Customers": "less than 10",
-    "EndDateTime": "2023-03-01T15:30:00",
+    "EndDateTime": "2023-03-05T15:30:00",
+    "StartDateTime": "2023-03-01T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Vista Rd",
+    "WebId": 57989,
+    "JobId": "NECF77711"
+  },
+  {
+    "Area": "Belmont",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-03-05T15:30:00",
     "StartDateTime": "2023-03-01T08:30:00",
-    "Status": "Proposed",
-    "Streets": "Fernhill Rd",
-    "WebId": 57463,
-    "JobId": "NECF77116"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Hill St",
+    "WebId": 57974,
+    "JobId": "NECF77696"
   },
   {
     "Area": "Ultimo",
@@ -3780,16 +3828,16 @@
     "JobId": "NECF77700"
   },
   {
-    "Area": "Belmont",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Area": "Dalwood",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2023-03-05T15:30:00",
+    "EndDateTime": "2023-03-01T15:30:00",
     "StartDateTime": "2023-03-01T08:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Hill St",
-    "WebId": 57974,
-    "JobId": "NECF77696"
+    "Status": "Proposed",
+    "Streets": "Fernhill Rd",
+    "WebId": 57463,
+    "JobId": "NECF77116"
   },
   {
     "Area": "Arcadia",
@@ -6252,6 +6300,18 @@
     "JobId": "NECF77368"
   },
   {
+    "Area": "Niagara Park",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "11",
+    "EndDateTime": "2023-03-13T16:00:00",
+    "StartDateTime": "2023-03-13T12:00:00",
+    "Status": "Proposed",
+    "Streets": "Alan St",
+    "WebId": 57991,
+    "JobId": "NECF77539"
+  },
+  {
     "Area": "Burwood, Enfield",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
@@ -6804,6 +6864,18 @@
     "JobId": "NECF77750"
   },
   {
+    "Area": "Glendon",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-03-16T15:00:00",
+    "StartDateTime": "2023-03-16T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Glendon Rd",
+    "WebId": 57993,
+    "JobId": "NECF77758"
+  },
+  {
     "Area": "Lower Belford",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -7114,6 +7186,18 @@
     "Streets": "Brush Rd",
     "WebId": 57831,
     "JobId": "NECF76577"
+  },
+  {
+    "Area": "Lindfield",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "29",
+    "EndDateTime": "2023-03-22T17:00:00",
+    "StartDateTime": "2023-03-22T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Howard St, Owen St, Short St, Valley La, Valley Rd",
+    "WebId": 57992,
+    "JobId": "NECF77749"
   },
   {
     "Area": "Cronulla",
