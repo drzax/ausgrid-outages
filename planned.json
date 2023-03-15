@@ -318,7 +318,7 @@
     "Customers": "21",
     "EndDateTime": "2023-03-15T14:00:00",
     "StartDateTime": "2023-03-15T07:00:00",
-    "Status": "Proposed",
+    "Status": "Outage extended\r\n(+2 hrs)",
     "Streets": "Westbrook Ave",
     "WebId": 58221,
     "JobId": "NECF77891"
@@ -366,7 +366,7 @@
     "Customers": "201",
     "EndDateTime": "2023-03-15T15:00:00",
     "StartDateTime": "2023-03-15T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+1 hrs)",
     "Streets": "Collier Pl, Lexington Pl, Minneapolis Cres, New Orleans Cres, Sims Gr, Yorktown Pde",
     "WebId": 58174,
     "JobId": "NECF77927"
@@ -1170,7 +1170,7 @@
     "Customers": "43",
     "EndDateTime": "2023-03-16T16:00:00",
     "StartDateTime": "2023-03-16T08:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Black Hill, Christopher Rd, Cowhill Rd, New England Hwy, Windella Rd, Winders La, Krystyna Ave, Lerra Rd",
     "WebId": 58309,
     "JobId": "NECF76887"
@@ -2430,7 +2430,7 @@
     "Customers": "52",
     "EndDateTime": "2023-03-21T11:30:00",
     "StartDateTime": "2023-03-21T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Athol St",
     "WebId": 58688,
     "JobId": "NECF78579"
@@ -2832,18 +2832,6 @@
     "JobId": "NECF77009"
   },
   {
-    "Area": "Newport, Newport Beach",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "60",
-    "EndDateTime": "2023-03-23T17:00:00",
-    "StartDateTime": "2023-03-22T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Barrenjoey Rd, Beaconsfield St, Bungan Head Rd, Calvert Pde, Kalinya St, Queens Pde, Stuart St",
-    "WebId": 58742,
-    "JobId": "NECF78548"
-  },
-  {
     "Area": "Pennant Hills",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -2854,6 +2842,30 @@
     "Streets": "Loftus Rd, Victoria Rd",
     "WebId": 58746,
     "JobId": "NECF78482"
+  },
+  {
+    "Area": "Alexandria, Centennial Park",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "62",
+    "EndDateTime": "2023-03-23T16:30:00",
+    "StartDateTime": "2023-03-22T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Botany Rd, Furber Rd, Lang Rd, Martin Rd",
+    "WebId": 58778,
+    "JobId": "NECF78623"
+  },
+  {
+    "Area": "Newport, Newport Beach",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "60",
+    "EndDateTime": "2023-03-23T17:00:00",
+    "StartDateTime": "2023-03-22T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Barrenjoey Rd, Beaconsfield St, Bungan Head Rd, Calvert Pde, Kalinya St, Queens Pde, Stuart St",
+    "WebId": 58781,
+    "JobId": "NECF78548"
   },
   {
     "Area": "Mortdale",
@@ -4134,7 +4146,7 @@
     "Customers": "77",
     "EndDateTime": "2023-03-27T05:00:00",
     "StartDateTime": "2023-03-26T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Griffiths St, New Canterbury Rd, Old Canterbury Rd",
     "WebId": 58687,
     "JobId": "NECF78126"
@@ -5658,7 +5670,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-03-30T15:00:00",
     "StartDateTime": "2023-03-30T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Dalswinton Rd, Golden Hwy, Denman Rd",
     "WebId": 58484,
     "JobId": "NECF78357"
@@ -5688,18 +5700,6 @@
     "JobId": "NECF78229"
   },
   {
-    "Area": "Belmont",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-04-03T15:30:00",
-    "StartDateTime": "2023-03-30T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Henry St",
-    "WebId": 58747,
-    "JobId": "NECF78224"
-  },
-  {
     "Area": "Hornsby",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
@@ -5710,6 +5710,18 @@
     "Streets": "Citrus Ave, Mildred Ave, Pacific Hwy",
     "WebId": 58761,
     "JobId": "NECF77935"
+  },
+  {
+    "Area": "Belmont",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-04-03T15:30:00",
+    "StartDateTime": "2023-03-30T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Henry St",
+    "WebId": 58747,
+    "JobId": "NECF78224"
   },
   {
     "Area": "Obanvale, Singleton, Wattle Ponds",
@@ -6444,18 +6456,6 @@
     "JobId": "NECF78529"
   },
   {
-    "Area": "Mosman",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "99",
-    "EndDateTime": "2023-04-04T17:00:00",
-    "StartDateTime": "2023-04-04T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Park Ave, Rangers Ave",
-    "WebId": 58768,
-    "JobId": "NECF76748"
-  },
-  {
     "Area": "Rockdale",
     "Cause": "Connecting power to a property",
     "Detail": "",
@@ -6466,6 +6466,18 @@
     "Streets": "Lister Ave",
     "WebId": 58776,
     "JobId": "NECF78424"
+  },
+  {
+    "Area": "Mosman",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "99",
+    "EndDateTime": "2023-04-04T17:00:00",
+    "StartDateTime": "2023-04-04T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Park Ave, Rangers Ave",
+    "WebId": 58768,
+    "JobId": "NECF76748"
   },
   {
     "Area": "Killara",
@@ -6840,16 +6852,16 @@
     "JobId": "NECF77826"
   },
   {
-    "Area": "Menai",
-    "Cause": "Urgent underground electrical network repairs",
+    "Area": "Woolloomooloo",
+    "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
-    "Customers": "70",
-    "EndDateTime": "2023-04-06T18:00:00",
-    "StartDateTime": "2023-04-06T07:00:00",
+    "Customers": "43",
+    "EndDateTime": "2023-04-05T15:00:00",
+    "StartDateTime": "2023-04-05T08:00:00",
     "Status": "Proposed",
-    "Streets": "McCabe Pl, Miller Pl, O Reilly Cl, Trumper Pl",
-    "WebId": 58234,
-    "JobId": "NECF78049"
+    "Streets": "Broughton St, Cathedral St, Crown St, Faucett La, Turner La",
+    "WebId": 58779,
+    "JobId": "NECF78101"
   },
   {
     "Area": "South Turramurra, Turramurra",
@@ -6862,6 +6874,18 @@
     "Streets": "Kissing Point Rd, Boronia Ave, May St, Rothwell Rd",
     "WebId": 58727,
     "JobId": "NECF78405"
+  },
+  {
+    "Area": "Menai",
+    "Cause": "Urgent underground electrical network repairs",
+    "Detail": "",
+    "Customers": "70",
+    "EndDateTime": "2023-04-06T18:00:00",
+    "StartDateTime": "2023-04-06T07:00:00",
+    "Status": "Proposed",
+    "Streets": "McCabe Pl, Miller Pl, O Reilly Cl, Trumper Pl",
+    "WebId": 58234,
+    "JobId": "NECF78049"
   },
   {
     "Area": "Mount Thorley",
@@ -7054,6 +7078,18 @@
     "Streets": "Kent St, Kingsland Rd, Regent St",
     "WebId": 58508,
     "JobId": "NECF78376"
+  },
+  {
+    "Area": "Woy Woy",
+    "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
+    "Detail": "",
+    "Customers": "28",
+    "EndDateTime": "2023-04-11T12:30:00",
+    "StartDateTime": "2023-04-11T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Hillview St, Jimba Cl",
+    "WebId": 58780,
+    "JobId": "NECF78345"
   },
   {
     "Area": "Aberdeen, Dartbrook",
