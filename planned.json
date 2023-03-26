@@ -234,7 +234,7 @@
     "Customers": "26",
     "EndDateTime": "2023-03-27T15:00:00",
     "StartDateTime": "2023-03-27T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Oak St, Willow St",
     "WebId": 57864,
     "JobId": "NECF77607"
@@ -474,7 +474,7 @@
     "Customers": "249",
     "EndDateTime": "2023-03-27T15:30:00",
     "StartDateTime": "2023-03-27T08:00:00",
-    "Status": "On hold",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bellevue La, Blue Rock Cl, Bluerock Cl, Cartwright St, Edward St, Elizabeth St, Goldsmith Ave, Greystone Cl, Lake Rd, Macquarie Rd, Margaret St, Potter Cl, Sandra St, Turnbull St",
     "WebId": 58675,
     "JobId": "NECF77665"
@@ -762,7 +762,7 @@
     "Customers": "188",
     "EndDateTime": "2023-03-28T18:00:00",
     "StartDateTime": "2023-03-28T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Gover St, Keith St, Marsden Cres, Pearce Ave, Trafalgar St",
     "WebId": 58713,
     "JobId": "NECF77870"
@@ -1530,7 +1530,7 @@
     "Customers": "52",
     "EndDateTime": "2023-03-29T14:00:00",
     "StartDateTime": "2023-03-29T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Trafalgar St",
     "WebId": 58764,
     "JobId": "NECF78154"
@@ -2214,7 +2214,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-03-30T16:00:00",
     "StartDateTime": "2023-03-30T10:00:00",
-    "Status": "Proposed",
+    "Status": "Cancelled",
     "Streets": "Maas St",
     "WebId": 58806,
     "JobId": "NECF78649"
@@ -2898,7 +2898,7 @@
     "Customers": "54",
     "EndDateTime": "2023-04-03T06:00:00",
     "StartDateTime": "2023-04-02T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Derby St, Horace St, Torokina Ave, Yarrabung Rd",
     "WebId": 58696,
     "JobId": "NECF78575"
@@ -3306,7 +3306,7 @@
     "Customers": "85",
     "EndDateTime": "2023-04-04T05:00:00",
     "StartDateTime": "2023-04-03T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Collingwood St, North Steyne",
     "WebId": 58759,
     "JobId": "NECF77897"
@@ -3762,7 +3762,7 @@
     "Customers": "128",
     "EndDateTime": "2023-04-04T15:00:00",
     "StartDateTime": "2023-04-04T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Archer St, Blaydon St, Bunnan Rd, Dales Creek Rd, Elizabeth St, High St, Kars Springs Rd, Main Rd, Merriwa Rd, Queen St, Ridgelands Rd, Beales Creek Rd, Little Creek Rd, Mount Terrell Rd, Scone Rd",
     "WebId": 58978,
     "JobId": "NECF78892"
@@ -4374,7 +4374,7 @@
     "Customers": "19",
     "EndDateTime": "2023-04-06T05:00:00",
     "StartDateTime": "2023-04-05T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Lane Cove Rd, Walana Cres, Boundary St, Mona Vale Rd",
     "WebId": 59011,
     "JobId": "NECF77395"
@@ -4942,6 +4942,18 @@
     "Streets": "Carlyle Rd, Sylvan Ave",
     "WebId": 59093,
     "JobId": "NECF78979"
+  },
+  {
+    "Area": "East Maitland",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "17",
+    "EndDateTime": "2023-04-14T16:00:00",
+    "StartDateTime": "2023-04-11T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "High St, Hunter St, Lindesay St, Morpeth Rd",
+    "WebId": 59124,
+    "JobId": "NECF77461"
   },
   {
     "Area": "Aberdeen, Glenbawn Dam",
@@ -5592,16 +5604,16 @@
     "JobId": "NECF77867"
   },
   {
-    "Area": "Mount View",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Area": "St Ives",
+    "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-04-14T12:00:00",
-    "StartDateTime": "2023-04-14T08:00:00",
+    "Customers": "58",
+    "EndDateTime": "2023-04-14T17:00:00",
+    "StartDateTime": "2023-04-14T07:00:00",
     "Status": "Proposed",
-    "Streets": "Bimbadeen Rd",
-    "WebId": 59117,
-    "JobId": "NECF78874"
+    "Streets": "Kenthurst Rd, Killeaton St, Memorial Ave",
+    "WebId": 59122,
+    "JobId": "NECF77801"
   },
   {
     "Area": "Nelsons Plains, Osterley",
@@ -5614,6 +5626,18 @@
     "Streets": "Hinton Rd, Ambaura Cl",
     "WebId": 59120,
     "JobId": "NECF78901"
+  },
+  {
+    "Area": "Mount View",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-04-14T12:00:00",
+    "StartDateTime": "2023-04-14T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bimbadeen Rd",
+    "WebId": 59117,
+    "JobId": "NECF78874"
   },
   {
     "Area": "Neutral Bay",
@@ -6480,40 +6504,28 @@
     "JobId": "NECF78634"
   },
   {
-    "Area": "Baerami, Baerami Creek, Denman",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Area": "Niagara Park, Ourimbah",
+    "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
     "Detail": "",
-    "Customers": "66",
-    "EndDateTime": "2023-04-21T15:00:00",
-    "StartDateTime": "2023-04-21T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Baerami Creek Rd, Bylong Valley Way, Hungerford Rd",
-    "WebId": 58808,
-    "JobId": "NECF78669"
+    "Customers": "11",
+    "EndDateTime": "2023-04-21T15:30:00",
+    "StartDateTime": "2023-04-21T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Glen Rd",
+    "WebId": 59123,
+    "JobId": "NECF79045"
   },
   {
-    "Area": "Louth Park",
+    "Area": "Jilliby",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-04-21T15:00:00",
+    "Customers": "12",
+    "EndDateTime": "2023-04-21T13:00:00",
     "StartDateTime": "2023-04-21T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Louth Park Rd",
-    "WebId": 58915,
-    "JobId": "NECF78755"
-  },
-  {
-    "Area": "Louth Park",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-04-21T15:00:00",
-    "StartDateTime": "2023-04-21T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Dagworth Rd",
-    "WebId": 58916,
-    "JobId": "NECF78756"
+    "Status": "Proposed",
+    "Streets": "Burlington Ave, Dicksons Rd, Francis Byrne Cl, Hue Hue Rd, Treelands Dr",
+    "WebId": 59068,
+    "JobId": "NECF78916"
   },
   {
     "Area": "Whittingham",
@@ -6552,16 +6564,40 @@
     "JobId": "NECF78910"
   },
   {
-    "Area": "Jilliby",
+    "Area": "Baerami, Baerami Creek, Denman",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "12",
-    "EndDateTime": "2023-04-21T13:00:00",
+    "Customers": "66",
+    "EndDateTime": "2023-04-21T15:00:00",
     "StartDateTime": "2023-04-21T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Burlington Ave, Dicksons Rd, Francis Byrne Cl, Hue Hue Rd, Treelands Dr",
-    "WebId": 59068,
-    "JobId": "NECF78916"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Baerami Creek Rd, Bylong Valley Way, Hungerford Rd",
+    "WebId": 58808,
+    "JobId": "NECF78669"
+  },
+  {
+    "Area": "Louth Park",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-04-21T15:00:00",
+    "StartDateTime": "2023-04-21T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Louth Park Rd",
+    "WebId": 58915,
+    "JobId": "NECF78755"
+  },
+  {
+    "Area": "Louth Park",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-04-21T15:00:00",
+    "StartDateTime": "2023-04-21T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Dagworth Rd",
+    "WebId": 58916,
+    "JobId": "NECF78756"
   },
   {
     "Area": "Millers Forest",
