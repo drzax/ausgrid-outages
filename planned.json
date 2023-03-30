@@ -162,7 +162,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-03-30T19:00:00",
     "StartDateTime": "2023-03-30T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Mi Mi St, Myrtle St",
     "WebId": 58345,
     "JobId": "NECF78103"
@@ -618,7 +618,7 @@
     "Customers": "86",
     "EndDateTime": "2023-03-30T12:00:00",
     "StartDateTime": "2023-03-30T09:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+1 hrs)",
     "Streets": "Hugo St, Vine St, Eveleigh St, Holden St, Hudson St, Louis St",
     "WebId": 59029,
     "JobId": "NECF78928"
@@ -2622,7 +2622,7 @@
     "Customers": "88",
     "EndDateTime": "2023-04-05T05:00:00",
     "StartDateTime": "2023-04-04T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Florence St, Muriel St",
     "WebId": 58811,
     "JobId": "NECF78691"
@@ -2802,7 +2802,7 @@
     "Customers": "15",
     "EndDateTime": "2023-04-05T09:00:00",
     "StartDateTime": "2023-04-05T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "The Boulevarde",
     "WebId": 59218,
     "JobId": "NECF79163"
@@ -3685,12 +3685,36 @@
   },
   {
     "Area": "Sydney",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "52",
+    "EndDateTime": "2023-04-08T13:00:00",
+    "StartDateTime": "2023-04-08T06:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Phillip St",
+    "WebId": 59266,
+    "JobId": "NECF79236"
+  },
+  {
+    "Area": "Sydney",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "41",
+    "EndDateTime": "2023-04-08T18:00:00",
+    "StartDateTime": "2023-04-08T13:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Phillip St",
+    "WebId": 59267,
+    "JobId": "NECF79238"
+  },
+  {
+    "Area": "Sydney",
     "Cause": "Urgent underground electrical network repairs",
     "Detail": "",
     "Customers": "35",
     "EndDateTime": "2023-04-09T09:00:00",
     "StartDateTime": "2023-04-08T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bligh St, Hunter St",
     "WebId": 59134,
     "JobId": "NECF79031"
@@ -3742,6 +3766,30 @@
     "Streets": "Arden St, Greville St, Seaview St",
     "WebId": 59237,
     "JobId": "NECF78915"
+  },
+  {
+    "Area": "Waverley, Queens Park, Bronte",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "58",
+    "EndDateTime": "2023-04-14T16:30:00",
+    "StartDateTime": "2023-04-11T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Albion St, Henry St, Macpherson St, Prospect St, Victoria St",
+    "WebId": 59262,
+    "JobId": "NECF79151"
+  },
+  {
+    "Area": "Woolloomooloo, Darlinghurst",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "67",
+    "EndDateTime": "2023-04-14T16:30:00",
+    "StartDateTime": "2023-04-11T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bourke St, Brougham La, Brougham St, Corfu St, McElhone St, Surrey St",
+    "WebId": 59263,
+    "JobId": "NECF79153"
   },
   {
     "Area": "Epping",
@@ -5298,7 +5346,7 @@
     "Customers": "36",
     "EndDateTime": "2023-04-17T15:30:00",
     "StartDateTime": "2023-04-17T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Grants Rd, Reservoir Rd, Somersby Falls Rd",
     "WebId": 59001,
     "JobId": "NECF78682"
@@ -5470,6 +5518,18 @@
     "Streets": "Pacific Hwy, Sergeants La",
     "WebId": 58710,
     "JobId": "NECF78583"
+  },
+  {
+    "Area": "Randwick",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "126",
+    "EndDateTime": "2023-04-18T15:00:00",
+    "StartDateTime": "2023-04-18T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Canberra St, Helena St, Oberon St",
+    "WebId": 59265,
+    "JobId": "NECF78950"
   },
   {
     "Area": "Cherrybrook",
@@ -6198,7 +6258,7 @@
     "Customers": "101",
     "EndDateTime": "2023-04-21T15:00:00",
     "StartDateTime": "2023-04-21T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Castle Cct, Knights Cl, the Bastion , the Postern , the Rampart , Tor Cl",
     "WebId": 58964,
     "JobId": "NECF78618"
@@ -6514,6 +6574,18 @@
     "Streets": "Bureen Rd",
     "WebId": 59254,
     "JobId": "NECF79191"
+  },
+  {
+    "Area": "Glennies Creek",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-04-26T15:00:00",
+    "StartDateTime": "2023-04-26T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Middle Falbrook Rd",
+    "WebId": 59264,
+    "JobId": "NECF79233"
   },
   {
     "Area": "Umina Beach",
