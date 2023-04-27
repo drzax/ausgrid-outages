@@ -66,7 +66,7 @@
     "Customers": "56",
     "EndDateTime": "2023-04-27T17:00:00",
     "StartDateTime": "2023-04-26T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Boundary St, Dillon St, Glenmore Rd, Gosbell St, Gould St, Hopewell St, McLaughlan Pl, Midelton Ave, Military Rd, Neild Ave, Stephen St, Weedon Ave",
     "WebId": 59719,
     "JobId": "NECF79577"
@@ -1626,7 +1626,7 @@
     "Customers": "128",
     "EndDateTime": "2023-05-01T05:00:00",
     "StartDateTime": "2023-04-30T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Hart St, Old St, Princes Hwy, South St, Station St, Wentworth St, Young St",
     "WebId": 59844,
     "JobId": "NECF79758"
@@ -1638,7 +1638,7 @@
     "Customers": "70",
     "EndDateTime": "2023-05-01T08:00:00",
     "StartDateTime": "2023-04-30T20:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Howson Ave, Stainsby Cl, the Comenarra Pkwy",
     "WebId": 59863,
     "JobId": "NECF79899"
@@ -2292,18 +2292,6 @@
     "JobId": "NECF79087"
   },
   {
-    "Area": "Beecroft",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "27",
-    "EndDateTime": "2023-05-02T16:00:00",
-    "StartDateTime": "2023-05-02T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Bangalow Ave",
-    "WebId": 60080,
-    "JobId": "NECF79046"
-  },
-  {
     "Area": "Killcare, Pretty Beach, Empire Bay, Horsfield Bay, Woy Woy, Hardys Bay, Killcare Heights, Phegans Bay, Bensville, Macmasters Beach, Wagstaffe",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -2314,6 +2302,18 @@
     "Streets": "Babs Rd, Como Pde, Empire Bay Dr, Gabagong Rd, Goondi Cl, Heath Rd, High View Rd, Killcare Rd, Macdonald St, Monastir Rd, Nerang Rd, Nukara Ave, Pretty Beach Rd, Roma Cl, the Scenic Rd, Three Points Ave, Tudibaring Pde, Venice Rd, Wagstaffe Ave, Wandi Cl, Wards Hill Rd",
     "WebId": 60078,
     "JobId": "NECF80112"
+  },
+  {
+    "Area": "Beecroft",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "27",
+    "EndDateTime": "2023-05-02T16:00:00",
+    "StartDateTime": "2023-05-02T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bangalow Ave",
+    "WebId": 60080,
+    "JobId": "NECF79046"
   },
   {
     "Area": "Seaforth",
@@ -2748,18 +2748,6 @@
     "JobId": "NECF80011"
   },
   {
-    "Area": "Maroubra",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "21",
-    "EndDateTime": "2023-05-03T17:00:00",
-    "StartDateTime": "2023-05-03T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Fitzgerald Ave, Robey St, Wade St",
-    "WebId": 60072,
-    "JobId": "NECF79977"
-  },
-  {
     "Area": "Coogee",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -2784,13 +2772,25 @@
     "JobId": "NECF79999"
   },
   {
+    "Area": "Maroubra",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "21",
+    "EndDateTime": "2023-05-03T17:00:00",
+    "StartDateTime": "2023-05-03T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Fitzgerald Ave, Robey St, Wade St",
+    "WebId": 60072,
+    "JobId": "NECF79977"
+  },
+  {
     "Area": "Canterbury, Earlwood",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
     "Customers": "91",
     "EndDateTime": "2023-05-03T13:30:00",
     "StartDateTime": "2023-05-03T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bellbird St, Glenore Rd, Northcote St, Page St, Wearne St, Narani Cres",
     "WebId": 60118,
     "JobId": "NECF80076"
@@ -3060,6 +3060,18 @@
     "JobId": "NECF79681"
   },
   {
+    "Area": "Campsie, Canterbury, Clemton Park, Earlwood",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "204",
+    "EndDateTime": "2023-05-03T17:00:00",
+    "StartDateTime": "2023-05-03T10:00:00",
+    "Status": "Proposed",
+    "Streets": "Bexley Rd, Cross St, Scahill St, Vicliffe Ave, Northcote St, Marana Rd, Narani Cres, Ryrie Rd",
+    "WebId": 60128,
+    "JobId": "NECF80081"
+  },
+  {
     "Area": "Abermain, Neath",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -3132,16 +3144,28 @@
     "JobId": "NECF79611"
   },
   {
-    "Area": "Seaforth",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "58",
-    "EndDateTime": "2023-05-04T15:00:00",
+    "Area": "Kingsford",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "36",
+    "EndDateTime": "2023-05-04T17:00:00",
     "StartDateTime": "2023-05-04T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Acacia Rd, Boronia La, Castle Cct, Castle Circuit Cl, Clontarf St, Magnolia La, Wakehurst Pkwy",
-    "WebId": 59955,
-    "JobId": "NECF79458"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Houston Rd",
+    "WebId": 59942,
+    "JobId": "NECF80001"
+  },
+  {
+    "Area": "Petersham",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "26",
+    "EndDateTime": "2023-05-04T17:00:00",
+    "StartDateTime": "2023-05-04T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Belgrave St, Margaret St, Nelson Pl, the Avenue , Trafalgar St",
+    "WebId": 59927,
+    "JobId": "NECF79983"
   },
   {
     "Area": "Dural",
@@ -3156,16 +3180,16 @@
     "JobId": "NECF79846"
   },
   {
-    "Area": "Kingsford",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "36",
-    "EndDateTime": "2023-05-04T17:00:00",
+    "Area": "Seaforth",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "58",
+    "EndDateTime": "2023-05-04T15:00:00",
     "StartDateTime": "2023-05-04T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Houston Rd",
-    "WebId": 59942,
-    "JobId": "NECF80001"
+    "Status": "Proposed",
+    "Streets": "Acacia Rd, Boronia La, Castle Cct, Castle Circuit Cl, Clontarf St, Magnolia La, Wakehurst Pkwy",
+    "WebId": 59955,
+    "JobId": "NECF79458"
   },
   {
     "Area": "Coogee",
@@ -3178,18 +3202,6 @@
     "Streets": "Mount St, Pauling Ave",
     "WebId": 59910,
     "JobId": "NECF79963"
-  },
-  {
-    "Area": "Petersham",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "26",
-    "EndDateTime": "2023-05-04T17:00:00",
-    "StartDateTime": "2023-05-04T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Belgrave St, Margaret St, Nelson Pl, the Avenue , Trafalgar St",
-    "WebId": 59927,
-    "JobId": "NECF79983"
   },
   {
     "Area": "Seaforth",
@@ -3912,18 +3924,6 @@
     "JobId": "NECF79416"
   },
   {
-    "Area": "Terrigal, Wamberal",
-    "Cause": "Critical electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "20",
-    "EndDateTime": "2023-05-05T12:30:00",
-    "StartDateTime": "2023-05-05T08:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Willoughby Rd, Old Gosford Rd, Somerset Cl, the Entrance Rd",
-    "WebId": 60014,
-    "JobId": "NECF80058"
-  },
-  {
     "Area": "Lochinvar, Windella",
     "Cause": "Connecting power to a property",
     "Detail": "",
@@ -3934,6 +3934,18 @@
     "Streets": "Black Hill, Christopher Rd, Cowhill Rd, New England Hwy, Windella Rd, Winders La, Krystyna Ave, Lerra Rd",
     "WebId": 59925,
     "JobId": "NECF79056"
+  },
+  {
+    "Area": "Terrigal, Wamberal",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "20",
+    "EndDateTime": "2023-05-05T12:30:00",
+    "StartDateTime": "2023-05-05T08:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Willoughby Rd, Old Gosford Rd, Somerset Cl, the Entrance Rd",
+    "WebId": 60014,
+    "JobId": "NECF80058"
   },
   {
     "Area": "Enmore, Newtown",
@@ -3996,6 +4008,18 @@
     "JobId": "NECF79922"
   },
   {
+    "Area": "Banksmeadow",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-06T18:00:00",
+    "StartDateTime": "2023-05-06T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Baker St",
+    "WebId": 59975,
+    "JobId": "NECF80037"
+  },
+  {
     "Area": "Lane Cove",
     "Cause": "Connecting power to a property",
     "Detail": "",
@@ -4014,22 +4038,10 @@
     "Customers": "33",
     "EndDateTime": "2023-05-06T18:00:00",
     "StartDateTime": "2023-05-06T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Forest Rd, Wright St",
     "WebId": 59950,
     "JobId": "NECF79436"
-  },
-  {
-    "Area": "Banksmeadow",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-06T18:00:00",
-    "StartDateTime": "2023-05-06T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Baker St",
-    "WebId": 59975,
-    "JobId": "NECF80037"
   },
   {
     "Area": "Hornsby",
@@ -4230,7 +4242,7 @@
     "Customers": "31",
     "EndDateTime": "2023-05-07T17:00:00",
     "StartDateTime": "2023-05-07T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "John St, Lake St",
     "WebId": 59769,
     "JobId": "NECF79075"
@@ -4258,6 +4270,18 @@
     "Streets": "Sefton Rd",
     "WebId": 59361,
     "JobId": "NECF79345"
+  },
+  {
+    "Area": "Kincumber, Macmasters Beach",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-07T14:00:00",
+    "StartDateTime": "2023-05-07T09:00:00",
+    "Status": "Proposed",
+    "Streets": "The Scenic Rd, Bounty Hill Rd",
+    "WebId": 60125,
+    "JobId": "NECF80203"
   },
   {
     "Area": "Greenwich, St Leonards",
@@ -4380,6 +4404,18 @@
     "JobId": "NECF79898"
   },
   {
+    "Area": "Menai",
+    "Cause": "Urgent underground electrical network repairs",
+    "Detail": "",
+    "Customers": "34",
+    "EndDateTime": "2023-05-08T18:00:00",
+    "StartDateTime": "2023-05-08T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Barnes Cres, Grout Pl",
+    "WebId": 59892,
+    "JobId": "NECF79928"
+  },
+  {
     "Area": "Lugarno",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -4390,18 +4426,6 @@
     "Streets": "Oak St, Willow St",
     "WebId": 59848,
     "JobId": "NECF79891"
-  },
-  {
-    "Area": "Dee Why",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-08T15:30:00",
-    "StartDateTime": "2023-05-08T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Heron Pl",
-    "WebId": 59972,
-    "JobId": "NECF80034"
   },
   {
     "Area": "Forestville",
@@ -4416,16 +4440,16 @@
     "JobId": "NECF79903"
   },
   {
-    "Area": "Menai",
-    "Cause": "Urgent underground electrical network repairs",
+    "Area": "Dee Why",
+    "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
-    "Customers": "34",
-    "EndDateTime": "2023-05-08T18:00:00",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-08T15:30:00",
     "StartDateTime": "2023-05-08T07:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Barnes Cres, Grout Pl",
-    "WebId": 59892,
-    "JobId": "NECF79928"
+    "Streets": "Heron Pl",
+    "WebId": 59972,
+    "JobId": "NECF80034"
   },
   {
     "Area": "Palm Beach",
@@ -4476,18 +4500,6 @@
     "JobId": "NECF74271"
   },
   {
-    "Area": "Allawah, Hurstville",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "22",
-    "EndDateTime": "2023-05-08T17:00:00",
-    "StartDateTime": "2023-05-08T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Bellevue Pde, St Georges Pde",
-    "WebId": 60086,
-    "JobId": "NECF80163"
-  },
-  {
     "Area": "Clovelly, Coogee",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -4498,6 +4510,18 @@
     "Streets": "Cliffbrook Pde, Melrose Pde, Thorpe St, Baden St, Major St, Moore St",
     "WebId": 60106,
     "JobId": "NECF80185"
+  },
+  {
+    "Area": "Allawah, Hurstville",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "22",
+    "EndDateTime": "2023-05-08T17:00:00",
+    "StartDateTime": "2023-05-08T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Bellevue Pde, St Georges Pde",
+    "WebId": 60086,
+    "JobId": "NECF80163"
   },
   {
     "Area": "Narwee",
@@ -4716,18 +4740,6 @@
     "JobId": "NECF79976"
   },
   {
-    "Area": "Crows Nest, North Sydney",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "67",
-    "EndDateTime": "2023-05-09T07:00:00",
-    "StartDateTime": "2023-05-08T20:00:00",
-    "Status": "Proposed",
-    "Streets": "Falcon St, Bardsley Gdn, Bardsley Gdns",
-    "WebId": 60117,
-    "JobId": "NECF79795"
-  },
-  {
     "Area": "Chatswood",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -4738,6 +4750,18 @@
     "Streets": "Thomas St",
     "WebId": 60073,
     "JobId": "NECF80020"
+  },
+  {
+    "Area": "Crows Nest, North Sydney",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "67",
+    "EndDateTime": "2023-05-09T07:00:00",
+    "StartDateTime": "2023-05-08T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Falcon St, Bardsley Gdn, Bardsley Gdns",
+    "WebId": 60117,
+    "JobId": "NECF79795"
   },
   {
     "Area": "Bondi Beach",
@@ -4872,6 +4896,18 @@
     "JobId": "NECF78596"
   },
   {
+    "Area": "Clovelly",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "28",
+    "EndDateTime": "2023-05-09T17:00:00",
+    "StartDateTime": "2023-05-09T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Melrose Pde",
+    "WebId": 60108,
+    "JobId": "NECF80186"
+  },
+  {
     "Area": "Kogarah",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -4894,18 +4930,6 @@
     "Streets": "Acron Rd, Aronia Ave, Ayres Rd, Blackburn St, Carissa Ave, Sabina Pl",
     "WebId": 60081,
     "JobId": "NECF80167"
-  },
-  {
-    "Area": "Clovelly",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "28",
-    "EndDateTime": "2023-05-09T17:00:00",
-    "StartDateTime": "2023-05-09T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Melrose Pde",
-    "WebId": 60108,
-    "JobId": "NECF80186"
   },
   {
     "Area": "Cherrybrook",
@@ -5040,6 +5064,18 @@
     "JobId": "NECF80128"
   },
   {
+    "Area": "Chisholm",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-09T17:00:00",
+    "StartDateTime": "2023-05-09T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Settlers Bvd",
+    "WebId": 60060,
+    "JobId": "NECF79248"
+  },
+  {
     "Area": "Pennant Hills",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -5062,18 +5098,6 @@
     "Streets": "Cecil St, Sutherland Ave, Sutherland St",
     "WebId": 59954,
     "JobId": "NECF79955"
-  },
-  {
-    "Area": "Chisholm",
-    "Cause": "Critical electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-09T17:00:00",
-    "StartDateTime": "2023-05-09T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Settlers Bvd",
-    "WebId": 60060,
-    "JobId": "NECF79248"
   },
   {
     "Area": "Bulga",
@@ -5436,6 +5460,18 @@
     "JobId": "NECF80168"
   },
   {
+    "Area": "Bondi Junction, Queens Park",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "50",
+    "EndDateTime": "2023-05-10T16:30:00",
+    "StartDateTime": "2023-05-10T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Denison St, Alt St, Queens Park Rd",
+    "WebId": 60133,
+    "JobId": "NECF78664"
+  },
+  {
     "Area": "Kulnura",
     "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
     "Detail": "",
@@ -5694,10 +5730,22 @@
     "Customers": "10",
     "EndDateTime": "2023-05-11T00:00:00",
     "StartDateTime": "2023-05-10T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "John St",
     "WebId": 59833,
     "JobId": "NECF79094"
+  },
+  {
+    "Area": "Haymarket, Sydney",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "32",
+    "EndDateTime": "2023-05-11T02:00:00",
+    "StartDateTime": "2023-05-10T21:00:00",
+    "Status": "Proposed",
+    "Streets": "Pitt St, George St",
+    "WebId": 59966,
+    "JobId": "NECF79821"
   },
   {
     "Area": "Crows Nest, Greenwich, Wollstonecraft",
@@ -5724,16 +5772,16 @@
     "JobId": "NECF80075"
   },
   {
-    "Area": "Haymarket, Sydney",
-    "Cause": "Connecting power to a property",
+    "Area": "Padstow",
+    "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
-    "Customers": "32",
-    "EndDateTime": "2023-05-11T02:00:00",
-    "StartDateTime": "2023-05-10T21:00:00",
-    "Status": "Proposed",
-    "Streets": "Pitt St, George St",
-    "WebId": 59966,
-    "JobId": "NECF79821"
+    "Customers": "53",
+    "EndDateTime": "2023-05-11T15:45:00",
+    "StartDateTime": "2023-05-11T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Astley Ave, Faraday Rd, Padstow Pde, Segers Ave",
+    "WebId": 60054,
+    "JobId": "NECF80050"
   },
   {
     "Area": "Dural",
@@ -5758,18 +5806,6 @@
     "Streets": "Birrell St, Ruthven St, Rawson Ave",
     "WebId": 59933,
     "JobId": "NECF79939"
-  },
-  {
-    "Area": "Padstow",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "53",
-    "EndDateTime": "2023-05-11T15:45:00",
-    "StartDateTime": "2023-05-11T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Astley Ave, Faraday Rd, Padstow Pde, Segers Ave",
-    "WebId": 60054,
-    "JobId": "NECF80050"
   },
   {
     "Area": "Pennant Hills",
@@ -5832,6 +5868,18 @@
     "JobId": "NECF80099"
   },
   {
+    "Area": "Cherrybrook",
+    "Cause": "Urgent underground electrical network repairs",
+    "Detail": "",
+    "Customers": "17",
+    "EndDateTime": "2023-05-11T12:00:00",
+    "StartDateTime": "2023-05-11T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Ivy Pl, Tallowwood Ave",
+    "WebId": 60100,
+    "JobId": "NECF80179"
+  },
+  {
     "Area": "Clovelly, Coogee",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -5856,16 +5904,16 @@
     "JobId": "NECF79281"
   },
   {
-    "Area": "Cherrybrook",
-    "Cause": "Urgent underground electrical network repairs",
+    "Area": "Ingleside",
+    "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
-    "Customers": "17",
-    "EndDateTime": "2023-05-11T12:00:00",
-    "StartDateTime": "2023-05-11T07:00:00",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-11T16:30:00",
+    "StartDateTime": "2023-05-11T07:30:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Ivy Pl, Tallowwood Ave",
-    "WebId": 60100,
-    "JobId": "NECF80179"
+    "Streets": "Cicada Glen Rd, Walter Rd",
+    "WebId": 59968,
+    "JobId": "NECF80023"
   },
   {
     "Area": "Haberfield, Leichhardt",
@@ -5892,28 +5940,16 @@
     "JobId": "NECF80046"
   },
   {
-    "Area": "Ingleside",
+    "Area": "Randwick",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-11T16:30:00",
-    "StartDateTime": "2023-05-11T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Cicada Glen Rd, Walter Rd",
-    "WebId": 59968,
-    "JobId": "NECF80023"
-  },
-  {
-    "Area": "St Leonards",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-11T09:00:00",
+    "Customers": "124",
+    "EndDateTime": "2023-05-11T15:00:00",
     "StartDateTime": "2023-05-11T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Pacific Hwy, Sergeants La",
-    "WebId": 59896,
-    "JobId": "NECF79908"
+    "Status": "Proposed",
+    "Streets": "Alison Rd, Avoca St, Eulalie Ave, Lingard St, Rae St, Victoria St, Wood St",
+    "WebId": 60016,
+    "JobId": "NECF80033"
   },
   {
     "Area": "Eastlakes, Mascot",
@@ -5928,16 +5964,16 @@
     "JobId": "NECF80044"
   },
   {
-    "Area": "Randwick",
-    "Cause": "Urgent electrical pole replacement or repair",
+    "Area": "St Leonards",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "124",
-    "EndDateTime": "2023-05-11T15:00:00",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-11T09:00:00",
     "StartDateTime": "2023-05-11T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Alison Rd, Avoca St, Eulalie Ave, Lingard St, Rae St, Victoria St, Wood St",
-    "WebId": 60016,
-    "JobId": "NECF80033"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Pacific Hwy, Sergeants La",
+    "WebId": 59896,
+    "JobId": "NECF79908"
   },
   {
     "Area": "Largs",
@@ -6012,6 +6048,18 @@
     "JobId": "NECF79617"
   },
   {
+    "Area": "Raymond Terrace",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "112",
+    "EndDateTime": "2023-05-11T16:30:00",
+    "StartDateTime": "2023-05-11T08:00:00",
+    "Status": "Cancelled",
+    "Streets": "Freeth St, Irrawang St, Kangaroo St, Smiths La, Thomas St, Walker Cres",
+    "WebId": 60063,
+    "JobId": "NECF79627"
+  },
+  {
     "Area": "Mount Kuring-Gai",
     "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
     "Detail": "",
@@ -6022,18 +6070,6 @@
     "Streets": "Blackwood Ave, St Helens Ave",
     "WebId": 60099,
     "JobId": "NECF80160"
-  },
-  {
-    "Area": "Raymond Terrace",
-    "Cause": "Critical electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "112",
-    "EndDateTime": "2023-05-11T16:30:00",
-    "StartDateTime": "2023-05-11T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Freeth St, Irrawang St, Kangaroo St, Smiths La, Thomas St, Walker Cres",
-    "WebId": 60063,
-    "JobId": "NECF79627"
   },
   {
     "Area": "Broadmeadow",
@@ -6156,18 +6192,6 @@
     "JobId": "NECF79386"
   },
   {
-    "Area": "Bondi Junction, Queens Park",
-    "Cause": "Critical electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "196",
-    "EndDateTime": "2023-05-12T16:00:00",
-    "StartDateTime": "2023-05-12T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Birrell St, Denison St, Hough St, Lawson St, Mill Hill Rd",
-    "WebId": 60101,
-    "JobId": "NECF79940"
-  },
-  {
     "Area": "Clovelly, Coogee",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -6178,6 +6202,18 @@
     "Streets": "Mundarrah St, Major St",
     "WebId": 60111,
     "JobId": "NECF80194"
+  },
+  {
+    "Area": "Bondi Junction, Queens Park",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "196",
+    "EndDateTime": "2023-05-12T16:00:00",
+    "StartDateTime": "2023-05-12T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Birrell St, Denison St, Hough St, Lawson St, Mill Hill Rd",
+    "WebId": 60101,
+    "JobId": "NECF79940"
   },
   {
     "Area": "Maroubra",
@@ -6198,22 +6234,22 @@
     "Customers": "103",
     "EndDateTime": "2023-05-12T17:30:00",
     "StartDateTime": "2023-05-12T07:30:00",
-    "Status": "Proposed",
+    "Status": "On Hold",
     "Streets": "Havelock St, Kissing Point Rd, Maxwell St",
     "WebId": 59745,
     "JobId": "NECF78351"
   },
   {
-    "Area": "Camberwell",
+    "Area": "Singleton",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
     "Customers": "less than 10",
     "EndDateTime": "2023-05-12T15:00:00",
     "StartDateTime": "2023-05-12T08:00:00",
     "Status": "Proposed",
-    "Streets": "Glennies St, New England Hwy",
-    "WebId": 59891,
-    "JobId": "NECF79929"
+    "Streets": "Hambledon Hill Rd",
+    "WebId": 59885,
+    "JobId": "NECF79909"
   },
   {
     "Area": "Glennies Creek",
@@ -6228,16 +6264,16 @@
     "JobId": "NECF79918"
   },
   {
-    "Area": "Singleton",
+    "Area": "Camberwell",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
     "Customers": "less than 10",
     "EndDateTime": "2023-05-12T15:00:00",
     "StartDateTime": "2023-05-12T08:00:00",
     "Status": "Proposed",
-    "Streets": "Hambledon Hill Rd",
-    "WebId": 59885,
-    "JobId": "NECF79909"
+    "Streets": "Glennies St, New England Hwy",
+    "WebId": 59891,
+    "JobId": "NECF79929"
   },
   {
     "Area": "Aberdeen, Dartbrook, Kayuga",
@@ -6324,6 +6360,18 @@
     "JobId": "NECF80159"
   },
   {
+    "Area": "Bondi, Bondi Beach",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "79",
+    "EndDateTime": "2023-05-12T12:00:00",
+    "StartDateTime": "2023-05-12T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Beach Rd",
+    "WebId": 60130,
+    "JobId": "NECF80199"
+  },
+  {
     "Area": "Nulkaba",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -6406,6 +6454,18 @@
     "Streets": "Beray Cl, Courtney Pl, Karen Cl, Rainbow Cl, Taylor Rd, the Ridgeway",
     "WebId": 59893,
     "JobId": "NECF79945"
+  },
+  {
+    "Area": "Pyrmont",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "88",
+    "EndDateTime": "2023-05-13T14:30:00",
+    "StartDateTime": "2023-05-13T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bowman St, Cadigal Ave, Harris St, John St, Jones St, Mount Street Walk",
+    "WebId": 60126,
+    "JobId": "NECF78344"
   },
   {
     "Area": "Aberdeen",
@@ -6540,16 +6600,16 @@
     "JobId": "NECF79857"
   },
   {
-    "Area": "Berkeley Vale, Glenning Valley",
+    "Area": "East Gosford",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
-    "Customers": "42",
-    "EndDateTime": "2023-05-15T16:30:00",
+    "Customers": "25",
+    "EndDateTime": "2023-05-15T16:00:00",
     "StartDateTime": "2023-05-15T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Albatross Rd, Cygnet Dr, Enterprise Dr, Gannet Cl, Wyong Rd, Berkeley Vale Pump Stat",
-    "WebId": 59919,
-    "JobId": "NECF79951"
+    "Streets": "Caroline St",
+    "WebId": 60061,
+    "JobId": "NECF79133"
   },
   {
     "Area": "Kanwal",
@@ -6576,6 +6636,18 @@
     "JobId": "NECF80022"
   },
   {
+    "Area": "Berkeley Vale, Glenning Valley",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "42",
+    "EndDateTime": "2023-05-15T16:30:00",
+    "StartDateTime": "2023-05-15T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Albatross Rd, Cygnet Dr, Enterprise Dr, Gannet Cl, Wyong Rd, Berkeley Vale Pump Stat",
+    "WebId": 59919,
+    "JobId": "NECF79951"
+  },
+  {
     "Area": "Empire Bay",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -6588,16 +6660,16 @@
     "JobId": "NECF79366"
   },
   {
-    "Area": "East Gosford",
+    "Area": "Adamstown, Garden Suburb",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
-    "Customers": "25",
+    "Customers": "51",
     "EndDateTime": "2023-05-15T16:00:00",
     "StartDateTime": "2023-05-15T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Caroline St",
-    "WebId": 60061,
-    "JobId": "NECF79133"
+    "Status": "Proposed",
+    "Streets": "Park Ave, Park Rd, Prospect Rd, Whalan St",
+    "WebId": 60131,
+    "JobId": "NECF79099"
   },
   {
     "Area": "Howes Valley",
@@ -6780,16 +6852,16 @@
     "JobId": "NECF79579"
   },
   {
-    "Area": "Wyong, Wyong Creek",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
+    "Area": "Adamstown",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
     "Customers": "less than 10",
-    "EndDateTime": "2023-05-16T13:00:00",
+    "EndDateTime": "2023-05-16T12:00:00",
     "StartDateTime": "2023-05-16T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Chandlers La",
-    "WebId": 60052,
-    "JobId": "NECF80118"
+    "Streets": "Popran Rd",
+    "WebId": 60095,
+    "JobId": "NECF80176"
   },
   {
     "Area": "Adamstown",
@@ -6804,16 +6876,16 @@
     "JobId": "NECF79876"
   },
   {
-    "Area": "Adamstown",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Area": "Wyong, Wyong Creek",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2023-05-16T12:00:00",
+    "EndDateTime": "2023-05-16T13:00:00",
     "StartDateTime": "2023-05-16T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Popran Rd",
-    "WebId": 60095,
-    "JobId": "NECF80176"
+    "Streets": "Chandlers La",
+    "WebId": 60052,
+    "JobId": "NECF80118"
   },
   {
     "Area": "Gladesville",
@@ -6924,6 +6996,18 @@
     "JobId": "NECF80131"
   },
   {
+    "Area": "Chisholm, Morpeth",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-17T15:00:00",
+    "StartDateTime": "2023-05-17T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "McFarlanes Rd",
+    "WebId": 59915,
+    "JobId": "NECF79838"
+  },
+  {
     "Area": "Caves Beach, Swansea, Swansea Heads",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
@@ -6936,16 +7020,16 @@
     "JobId": "NECF78342"
   },
   {
-    "Area": "Chisholm, Morpeth",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Area": "Kangy Angy, Mardi",
+    "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-17T15:00:00",
+    "Customers": "12",
+    "EndDateTime": "2023-05-17T16:00:00",
     "StartDateTime": "2023-05-17T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "McFarlanes Rd",
-    "WebId": 59915,
-    "JobId": "NECF79838"
+    "Status": "Proposed",
+    "Streets": "Old Maitland Rd, Lamont Cl",
+    "WebId": 60134,
+    "JobId": "NECF80233"
   },
   {
     "Area": "Wollombi",
@@ -7032,6 +7116,18 @@
     "JobId": "NECF78321"
   },
   {
+    "Area": "Collaroy",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "74",
+    "EndDateTime": "2023-05-18T15:30:00",
+    "StartDateTime": "2023-05-18T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Hay St, Jamieson Pde, Ocean Gr, Ocean Grove Rd, Pittwater Rd",
+    "WebId": 60132,
+    "JobId": "NECF80227"
+  },
+  {
     "Area": "East Gosford",
     "Cause": "Critical electricity network changes for infrastructure projects",
     "Detail": "",
@@ -7056,28 +7152,16 @@
     "JobId": "NECF80148"
   },
   {
-    "Area": "Thornton",
+    "Area": "Aberdeen, Scone, Segenhoe",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-18T14:00:00",
+    "Customers": "24",
+    "EndDateTime": "2023-05-18T15:00:00",
     "StartDateTime": "2023-05-18T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Raymond Terrace Rd",
-    "WebId": 59969,
-    "JobId": "NECF79998"
-  },
-  {
-    "Area": "Killara",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "14",
-    "EndDateTime": "2023-05-18T16:00:00",
-    "StartDateTime": "2023-05-18T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Maples Ave, Werona Ave",
-    "WebId": 59956,
-    "JobId": "NECF79312"
+    "Streets": "Brushy Hill Rd, Glenbawn Rd, Segenhoe Rd",
+    "WebId": 60006,
+    "JobId": "NECF80057"
   },
   {
     "Area": "Bolton Point",
@@ -7092,16 +7176,28 @@
     "JobId": "NECF79942"
   },
   {
-    "Area": "Aberdeen, Scone, Segenhoe",
+    "Area": "Killara",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "14",
+    "EndDateTime": "2023-05-18T16:00:00",
+    "StartDateTime": "2023-05-18T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Maples Ave, Werona Ave",
+    "WebId": 59956,
+    "JobId": "NECF79312"
+  },
+  {
+    "Area": "Thornton",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "24",
-    "EndDateTime": "2023-05-18T15:00:00",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-18T14:00:00",
     "StartDateTime": "2023-05-18T08:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Brushy Hill Rd, Glenbawn Rd, Segenhoe Rd",
-    "WebId": 60006,
-    "JobId": "NECF80057"
+    "Streets": "Raymond Terrace Rd",
+    "WebId": 59969,
+    "JobId": "NECF79998"
   },
   {
     "Area": "Kincumber",
@@ -7210,6 +7306,18 @@
     "Streets": "Bent St, Boomerang St, Davidson St, Leonard St, Matthew St, Westcott St",
     "WebId": 58986,
     "JobId": "NECF78479"
+  },
+  {
+    "Area": "Quorrobolong",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-19T16:00:00",
+    "StartDateTime": "2023-05-19T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Heaton Rd, Hunter Lookout Rd",
+    "WebId": 60129,
+    "JobId": "NECF80097"
   },
   {
     "Area": "Lovedale",
@@ -7464,18 +7572,6 @@
     "JobId": "NECF79584"
   },
   {
-    "Area": "Roseville",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "37",
-    "EndDateTime": "2023-05-23T15:30:00",
-    "StartDateTime": "2023-05-23T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Alston Way, Bromborough Rd, Shirley Rd",
-    "WebId": 59883,
-    "JobId": "NECF79117"
-  },
-  {
     "Area": "Eastwood",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -7500,16 +7596,16 @@
     "JobId": "NECF79217"
   },
   {
-    "Area": "Denman, Muswellbrook",
+    "Area": "Mindaribba, Tocal, Woodville",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
-    "Customers": "less than 10",
+    "Customers": "38",
     "EndDateTime": "2023-05-23T15:00:00",
     "StartDateTime": "2023-05-23T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Denman Rd",
-    "WebId": 60074,
-    "JobId": "NECF80145"
+    "Status": "Proposed",
+    "Streets": "Eelah Rd, Lemon Grove Rd, Tocal Rd, Paterson Rd",
+    "WebId": 60127,
+    "JobId": "NECF80147"
   },
   {
     "Area": "East Maitland",
@@ -7522,6 +7618,18 @@
     "Streets": "Hunter St, Murray St, Paterson St, Raymond Terrace Rd, Tenambit St, Victoria St",
     "WebId": 60065,
     "JobId": "NECF79756"
+  },
+  {
+    "Area": "Denman, Muswellbrook",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-23T15:00:00",
+    "StartDateTime": "2023-05-23T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Denman Rd",
+    "WebId": 60074,
+    "JobId": "NECF80145"
   },
   {
     "Area": "Muswellbrook",
