@@ -582,7 +582,7 @@
     "Customers": "22",
     "EndDateTime": "2023-05-16T12:00:00",
     "StartDateTime": "2023-05-16T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+2 hrs)",
     "Streets": "Hue Hue Rd, Woods Rd, Woodville Rd",
     "WebId": 59901,
     "JobId": "NECF79941"
@@ -3390,7 +3390,7 @@
     "Customers": "60",
     "EndDateTime": "2023-05-23T17:00:00",
     "StartDateTime": "2023-05-23T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Cotswold Rd, Odette Rd, Vineys La, Vineys Rd",
     "WebId": 60542,
     "JobId": "NECF80652"
@@ -3762,7 +3762,7 @@
     "Customers": "41",
     "EndDateTime": "2023-05-24T17:00:00",
     "StartDateTime": "2023-05-24T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Austin St, Bataan Cl, Brisbane St, Dixon Cl, Fowler Rd, Rouse Pl",
     "WebId": 60550,
     "JobId": "NECF78982"
@@ -4722,7 +4722,7 @@
     "Customers": "39",
     "EndDateTime": "2023-05-26T17:00:00",
     "StartDateTime": "2023-05-26T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Empire Pl, Fowler Rd, Heritage Dr, Olivia Pl, Ophir Pl, Ryan Pl",
     "WebId": 60679,
     "JobId": "NECF79278"
@@ -5106,7 +5106,7 @@
     "Customers": "130",
     "EndDateTime": "2023-05-27T17:00:00",
     "StartDateTime": "2023-05-27T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Kennedy St, Paul St, Ramsay Rd, Victor Ave, Phyllis Ave, Shari Ave, Uki Ave, Ferndale Rd",
     "WebId": 60287,
     "JobId": "NECF80129"
@@ -6156,6 +6156,30 @@
     "JobId": "NECF79641"
   },
   {
+    "Area": "Kangaroo Point, Sylvania",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "106",
+    "EndDateTime": "2023-05-31T17:00:00",
+    "StartDateTime": "2023-05-31T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Allan St, Boorroo St, Ilma Ave, Kangaroo Point Rd",
+    "WebId": 60868,
+    "JobId": "NECF80897"
+  },
+  {
+    "Area": "Yagoona",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "29",
+    "EndDateTime": "2023-05-31T15:00:00",
+    "StartDateTime": "2023-05-31T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Farah Pl, Rock St, Rose St, Ruby St",
+    "WebId": 60755,
+    "JobId": "NECF80784"
+  },
+  {
     "Area": "Beverly Hills, Narwee",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -6190,54 +6214,6 @@
     "Streets": "Brandon St, Douglas St, Knox St, Simeon St, Varna St, Barclay St, Leichhardt St",
     "WebId": 60699,
     "JobId": "NECF80564"
-  },
-  {
-    "Area": "Yagoona",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "29",
-    "EndDateTime": "2023-05-31T15:00:00",
-    "StartDateTime": "2023-05-31T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Farah Pl, Rock St, Rose St, Ruby St",
-    "WebId": 60755,
-    "JobId": "NECF80784"
-  },
-  {
-    "Area": "Merewether",
-    "Cause": "Critical electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-05-31T15:00:00",
-    "StartDateTime": "2023-05-31T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Rowan Cres",
-    "WebId": 60780,
-    "JobId": "NECF80849"
-  },
-  {
-    "Area": "Mosman",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "37",
-    "EndDateTime": "2023-05-31T11:30:00",
-    "StartDateTime": "2023-05-31T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Avenue Rd, Park Ave",
-    "WebId": 60801,
-    "JobId": "NECF80916"
-  },
-  {
-    "Area": "Ourimbah, Palmdale",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "39",
-    "EndDateTime": "2023-05-31T15:00:00",
-    "StartDateTime": "2023-05-31T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Elmo St, Footts Rd, Frederick St, Ourimbah Creek Rd, Old Footts Rd",
-    "WebId": 60796,
-    "JobId": "NECF80089"
   },
   {
     "Area": "Paddington",
@@ -6358,6 +6334,42 @@
     "Streets": "Bryant St, Throsby St, Tighes Tce, William St",
     "WebId": 59247,
     "JobId": "NECF79193"
+  },
+  {
+    "Area": "Merewether",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-05-31T15:00:00",
+    "StartDateTime": "2023-05-31T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Rowan Cres",
+    "WebId": 60780,
+    "JobId": "NECF80849"
+  },
+  {
+    "Area": "Mosman",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "37",
+    "EndDateTime": "2023-05-31T11:30:00",
+    "StartDateTime": "2023-05-31T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Avenue Rd, Park Ave",
+    "WebId": 60801,
+    "JobId": "NECF80916"
+  },
+  {
+    "Area": "Ourimbah, Palmdale",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "39",
+    "EndDateTime": "2023-05-31T15:00:00",
+    "StartDateTime": "2023-05-31T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Elmo St, Footts Rd, Frederick St, Ourimbah Creek Rd, Old Footts Rd",
+    "WebId": 60796,
+    "JobId": "NECF80089"
   },
   {
     "Area": "Allandale",
@@ -6588,6 +6600,18 @@
     "JobId": "NECF80882"
   },
   {
+    "Area": "Berkeley Vale",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "204",
+    "EndDateTime": "2023-06-01T16:00:00",
+    "StartDateTime": "2023-06-01T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Carrington Cl, Kathleen Ct, Lorraine Ave",
+    "WebId": 60870,
+    "JobId": "NECF80091"
+  },
+  {
     "Area": "Wangi Wangi",
     "Cause": "Critical maintenance to high voltage electrical equipment",
     "Detail": "",
@@ -6766,6 +6790,18 @@
     "Streets": "Elderslie Rd",
     "WebId": 60851,
     "JobId": "NECF81005"
+  },
+  {
+    "Area": "Clydesdale, Singleton",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-06-02T15:00:00",
+    "StartDateTime": "2023-06-02T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Glendon Rd, Greenwood Ave",
+    "WebId": 60869,
+    "JobId": "NECF81016"
   },
   {
     "Area": "Killcare",
