@@ -438,7 +438,7 @@
     "Customers": "17",
     "EndDateTime": "2023-05-29T16:00:00",
     "StartDateTime": "2023-05-29T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+1 hrs)",
     "Streets": "Rowan Cres",
     "WebId": 60715,
     "JobId": "NECF80841"
@@ -570,7 +570,7 @@
     "Customers": "46",
     "EndDateTime": "2023-05-29T16:30:00",
     "StartDateTime": "2023-05-29T10:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Warner St, Cross St, Curtis St, Potts St, Tyagarah St",
     "WebId": 60634,
     "JobId": "NECF80551"
@@ -2910,7 +2910,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-06-03T14:00:00",
     "StartDateTime": "2023-06-03T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Avoca St",
     "WebId": 61333,
     "JobId": "NECF81588"
@@ -2934,7 +2934,7 @@
     "Customers": "160",
     "EndDateTime": "2023-06-03T15:30:00",
     "StartDateTime": "2023-06-03T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Justin St, May St, Trevor St, Garnet Ave, Grove St, Halloran St, Joseph St, Lilyfield Rd",
     "WebId": 60918,
     "JobId": "NECF80717"
@@ -3786,7 +3786,7 @@
     "Customers": "36",
     "EndDateTime": "2023-06-06T16:00:00",
     "StartDateTime": "2023-06-06T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bannockburn Rd, Pacific Hwy",
     "WebId": 61064,
     "JobId": "NECF81296"
@@ -4050,7 +4050,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-06-06T12:00:00",
     "StartDateTime": "2023-06-06T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Golden Hwy",
     "WebId": 61269,
     "JobId": "NECF81446"
@@ -4542,7 +4542,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-06-08T15:00:00",
     "StartDateTime": "2023-06-08T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Long Point Rd",
     "WebId": 61277,
     "JobId": "NECF81506"
@@ -5844,6 +5844,18 @@
     "JobId": "NECF81501"
   },
   {
+    "Area": "Bellevue Hill, Bondi, Bondi Junction",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "276",
+    "EndDateTime": "2023-06-14T05:00:00",
+    "StartDateTime": "2023-06-13T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Bellevue Park Rd, Old South Head Rd, Victoria Rd",
+    "WebId": 61345,
+    "JobId": "NECF81404"
+  },
+  {
     "Area": "Newcastle, the Hill",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -5952,42 +5964,6 @@
     "JobId": "NECF80801"
   },
   {
-    "Area": "Killara",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "66",
-    "EndDateTime": "2023-06-14T17:00:00",
-    "StartDateTime": "2023-06-14T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Culworth Ave, Lorne Ave, Marian St, Stanhope Rd",
-    "WebId": 61253,
-    "JobId": "NECF81466"
-  },
-  {
-    "Area": "Concord",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-06-14T15:00:00",
-    "StartDateTime": "2023-06-14T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Ada St, Franklyn St",
-    "WebId": 61291,
-    "JobId": "NECF81523"
-  },
-  {
-    "Area": "Berala, Lidcombe",
-    "Cause": "Urgent electrical pole replacement or repair",
-    "Detail": "",
-    "Customers": "162",
-    "EndDateTime": "2023-06-14T15:00:00",
-    "StartDateTime": "2023-06-14T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Nottinghill Rd, Beatrice St, Georges Ave, Hayes St, Joseph St, Kerrs Rd, Raymond St, the Boulevarde , Victoria St",
-    "WebId": 61231,
-    "JobId": "NECF81453"
-  },
-  {
     "Area": "Balmoral, Mosman",
     "Cause": "Trimming trees within danger zone to electricity network and potential fire risk",
     "Detail": "",
@@ -6022,6 +5998,42 @@
     "Streets": "Denning St, Marshall St, Newington Rd, Stanmore Rd",
     "WebId": 61324,
     "JobId": "NECF81532"
+  },
+  {
+    "Area": "Killara",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "66",
+    "EndDateTime": "2023-06-14T17:00:00",
+    "StartDateTime": "2023-06-14T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Culworth Ave, Lorne Ave, Marian St, Stanhope Rd",
+    "WebId": 61253,
+    "JobId": "NECF81466"
+  },
+  {
+    "Area": "Concord",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-06-14T15:00:00",
+    "StartDateTime": "2023-06-14T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Ada St, Franklyn St",
+    "WebId": 61291,
+    "JobId": "NECF81523"
+  },
+  {
+    "Area": "Berala, Lidcombe",
+    "Cause": "Urgent electrical pole replacement or repair",
+    "Detail": "",
+    "Customers": "162",
+    "EndDateTime": "2023-06-14T15:00:00",
+    "StartDateTime": "2023-06-14T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Nottinghill Rd, Beatrice St, Georges Ave, Hayes St, Joseph St, Kerrs Rd, Raymond St, the Boulevarde , Victoria St",
+    "WebId": 61231,
+    "JobId": "NECF81453"
   },
   {
     "Area": "North Narrabeen, Warriewood",
@@ -6204,6 +6216,30 @@
     "JobId": "NECF81252"
   },
   {
+    "Area": "Dural",
+    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "32",
+    "EndDateTime": "2023-06-14T17:00:00",
+    "StartDateTime": "2023-06-14T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Cotswold Rd, Hunt Ave, Uralla Rd",
+    "WebId": 61257,
+    "JobId": "NECF81444"
+  },
+  {
+    "Area": "Black Hill",
+    "Cause": "Critical maintenance to high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-06-14T12:00:00",
+    "StartDateTime": "2023-06-14T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Phoenix Rd",
+    "WebId": 61258,
+    "JobId": "NECF81403"
+  },
+  {
     "Area": "Mayfield",
     "Cause": "Urgent electrical pole replacement or repair",
     "Detail": "",
@@ -6228,28 +6264,16 @@
     "JobId": "NECF80421"
   },
   {
-    "Area": "Dural",
-    "Cause": "Critical electricity network changes for infrastructure projects",
+    "Area": "Salamander Bay, Soldiers Point",
+    "Cause": "Connecting power to a property",
     "Detail": "",
-    "Customers": "32",
-    "EndDateTime": "2023-06-14T17:00:00",
-    "StartDateTime": "2023-06-14T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Cotswold Rd, Hunt Ave, Uralla Rd",
-    "WebId": 61257,
-    "JobId": "NECF81444"
-  },
-  {
-    "Area": "Black Hill",
-    "Cause": "Critical maintenance to high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-06-14T12:00:00",
-    "StartDateTime": "2023-06-14T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Phoenix Rd",
-    "WebId": 61258,
-    "JobId": "NECF81403"
+    "Customers": "283",
+    "EndDateTime": "2023-06-14T17:30:00",
+    "StartDateTime": "2023-06-14T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Anderson Pl, Fleet St, Ford St, Jackson Cl, Marty Ave, Raymond Ave, Seaview Cres, Soldiers Point Rd, Waratah Ave, Bagnall Ave",
+    "WebId": 61344,
+    "JobId": "NECF80718"
   },
   {
     "Area": "Bondi, Bondi Beach, North Bondi",
