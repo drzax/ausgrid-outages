@@ -102,7 +102,7 @@
     "Customers": "16",
     "EndDateTime": "2023-08-16T17:00:00",
     "StartDateTime": "2023-08-16T06:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Hillside Ave, New South Head Rd",
     "WebId": 62991,
     "JobId": "NECF83142"
@@ -1638,7 +1638,7 @@
     "Customers": "11",
     "EndDateTime": "2023-08-20T19:00:00",
     "StartDateTime": "2023-08-20T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Captain Cook Dr",
     "WebId": 63784,
     "JobId": "NECF84056"
@@ -3660,6 +3660,18 @@
     "JobId": "NECF83807"
   },
   {
+    "Area": "Longueville",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "29",
+    "EndDateTime": "2023-08-24T15:00:00",
+    "StartDateTime": "2023-08-24T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Arabella St, Dunois St, Kenneth St, Lucretia Ave, Stuart St",
+    "WebId": 64101,
+    "JobId": "NECF84685"
+  },
+  {
     "Area": "Singleton Heights",
     "Cause": "Replacement or repair of underground electrical network",
     "Detail": "",
@@ -5214,7 +5226,7 @@
     "Customers": "116",
     "EndDateTime": "2023-08-29T16:00:00",
     "StartDateTime": "2023-08-29T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Mandalong Rd, Binalong Way, Browns Rd, Little Valley Rd, Mandaluck Chase , Sauls Rd, Timber Rd, Tobins Rd, Walls La",
     "WebId": 63930,
     "JobId": "NECF84412"
@@ -5274,7 +5286,7 @@
     "Customers": "222",
     "EndDateTime": "2023-08-29T17:00:00",
     "StartDateTime": "2023-08-29T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Brandon St, Hargrave St, McLaughlin St, Montgomery St, Piper St, Robert St, Waratah St",
     "WebId": 63752,
     "JobId": "NECF83759"
@@ -5418,7 +5430,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-08-29T23:00:00",
     "StartDateTime": "2023-08-29T17:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Pacific Hwy",
     "WebId": 64058,
     "JobId": "NECF84614"
@@ -5802,7 +5814,7 @@
     "Customers": "122",
     "EndDateTime": "2023-08-30T15:00:00",
     "StartDateTime": "2023-08-30T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Hampden Rd, Parkes Rd, Thomson Ave",
     "WebId": 64080,
     "JobId": "NECF84692"
@@ -6696,28 +6708,16 @@
     "JobId": "NECF83781"
   },
   {
-    "Area": "Whitebridge",
-    "Cause": "Maintenance of high voltage electrical equipment",
+    "Area": "Cremorne",
+    "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
-    "Customers": "261",
-    "EndDateTime": "2023-09-04T06:00:00",
-    "StartDateTime": "2023-09-03T20:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Baroonba St, Breeze Ct, Burwood Rd, Cindi Cl, Dudley Rd, Hudson St, Kahibah St, Norley St, Recreation Ave, Station St",
-    "WebId": 63950,
-    "JobId": "NECF84413"
-  },
-  {
-    "Area": "Beacon Hill, Oxford Falls",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "148",
-    "EndDateTime": "2023-09-04T08:00:00",
-    "StartDateTime": "2023-09-03T20:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Boyer Rd, Brooker Ave, Christopher Pl, Dareen St, Ellis Rd, Iris St, Oxford Falls Rd, Reynolds Cres, Tristram Rd",
-    "WebId": 63769,
-    "JobId": "NECF84337"
+    "Customers": "56",
+    "EndDateTime": "2023-09-04T04:30:00",
+    "StartDateTime": "2023-09-03T19:30:00",
+    "Status": "Proposed",
+    "Streets": "Cranbrook Ave, Military Rd",
+    "WebId": 64103,
+    "JobId": "NECF82820"
   },
   {
     "Area": "Long Jetty",
@@ -6742,6 +6742,30 @@
     "Streets": "College St, Day St, Formosa St, Henley Marine Dr, Sisters Cres, Thornley St, Victoria Rd",
     "WebId": 64059,
     "JobId": "NECF84670"
+  },
+  {
+    "Area": "Whitebridge",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "261",
+    "EndDateTime": "2023-09-04T06:00:00",
+    "StartDateTime": "2023-09-03T20:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Baroonba St, Breeze Ct, Burwood Rd, Cindi Cl, Dudley Rd, Hudson St, Kahibah St, Norley St, Recreation Ave, Station St",
+    "WebId": 63950,
+    "JobId": "NECF84413"
+  },
+  {
+    "Area": "Beacon Hill, Oxford Falls",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "148",
+    "EndDateTime": "2023-09-04T08:00:00",
+    "StartDateTime": "2023-09-03T20:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Boyer Rd, Brooker Ave, Christopher Pl, Dareen St, Ellis Rd, Iris St, Oxford Falls Rd, Reynolds Cres, Tristram Rd",
+    "WebId": 63769,
+    "JobId": "NECF84337"
   },
   {
     "Area": "Bankstown",
@@ -6898,6 +6922,18 @@
     "Streets": "Albuera Rd, Blaxland Rd, Brigg Rd",
     "WebId": 63402,
     "JobId": "NECF83916"
+  },
+  {
+    "Area": "Maroubra",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-09-05T08:00:00",
+    "StartDateTime": "2023-09-04T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Marine Pde",
+    "WebId": 64100,
+    "JobId": "NECF84611"
   },
   {
     "Area": "Elanora Heights, North Narrabeen, Seaforth, Turramurra",
@@ -8142,7 +8178,7 @@
     "Customers": "54",
     "EndDateTime": "2023-09-13T16:30:00",
     "StartDateTime": "2023-09-13T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Brush Creek Rd, Kingtree La, Misty Valley La, Priests Ridge Rd, Spring Gully La, the Branch La",
     "WebId": 63883,
     "JobId": "NECF84474"
@@ -8178,7 +8214,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-09-13T12:00:00",
     "StartDateTime": "2023-09-13T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Aldwick Cl",
     "WebId": 64056,
     "JobId": "NECF84674"
