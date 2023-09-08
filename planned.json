@@ -2682,7 +2682,7 @@
     "Customers": "60",
     "EndDateTime": "2023-09-15T17:00:00",
     "StartDateTime": "2023-09-15T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Carrington St, the River Rd, Victoria St",
     "WebId": 64733,
     "JobId": "NECF85205"
@@ -2778,7 +2778,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-09-15T15:30:00",
     "StartDateTime": "2023-09-15T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Margaret St",
     "WebId": 64876,
     "JobId": "NECF85501"
@@ -2850,7 +2850,7 @@
     "Customers": "61",
     "EndDateTime": "2023-09-15T17:00:00",
     "StartDateTime": "2023-09-15T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Ann St, Baker St, Hunt St, Short St",
     "WebId": 64708,
     "JobId": "NECF84260"
@@ -2982,7 +2982,7 @@
     "Customers": "219",
     "EndDateTime": "2023-09-16T06:00:00",
     "StartDateTime": "2023-09-15T18:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bransgrove Rd, Glenview Ave, Harrison St, Horsley Rd, Iluka St, Polo St, Queen St, Selems Pde, Swan St",
     "WebId": 63416,
     "JobId": "NECF83934"
@@ -3078,7 +3078,7 @@
     "Customers": "53",
     "EndDateTime": "2023-09-16T16:00:00",
     "StartDateTime": "2023-09-16T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Cabbage Tree Rd, Lavis La, Nelson Bay Rd, Williamtown Dr",
     "WebId": 64372,
     "JobId": "NECF85028"
@@ -3294,7 +3294,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-09-17T14:00:00",
     "StartDateTime": "2023-09-17T09:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Rookwood Rd",
     "WebId": 64248,
     "JobId": "NECF84840"
@@ -5212,9 +5212,9 @@
     "Cause": "Connecting power to a property",
     "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2023-09-22T17:00:00",
+    "EndDateTime": "2023-09-22T19:00:00",
     "StartDateTime": "2023-09-22T07:00:00",
-    "Status": "On Hold",
+    "Status": "Proposed",
     "Streets": "Aquatic Dr",
     "WebId": 64240,
     "JobId": "NECF84810"
@@ -5694,7 +5694,7 @@
     "Customers": "168",
     "EndDateTime": "2023-09-25T05:30:00",
     "StartDateTime": "2023-09-24T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Atchison St, Chandos St, Wheatleigh St, Willoughby Rd, Donnelly Rd, Merrenburn Ave",
     "WebId": 64126,
     "JobId": "NECF84468"
@@ -6408,16 +6408,16 @@
     "JobId": "NECF84200"
   },
   {
-    "Area": "Naremburn",
-    "Cause": "Replacement or repair of overhead powerlines",
+    "Area": "Cardiff, Cardiff Heights, Garden Suburb, New Lambton Heights",
+    "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
-    "Customers": "169",
+    "Customers": "304",
     "EndDateTime": "2023-09-27T02:00:00",
-    "StartDateTime": "2023-09-26T21:00:00",
+    "StartDateTime": "2023-09-26T20:00:00",
     "Status": "Proposed",
-    "Streets": "Dalleys Rd, Willoughby Rd",
-    "WebId": 64152,
-    "JobId": "NECF84339"
+    "Streets": "Currawong Rd, Main Rd, Cockburns La, Marshall St, Wimbledon Gr, Beverley Cres, Cardiff Rd, Hollywood Pde, Victoria Cres",
+    "WebId": 64880,
+    "JobId": "NECF85538"
   },
   {
     "Area": "Bondi",
@@ -6432,6 +6432,30 @@
     "JobId": "NECF85435"
   },
   {
+    "Area": "Naremburn",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "169",
+    "EndDateTime": "2023-09-27T02:00:00",
+    "StartDateTime": "2023-09-26T21:00:00",
+    "Status": "Proposed",
+    "Streets": "Dalleys Rd, Willoughby Rd",
+    "WebId": 64152,
+    "JobId": "NECF84339"
+  },
+  {
+    "Area": "Crows Nest, Naremburn",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "49",
+    "EndDateTime": "2023-09-27T05:00:00",
+    "StartDateTime": "2023-09-26T23:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Willoughby Rd",
+    "WebId": 64153,
+    "JobId": "NECF84431"
+  },
+  {
     "Area": "Bondi",
     "Cause": "Replacement or repair of underground electrical network",
     "Detail": "",
@@ -6442,18 +6466,6 @@
     "Streets": "Bondi Rd",
     "WebId": 64796,
     "JobId": "NECF85441"
-  },
-  {
-    "Area": "Crows Nest, Naremburn",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "49",
-    "EndDateTime": "2023-09-27T05:00:00",
-    "StartDateTime": "2023-09-26T23:00:00",
-    "Status": "Proposed",
-    "Streets": "Willoughby Rd",
-    "WebId": 64153,
-    "JobId": "NECF84431"
   },
   {
     "Area": "Kingsgrove",
@@ -6744,6 +6756,18 @@
     "JobId": "NECF85146"
   },
   {
+    "Area": "Bondi, Bondi Junction",
+    "Cause": "Electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "148",
+    "EndDateTime": "2023-09-28T05:00:00",
+    "StartDateTime": "2023-09-27T19:30:00",
+    "Status": "Proposed",
+    "Streets": "Bondi Rd, Dalley St, Gowrie Ave, Paul St, Woodstock St",
+    "WebId": 64879,
+    "JobId": "NECF85145"
+  },
+  {
     "Area": "Cabarita, Concord",
     "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
@@ -6766,6 +6790,18 @@
     "Streets": "Azalea Ave, Brick Wharf Rd, Camellia Cir, Daffodil Dr, Sonter Ave",
     "WebId": 64813,
     "JobId": "NECF85154"
+  },
+  {
+    "Area": "Curl Curl, Freshwater, Harbord",
+    "Cause": "Electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "79",
+    "EndDateTime": "2023-09-28T16:00:00",
+    "StartDateTime": "2023-09-28T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Carrington Pde, Coastview Pl, Dick St, Lodge La, Seddon Hill Rd, the Drive",
+    "WebId": 64884,
+    "JobId": "NECF85591"
   },
   {
     "Area": "Mona Vale, Warriewood",
