@@ -690,7 +690,7 @@
     "Customers": "84",
     "EndDateTime": "2023-10-11T17:00:00",
     "StartDateTime": "2023-10-11T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Beecroft Rd, Boronia Ave, Boronia Pl, Castle Howard Rd, Lyne Rd",
     "WebId": 65404,
     "JobId": "NECF85964"
@@ -702,7 +702,7 @@
     "Customers": "59",
     "EndDateTime": "2023-10-11T13:00:00",
     "StartDateTime": "2023-10-11T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Railway St, Rawson Rd",
     "WebId": 65410,
     "JobId": "NECF85734"
@@ -870,7 +870,7 @@
     "Customers": "23",
     "EndDateTime": "2023-10-11T16:00:00",
     "StartDateTime": "2023-10-11T10:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Olive Ave, Wattle Cres, Woy Woy Bay Rd",
     "WebId": 65411,
     "JobId": "NECF85735"
@@ -2358,7 +2358,7 @@
     "Customers": "225",
     "EndDateTime": "2023-10-16T17:00:00",
     "StartDateTime": "2023-10-16T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Davis St, Denison Rd, Eltham St, Nelson St, Pigott St, Victoria St",
     "WebId": 65664,
     "JobId": "NECF86448"
@@ -2370,7 +2370,7 @@
     "Customers": "68",
     "EndDateTime": "2023-10-16T17:00:00",
     "StartDateTime": "2023-10-16T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Denison Rd, Eltham St, Little St, Short St, Victoria St",
     "WebId": 65665,
     "JobId": "NECF86458"
@@ -2938,6 +2938,18 @@
     "Streets": "Cleveland St",
     "WebId": 65435,
     "JobId": "NECF86209"
+  },
+  {
+    "Area": "Alexandria",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-10-17T13:30:00",
+    "StartDateTime": "2023-10-17T09:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Gardeners Rd",
+    "WebId": 65779,
+    "JobId": "NECF86546"
   },
   {
     "Area": "Croudace Bay",
@@ -3642,7 +3654,7 @@
     "Customers": "79",
     "EndDateTime": "2023-10-19T12:00:00",
     "StartDateTime": "2023-10-19T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Ocean St",
     "WebId": 65448,
     "JobId": "NECF85959"
@@ -3720,18 +3732,6 @@
     "JobId": "NECF85922"
   },
   {
-    "Area": "Kirribilli",
-    "Cause": "Electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "55",
-    "EndDateTime": "2023-10-19T16:00:00",
-    "StartDateTime": "2023-10-19T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Elamang Ave",
-    "WebId": 65765,
-    "JobId": "NECF86570"
-  },
-  {
     "Area": "Castle Hill, Cherrybrook, Dural",
     "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
@@ -3742,6 +3742,18 @@
     "Streets": "Dunley Pl, Caber Pl, Athella Pl, Caber Cl, Jenner Rd, John Radley Ave, John Radley Way, New Line Rd, Tanbark Pl",
     "WebId": 65776,
     "JobId": "NECF86588"
+  },
+  {
+    "Area": "Kirribilli",
+    "Cause": "Electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "55",
+    "EndDateTime": "2023-10-19T16:00:00",
+    "StartDateTime": "2023-10-19T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Elamang Ave",
+    "WebId": 65765,
+    "JobId": "NECF86570"
   },
   {
     "Area": "Kulnura",
@@ -4164,18 +4176,6 @@
     "JobId": "NECF85741"
   },
   {
-    "Area": "Kensington",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "18",
-    "EndDateTime": "2023-10-21T15:00:00",
-    "StartDateTime": "2023-10-21T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Bowral St, Doncaster Ave",
-    "WebId": 65774,
-    "JobId": "NECF86563"
-  },
-  {
     "Area": "Macquarie Park",
     "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
@@ -4186,6 +4186,18 @@
     "Streets": "Khartoum Rd, Talavera Rd",
     "WebId": 65764,
     "JobId": "NECF86233"
+  },
+  {
+    "Area": "Kensington",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "18",
+    "EndDateTime": "2023-10-21T15:00:00",
+    "StartDateTime": "2023-10-21T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Bowral St, Doncaster Ave",
+    "WebId": 65774,
+    "JobId": "NECF86563"
   },
   {
     "Area": "Blakehurst",
