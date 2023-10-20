@@ -1530,7 +1530,7 @@
     "Customers": "160",
     "EndDateTime": "2023-10-25T15:30:00",
     "StartDateTime": "2023-10-25T07:30:00",
-    "Status": "Proposed",
+    "Status": "Cancelled",
     "Streets": "Ada St, Eastview Ave, Ford St, Kent Rd, Milroy St",
     "WebId": 65753,
     "JobId": "NECF86553"
@@ -2370,7 +2370,7 @@
     "Customers": "73",
     "EndDateTime": "2023-10-27T14:00:00",
     "StartDateTime": "2023-10-27T07:00:00",
-    "Status": "On Hold",
+    "Status": "Proposed",
     "Streets": "Amiens St, Bernard Ave, Wharf Rd",
     "WebId": 65725,
     "JobId": "NECF85960"
@@ -2526,7 +2526,7 @@
     "Customers": "42",
     "EndDateTime": "2023-10-27T16:00:00",
     "StartDateTime": "2023-10-27T09:00:00",
-    "Status": "On Hold",
+    "Status": "Proposed",
     "Streets": "Ashburn Pl",
     "WebId": 65761,
     "JobId": "NECF85961"
@@ -2766,7 +2766,7 @@
     "Customers": "136",
     "EndDateTime": "2023-10-29T15:30:00",
     "StartDateTime": "2023-10-29T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Waterloo Rd, Henry St, Kelly St, Wattle St",
     "WebId": 65739,
     "JobId": "NECF86075"
@@ -3066,7 +3066,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-10-30T14:00:00",
     "StartDateTime": "2023-10-30T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Glennies Creek Rd, -",
     "WebId": 66047,
     "JobId": "NECF86903"
@@ -3576,18 +3576,6 @@
     "JobId": "NECF85624"
   },
   {
-    "Area": "Rutherford",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2023-10-31T12:00:00",
-    "StartDateTime": "2023-10-31T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "New England Hwy",
-    "WebId": 66067,
-    "JobId": "NECF86907"
-  },
-  {
     "Area": "Cardiff",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -3598,6 +3586,18 @@
     "Streets": "Reservoir Rd",
     "WebId": 66077,
     "JobId": "NECF86911"
+  },
+  {
+    "Area": "Rutherford",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-10-31T12:00:00",
+    "StartDateTime": "2023-10-31T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "New England Hwy",
+    "WebId": 66067,
+    "JobId": "NECF86907"
   },
   {
     "Area": "Belmont North, Floraville",
@@ -4380,6 +4380,18 @@
     "JobId": "NECF86352"
   },
   {
+    "Area": "Merriwa",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-11-02T12:00:00",
+    "StartDateTime": "2023-11-02T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Willow Tree Rd",
+    "WebId": 66086,
+    "JobId": "NECF86969"
+  },
+  {
     "Area": "Whittingham",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -4518,7 +4530,7 @@
     "Customers": "94",
     "EndDateTime": "2023-11-03T16:30:00",
     "StartDateTime": "2023-11-03T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bannockburn Rd, Bettowynd Rd, Bungalow Ave, Merrivale Rd, Reservoir Rd, Royston Cl, Selwyn St",
     "WebId": 66032,
     "JobId": "NECF86909"
@@ -5364,6 +5376,18 @@
     "JobId": "NECF86301"
   },
   {
+    "Area": "North Turramurra, Turramurra",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "44",
+    "EndDateTime": "2023-11-07T14:00:00",
+    "StartDateTime": "2023-11-07T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Bobbin Head Rd, Berrillee St, Turuga St, Warrangi St",
+    "WebId": 66087,
+    "JobId": "NECF86462"
+  },
+  {
     "Area": "Greenacre",
     "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
@@ -5768,8 +5792,8 @@
     "StartDateTime": "2023-11-08T08:30:00",
     "Status": "Proposed",
     "Streets": "Carrowbrook Rd",
-    "WebId": 66079,
-    "JobId": "NECF86952"
+    "WebId": 66081,
+    "JobId": "NECF86953"
   },
   {
     "Area": "Mount Olive",
@@ -5780,8 +5804,8 @@
     "StartDateTime": "2023-11-08T08:30:00",
     "Status": "Proposed",
     "Streets": "Carrowbrook Rd",
-    "WebId": 66081,
-    "JobId": "NECF86953"
+    "WebId": 66079,
+    "JobId": "NECF86952"
   },
   {
     "Area": "Blackwall, Umina Beach, Woy Woy",
@@ -5806,18 +5830,6 @@
     "Streets": "Aminya Pl, Aruma Pl, Munibung Rd",
     "WebId": 65979,
     "JobId": "NECF86814"
-  },
-  {
-    "Area": "Pymble",
-    "Cause": "Electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "47",
-    "EndDateTime": "2023-11-09T04:30:00",
-    "StartDateTime": "2023-11-08T19:30:00",
-    "Status": "Proposed",
-    "Streets": "Fern St, Grandview St, King Edward St, Mocatta Ave, Wellesley Rd",
-    "WebId": 66074,
-    "JobId": "NECF86920"
   },
   {
     "Area": "Arncliffe",
@@ -5946,7 +5958,7 @@
     "Customers": "166",
     "EndDateTime": "2023-11-09T12:00:00",
     "StartDateTime": "2023-11-09T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Ajax Ave, Gowrie Ave, Gretel Cl, Krait Cl, Voyager Cl",
     "WebId": 66037,
     "JobId": "NECF86800"
@@ -6030,7 +6042,7 @@
     "Customers": "338",
     "EndDateTime": "2023-11-09T17:00:00",
     "StartDateTime": "2023-11-09T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Brisbane St, Ferry St, Flinders St, George St, Glebe St, High St, Lawson St, Park St, Porter Ave, Richardson St, Rous St, Ultimo St, Victoria St",
     "WebId": 64922,
     "JobId": "NECF85598"
@@ -6838,6 +6850,18 @@
     "Streets": "Bevans Rd, Fishburns Rd, Knights Rd",
     "WebId": 65862,
     "JobId": "NECF86680"
+  },
+  {
+    "Area": "Camperdown",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "25",
+    "EndDateTime": "2023-11-15T11:00:00",
+    "StartDateTime": "2023-11-15T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Parramatta Rd",
+    "WebId": 66088,
+    "JobId": "NECF86964"
   },
   {
     "Area": "Frenchs Forest",
