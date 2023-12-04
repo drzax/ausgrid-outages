@@ -306,7 +306,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2023-12-04T15:00:00",
     "StartDateTime": "2023-12-04T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Middlebrook Rd",
     "WebId": 66520,
     "JobId": "NECF87482"
@@ -1626,7 +1626,7 @@
     "Customers": "39",
     "EndDateTime": "2023-12-07T01:00:00",
     "StartDateTime": "2023-12-06T19:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Castle Hill Rd, Church St, New Line Rd",
     "WebId": 66605,
     "JobId": "NECF87279"
@@ -2190,7 +2190,7 @@
     "Customers": "80",
     "EndDateTime": "2023-12-08T04:00:00",
     "StartDateTime": "2023-12-07T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Ashton Ave, Melwood Ave, Warringah Rd",
     "WebId": 66453,
     "JobId": "NECF87421"
@@ -4668,14 +4668,14 @@
     "JobId": "NECF88230"
   },
   {
-    "Area": "Arcadia, Fiddletown, Ingleside",
+    "Area": "Ingleside",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "55",
+    "Customers": "36",
     "EndDateTime": "2023-12-15T17:00:00",
     "StartDateTime": "2023-12-15T07:00:00",
     "Status": "Proposed",
-    "Streets": "Bloodwood Rd, Nollands Rd, Peebles Rd, Chiltern Rd, Cicada Glen Rd",
+    "Streets": "Chiltern Rd, Cicada Glen Rd",
     "WebId": 67191,
     "JobId": "NECF87169"
   },
@@ -5454,10 +5454,22 @@
     "Customers": "135",
     "EndDateTime": "2023-12-18T17:00:00",
     "StartDateTime": "2023-12-18T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Algona Rd, Alvestor Cl, Birkwood Cl, Buwa St, Hazleton Gr, Hazleton Grove , Jenny Cl, Kerri Cl, Kulai St, Lees St, Stafford Cl",
     "WebId": 67118,
     "JobId": "NECF87231"
+  },
+  {
+    "Area": "Ashbury, Ashfield",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "77",
+    "EndDateTime": "2023-12-18T16:30:00",
+    "StartDateTime": "2023-12-18T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Crimson St, Holden St, Trevenar St, Farleigh St, Seaview St",
+    "WebId": 67341,
+    "JobId": "NECF88368"
   },
   {
     "Area": "Illawong",
@@ -5586,7 +5598,7 @@
     "Customers": "16",
     "EndDateTime": "2023-12-19T05:30:00",
     "StartDateTime": "2023-12-18T21:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Hunter St",
     "WebId": 67283,
     "JobId": "NECF88284"
@@ -6012,6 +6024,18 @@
     "JobId": "NECF87770"
   },
   {
+    "Area": "Manly",
+    "Cause": "Replacement or repair of underground electrical network",
+    "Detail": "",
+    "Customers": "16",
+    "EndDateTime": "2023-12-20T16:00:00",
+    "StartDateTime": "2023-12-20T07:00:00",
+    "Status": "Cancelled",
+    "Streets": "Ashburner St, Darley Rd",
+    "WebId": 67345,
+    "JobId": "NECF88028"
+  },
+  {
     "Area": "Artarmon",
     "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
@@ -6030,7 +6054,7 @@
     "Customers": "164",
     "EndDateTime": "2023-12-20T16:00:00",
     "StartDateTime": "2023-12-20T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Ashburner St, Darley Rd",
     "WebId": 67223,
     "JobId": "NECF88194"
@@ -6066,7 +6090,7 @@
     "Customers": "89",
     "EndDateTime": "2023-12-20T16:00:00",
     "StartDateTime": "2023-12-20T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Alberta Ave, Carissa Pl, Chandler Ave, Fraser Rd, Pacific Hwy, Park Rd",
     "WebId": 67111,
     "JobId": "NECF87536"
@@ -6240,6 +6264,18 @@
     "JobId": "NECF87841"
   },
   {
+    "Area": "Medowie",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "120",
+    "EndDateTime": "2023-12-20T17:00:00",
+    "StartDateTime": "2023-12-20T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Bottle Brush Ave, Cassias Ave, Ferodale Rd, Grey Gum St, Medowie Rd, Silver Wattle Dr",
+    "WebId": 67349,
+    "JobId": "NECF87634"
+  },
+  {
     "Area": "Kurri Kurri",
     "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
@@ -6262,6 +6298,18 @@
     "Streets": "Kenton Cres, Keswick Gr",
     "WebId": 67212,
     "JobId": "NECF88174"
+  },
+  {
+    "Area": "Hurstville",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "less than 10",
+    "EndDateTime": "2023-12-20T21:00:00",
+    "StartDateTime": "2023-12-20T17:30:00",
+    "Status": "Proposed",
+    "Streets": "Patrick St",
+    "WebId": 67344,
+    "JobId": "NECF88365"
   },
   {
     "Area": "Manly",
