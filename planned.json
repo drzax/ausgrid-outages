@@ -210,7 +210,7 @@
     "Customers": "17",
     "EndDateTime": "2023-12-21T15:00:00",
     "StartDateTime": "2023-12-21T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Golden Hwy, Saddlers Creek Rd, Jerrys Plains Rd",
     "WebId": 67507,
     "JobId": "NECF88595"
@@ -1458,7 +1458,7 @@
     "Customers": "144",
     "EndDateTime": "2024-01-09T16:00:00",
     "StartDateTime": "2024-01-09T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "High St, Barons Cres, Farnell St, Gaza Ave, Park Rd, Ramleh St",
     "WebId": 67541,
     "JobId": "NECF88633"
@@ -1710,7 +1710,7 @@
     "Customers": "144",
     "EndDateTime": "2024-01-10T16:00:00",
     "StartDateTime": "2024-01-10T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "High St, Barons Cres, Farnell St, Gaza Ave, Park Rd, Ramleh St",
     "WebId": 67543,
     "JobId": "NECF88637"
@@ -2202,7 +2202,7 @@
     "Customers": "69",
     "EndDateTime": "2024-01-11T15:00:00",
     "StartDateTime": "2024-01-11T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Boxley Cres, James St, Michaels Cres",
     "WebId": 67672,
     "JobId": "NECF88699"
@@ -2274,7 +2274,7 @@
     "Customers": "144",
     "EndDateTime": "2024-01-11T16:00:00",
     "StartDateTime": "2024-01-11T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "High St, Barons Cres, Farnell St, Gaza Ave, Park Rd, Ramleh St",
     "WebId": 67563,
     "JobId": "NECF88650"
@@ -3288,6 +3288,18 @@
     "JobId": "NECF88587"
   },
   {
+    "Area": "Bellevue Hill, Rose Bay",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "13",
+    "EndDateTime": "2024-01-16T12:00:00",
+    "StartDateTime": "2024-01-16T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Beresford Rd",
+    "WebId": 67822,
+    "JobId": "NECF88920"
+  },
+  {
     "Area": "Wadalba",
     "Cause": "Connecting power to a property",
     "Detail": "",
@@ -3744,6 +3756,42 @@
     "JobId": "NECF88375"
   },
   {
+    "Area": "Camperdown",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "24",
+    "EndDateTime": "2024-01-18T11:30:00",
+    "StartDateTime": "2024-01-18T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Parramatta Rd",
+    "WebId": 67820,
+    "JobId": "NECF88851"
+  },
+  {
+    "Area": "Coogee",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "93",
+    "EndDateTime": "2024-01-18T15:00:00",
+    "StartDateTime": "2024-01-18T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bream St, Dolphin St, Mount St, Powell St",
+    "WebId": 67819,
+    "JobId": "NECF88923"
+  },
+  {
+    "Area": "Williamtown",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "52",
+    "EndDateTime": "2024-01-18T15:00:00",
+    "StartDateTime": "2024-01-18T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Barrie Cl, Cabbage Tree Rd",
+    "WebId": 67725,
+    "JobId": "NECF88823"
+  },
+  {
     "Area": "Phegans Bay",
     "Cause": "Overhead individual service wire replacement",
     "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
@@ -3804,30 +3852,6 @@
     "JobId": "NECF88422"
   },
   {
-    "Area": "Williamtown",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "52",
-    "EndDateTime": "2024-01-18T15:00:00",
-    "StartDateTime": "2024-01-18T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Barrie Cl, Cabbage Tree Rd",
-    "WebId": 67725,
-    "JobId": "NECF88823"
-  },
-  {
-    "Area": "Muswellbrook",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-01-18T15:00:00",
-    "StartDateTime": "2024-01-18T08:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Aberdeen St",
-    "WebId": 67708,
-    "JobId": "NECF88840"
-  },
-  {
     "Area": "Cooranbong",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -3850,6 +3874,18 @@
     "Streets": "Stanhope Rd",
     "WebId": 67340,
     "JobId": "NECF88395"
+  },
+  {
+    "Area": "Muswellbrook",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-01-18T15:00:00",
+    "StartDateTime": "2024-01-18T08:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Aberdeen St",
+    "WebId": 67708,
+    "JobId": "NECF88840"
   },
   {
     "Area": "St Ives, St Ives Chase",
@@ -4042,6 +4078,18 @@
     "Streets": "Baker St",
     "WebId": 67744,
     "JobId": "NECF88814"
+  },
+  {
+    "Area": "Denistone, Eastwood",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "42",
+    "EndDateTime": "2024-01-20T15:30:00",
+    "StartDateTime": "2024-01-20T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Fourth Ave, Ryedale Rd, Denistone Rd",
+    "WebId": 67813,
+    "JobId": "NECF88937"
   },
   {
     "Area": "Calga, Peats Ridge",
