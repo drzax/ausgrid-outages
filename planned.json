@@ -270,7 +270,7 @@
     "Customers": "122",
     "EndDateTime": "2024-02-01T16:30:00",
     "StartDateTime": "2024-02-01T07:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Outage extended\r\n(+1 hrs)",
     "Streets": "Larkin St, Pacific Hwy, Sixth Mile La",
     "WebId": 68059,
     "JobId": "NECF88042"
@@ -2562,7 +2562,7 @@
     "Customers": "39",
     "EndDateTime": "2024-02-08T16:00:00",
     "StartDateTime": "2024-02-08T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Dawsons Rd, Glenarvon Rd, Hicks Rd",
     "WebId": 67299,
     "JobId": "NECF87144"
@@ -4686,7 +4686,7 @@
     "Customers": "39",
     "EndDateTime": "2024-02-15T16:00:00",
     "StartDateTime": "2024-02-15T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Dawsons Rd, Glenarvon Rd, Hicks Rd",
     "WebId": 67446,
     "JobId": "NECF88107"
@@ -4854,7 +4854,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-02-16T10:00:00",
     "StartDateTime": "2024-02-16T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Church Rd",
     "WebId": 68670,
     "JobId": "NECF89878"
@@ -5724,6 +5724,18 @@
     "JobId": "NECF88877"
   },
   {
+    "Area": "Leichhardt, Lilyfield",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "52",
+    "EndDateTime": "2024-02-20T15:00:00",
+    "StartDateTime": "2024-02-20T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Bayside St, Frazer St, Church St",
+    "WebId": 68678,
+    "JobId": "NECF89690"
+  },
+  {
     "Area": "Merewether, Merewether Heights",
     "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
@@ -6276,28 +6288,16 @@
     "JobId": "NECF89130"
   },
   {
-    "Area": "Collaroy Plateau",
-    "Cause": "Replacement or repair of electrical pole/s",
+    "Area": "Putney",
+    "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-02-22T16:30:00",
-    "StartDateTime": "2024-02-22T07:30:00",
+    "Customers": "55",
+    "EndDateTime": "2024-02-22T17:00:00",
+    "StartDateTime": "2024-02-22T07:00:00",
     "Status": "Proposed",
-    "Streets": "Plateau Rd",
-    "WebId": 68554,
-    "JobId": "NECF89592"
-  },
-  {
-    "Area": "North Turramurra",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "57",
-    "EndDateTime": "2024-02-22T15:30:00",
-    "StartDateTime": "2024-02-22T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Camden Gdns, Kedumba Cres, Milton Rd",
-    "WebId": 68652,
-    "JobId": "NECF89779"
+    "Streets": "Frances Rd, Phillip Rd, Stanley St",
+    "WebId": 68679,
+    "JobId": "NECF89463"
   },
   {
     "Area": "Mangrove Mountain",
@@ -6312,40 +6312,28 @@
     "JobId": "NECF89684"
   },
   {
-    "Area": "Green Point",
+    "Area": "North Turramurra",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "57",
+    "EndDateTime": "2024-02-22T15:30:00",
+    "StartDateTime": "2024-02-22T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Camden Gdns, Kedumba Cres, Milton Rd",
+    "WebId": 68652,
+    "JobId": "NECF89779"
+  },
+  {
+    "Area": "Collaroy Plateau",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2024-02-22T15:00:00",
-    "StartDateTime": "2024-02-22T08:00:00",
+    "EndDateTime": "2024-02-22T16:30:00",
+    "StartDateTime": "2024-02-22T07:30:00",
     "Status": "Proposed",
-    "Streets": "Avoca Dr, Beatties Rd",
-    "WebId": 68664,
-    "JobId": "NECF89716"
-  },
-  {
-    "Area": "Cardiff",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "52",
-    "EndDateTime": "2024-02-22T17:00:00",
-    "StartDateTime": "2024-02-22T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Kelton St, Taylor St, Veronica St",
-    "WebId": 68655,
-    "JobId": "NECF89371"
-  },
-  {
-    "Area": "Peats Ridge",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "31",
-    "EndDateTime": "2024-02-22T15:00:00",
-    "StartDateTime": "2024-02-22T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Peats Ridge Rd",
-    "WebId": 68615,
-    "JobId": "NECF88980"
+    "Streets": "Plateau Rd",
+    "WebId": 68554,
+    "JobId": "NECF89592"
   },
   {
     "Area": "Bishops Bridge, Farley",
@@ -6466,6 +6454,42 @@
     "Streets": "Pacific Hwy",
     "WebId": 67695,
     "JobId": "NECF88765"
+  },
+  {
+    "Area": "Cardiff",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "52",
+    "EndDateTime": "2024-02-22T17:00:00",
+    "StartDateTime": "2024-02-22T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Kelton St, Taylor St, Veronica St",
+    "WebId": 68655,
+    "JobId": "NECF89371"
+  },
+  {
+    "Area": "Green Point",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-02-22T15:00:00",
+    "StartDateTime": "2024-02-22T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Avoca Dr, Beatties Rd",
+    "WebId": 68664,
+    "JobId": "NECF89716"
+  },
+  {
+    "Area": "Peats Ridge",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "31",
+    "EndDateTime": "2024-02-22T15:00:00",
+    "StartDateTime": "2024-02-22T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Peats Ridge Rd",
+    "WebId": 68615,
+    "JobId": "NECF88980"
   },
   {
     "Area": "Cardiff, Cardiff Heights, Glendale",
@@ -6826,6 +6850,18 @@
     "Streets": "Callistemon Gr",
     "WebId": 68588,
     "JobId": "NECF89600"
+  },
+  {
+    "Area": "Peats Ridge",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "10",
+    "EndDateTime": "2024-02-23T15:30:00",
+    "StartDateTime": "2024-02-23T11:30:00",
+    "Status": "Proposed",
+    "Streets": "Bushells Rd",
+    "WebId": 68677,
+    "JobId": "NECF88983"
   },
   {
     "Area": "Pyrmont",
@@ -7566,7 +7602,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-02-29T13:00:00",
     "StartDateTime": "2024-02-29T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Iona La, Paterson Rd",
     "WebId": 68444,
     "JobId": "NECF89484"
