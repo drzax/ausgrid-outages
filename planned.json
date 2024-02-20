@@ -426,7 +426,7 @@
     "Customers": "13",
     "EndDateTime": "2024-02-20T16:30:00",
     "StartDateTime": "2024-02-20T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Peats Ridge Rd",
     "WebId": 67971,
     "JobId": "NECF89092"
@@ -3330,7 +3330,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-02-28T15:00:00",
     "StartDateTime": "2024-02-28T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Leitch Rd, Tunbridge Rd",
     "WebId": 68659,
     "JobId": "NECF89860"
@@ -3414,7 +3414,7 @@
     "Customers": "23",
     "EndDateTime": "2024-02-28T15:00:00",
     "StartDateTime": "2024-02-28T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Wentworth Cl",
     "WebId": 68896,
     "JobId": "NECF88798"
@@ -3438,7 +3438,7 @@
     "Customers": "120",
     "EndDateTime": "2024-02-28T15:30:00",
     "StartDateTime": "2024-02-28T08:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Hawthorne Pde, Parramatta Rd, Ramsay St, Sloane St, Stanton Rd",
     "WebId": 68946,
     "JobId": "NECF90178"
@@ -4794,7 +4794,7 @@
     "Customers": "127",
     "EndDateTime": "2024-03-05T19:00:00",
     "StartDateTime": "2024-03-05T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Borgah St, Benwerrin Ave, Girroma St, Gnarbo Ave",
     "WebId": 68741,
     "JobId": "NECF87446"
@@ -4890,7 +4890,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-05T12:00:00",
     "StartDateTime": "2024-03-05T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Nelson Bay Rd, Fullerton St",
     "WebId": 69118,
     "JobId": "NECF90331"
@@ -5316,6 +5316,18 @@
     "JobId": "NECF89320"
   },
   {
+    "Area": "Whittingham",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-03-06T15:30:00",
+    "StartDateTime": "2024-03-06T08:30:00",
+    "Status": "Proposed",
+    "Streets": "Minimbah Dr",
+    "WebId": 69121,
+    "JobId": "NECF90349"
+  },
+  {
     "Area": "Carss Park",
     "Cause": "Trimming trees growing close to the electricity network",
     "Detail": "",
@@ -5352,30 +5364,6 @@
     "JobId": "NECF88737"
   },
   {
-    "Area": "Pymble",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "24",
-    "EndDateTime": "2024-03-07T16:00:00",
-    "StartDateTime": "2024-03-07T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Bromley Ave, Mona Vale Rd, Strathwood Ct",
-    "WebId": 68788,
-    "JobId": "NECF90009"
-  },
-  {
-    "Area": "East Killara",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "18",
-    "EndDateTime": "2024-03-07T14:00:00",
-    "StartDateTime": "2024-03-07T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Bligh St, Koola Ave, Wentworth Ave",
-    "WebId": 68775,
-    "JobId": "NECF89346"
-  },
-  {
     "Area": "Galston",
     "Cause": "Trimming trees growing close to the electricity network",
     "Detail": "",
@@ -5398,6 +5386,30 @@
     "Streets": "Cooper St, Henrietta St, Holt St, Ocean Ave",
     "WebId": 69009,
     "JobId": "NECF90229"
+  },
+  {
+    "Area": "Pymble",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "24",
+    "EndDateTime": "2024-03-07T16:00:00",
+    "StartDateTime": "2024-03-07T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bromley Ave, Mona Vale Rd, Strathwood Ct",
+    "WebId": 68788,
+    "JobId": "NECF90009"
+  },
+  {
+    "Area": "East Killara",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "18",
+    "EndDateTime": "2024-03-07T14:00:00",
+    "StartDateTime": "2024-03-07T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bligh St, Koola Ave, Wentworth Ave",
+    "WebId": 68775,
+    "JobId": "NECF89346"
   },
   {
     "Area": "Wahroonga",
@@ -5424,18 +5436,6 @@
     "JobId": "NECF90358"
   },
   {
-    "Area": "Pokolbin",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-03-07T17:00:00",
-    "StartDateTime": "2024-03-07T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Broke Rd",
-    "WebId": 69109,
-    "JobId": "NECF90427"
-  },
-  {
     "Area": "Fern Bay, Stockton",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -5446,6 +5446,18 @@
     "Streets": "Nelson Bay Rd, Fullerton St",
     "WebId": 69117,
     "JobId": "NECF90154"
+  },
+  {
+    "Area": "Pokolbin",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-03-07T17:00:00",
+    "StartDateTime": "2024-03-07T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Broke Rd",
+    "WebId": 69109,
+    "JobId": "NECF90427"
   },
   {
     "Area": "Meadowbank, West Ryde",
@@ -5844,6 +5856,18 @@
     "JobId": "NECF90083"
   },
   {
+    "Area": "Cessnock",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "177",
+    "EndDateTime": "2024-03-11T16:00:00",
+    "StartDateTime": "2024-03-11T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Ann St, Bent St, Boomerang St, Fairview Cl, Fairview Pl, Leonard St, Love St, McGrane St, Mount View Rd, Short St, View St",
+    "WebId": 69119,
+    "JobId": "NECF90316"
+  },
+  {
     "Area": "Empire Bay",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -6084,6 +6108,18 @@
     "JobId": "NECF89424"
   },
   {
+    "Area": "Elanora Heights, North Narrabeen",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "59",
+    "EndDateTime": "2024-03-13T15:00:00",
+    "StartDateTime": "2024-03-13T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Kundibah Rd, Bellara Ave, Nareen Pde, Rickard Rd, Tatiara Cres",
+    "WebId": 69123,
+    "JobId": "NECF90446"
+  },
+  {
     "Area": "Terrigal",
     "Cause": "Trimming trees growing close to the electricity network",
     "Detail": "",
@@ -6306,7 +6342,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-14T16:00:00",
     "StartDateTime": "2024-03-14T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Marrowbone Rd",
     "WebId": 68738,
     "JobId": "NECF89944"
@@ -6552,18 +6588,6 @@
     "JobId": "NECF89855"
   },
   {
-    "Area": "Gordon",
-    "Cause": "Electricity network changes for infrastructure projects",
-    "Detail": "",
-    "Customers": "70",
-    "EndDateTime": "2024-03-19T22:00:00",
-    "StartDateTime": "2024-03-18T22:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Pacific Hwy",
-    "WebId": 68221,
-    "JobId": "NECF89230"
-  },
-  {
     "Area": "Hamilton",
     "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
@@ -6648,16 +6672,28 @@
     "JobId": "NECF90265"
   },
   {
-    "Area": "Lidcombe",
-    "Cause": "Replacement or repair of underground electrical network",
+    "Area": "Gordon",
+    "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
-    "Customers": "11",
-    "EndDateTime": "2024-03-20T16:00:00",
+    "Customers": "70",
+    "EndDateTime": "2024-03-21T03:00:00",
+    "StartDateTime": "2024-03-19T22:00:00",
+    "Status": "Proposed",
+    "Streets": "Pacific Hwy",
+    "WebId": 68221,
+    "JobId": "NECF89230"
+  },
+  {
+    "Area": "Leichhardt",
+    "Cause": "Trimming trees growing close to the electricity network",
+    "Detail": "",
+    "Customers": "85",
+    "EndDateTime": "2024-03-20T15:00:00",
     "StartDateTime": "2024-03-20T07:00:00",
     "Status": "Proposed",
-    "Streets": "Olympic Dr, Yarram St",
-    "WebId": 69111,
-    "JobId": "NECF90247"
+    "Streets": "Catherine St, Emma St, Styles St, Thorby Ave",
+    "WebId": 68434,
+    "JobId": "NECF89604"
   },
   {
     "Area": "Marrickville, Stanmore",
@@ -6672,16 +6708,16 @@
     "JobId": "NECF89635"
   },
   {
-    "Area": "Leichhardt",
-    "Cause": "Trimming trees growing close to the electricity network",
+    "Area": "Lidcombe",
+    "Cause": "Replacement or repair of underground electrical network",
     "Detail": "",
-    "Customers": "85",
-    "EndDateTime": "2024-03-20T15:00:00",
+    "Customers": "11",
+    "EndDateTime": "2024-03-20T16:00:00",
     "StartDateTime": "2024-03-20T07:00:00",
     "Status": "Proposed",
-    "Streets": "Catherine St, Emma St, Styles St, Thorby Ave",
-    "WebId": 68434,
-    "JobId": "NECF89604"
+    "Streets": "Olympic Dr, Yarram St",
+    "WebId": 69111,
+    "JobId": "NECF90247"
   },
   {
     "Area": "Bunnan, Kars Springs, Merriwa, Muswellbrook, Owens Gap, Scone",
@@ -6783,7 +6819,7 @@
     "Area": "Pymble, Turramurra",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "57",
+    "Customers": "58",
     "EndDateTime": "2024-03-21T15:30:00",
     "StartDateTime": "2024-03-21T07:30:00",
     "Status": "Proposed",
