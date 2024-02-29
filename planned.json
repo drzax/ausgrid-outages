@@ -174,7 +174,7 @@
     "Customers": "25",
     "EndDateTime": "2024-03-01T11:00:00",
     "StartDateTime": "2024-03-01T07:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Wisemans Ferry Rd",
     "WebId": 68894,
     "JobId": "NECF89687"
@@ -210,7 +210,7 @@
     "Customers": "113",
     "EndDateTime": "2024-03-01T16:00:00",
     "StartDateTime": "2024-03-01T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Shoal Bay Rd, Lillian St",
     "WebId": 68918,
     "JobId": "NECF90051"
@@ -270,7 +270,7 @@
     "Customers": "301",
     "EndDateTime": "2024-03-01T15:00:00",
     "StartDateTime": "2024-03-01T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Avocado Rd, Cullingral Rd, Depot Rd, Duggans Rd, Flight Springs Rd, Forest Reserve Rd, Glenroy Rd, Golden Hwy, Gumridge Rd, Hampshire Rd, Hulks Rd, Idaville Rd, Killoe Rd, Krui Rd, Leitch Rd, Lettybrook Rd, Mount Erin Rd, Neverfail Rd, Pembroke Rd, Possum Spring Rd, Redwell Rd, Ringwood Rd, Roma Rd, Scotts Rd, Springfield Rd, Sunnyside Rd, Tunbridge Rd, Wollar Rd",
     "WebId": 68570,
     "JobId": "NECF89700"
@@ -342,7 +342,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-01T15:00:00",
     "StartDateTime": "2024-03-01T11:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Peats Ridge Rd",
     "WebId": 68895,
     "JobId": "NECF89688"
@@ -2472,6 +2472,18 @@
     "JobId": "NECF90587"
   },
   {
+    "Area": "North Curl Curl",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-03-11T15:00:00",
+    "StartDateTime": "2024-03-11T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Pitt Rd",
+    "WebId": 69385,
+    "JobId": "NECF90758"
+  },
+  {
     "Area": "Beacon Hill",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -4092,6 +4104,18 @@
     "JobId": "NECF90346"
   },
   {
+    "Area": "Lindfield",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "64",
+    "EndDateTime": "2024-03-18T08:00:00",
+    "StartDateTime": "2024-03-17T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Eton Rd, Grosvenor Rd",
+    "WebId": 69386,
+    "JobId": "NECF86450"
+  },
+  {
     "Area": "Darlinghurst, Kings Cross, Rushcutters Bay",
     "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
@@ -5040,6 +5064,18 @@
     "JobId": "NECF90474"
   },
   {
+    "Area": "East Lindfield, Lindfield, Roseville",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "99",
+    "EndDateTime": "2024-03-22T15:00:00",
+    "StartDateTime": "2024-03-22T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Middle Harbour Rd, Tryon Rd, Chelmsford Ave, Howard St, Owen St, Short St, Valley La, Valley Rd, McLeod Ave",
+    "WebId": 69387,
+    "JobId": "NECF90729"
+  },
+  {
     "Area": "Dulwich Hill, Marrickville",
     "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
@@ -5112,30 +5148,6 @@
     "JobId": "NECF90100"
   },
   {
-    "Area": "Camberwell, Glennies Creek, Ravensworth",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-03-22T12:00:00",
-    "StartDateTime": "2024-03-22T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "New England Hwy, Glennies Creek Rd",
-    "WebId": 69153,
-    "JobId": "NECF90448"
-  },
-  {
-    "Area": "Wallalong, Woodville",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "28",
-    "EndDateTime": "2024-03-22T15:00:00",
-    "StartDateTime": "2024-03-22T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Grossman Pl, High St, Seaham Rd, Clarence Town Rd",
-    "WebId": 69162,
-    "JobId": "NECF89350"
-  },
-  {
     "Area": "Wollombi",
     "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
@@ -5158,6 +5170,30 @@
     "Streets": "Canning St, Maitland St, Narone Creek Rd, Narone La, Wollombi Rd",
     "WebId": 69368,
     "JobId": "NECF90745"
+  },
+  {
+    "Area": "Camberwell, Glennies Creek, Ravensworth",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-03-22T12:00:00",
+    "StartDateTime": "2024-03-22T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "New England Hwy, Glennies Creek Rd",
+    "WebId": 69153,
+    "JobId": "NECF90448"
+  },
+  {
+    "Area": "Wallalong, Woodville",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "28",
+    "EndDateTime": "2024-03-22T15:00:00",
+    "StartDateTime": "2024-03-22T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Grossman Pl, High St, Seaham Rd, Clarence Town Rd",
+    "WebId": 69162,
+    "JobId": "NECF89350"
   },
   {
     "Area": "Sedgefield, Westbrook",
