@@ -150,7 +150,7 @@
     "Customers": "88",
     "EndDateTime": "2024-03-14T18:00:00",
     "StartDateTime": "2024-03-14T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Beresford Cres, Beresford Rd, Carrington Ave, Drumalbyn Rd, Salisbury Rd, Plumer Rd",
     "WebId": 69513,
     "JobId": "NECF89862"
@@ -1110,7 +1110,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-18T17:30:00",
     "StartDateTime": "2024-03-18T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "John Renshaw Dr",
     "WebId": 69382,
     "JobId": "NECF90301"
@@ -2850,7 +2850,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-24T16:00:00",
     "StartDateTime": "2024-03-24T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Lake Rd",
     "WebId": 69448,
     "JobId": "NECF90875"
@@ -3423,11 +3423,11 @@
     "Area": "Somersby",
     "Cause": "Trimming trees growing close to the electricity network",
     "Detail": "",
-    "Customers": "less than 10",
+    "Customers": "21",
     "EndDateTime": "2024-03-26T13:00:00",
     "StartDateTime": "2024-03-26T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Wisemans Ferry Rd",
+    "Status": "Proposed",
+    "Streets": "Lackersteens Rd, Wisemans Ferry Rd",
     "WebId": 69322,
     "JobId": "NECF90653"
   },
@@ -4614,7 +4614,7 @@
     "Customers": "157",
     "EndDateTime": "2024-04-02T15:30:00",
     "StartDateTime": "2024-04-02T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Alt St, Bland St, Taringa St",
     "WebId": 69592,
     "JobId": "NECF90717"
@@ -5436,28 +5436,28 @@
     "JobId": "NECF90893"
   },
   {
-    "Area": "Cooks Hill, Newcastle",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "82",
-    "EndDateTime": "2024-04-05T15:30:00",
-    "StartDateTime": "2024-04-05T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Bruce St, Parry St, Darby St",
-    "WebId": 69611,
-    "JobId": "NECF90208"
-  },
-  {
-    "Area": "Castle Hill",
+    "Area": "Punchbowl",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "18",
-    "EndDateTime": "2024-04-05T15:30:00",
+    "Customers": "70",
+    "EndDateTime": "2024-04-05T17:00:00",
+    "StartDateTime": "2024-04-05T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Canterbury Rd, McPherson Ave, Punchbowl Rd, Viola St, Wyleena Pl",
+    "WebId": 69747,
+    "JobId": "NECF90853"
+  },
+  {
+    "Area": "Raymond Terrace",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "65",
+    "EndDateTime": "2024-04-05T15:00:00",
     "StartDateTime": "2024-04-05T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Baydon St, David Rd",
-    "WebId": 69670,
-    "JobId": "NECF91150"
+    "Status": "Proposed",
+    "Streets": "Hillside Cl, Mount Hall Rd, Riverview Pl",
+    "WebId": 69732,
+    "JobId": "NECF91201"
   },
   {
     "Area": "Terrigal",
@@ -5508,16 +5508,28 @@
     "JobId": "NECF91202"
   },
   {
-    "Area": "Raymond Terrace",
+    "Area": "Cooks Hill, Newcastle",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "82",
+    "EndDateTime": "2024-04-05T15:30:00",
+    "StartDateTime": "2024-04-05T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bruce St, Parry St, Darby St",
+    "WebId": 69611,
+    "JobId": "NECF90208"
+  },
+  {
+    "Area": "Castle Hill",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "65",
-    "EndDateTime": "2024-04-05T15:00:00",
+    "Customers": "18",
+    "EndDateTime": "2024-04-05T15:30:00",
     "StartDateTime": "2024-04-05T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Hillside Cl, Mount Hall Rd, Riverview Pl",
-    "WebId": 69732,
-    "JobId": "NECF91201"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Baydon St, David Rd",
+    "WebId": 69670,
+    "JobId": "NECF91150"
   },
   {
     "Area": "Merriwa",
@@ -5542,6 +5554,18 @@
     "Streets": "Talga Rd",
     "WebId": 69514,
     "JobId": "NECF90966"
+  },
+  {
+    "Area": "Strathfield South",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "49",
+    "EndDateTime": "2024-04-05T17:00:00",
+    "StartDateTime": "2024-04-05T09:00:00",
+    "Status": "Proposed",
+    "Streets": "James St, Water St, William St",
+    "WebId": 69748,
+    "JobId": "NECF91217"
   },
   {
     "Area": "Lochinvar",
@@ -5722,6 +5746,30 @@
     "Streets": "Angophora Cres, Cherana Cres, Cullen St, Lolita Ave",
     "WebId": 69605,
     "JobId": "NECF90713"
+  },
+  {
+    "Area": "Engadine",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "53",
+    "EndDateTime": "2024-04-08T15:00:00",
+    "StartDateTime": "2024-04-08T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Ardrossan Rd, Cooriengah Heights Rd, Wollybutt Rd",
+    "WebId": 69749,
+    "JobId": "NECF91174"
+  },
+  {
+    "Area": "Caringbah, Caringbah South",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "117",
+    "EndDateTime": "2024-04-08T17:00:00",
+    "StartDateTime": "2024-04-08T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Telopea Ave, Ash Ave, Bulgalla Pl, Crescent Rd, Gillham Ave",
+    "WebId": 69750,
+    "JobId": "NECF89454"
   },
   {
     "Area": "Merewether",
@@ -5964,6 +6012,30 @@
     "JobId": "NECF90711"
   },
   {
+    "Area": "Enmore, Newtown",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "196",
+    "EndDateTime": "2024-04-09T17:00:00",
+    "StartDateTime": "2024-04-09T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Augustus St, Gladstone St, Liberty St, Phillip La, Phillip St, Trafalgar St, Trade St",
+    "WebId": 69751,
+    "JobId": "NECF91171"
+  },
+  {
+    "Area": "Bexley",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "105",
+    "EndDateTime": "2024-04-09T17:00:00",
+    "StartDateTime": "2024-04-09T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Beaconsfield St, Caledonian St, Dunmore St, Gladstone St, Seaforth St",
+    "WebId": 69752,
+    "JobId": "NECF89546"
+  },
+  {
     "Area": "Macquarie Park, Marsfield",
     "Cause": "Replacement or repair of underground electrical network",
     "Detail": "",
@@ -6120,16 +6192,28 @@
     "JobId": "NECF90141"
   },
   {
-    "Area": "Toronto",
-    "Cause": "Replacement or repair of electrical pole/s",
+    "Area": "Bardwell Park, Bexley, Bexley North",
+    "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
-    "Customers": "103",
+    "Customers": "228",
     "EndDateTime": "2024-04-10T17:00:00",
+    "StartDateTime": "2024-04-10T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Earlwood Cres, Slade La, Slade Rd, Stotts Ave, Irwin Cres, Kingsland Rd",
+    "WebId": 69753,
+    "JobId": "NECF90163"
+  },
+  {
+    "Area": "North Avoca",
+    "Cause": "Trimming trees growing close to the electricity network",
+    "Detail": "",
+    "Customers": "45",
+    "EndDateTime": "2024-04-10T16:00:00",
     "StartDateTime": "2024-04-10T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Parkside Pde, Wangi Rd",
-    "WebId": 69646,
-    "JobId": "NECF91112"
+    "Status": "Proposed",
+    "Streets": "Easter Pde, Lake Shore Dr, Surf Rider Ave, Table Top Rd",
+    "WebId": 69729,
+    "JobId": "NECF91155"
   },
   {
     "Area": "Brandy Hill, Seaham",
@@ -6156,16 +6240,16 @@
     "JobId": "NECF91126"
   },
   {
-    "Area": "North Avoca",
-    "Cause": "Trimming trees growing close to the electricity network",
+    "Area": "Toronto",
+    "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "45",
-    "EndDateTime": "2024-04-10T16:00:00",
+    "Customers": "103",
+    "EndDateTime": "2024-04-10T17:00:00",
     "StartDateTime": "2024-04-10T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Easter Pde, Lake Shore Dr, Surf Rider Ave, Table Top Rd",
-    "WebId": 69729,
-    "JobId": "NECF91155"
+    "Status": "Proceeding as scheduled",
+    "Streets": "Parkside Pde, Wangi Rd",
+    "WebId": 69646,
+    "JobId": "NECF91112"
   },
   {
     "Area": "Brunkerville, Mount Heaton, Mount Vincent, Mulbring, Quorrobolong, Wattagan",
@@ -6442,5 +6526,17 @@
     "Streets": "Glendon Rd",
     "WebId": 69394,
     "JobId": "NECF90560"
+  },
+  {
+    "Area": "Marrickville",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "18",
+    "EndDateTime": "2024-04-13T13:00:00",
+    "StartDateTime": "2024-04-13T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Addison Rd, Denby St, Jabez St",
+    "WebId": 69754,
+    "JobId": "NECF90911"
   }
 ]
