@@ -198,7 +198,7 @@
     "Customers": "69",
     "EndDateTime": "2024-03-21T18:00:00",
     "StartDateTime": "2024-03-21T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Ashworth Ave, Hakea Ave, Beckman Pde, Jarrah Pl, Lockwood Ave, Loroy Cres, Peacock Pde",
     "WebId": 69343,
     "JobId": "NECF90568"
@@ -450,7 +450,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-03-21T18:00:00",
     "StartDateTime": "2024-03-21T11:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Marine Dr",
     "WebId": 69610,
     "JobId": "NECF91040"
@@ -1062,7 +1062,7 @@
     "Customers": "125",
     "EndDateTime": "2024-03-25T06:00:00",
     "StartDateTime": "2024-03-24T21:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Fitzgerald Ave, Malabar Rd, Portland Cres, Yorktown Pde",
     "WebId": 69694,
     "JobId": "NECF91177"
@@ -1074,7 +1074,7 @@
     "Customers": "202",
     "EndDateTime": "2024-03-25T17:00:00",
     "StartDateTime": "2024-03-25T07:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Cross St, Messiter St, Bellbird St, Clisdell Ave, Cressy St, Glenore Rd, Modern Ave, Northcote St, Page St, Wearne St",
     "WebId": 69590,
     "JobId": "NECF90994"
@@ -2633,10 +2633,10 @@
     "Detail": "",
     "Customers": "22",
     "EndDateTime": "2024-04-02T06:00:00",
-    "StartDateTime": "2024-03-30T17:30:00",
+    "StartDateTime": "2024-03-30T19:00:00",
     "Status": "Proposed",
     "Streets": "Roseland Ave, Roselands Dr",
-    "WebId": 69906,
+    "WebId": 69953,
     "JobId": "NECF91375"
   },
   {
@@ -2712,16 +2712,28 @@
     "JobId": "NECF90485"
   },
   {
-    "Area": "Milperra",
-    "Cause": "Temporary isolation of power at a site to do building works",
+    "Area": "Chain Valley Bay, Doyalson North",
+    "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2024-04-05T11:00:00",
+    "EndDateTime": "2024-04-02T17:00:00",
     "StartDateTime": "2024-04-02T07:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Milperra Rd",
-    "WebId": 69894,
-    "JobId": "NECF91373"
+    "Streets": "Tiembula Rd, Ruttleys Rd",
+    "WebId": 69675,
+    "JobId": "NECF90423"
+  },
+  {
+    "Area": "Lilli Pilli",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "32",
+    "EndDateTime": "2024-04-02T15:30:00",
+    "StartDateTime": "2024-04-02T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Koala Rd, Lilli Pilli Point Rd, Swan St",
+    "WebId": 69701,
+    "JobId": "NECF91142"
   },
   {
     "Area": "Maroubra",
@@ -2748,28 +2760,16 @@
     "JobId": "NECF91335"
   },
   {
-    "Area": "Chain Valley Bay, Doyalson North",
-    "Cause": "Electricity network changes for infrastructure projects",
+    "Area": "Milperra",
+    "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
     "Customers": "less than 10",
-    "EndDateTime": "2024-04-02T17:00:00",
+    "EndDateTime": "2024-04-05T11:00:00",
     "StartDateTime": "2024-04-02T07:00:00",
     "Status": "Proceeding as scheduled",
-    "Streets": "Tiembula Rd, Ruttleys Rd",
-    "WebId": 69675,
-    "JobId": "NECF90423"
-  },
-  {
-    "Area": "Lilli Pilli",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "32",
-    "EndDateTime": "2024-04-02T15:30:00",
-    "StartDateTime": "2024-04-02T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Koala Rd, Lilli Pilli Point Rd, Swan St",
-    "WebId": 69701,
-    "JobId": "NECF91142"
+    "Streets": "Milperra Rd",
+    "WebId": 69894,
+    "JobId": "NECF91373"
   },
   {
     "Area": "Cronulla",
@@ -2868,18 +2868,6 @@
     "JobId": "NECF91165"
   },
   {
-    "Area": "Teralba",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-04-02T16:00:00",
-    "StartDateTime": "2024-04-02T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Rhondda Rd",
-    "WebId": 69776,
-    "JobId": "NECF91264"
-  },
-  {
     "Area": "Maroubra",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -2890,6 +2878,18 @@
     "Streets": "Chicago Ave, Minneapolis Cres, New Orleans Cres, Portland Cres",
     "WebId": 69886,
     "JobId": "NECF91362"
+  },
+  {
+    "Area": "Teralba",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-04-02T16:00:00",
+    "StartDateTime": "2024-04-02T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Rhondda Rd",
+    "WebId": 69776,
+    "JobId": "NECF91264"
   },
   {
     "Area": "Neutral Bay",
@@ -3438,7 +3438,7 @@
     "Customers": "47",
     "EndDateTime": "2024-04-04T15:30:00",
     "StartDateTime": "2024-04-04T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Belmore St",
     "WebId": 69939,
     "JobId": "NECF84766"
@@ -3630,7 +3630,7 @@
     "Customers": "115",
     "EndDateTime": "2024-04-04T09:30:00",
     "StartDateTime": "2024-04-04T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Achard Cl, Blanch St, Coryule St, Kingsley Dr, Noamunga St, the Mainsail , Windsong Way",
     "WebId": 69673,
     "JobId": "NECF91052"
@@ -3726,7 +3726,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-04-04T12:30:00",
     "StartDateTime": "2024-04-04T09:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Pywells Rd",
     "WebId": 69350,
     "JobId": "NECF90678"
@@ -3786,7 +3786,7 @@
     "Customers": "49",
     "EndDateTime": "2024-04-04T15:30:00",
     "StartDateTime": "2024-04-04T11:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Blanch St, Coryule St, Kingsley Dr",
     "WebId": 69655,
     "JobId": "NECF91056"
@@ -3810,7 +3810,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-04-04T15:00:00",
     "StartDateTime": "2024-04-04T12:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Pywells Rd",
     "WebId": 69351,
     "JobId": "NECF90689"
@@ -3870,7 +3870,7 @@
     "Customers": "89",
     "EndDateTime": "2024-04-05T15:00:00",
     "StartDateTime": "2024-04-05T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Coster St, Harmston Ave, Hurdis Ave, Inverness Ave, Iris St, Jimada Ave, Paxton St, Sunset Pl",
     "WebId": 69683,
     "JobId": "NECF91078"
@@ -4686,7 +4686,7 @@
     "Customers": "107",
     "EndDateTime": "2024-04-09T07:30:00",
     "StartDateTime": "2024-04-08T22:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Bridges St, Captain Cook Dr, Tasman St, Torres St",
     "WebId": 69460,
     "JobId": "NECF90814"
@@ -5532,6 +5532,18 @@
     "JobId": "NECF91169"
   },
   {
+    "Area": "Fennell Bay",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "72",
+    "EndDateTime": "2024-04-11T17:00:00",
+    "StartDateTime": "2024-04-11T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bluerock Cl, Gilwell Cl, Harrington St, Jamboree Cl, Lake Macquarie Cl, Macquarie Rd, Margaret St",
+    "WebId": 69951,
+    "JobId": "NECF91136"
+  },
+  {
     "Area": "Dudley, Whitebridge",
     "Cause": "Maintenance of high voltage electrical equipment",
     "Detail": "",
@@ -6114,7 +6126,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-04-16T05:00:00",
     "StartDateTime": "2024-04-15T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Marion St",
     "WebId": 69944,
     "JobId": "NECF91397"
