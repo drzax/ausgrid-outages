@@ -2442,7 +2442,7 @@
     "Customers": "41",
     "EndDateTime": "2024-06-03T08:00:00",
     "StartDateTime": "2024-06-02T20:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Condamine St, Kentwell Rd, Sloane Cres, Pittwater Rd",
     "WebId": 71379,
     "JobId": "NECF92330"
@@ -3058,18 +3058,6 @@
     "Streets": "Calvert Ave, Gleneagles Ave, Golf Links Rd, Mildura St",
     "WebId": 70934,
     "JobId": "NECF91614"
-  },
-  {
-    "Area": "Nelson Bay",
-    "Cause": "Temporary isolation of power at a site to do building works",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-06-07T16:00:00",
-    "StartDateTime": "2024-06-04T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Teramby Rd",
-    "WebId": 71577,
-    "JobId": "NECF93226"
   },
   {
     "Area": "Kingsgrove",
@@ -4890,7 +4878,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-06-11T16:00:00",
     "StartDateTime": "2024-06-11T11:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Marrowbone Rd",
     "WebId": 71308,
     "JobId": "NECF92982"
@@ -5016,6 +5004,30 @@
     "JobId": "NECF92457"
   },
   {
+    "Area": "Strathfield",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "36",
+    "EndDateTime": "2024-06-12T18:30:00",
+    "StartDateTime": "2024-06-12T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Wentworth Rd",
+    "WebId": 71647,
+    "JobId": "NECF93324"
+  },
+  {
+    "Area": "Mascot",
+    "Cause": "Replacement or repair of underground electrical network",
+    "Detail": "",
+    "Customers": "23",
+    "EndDateTime": "2024-06-12T14:00:00",
+    "StartDateTime": "2024-06-12T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Botany Rd",
+    "WebId": 71614,
+    "JobId": "NECF93295"
+  },
+  {
     "Area": "Kareela, Kirrawee",
     "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
@@ -5074,54 +5086,6 @@
     "Streets": "Helen St",
     "WebId": 71276,
     "JobId": "NECF92270"
-  },
-  {
-    "Area": "Mascot",
-    "Cause": "Replacement or repair of underground electrical network",
-    "Detail": "",
-    "Customers": "23",
-    "EndDateTime": "2024-06-12T14:00:00",
-    "StartDateTime": "2024-06-12T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Botany Rd",
-    "WebId": 71614,
-    "JobId": "NECF93295"
-  },
-  {
-    "Area": "Mosman",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "31",
-    "EndDateTime": "2024-06-12T16:00:00",
-    "StartDateTime": "2024-06-12T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Burrawong Ave, David St, Iluka Rd, Kardinia Rd",
-    "WebId": 71628,
-    "JobId": "NECF93203"
-  },
-  {
-    "Area": "Bankstown, Punchbowl",
-    "Cause": "Trimming trees growing close to the electricity network",
-    "Detail": "",
-    "Customers": "280",
-    "EndDateTime": "2024-06-12T15:00:00",
-    "StartDateTime": "2024-06-12T08:00:00",
-    "Status": "Cancelled",
-    "Streets": "Griffiths Ave, South Tce, Myall St, Punchbowl Rd, Wilga St",
-    "WebId": 71632,
-    "JobId": "NECF91204"
-  },
-  {
-    "Area": "Northbridge",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "45",
-    "EndDateTime": "2024-06-12T16:00:00",
-    "StartDateTime": "2024-06-12T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Baringa Rd, Baroona Rd, Calbina Rd, Nulgarra St",
-    "WebId": 71613,
-    "JobId": "NECF93202"
   },
   {
     "Area": "Giants Creek, Gungal, Merriwa, Sandy Hollow",
@@ -5206,6 +5170,42 @@
     "Streets": "Christie Rd, Fagans Rd",
     "WebId": 71126,
     "JobId": "NECF92810"
+  },
+  {
+    "Area": "Mosman",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "31",
+    "EndDateTime": "2024-06-12T16:00:00",
+    "StartDateTime": "2024-06-12T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Burrawong Ave, David St, Iluka Rd, Kardinia Rd",
+    "WebId": 71628,
+    "JobId": "NECF93203"
+  },
+  {
+    "Area": "Bankstown, Punchbowl",
+    "Cause": "Trimming trees growing close to the electricity network",
+    "Detail": "",
+    "Customers": "280",
+    "EndDateTime": "2024-06-12T15:00:00",
+    "StartDateTime": "2024-06-12T08:00:00",
+    "Status": "Cancelled",
+    "Streets": "Griffiths Ave, South Tce, Myall St, Punchbowl Rd, Wilga St",
+    "WebId": 71632,
+    "JobId": "NECF91204"
+  },
+  {
+    "Area": "Northbridge",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "45",
+    "EndDateTime": "2024-06-12T16:00:00",
+    "StartDateTime": "2024-06-12T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Baringa Rd, Baroona Rd, Calbina Rd, Nulgarra St",
+    "WebId": 71613,
+    "JobId": "NECF93202"
   },
   {
     "Area": "Roughit",
@@ -5554,6 +5554,18 @@
     "Streets": "Glenview Rd, Pacific Hwy",
     "WebId": 71452,
     "JobId": "NECF92944"
+  },
+  {
+    "Area": "Milperra",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-14T03:00:00",
+    "StartDateTime": "2024-06-13T20:00:00",
+    "Status": "Proposed",
+    "Streets": "Ashford Ave",
+    "WebId": 71649,
+    "JobId": "NECF93230"
   },
   {
     "Area": "Marrickville",
@@ -6348,6 +6360,18 @@
     "JobId": "NECF92822"
   },
   {
+    "Area": "Petersham",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-18T04:00:00",
+    "StartDateTime": "2024-06-17T21:00:00",
+    "Status": "Proposed",
+    "Streets": "Parramatta Rd",
+    "WebId": 71650,
+    "JobId": "NECF93083"
+  },
+  {
     "Area": "Nelson Bay",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -7104,6 +7128,18 @@
     "JobId": "NECF92607"
   },
   {
+    "Area": "The Entrance",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "25",
+    "EndDateTime": "2024-06-22T16:30:00",
+    "StartDateTime": "2024-06-22T08:00:00",
+    "Status": "Proposed",
+    "Streets": "The Entrance Rd",
+    "WebId": 71648,
+    "JobId": "NECF93065"
+  },
+  {
     "Area": "Kirrawee, Sutherland",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -7152,14 +7188,14 @@
     "JobId": "NECF91686"
   },
   {
-    "Area": "Rushcutters Bay",
+    "Area": "Elizabeth Bay, Rushcutters Bay",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "24",
+    "Customers": "47",
     "EndDateTime": "2024-06-24T14:00:00",
     "StartDateTime": "2024-06-24T07:00:00",
     "Status": "Proposed",
-    "Streets": "Roslyn St",
+    "Streets": "Roslyn Gdns, Roslyn St",
     "WebId": 71621,
     "JobId": "NECF93183"
   },
