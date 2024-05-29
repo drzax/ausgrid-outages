@@ -366,7 +366,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-05-30T12:00:00",
     "StartDateTime": "2024-05-30T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Colin St",
     "WebId": 71224,
     "JobId": "NECF92905"
@@ -510,7 +510,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-05-30T15:00:00",
     "StartDateTime": "2024-05-30T11:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "View Pde",
     "WebId": 71225,
     "JobId": "NECF92906"
@@ -2694,7 +2694,7 @@
     "Customers": "69",
     "EndDateTime": "2024-06-06T16:00:00",
     "StartDateTime": "2024-06-06T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Macmillan St, Peacock St, Redman St, Reid St",
     "WebId": 71669,
     "JobId": "NECF93376"
@@ -3306,7 +3306,7 @@
     "Customers": "262",
     "EndDateTime": "2024-06-08T18:00:00",
     "StartDateTime": "2024-06-08T06:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Streets": "Belford St, Broadmeadow Rd, Brown Rd, Chatham St, Curley Rd, Graham Rd, Lambton Rd, Market St, Young Rd, Donald St, Dorothy St, Baird St, Chatham Rd",
     "WebId": 71616,
     "JobId": "NECF89633"
@@ -3754,6 +3754,18 @@
     "Streets": "Clarendon Rd",
     "WebId": 71707,
     "JobId": "NECF93283"
+  },
+  {
+    "Area": "Botany",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-14T14:00:00",
+    "StartDateTime": "2024-06-11T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Moore St",
+    "WebId": 71742,
+    "JobId": "NECF93433"
   },
   {
     "Area": "Killara, Lindfield",
@@ -5292,6 +5304,30 @@
     "JobId": "NECF92957"
   },
   {
+    "Area": "Beverley Park",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-17T17:00:00",
+    "StartDateTime": "2024-06-17T06:30:00",
+    "Status": "Proposed",
+    "Streets": "Ramsgate Rd",
+    "WebId": 71741,
+    "JobId": "NECF92665"
+  },
+  {
+    "Area": "Lane Cove, Lane Cove West",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "60",
+    "EndDateTime": "2024-06-17T17:00:00",
+    "StartDateTime": "2024-06-17T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Avalon Ave, Lloyd Rees Dr, Banksia Cl, Wood St",
+    "WebId": 71704,
+    "JobId": "NECF93073"
+  },
+  {
     "Area": "North Curl Curl",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -5376,42 +5412,6 @@
     "JobId": "NECF92750"
   },
   {
-    "Area": "Lane Cove, Lane Cove West",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "60",
-    "EndDateTime": "2024-06-17T17:00:00",
-    "StartDateTime": "2024-06-17T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Avalon Ave, Lloyd Rees Dr, Banksia Cl, Wood St",
-    "WebId": 71704,
-    "JobId": "NECF93073"
-  },
-  {
-    "Area": "Ashbury, Ashfield",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "87",
-    "EndDateTime": "2024-06-17T15:30:00",
-    "StartDateTime": "2024-06-17T07:30:00",
-    "Status": "Proposed",
-    "Streets": "Holden St, Armstrong St, Goodwin Ave, Hillcrest Ave, Queen St",
-    "WebId": 71702,
-    "JobId": "NECF93325"
-  },
-  {
-    "Area": "Burwood, Enfield",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "133",
-    "EndDateTime": "2024-06-17T17:00:00",
-    "StartDateTime": "2024-06-17T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Angelo St, Appian Way, Burwood Rd, Ireland St, Quandong Ave, Seale St, Liverpool Rd",
-    "WebId": 71730,
-    "JobId": "NECF93411"
-  },
-  {
     "Area": "Alfords Point",
     "Cause": "Replacement or repair of underground electrical network",
     "Detail": "",
@@ -5446,6 +5446,54 @@
     "Streets": "Greta Rd, Springs Rd",
     "WebId": 70910,
     "JobId": "NECF92534"
+  },
+  {
+    "Area": "Ashbury, Ashfield",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "87",
+    "EndDateTime": "2024-06-17T15:30:00",
+    "StartDateTime": "2024-06-17T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Holden St, Armstrong St, Goodwin Ave, Hillcrest Ave, Queen St",
+    "WebId": 71702,
+    "JobId": "NECF93325"
+  },
+  {
+    "Area": "Burwood, Enfield",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "133",
+    "EndDateTime": "2024-06-17T17:00:00",
+    "StartDateTime": "2024-06-17T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Angelo St, Appian Way, Burwood Rd, Ireland St, Quandong Ave, Seale St, Liverpool Rd",
+    "WebId": 71730,
+    "JobId": "NECF93411"
+  },
+  {
+    "Area": "Glen Oak, Seaham",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "149",
+    "EndDateTime": "2024-06-17T16:30:00",
+    "StartDateTime": "2024-06-17T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Clarence Town Rd, Hillridge Cl, Langlands Rd, Mountainview Cl, Notts La, Oakendale Rd, Storks Rd, Timbertop Rd, Wattle Creek Cl, Warren St",
+    "WebId": 71743,
+    "JobId": "NECF92492"
+  },
+  {
+    "Area": "Bondi Beach",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "25",
+    "EndDateTime": "2024-06-17T15:00:00",
+    "StartDateTime": "2024-06-17T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Lamrock Ave",
+    "WebId": 71715,
+    "JobId": "NECF93412"
   },
   {
     "Area": "Randwick",
@@ -5544,30 +5592,6 @@
     "JobId": "NECF93208"
   },
   {
-    "Area": "Bondi Beach",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "25",
-    "EndDateTime": "2024-06-17T15:00:00",
-    "StartDateTime": "2024-06-17T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Lamrock Ave",
-    "WebId": 71715,
-    "JobId": "NECF93412"
-  },
-  {
-    "Area": "Obanvale, Singleton",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-06-17T14:30:00",
-    "StartDateTime": "2024-06-17T08:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Bridgman Rd",
-    "WebId": 71710,
-    "JobId": "NECF93109"
-  },
-  {
     "Area": "Belford",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -5602,6 +5626,18 @@
     "Streets": "Hambledon Hill Rd, -",
     "WebId": 71362,
     "JobId": "NECF93032"
+  },
+  {
+    "Area": "Obanvale, Singleton",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-17T14:30:00",
+    "StartDateTime": "2024-06-17T08:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Bridgman Rd",
+    "WebId": 71710,
+    "JobId": "NECF93109"
   },
   {
     "Area": "Earlwood",
@@ -5820,6 +5856,42 @@
     "JobId": "NECF92868"
   },
   {
+    "Area": "Sans Souci",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "70",
+    "EndDateTime": "2024-06-18T15:30:00",
+    "StartDateTime": "2024-06-18T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Alfred St",
+    "WebId": 71740,
+    "JobId": "NECF92960"
+  },
+  {
+    "Area": "Ettalong Beach, Umina Beach",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "192",
+    "EndDateTime": "2024-06-18T15:00:00",
+    "StartDateTime": "2024-06-18T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Barrenjoey Rd, Broken Bay Rd, the Esplanade , West St",
+    "WebId": 71723,
+    "JobId": "NECF92889"
+  },
+  {
+    "Area": "Gillieston Heights",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "19",
+    "EndDateTime": "2024-06-18T15:30:00",
+    "StartDateTime": "2024-06-18T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Fig Tree La, Hungerford La, Kiah Rd",
+    "WebId": 71694,
+    "JobId": "NECF92145"
+  },
+  {
     "Area": "Merewether",
     "Cause": "Temporary isolation of power at a site to do building works",
     "Detail": "",
@@ -5868,28 +5940,16 @@
     "JobId": "NECF92964"
   },
   {
-    "Area": "Ettalong Beach, Umina Beach",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "192",
-    "EndDateTime": "2024-06-18T15:00:00",
-    "StartDateTime": "2024-06-18T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Barrenjoey Rd, Broken Bay Rd, the Esplanade , West St",
-    "WebId": 71723,
-    "JobId": "NECF92889"
-  },
-  {
-    "Area": "Gillieston Heights",
+    "Area": "Singleton, Wattle Ponds",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
-    "Customers": "19",
+    "Customers": "20",
     "EndDateTime": "2024-06-18T15:30:00",
-    "StartDateTime": "2024-06-18T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Fig Tree La, Hungerford La, Kiah Rd",
-    "WebId": 71694,
-    "JobId": "NECF92145"
+    "StartDateTime": "2024-06-18T08:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Fern Gully Rd, Pioneer Rd",
+    "WebId": 71364,
+    "JobId": "NECF92603"
   },
   {
     "Area": "Lochinvar",
@@ -5902,18 +5962,6 @@
     "Streets": "Bushel St, Tillage Dr",
     "WebId": 71727,
     "JobId": "NECF92579"
-  },
-  {
-    "Area": "Singleton, Wattle Ponds",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "20",
-    "EndDateTime": "2024-06-18T15:30:00",
-    "StartDateTime": "2024-06-18T08:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Fern Gully Rd, Pioneer Rd",
-    "WebId": 71364,
-    "JobId": "NECF92603"
   },
   {
     "Area": "East Lindfield",
@@ -6490,6 +6538,18 @@
     "Streets": "Henzel Rd, Howard Ave, Sandpiper Pl",
     "WebId": 71620,
     "JobId": "NECF93152"
+  },
+  {
+    "Area": "Redhead",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-21T16:00:00",
+    "StartDateTime": "2024-06-21T10:30:00",
+    "Status": "Proposed",
+    "Streets": "Redhead Rd",
+    "WebId": 71739,
+    "JobId": "NECF93366"
   },
   {
     "Area": "Glebe",
