@@ -330,7 +330,7 @@
     "Customers": "94",
     "EndDateTime": "2024-06-05T15:00:00",
     "StartDateTime": "2024-06-05T08:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "Fairview Ave, Lakeside Pde, McGirr Ave, Oakland Ave",
     "WebId": 71465,
     "JobId": "NECF93122"
@@ -462,7 +462,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-06-05T15:30:00",
     "StartDateTime": "2024-06-05T08:30:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "Cancelled",
     "Streets": "The Inlet Rd",
     "WebId": 70874,
     "JobId": "NECF92502"
@@ -3522,7 +3522,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2024-06-17T18:00:00",
     "StartDateTime": "2024-06-17T06:00:00",
-    "Status": "Proceeding as scheduled",
+    "Status": "On Hold",
     "Streets": "Valley Rd",
     "WebId": 70659,
     "JobId": "NECF92155"
@@ -4392,6 +4392,42 @@
     "JobId": "NECF93271"
   },
   {
+    "Area": "Rockdale",
+    "Cause": "Temporary isolation of power at a site to do building works",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-19T15:30:00",
+    "StartDateTime": "2024-06-19T06:30:00",
+    "Status": "Proposed",
+    "Streets": "Railway St",
+    "WebId": 71953,
+    "JobId": "NECF93597"
+  },
+  {
+    "Area": "Duffys Forest",
+    "Cause": "Overhead individual service wire replacement",
+    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-06-24T15:30:00",
+    "StartDateTime": "2024-06-19T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Booralie Rd, Mallawa Rd",
+    "WebId": 71945,
+    "JobId": "NECF93634"
+  },
+  {
+    "Area": "Burwood",
+    "Cause": "Connecting power to a property",
+    "Detail": "",
+    "Customers": "15",
+    "EndDateTime": "2024-06-19T17:00:00",
+    "StartDateTime": "2024-06-19T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Railway Pde",
+    "WebId": 71880,
+    "JobId": "NECF93581"
+  },
+  {
     "Area": "East Lindfield, West Pymble",
     "Cause": "Electricity network changes for infrastructure projects",
     "Detail": "",
@@ -4500,42 +4536,6 @@
     "JobId": "NECF92690"
   },
   {
-    "Area": "Duffys Forest",
-    "Cause": "Overhead individual service wire replacement",
-    "Detail": "Each property will experience one power outage of approximately 2 hours between the times above.",
-    "Customers": "less than 10",
-    "EndDateTime": "2024-06-24T15:30:00",
-    "StartDateTime": "2024-06-19T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Booralie Rd, Mallawa Rd",
-    "WebId": 71945,
-    "JobId": "NECF93634"
-  },
-  {
-    "Area": "Burwood",
-    "Cause": "Connecting power to a property",
-    "Detail": "",
-    "Customers": "15",
-    "EndDateTime": "2024-06-19T17:00:00",
-    "StartDateTime": "2024-06-19T07:00:00",
-    "Status": "Proposed",
-    "Streets": "Railway Pde",
-    "WebId": 71880,
-    "JobId": "NECF93581"
-  },
-  {
-    "Area": "Thornleigh",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "59",
-    "EndDateTime": "2024-06-19T15:30:00",
-    "StartDateTime": "2024-06-19T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Streets": "Clifford Ave, Dawson Ave, Ferguson Ave, Handley Ave",
-    "WebId": 71885,
-    "JobId": "NECF93441"
-  },
-  {
     "Area": "Manly",
     "Cause": "Replacement or repair of electrical pole/s",
     "Detail": "",
@@ -4594,6 +4594,30 @@
     "Streets": "Flora St, Glenavon Ave, Gardinia St, Lyla St",
     "WebId": 71570,
     "JobId": "NECF93153"
+  },
+  {
+    "Area": "Thornleigh",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "59",
+    "EndDateTime": "2024-06-19T15:30:00",
+    "StartDateTime": "2024-06-19T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Streets": "Clifford Ave, Dawson Ave, Ferguson Ave, Handley Ave",
+    "WebId": 71885,
+    "JobId": "NECF93441"
+  },
+  {
+    "Area": "Panania",
+    "Cause": "Replacement or repair of overhead powerlines",
+    "Detail": "",
+    "Customers": "130",
+    "EndDateTime": "2024-06-19T17:30:00",
+    "StartDateTime": "2024-06-19T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Bransgrove Rd, Dowding St, Laundess Ave, Mae Cres, Toby Cres",
+    "WebId": 71908,
+    "JobId": "NECF93596"
   },
   {
     "Area": "Teralba",
@@ -4702,18 +4726,6 @@
     "Streets": "Nelson Bay Rd, Cromarty La",
     "WebId": 71111,
     "JobId": "NECF92293"
-  },
-  {
-    "Area": "Panania",
-    "Cause": "Replacement or repair of overhead powerlines",
-    "Detail": "",
-    "Customers": "130",
-    "EndDateTime": "2024-06-19T17:30:00",
-    "StartDateTime": "2024-06-19T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Bransgrove Rd, Dowding St, Laundess Ave, Mae Cres, Toby Cres",
-    "WebId": 71908,
-    "JobId": "NECF93596"
   },
   {
     "Area": "Gouldsville, Maison Dieu, Singleton",
@@ -6528,6 +6540,54 @@
     "JobId": "NECF93008"
   },
   {
+    "Area": "Cronulla",
+    "Cause": "Electricity network changes for infrastructure projects",
+    "Detail": "",
+    "Customers": "31",
+    "EndDateTime": "2024-06-28T18:00:00",
+    "StartDateTime": "2024-06-27T07:30:00",
+    "Status": "Proposed",
+    "Streets": "Parramatta St",
+    "WebId": 71956,
+    "JobId": "NECF92936"
+  },
+  {
+    "Area": "Padstow, Padstow Heights",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "95",
+    "EndDateTime": "2024-06-27T14:30:00",
+    "StartDateTime": "2024-06-27T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Henry Lawson Dr, Wainwright Ave, Castle Pl, Clancy St, McIntosh Ave, Patterson Cl, Queensbury Rd, Richmond Ave, Riverview Rd",
+    "WebId": 71948,
+    "JobId": "NECF93409"
+  },
+  {
+    "Area": "Woolooware",
+    "Cause": "Replacement or repair of electrical pole/s",
+    "Detail": "",
+    "Customers": "107",
+    "EndDateTime": "2024-06-27T15:00:00",
+    "StartDateTime": "2024-06-27T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Cabramatta Rd, Castlewood Ave, Dolans Rd, English St, Hyndman Pde, Munni St",
+    "WebId": 71916,
+    "JobId": "NECF93513"
+  },
+  {
+    "Area": "Kincumber South",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "44",
+    "EndDateTime": "2024-06-27T15:30:00",
+    "StartDateTime": "2024-06-27T08:00:00",
+    "Status": "Proposed",
+    "Streets": "Carrela Pde, Humphreys Rd",
+    "WebId": 71904,
+    "JobId": "NECF93511"
+  },
+  {
     "Area": "Calga, North Avoca",
     "Cause": "Replacement or repair of overhead powerlines",
     "Detail": "",
@@ -6586,42 +6646,6 @@
     "Streets": "Tewkesbury Ave",
     "WebId": 71659,
     "JobId": "NECF93359"
-  },
-  {
-    "Area": "Padstow, Padstow Heights",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "95",
-    "EndDateTime": "2024-06-27T14:30:00",
-    "StartDateTime": "2024-06-27T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Henry Lawson Dr, Wainwright Ave, Castle Pl, Clancy St, McIntosh Ave, Patterson Cl, Queensbury Rd, Richmond Ave, Riverview Rd",
-    "WebId": 71948,
-    "JobId": "NECF93409"
-  },
-  {
-    "Area": "Woolooware",
-    "Cause": "Replacement or repair of electrical pole/s",
-    "Detail": "",
-    "Customers": "107",
-    "EndDateTime": "2024-06-27T15:00:00",
-    "StartDateTime": "2024-06-27T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Cabramatta Rd, Castlewood Ave, Dolans Rd, English St, Hyndman Pde, Munni St",
-    "WebId": 71916,
-    "JobId": "NECF93513"
-  },
-  {
-    "Area": "Kincumber South",
-    "Cause": "Maintenance of high voltage electrical equipment",
-    "Detail": "",
-    "Customers": "44",
-    "EndDateTime": "2024-06-27T15:30:00",
-    "StartDateTime": "2024-06-27T08:00:00",
-    "Status": "Proposed",
-    "Streets": "Carrela Pde, Humphreys Rd",
-    "WebId": 71904,
-    "JobId": "NECF93511"
   },
   {
     "Area": "Erina Heights, Matcham",
@@ -7366,6 +7390,18 @@
     "Streets": "Galoola Dr, Ullora Cl, Ullora Rd",
     "WebId": 71796,
     "JobId": "NECF92941"
+  },
+  {
+    "Area": "Camperdown",
+    "Cause": "Maintenance of high voltage electrical equipment",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2024-07-04T19:00:00",
+    "StartDateTime": "2024-07-04T07:00:00",
+    "Status": "Proposed",
+    "Streets": "Australia St",
+    "WebId": 71952,
+    "JobId": "NECF93622"
   },
   {
     "Area": "Vaucluse",
