@@ -10,6 +10,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.225808,
+              -20.114534
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.226118,
+                  -20.114115
+                ],
+                [
+                  148.225616,
+                  -20.114056
+                ],
+                [
+                  148.225082,
+                  -20.114448
+                ],
+                [
+                  148.225498,
+                  -20.114952
+                ],
+                [
+                  148.226,
+                  -20.115011
+                ],
+                [
+                  148.226534,
+                  -20.114619
+                ],
+                [
+                  148.226118,
+                  -20.114115
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "24NQ17204",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "12:30PM 19 Dec 2024",
+        "EST_FIX_TIME": "12:00PM 10 Mar 2025",
+        "STREETS": "BRUCE HWY S",
+        "SUBURBS": "BOWEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.698232,
               -21.133244
             ]
@@ -346,67 +407,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.225808,
-              -20.114534
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.226118,
-                  -20.114115
-                ],
-                [
-                  148.225616,
-                  -20.114056
-                ],
-                [
-                  148.225082,
-                  -20.114448
-                ],
-                [
-                  148.225498,
-                  -20.114952
-                ],
-                [
-                  148.226,
-                  -20.115011
-                ],
-                [
-                  148.226534,
-                  -20.114619
-                ],
-                [
-                  148.226118,
-                  -20.114115
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "24NQ17204",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews working on-site",
-        "START": "12:30PM 19 Dec 2024",
-        "EST_FIX_TIME": "12:00PM 10 Mar 2025",
-        "STREETS": "BRUCE HWY S",
-        "SUBURBS": "BOWEN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               152.385953,
               -28.425917
             ]
@@ -484,7 +484,7 @@
         "EVENT_ID": "25SW4259",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "41",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "REASON": "The loss of supply is due to damage caused by cyclone activity. ",
         "STATUS": "Outage reported",
         "START": "1:30AM 07 Mar 2025",
         "EST_FIX_TIME": "Under Investigation",
@@ -612,5 +612,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1741276201.637542"
+  "extracted": "1741276805.846951"
 }
