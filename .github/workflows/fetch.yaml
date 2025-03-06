@@ -18,6 +18,7 @@ jobs:
         curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedPlannedOutages | jq . > planned.json
         curl https://www.energex.com.au/static/Energex/energex_po_current_unplanned.geojson | jq . > energex-unplanned.geojson
         curl https://www.energex.com.au/static/Energex/energex_po_current_planned.geojson | jq . > energex-planned.geojson
+        curl https://www.essentialenergy.com.au/Assets/kmz/current.kml?GTg3NudO > essential-energy.kml
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
