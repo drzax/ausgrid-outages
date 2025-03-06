@@ -16,6 +16,8 @@ jobs:
       run: |-
         curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedUnplannedOutages | jq . > unplanned.json
         curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedPlannedOutages | jq . > planned.json
+        curl https://www.energex.com.au/static/Energex/energex_po_current_unplanned.geojson | jq . > energex-unplanned.geojson
+        curl https://www.energex.com.au/static/Energex/energex_po_current_planned.geojson | jq . > energex-planned.geojson
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
