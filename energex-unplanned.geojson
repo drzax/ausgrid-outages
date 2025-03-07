@@ -112,6 +112,100 @@
           {
             "type": "Point",
             "coordinates": [
+              153.531548,
+              -28.169896
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.5242,
+                  -28.167406
+                ],
+                [
+                  153.527748,
+                  -28.173228
+                ],
+                [
+                  153.527963,
+                  -28.173415
+                ],
+                [
+                  153.529678,
+                  -28.174195
+                ],
+                [
+                  153.530217,
+                  -28.174154
+                ],
+                [
+                  153.531757,
+                  -28.173126
+                ],
+                [
+                  153.531784,
+                  -28.173106
+                ],
+                [
+                  153.538895,
+                  -28.167637
+                ],
+                [
+                  153.538779,
+                  -28.166889
+                ],
+                [
+                  153.535806,
+                  -28.165637
+                ],
+                [
+                  153.535536,
+                  -28.165596
+                ],
+                [
+                  153.524954,
+                  -28.166532
+                ],
+                [
+                  153.524721,
+                  -28.166606
+                ],
+                [
+                  153.524366,
+                  -28.166816
+                ],
+                [
+                  153.5242,
+                  -28.167406
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829332-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "841",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "11:29PM 06 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "APPEL ST, CHURCHILL ST, COOLANGATTA RD, COYNE ST, DOUGLAS ST, GARRICK ST, GRIFFITH ST, HAIG ST, LORD ST, MARINE PDE, MCLEAN ST, MILES ST, MUSGRAVE ST, POWELL CRES, RUTLEDGE ST, STAPYLTON ST, TWEED ST, WINSTON ST",
+        "SUBURBS": "COOLANGATTA",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.084536,
               -27.567198
             ]
@@ -275,100 +369,6 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ACRON ST, BLEASBY RD, CRESTGARDEN ST, DOLPHIN ST, FERNSHAW ST, HANOVER ST, KELBURN ST, KHANDALLA ST, LOGAN MWY, LOGAN RD, LONGRIDGE ST, LORRIMORE ST, MARADA ST, MIRIMAR ST, MOORGATE ST, NEVERN ST, O'MEARA ST, ORCHID ST, SETON ST, SKIPTON ST, SPRINGFIELD ST, STARCROSS ST, SWANFIELD ST, TURNMILL ST, WADLEY ST, WESTLAND ST",
         "SUBURBS": "EIGHT MILE PLAINS, MACGREGOR, UPPER MT GRAVATT, WOODRIDGE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.531548,
-              -28.169896
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.5242,
-                  -28.167406
-                ],
-                [
-                  153.527748,
-                  -28.173228
-                ],
-                [
-                  153.527963,
-                  -28.173415
-                ],
-                [
-                  153.529678,
-                  -28.174195
-                ],
-                [
-                  153.530217,
-                  -28.174154
-                ],
-                [
-                  153.531757,
-                  -28.173126
-                ],
-                [
-                  153.531784,
-                  -28.173106
-                ],
-                [
-                  153.538895,
-                  -28.167637
-                ],
-                [
-                  153.538779,
-                  -28.166889
-                ],
-                [
-                  153.535806,
-                  -28.165637
-                ],
-                [
-                  153.535536,
-                  -28.165596
-                ],
-                [
-                  153.524954,
-                  -28.166532
-                ],
-                [
-                  153.524721,
-                  -28.166606
-                ],
-                [
-                  153.524366,
-                  -28.166816
-                ],
-                [
-                  153.5242,
-                  -28.167406
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829332-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "841",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "11:29PM 06 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "APPEL ST, CHURCHILL ST, COOLANGATTA RD, COYNE ST, DOUGLAS ST, GARRICK ST, GRIFFITH ST, HAIG ST, LORD ST, MARINE PDE, MCLEAN ST, MILES ST, MUSGRAVE ST, POWELL CRES, RUTLEDGE ST, STAPYLTON ST, TWEED ST, WINSTON ST",
-        "SUBURBS": "COOLANGATTA",
         "ETR_FLAG": "N"
       }
     },
@@ -1772,7 +1772,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:47PM 07 Mar 2025",
-        "EST_FIX_TIME": "1:30AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BOLSENA CCT, CALARDO AVE, CARLTON DR, GARDA AVE, GRACEMERE DR, HOPE ISLAND RD, LUCERNE CCT, LUGANO DR, LUGANO DR E, MURTEN CT, PETER SENIOR DR, RIALTO QUAY DR, ROSEBANK WAY, SANTA BARBARA RD, THE LAKES DR, TRASIMENO AVE, VICO AVE",
         "SUBURBS": "HOPE ISLAND",
         "ETR_FLAG": "N"
@@ -2298,376 +2298,6 @@
           {
             "type": "Point",
             "coordinates": [
-              152.660258,
-              -28.185489
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.636952,
-                  -28.19996
-                ],
-                [
-                  152.642842,
-                  -28.208504
-                ],
-                [
-                  152.643625,
-                  -28.208598
-                ],
-                [
-                  152.6787,
-                  -28.179531
-                ],
-                [
-                  152.678738,
-                  -28.179496
-                ],
-                [
-                  152.68354,
-                  -28.174537
-                ],
-                [
-                  152.683636,
-                  -28.174098
-                ],
-                [
-                  152.682413,
-                  -28.170891
-                ],
-                [
-                  152.682402,
-                  -28.170865
-                ],
-                [
-                  152.681165,
-                  -28.168183
-                ],
-                [
-                  152.680825,
-                  -28.167917
-                ],
-                [
-                  152.657446,
-                  -28.16238
-                ],
-                [
-                  152.656954,
-                  -28.162497
-                ],
-                [
-                  152.639333,
-                  -28.17816
-                ],
-                [
-                  152.639186,
-                  -28.178435
-                ],
-                [
-                  152.63688,
-                  -28.199682
-                ],
-                [
-                  152.636952,
-                  -28.19996
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829588-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "46",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "In Progress",
-        "START": "6:45AM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BOONAH-RATHDOWNEY RD, BURNETT CREEK RD, MAROON DAM RD, NEWMAN RD, SLATTER PARK RD, STOCKYARD CREEK RD",
-        "SUBURBS": "COOCHIN, MAROON",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.415368,
-              -27.997159
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.412748,
-                  -27.993535
-                ],
-                [
-                  153.412777,
-                  -27.994085
-                ],
-                [
-                  153.41278,
-                  -27.994115
-                ],
-                [
-                  153.413741,
-                  -28.001574
-                ],
-                [
-                  153.414249,
-                  -28.001974
-                ],
-                [
-                  153.416689,
-                  -28.001962
-                ],
-                [
-                  153.41719,
-                  -28.00157
-                ],
-                [
-                  153.417988,
-                  -27.996228
-                ],
-                [
-                  153.417968,
-                  -27.996031
-                ],
-                [
-                  153.417949,
-                  -27.99598
-                ],
-                [
-                  153.417944,
-                  -27.995968
-                ],
-                [
-                  153.417722,
-                  -27.995412
-                ],
-                [
-                  153.417687,
-                  -27.995344
-                ],
-                [
-                  153.416025,
-                  -27.992696
-                ],
-                [
-                  153.415767,
-                  -27.992496
-                ],
-                [
-                  153.415537,
-                  -27.992416
-                ],
-                [
-                  153.415375,
-                  -27.992385
-                ],
-                [
-                  153.414468,
-                  -27.992345
-                ],
-                [
-                  153.414433,
-                  -27.992345
-                ],
-                [
-                  153.414277,
-                  -27.992348
-                ],
-                [
-                  153.413984,
-                  -27.992437
-                ],
-                [
-                  153.413216,
-                  -27.992944
-                ],
-                [
-                  153.413182,
-                  -27.992968
-                ],
-                [
-                  153.412918,
-                  -27.993175
-                ],
-                [
-                  153.412748,
-                  -27.993535
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830450-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "193",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:36PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
-        "STREETS": "ANEMBO ST, ARUMA ST, BUNDALL RD, CAPISTRANO CT, FERRY RD, KAPALA ST, REGATTA PDE, STANHILL DR, THOMAS DR, WELLS ST",
-        "SUBURBS": "SOUTHPORT, SURFERS PARADISE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.273205,
-              -28.209999
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.254644,
-                  -28.19472
-                ],
-                [
-                  153.255275,
-                  -28.211429
-                ],
-                [
-                  153.2553,
-                  -28.211555
-                ],
-                [
-                  153.265928,
-                  -28.240184
-                ],
-                [
-                  153.266538,
-                  -28.240481
-                ],
-                [
-                  153.288775,
-                  -28.235444
-                ],
-                [
-                  153.288981,
-                  -28.235349
-                ],
-                [
-                  153.289735,
-                  -28.234774
-                ],
-                [
-                  153.2898,
-                  -28.234714
-                ],
-                [
-                  153.291655,
-                  -28.232662
-                ],
-                [
-                  153.291766,
-                  -28.23237
-                ],
-                [
-                  153.291591,
-                  -28.225229
-                ],
-                [
-                  153.291543,
-                  -28.225047
-                ],
-                [
-                  153.27325,
-                  -28.190476
-                ],
-                [
-                  153.273126,
-                  -28.190329
-                ],
-                [
-                  153.25951,
-                  -28.179691
-                ],
-                [
-                  153.259216,
-                  -28.17958
-                ],
-                [
-                  153.258367,
-                  -28.179517
-                ],
-                [
-                  153.25793,
-                  -28.17968
-                ],
-                [
-                  153.256859,
-                  -28.180837
-                ],
-                [
-                  153.25675,
-                  -28.181052
-                ],
-                [
-                  153.255805,
-                  -28.186297
-                ],
-                [
-                  153.255803,
-                  -28.186313
-                ],
-                [
-                  153.254648,
-                  -28.19465
-                ],
-                [
-                  153.254644,
-                  -28.19472
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-828480-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "425",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "11:29PM 05 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BANDICOOT LANE, BANKSIA RD, BILBOROUGH CT, BOY-ULL RD, CANYON PDE, CARRICKS RD, EE-JUNG RD, FORESTRY RD, GWONGORELLA PDE, KURALBOO ST, LLOYDS RD, LYREBIRD RIDGE RD, MIMOSA RD, MUNDORA RD, OLD SCHOOL RD, REPEATER STATION RD, SPRINGBROOK RD, VELVET DOWNS RD, WATTLE GR",
-        "SUBURBS": "CURRUMBIN VALLEY, SPRINGBROOK",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.400319,
               -27.903018
             ]
@@ -2815,6 +2445,274 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "AMA AVE, ANEMONE AVE, AROA CT, AZALEA AVE, BAYVIEW ST, BLUEGUM AVE, BODA CT, CASSIA ST, CATTLEYA CT, CENTENARY DR, CONSTANCE ESP, DARU AVE, ERAVE AVE, GIRUA AVE, GLADIOLUS CT, HOLLY AVE, HOWARD ST, HYACINTH AVE, JASMINE AVE, JOSEPH ST, KAGI CT, KAREMA CRES, KIKORI CRES, KOITAKI CT, KURRAJONG AVE, LOTUS AVE, MARINA CRES, MORALA AVE, MT HAGEN DR, PAMPAS CT, PIMAGA PL, POINSETTIA AVE, PRIMROSE CT, RABAUL AVE, SALAMAU ST, SALVIA ST, SANDAKAN AVE, SEPIK PL, SHEARWATER ESP, SIMBAI ST, SPORTS DR, TARI CT, TECONA AVE, TINBA CT, TORIO PL, VANIMO CT, VIOLA AVE, WAU AVE, WEWAK AVE",
         "SUBURBS": "HOLLYWELL, RUNAWAY BAY",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.415368,
+              -27.997159
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.412748,
+                  -27.993535
+                ],
+                [
+                  153.412777,
+                  -27.994085
+                ],
+                [
+                  153.41278,
+                  -27.994115
+                ],
+                [
+                  153.413741,
+                  -28.001574
+                ],
+                [
+                  153.414249,
+                  -28.001974
+                ],
+                [
+                  153.416689,
+                  -28.001962
+                ],
+                [
+                  153.41719,
+                  -28.00157
+                ],
+                [
+                  153.417988,
+                  -27.996228
+                ],
+                [
+                  153.417968,
+                  -27.996031
+                ],
+                [
+                  153.417949,
+                  -27.99598
+                ],
+                [
+                  153.417944,
+                  -27.995968
+                ],
+                [
+                  153.417722,
+                  -27.995412
+                ],
+                [
+                  153.417687,
+                  -27.995344
+                ],
+                [
+                  153.416025,
+                  -27.992696
+                ],
+                [
+                  153.415767,
+                  -27.992496
+                ],
+                [
+                  153.415537,
+                  -27.992416
+                ],
+                [
+                  153.415375,
+                  -27.992385
+                ],
+                [
+                  153.414468,
+                  -27.992345
+                ],
+                [
+                  153.414433,
+                  -27.992345
+                ],
+                [
+                  153.414277,
+                  -27.992348
+                ],
+                [
+                  153.413984,
+                  -27.992437
+                ],
+                [
+                  153.413216,
+                  -27.992944
+                ],
+                [
+                  153.413182,
+                  -27.992968
+                ],
+                [
+                  153.412918,
+                  -27.993175
+                ],
+                [
+                  153.412748,
+                  -27.993535
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830450-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "193",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "9:36PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ANEMBO ST, ARUMA ST, BUNDALL RD, CAPISTRANO CT, FERRY RD, KAPALA ST, REGATTA PDE, STANHILL DR, THOMAS DR, WELLS ST",
+        "SUBURBS": "SOUTHPORT, SURFERS PARADISE",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.273205,
+              -28.209999
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.254644,
+                  -28.19472
+                ],
+                [
+                  153.255275,
+                  -28.211429
+                ],
+                [
+                  153.2553,
+                  -28.211555
+                ],
+                [
+                  153.265928,
+                  -28.240184
+                ],
+                [
+                  153.266538,
+                  -28.240481
+                ],
+                [
+                  153.288775,
+                  -28.235444
+                ],
+                [
+                  153.288981,
+                  -28.235349
+                ],
+                [
+                  153.289735,
+                  -28.234774
+                ],
+                [
+                  153.2898,
+                  -28.234714
+                ],
+                [
+                  153.291655,
+                  -28.232662
+                ],
+                [
+                  153.291766,
+                  -28.23237
+                ],
+                [
+                  153.291591,
+                  -28.225229
+                ],
+                [
+                  153.291543,
+                  -28.225047
+                ],
+                [
+                  153.27325,
+                  -28.190476
+                ],
+                [
+                  153.273126,
+                  -28.190329
+                ],
+                [
+                  153.25951,
+                  -28.179691
+                ],
+                [
+                  153.259216,
+                  -28.17958
+                ],
+                [
+                  153.258367,
+                  -28.179517
+                ],
+                [
+                  153.25793,
+                  -28.17968
+                ],
+                [
+                  153.256859,
+                  -28.180837
+                ],
+                [
+                  153.25675,
+                  -28.181052
+                ],
+                [
+                  153.255805,
+                  -28.186297
+                ],
+                [
+                  153.255803,
+                  -28.186313
+                ],
+                [
+                  153.254648,
+                  -28.19465
+                ],
+                [
+                  153.254644,
+                  -28.19472
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-828480-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "425",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "11:29PM 05 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BANDICOOT LANE, BANKSIA RD, BILBOROUGH CT, BOY-ULL RD, CANYON PDE, CARRICKS RD, EE-JUNG RD, FORESTRY RD, GWONGORELLA PDE, KURALBOO ST, LLOYDS RD, LYREBIRD RIDGE RD, MIMOSA RD, MUNDORA RD, OLD SCHOOL RD, REPEATER STATION RD, SPRINGBROOK RD, VELVET DOWNS RD, WATTLE GR",
+        "SUBURBS": "CURRUMBIN VALLEY, SPRINGBROOK",
         "ETR_FLAG": "N"
       }
     },
@@ -3660,7 +3558,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:55PM 07 Mar 2025",
-        "EST_FIX_TIME": "2:30AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ACACIA AVE, ADORI ST, ANEMBO ST, BARRANBALI ST, BIRT AVE, BLONDELL AVE, BURRA ST, CYPRESS AVE, DALPURA ST, DARRAMBAL ST, FERNY AVE, FLAGSTAFF CL, ILLAWONG ST, KARLOO ST, MAWARRA ST, NORFOLK AVE, OAK AVE, PALM AVE, PARADISE PL, PARNOO ST, PINE AVE, PURLI ST, RIVER DR, RIVERVIEW PDE, SOUTHERN CROSS DR, STANHILL DR, TARCOOLA CRES, THOMAS DR, WEEMALA ST",
         "SUBURBS": "KOORALBYN, SURFERS PARADISE",
         "ETR_FLAG": "N"
@@ -3826,7 +3724,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "5:17PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BOTTLEBRUSH LANE, CEDAR CREEK FALLS RD, CEDAR CREEK RD, CLEAR CREEK CT, CLEARWATER CT, COLIN MEAGHER RD, COONARDOO CT, CREST HILL DR, CURREY RD, DEL CT, ELEVATION DR, GLADROSE CRES, HAYES RD, HOWARD CREEK PL, IRONBARK CT, JOURDANA DR, JULNDOR PL, KRIEDEMAN RD, LANES RD, LARCOMBE DR, LOK-EVYN CT, MACDONNELL RD, MEMORIAL DR, OTMOOR RD, PARKSIDE PDE, PINNACLE DR, POLO CL, ROWE LANE, SOLOMON LANE, TAMBORINE MOUNTAIN RD, TAMBORINE OXENFORD RD, TAMBORINE-OXENFORD RD, TIMBERVIEW DR, TOLIMA DR, VALLEY VIEW VSTA, VIEW CRES, WALTER CT, WATERFALL DR, WELCHES RD, WONGAWALLAN DR, WONGAWALLAN RD, YALLANBEE CT",
         "SUBURBS": "CEDAR CREEK, GUANABA, TAMBORINE MOUNTAIN, UPPER COOMERA, WONGAWALLAN",
         "ETR_FLAG": "N"
@@ -4070,7 +3968,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:29PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BAKER CT, BAMBARA ST, BIGOON RD, BILLA ST, BIMBA ST, BOORAN ST, BOREEN ST, CUMMING PDE, CUTTER ST, DICKSON WAY, DONAHUE ST, EAST COAST RD, ENDEAVOUR ST, GALEEN ST, GEORGE NOTHLING DR, GINDARRA ST, GRANT AVE, HOPEWELL ST, KARBOORA DR, KENNEDY DR, LUCINDA CRES, MEEGERA PL, MERINDA CRES, MIDJIMBERRY RD, MINTEE ST, MOOLOOMBA RD, MOONGALBA RD, MULUNG ST, NORTH LANE, PRATT CT, PROSPERITY ST, ROSEBY CT, SAMARINDA DR, SAMARINDA WAY, SNAPPER ST, TIMBIN RD, TRAMICAN ST, WALLER CT, YARRONG RD",
         "SUBURBS": "NTH STRADBROKE ISLD, POINT LOOKOUT",
         "ETR_FLAG": "N"
@@ -4324,104 +4222,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.387371,
-              -27.961336
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.384196,
-                  -27.963034
-                ],
-                [
-                  153.384332,
-                  -27.963145
-                ],
-                [
-                  153.384346,
-                  -27.963156
-                ],
-                [
-                  153.385076,
-                  -27.963705
-                ],
-                [
-                  153.385309,
-                  -27.963803
-                ],
-                [
-                  153.387474,
-                  -27.964172
-                ],
-                [
-                  153.387989,
-                  -27.963984
-                ],
-                [
-                  153.389671,
-                  -27.961811
-                ],
-                [
-                  153.38974,
-                  -27.96168
-                ],
-                [
-                  153.390606,
-                  -27.958999
-                ],
-                [
-                  153.390417,
-                  -27.95851
-                ],
-                [
-                  153.389835,
-                  -27.9585
-                ],
-                [
-                  153.385186,
-                  -27.961254
-                ],
-                [
-                  153.385065,
-                  -27.961354
-                ],
-                [
-                  153.384136,
-                  -27.962426
-                ],
-                [
-                  153.384196,
-                  -27.963034
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830386-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "16",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "8:50PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "CLARKE ST, FRAZER ST, HILL ST, NEXUS WAY, PARKLANDS DR, SMITH ST",
-        "SUBURBS": "SOUTHPORT",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.350891,
               -27.951801
             ]
@@ -4577,6 +4377,104 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ARDATH CL, ARUNDEL SPRINGS AVE, ASHMORE RD, ASPEN WAY, BRUSHWOOD DR, BUDDY HOLLY CL, CLARK GABLE CL, COLORADO CCT, DRYSDALE LANE, ERIC SYKES CL, ERROL FLYNN CT, FAIRVIEW CT, FAIRWEATHER DR, FLAMETREE CCT, GREENACRE DR, GREENVIEW CCT, HELLMAN ST, JAMES CAGNEY CL, JAMIESON DR, JOSHUA CL, LUCILLE BALL PL, MARILYN MONROE CT, MEADOWVIEW LANE, NAPPER RD, NEWHEATH DR, NOLAN CH, PAPERBARK CT, PARKDALE CT, PARKLAND AVE, PARKSIDE AVE, PETER SELLERS CT, PILAR CT, SMITH ST, TIMBERLINE WAY, TREELINE AVE, UPLANDS DR, VALE AVE, VALENTINO CL, WHITELEY CH, WOODLANDS WAY, ZANE ST",
         "SUBURBS": "ARUNDEL, GAVEN, MOLENDINAR, PARKWOOD",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.387371,
+              -27.961336
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.384196,
+                  -27.963034
+                ],
+                [
+                  153.384332,
+                  -27.963145
+                ],
+                [
+                  153.384346,
+                  -27.963156
+                ],
+                [
+                  153.385076,
+                  -27.963705
+                ],
+                [
+                  153.385309,
+                  -27.963803
+                ],
+                [
+                  153.387474,
+                  -27.964172
+                ],
+                [
+                  153.387989,
+                  -27.963984
+                ],
+                [
+                  153.389671,
+                  -27.961811
+                ],
+                [
+                  153.38974,
+                  -27.96168
+                ],
+                [
+                  153.390606,
+                  -27.958999
+                ],
+                [
+                  153.390417,
+                  -27.95851
+                ],
+                [
+                  153.389835,
+                  -27.9585
+                ],
+                [
+                  153.385186,
+                  -27.961254
+                ],
+                [
+                  153.385065,
+                  -27.961354
+                ],
+                [
+                  153.384136,
+                  -27.962426
+                ],
+                [
+                  153.384196,
+                  -27.963034
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830386-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "16",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "8:50PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "CLARKE ST, FRAZER ST, HILL ST, NEXUS WAY, PARKLANDS DR, SMITH ST",
+        "SUBURBS": "SOUTHPORT",
         "ETR_FLAG": "N"
       }
     },
@@ -5242,6 +5140,204 @@
           {
             "type": "Point",
             "coordinates": [
+              153.281785,
+              -28.015508
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.238333,
+                  -28.013664
+                ],
+                [
+                  153.238428,
+                  -28.014464
+                ],
+                [
+                  153.238429,
+                  -28.01447
+                ],
+                [
+                  153.238588,
+                  -28.015643
+                ],
+                [
+                  153.238591,
+                  -28.015661
+                ],
+                [
+                  153.241888,
+                  -28.033725
+                ],
+                [
+                  153.241987,
+                  -28.033928
+                ],
+                [
+                  153.243145,
+                  -28.035264
+                ],
+                [
+                  153.243292,
+                  -28.035379
+                ],
+                [
+                  153.252373,
+                  -28.040056
+                ],
+                [
+                  153.252427,
+                  -28.04008
+                ],
+                [
+                  153.255918,
+                  -28.04141
+                ],
+                [
+                  153.256109,
+                  -28.041446
+                ],
+                [
+                  153.256997,
+                  -28.041461
+                ],
+                [
+                  153.257253,
+                  -28.041405
+                ],
+                [
+                  153.301166,
+                  -28.019878
+                ],
+                [
+                  153.301245,
+                  -28.019831
+                ],
+                [
+                  153.320933,
+                  -28.005339
+                ],
+                [
+                  153.320953,
+                  -28.005323
+                ],
+                [
+                  153.321803,
+                  -28.004626
+                ],
+                [
+                  153.32185,
+                  -28.004583
+                ],
+                [
+                  153.321894,
+                  -28.004535
+                ],
+                [
+                  153.321898,
+                  -28.004531
+                ],
+                [
+                  153.324757,
+                  -28.001403
+                ],
+                [
+                  153.324855,
+                  -28.001228
+                ],
+                [
+                  153.325113,
+                  -28.000305
+                ],
+                [
+                  153.325126,
+                  -28.000237
+                ],
+                [
+                  153.325239,
+                  -27.999134
+                ],
+                [
+                  153.324983,
+                  -27.9987
+                ],
+                [
+                  153.321689,
+                  -27.997048
+                ],
+                [
+                  153.321544,
+                  -27.996999
+                ],
+                [
+                  153.281944,
+                  -27.989565
+                ],
+                [
+                  153.281817,
+                  -27.989556
+                ],
+                [
+                  153.247081,
+                  -27.990869
+                ],
+                [
+                  153.246759,
+                  -27.990988
+                ],
+                [
+                  153.242803,
+                  -27.994214
+                ],
+                [
+                  153.24265,
+                  -27.994453
+                ],
+                [
+                  153.23841,
+                  -28.01222
+                ],
+                [
+                  153.238399,
+                  -28.012292
+                ],
+                [
+                  153.23833,
+                  -28.013595
+                ],
+                [
+                  153.238333,
+                  -28.013664
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830493-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1710",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "10:11PM 07 Mar 2025",
+        "EST_FIX_TIME": "2:30AM 08 Mar 2025",
+        "STREETS": "ADALONG PL, ARUNTA DR, BARCOO CT, BARDS CT, BEECHMONT RD, BELLISS RD, BELTANA WAY, BETTONG PL, BILBY CL, BILLEROY PL, BIRDLIFE CT, BOTTLETREE LANE, BRUSHBOX RD, BRUSHTAIL CL, CARINE CT, CHESTERFIELD LANE, CHOPIN CT, CLADIARA RD, CLAGIRABA RD, COLERIDGE CT, COOLAWIN PL, CRUSADER WAY, DIAMANTINA CT, DUGANDAN ST, EDGEHILL DR, ESSEX CT, FILLMORE ST, FOOTE CT, FORESTWOOD CT, FREEMANS RD, GALAHAD CT, GERSHWIN CT, GLEN CCT, GOLDMINE CT, GRAND CT, GUM LEAF CT, HELLFIRE PASS, HIDDEN WOODS DR, HONEY TREE CT, INVERNESS CT, KEATS PL, KOOLA DR, KOWHAI PL, LANCASTER CT, MACKELLAR DR, MATAI CRES, MCLAREN RD, MERLOO DR, MIANDETTA DR, MIRO PL, MT NATHAN RD, NATHAN HOMESTEAD RD, NERANG MURWILLUMBAH RD, NIKAU CRES, NORTH RD, O'DOWD CT, OAKDALE AVE, OGILVIE CRES, PADEMELON PASS, PALADIN CT, PARMA CT, PEMBERTON CL, PICT CT, POETS CNR, POTOROO DR, RATA PL, RIMU PL, RIVERGUM DR, RIVERPARK DR, ROSSMORE ST, SHENTON WAY, SHEPHERD HILL LANE, SOUTER ST, THE MEWS, THENDARA DR, WERNER PL, WHIPTAIL PL, WINCHESTER DR, WITHEREN RD, YARRIMBAH DR",
+        "SUBURBS": "ADVANCETOWN, CLAGIRABA, LOWER BEECHMONT, MOUNT NATHAN, NERANG",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.080973,
               -27.797577
             ]
@@ -5524,7 +5620,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "8:01PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ACMENA CT, AETHALIA ST, ATTADALE CT, BAUMEA CT, BIDWILL CT, BREYNIA CT, BRUSH BOX ST, CALCITA AVE, CALLISTRIS CT, CASUARINA DR, COOGEE CT, DOUBLEVIEW DR, EUDONIA CT, FIG ST, FOREST CT, FOREST DR, GALLEON WAY, GRACILIS CT, GUINEAS CREEK RD, HIBERTIA AVE, HYDRILLA CT, ILLYRIA ST, LARENTIA ST, LAURINA CT, LEOPARD AVE, NUMIDIA ST, OTTELIA DR, SILVER GLADE DR, SIMPSONS RD, TIPUANA DR, TUSSOCK CRES, TYPHA PL, WATER GUM ST",
         "SUBURBS": "CURRUMBIN WATERS, ELANORA",
         "ETR_FLAG": "N"
@@ -5994,8 +6090,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.392516,
-              -27.933838
+              153.070302,
+              -27.79565
             ]
           },
           {
@@ -6003,36 +6099,48 @@
             "coordinates": [
               [
                 [
-                  153.387452,
-                  -27.931932
+                  153.069261,
+                  -27.793255
                 ],
                 [
-                  153.396891,
-                  -27.936653
+                  153.070051,
+                  -27.798133
                 ],
                 [
-                  153.397581,
-                  -27.936485
+                  153.070481,
+                  -27.798515
                 ],
                 [
-                  153.397399,
-                  -27.935871
+                  153.071015,
+                  -27.798257
                 ],
                 [
-                  153.388244,
-                  -27.931059
+                  153.0713,
+                  -27.797706
                 ],
                 [
-                  153.387813,
-                  -27.931023
+                  153.071344,
+                  -27.797471
                 ],
                 [
-                  153.387529,
-                  -27.931114
+                  153.07091,
+                  -27.793741
                 ],
                 [
-                  153.387452,
-                  -27.931932
+                  153.070772,
+                  -27.793475
+                ],
+                [
+                  153.07013,
+                  -27.792878
+                ],
+                [
+                  153.069541,
+                  -27.792785
+                ],
+                [
+                  153.069261,
+                  -27.793255
                 ]
               ]
             ]
@@ -6040,15 +6148,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-830392-g",
+        "EVENT_ID": "INCD-829509-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
+        "CUSTOMERS_AFFECTED": "9",
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
-        "START": "8:54PM 07 Mar 2025",
+        "START": "4:35AM 07 Mar 2025",
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BRISBANE RD, GOLD COAST HWY",
-        "SUBURBS": "BIGGERA WATERS, LABRADOR",
+        "STREETS": "HOTZ RD",
+        "SUBURBS": "JIMBOOMBA, LOGAN VILLAGE",
         "ETR_FLAG": "N"
       }
     },
@@ -6312,8 +6420,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.070302,
-              -27.79565
+              153.431216,
+              -28.059053
             ]
           },
           {
@@ -6321,48 +6429,128 @@
             "coordinates": [
               [
                 [
-                  153.069261,
-                  -27.793255
+                  153.415459,
+                  -28.058925
                 ],
                 [
-                  153.070051,
-                  -27.798133
+                  153.416377,
+                  -28.065967
                 ],
                 [
-                  153.070481,
-                  -27.798515
+                  153.416607,
+                  -28.066295
                 ],
                 [
-                  153.071015,
-                  -27.798257
+                  153.419791,
+                  -28.068105
                 ],
                 [
-                  153.0713,
-                  -27.797706
+                  153.419878,
+                  -28.068145
                 ],
                 [
-                  153.071344,
-                  -27.797471
+                  153.44329,
+                  -28.076359
                 ],
                 [
-                  153.07091,
-                  -27.793741
+                  153.443353,
+                  -28.076377
                 ],
                 [
-                  153.070772,
-                  -27.793475
+                  153.444356,
+                  -28.076601
                 ],
                 [
-                  153.07013,
-                  -27.792878
+                  153.444715,
+                  -28.076563
                 ],
                 [
-                  153.069541,
-                  -27.792785
+                  153.446093,
+                  -28.07593
                 ],
                 [
-                  153.069261,
-                  -27.793255
+                  153.446231,
+                  -28.075837
+                ],
+                [
+                  153.446843,
+                  -28.075254
+                ],
+                [
+                  153.446977,
+                  -28.074898
+                ],
+                [
+                  153.446593,
+                  -28.07174
+                ],
+                [
+                  153.44658,
+                  -28.071675
+                ],
+                [
+                  153.439294,
+                  -28.046686
+                ],
+                [
+                  153.439232,
+                  -28.046559
+                ],
+                [
+                  153.438871,
+                  -28.046048
+                ],
+                [
+                  153.438814,
+                  -28.045982
+                ],
+                [
+                  153.438533,
+                  -28.045713
+                ],
+                [
+                  153.438316,
+                  -28.04559
+                ],
+                [
+                  153.424083,
+                  -28.041506
+                ],
+                [
+                  153.423703,
+                  -28.041529
+                ],
+                [
+                  153.416403,
+                  -28.044687
+                ],
+                [
+                  153.416128,
+                  -28.044999
+                ],
+                [
+                  153.415975,
+                  -28.045633
+                ],
+                [
+                  153.415968,
+                  -28.045667
+                ],
+                [
+                  153.415635,
+                  -28.047866
+                ],
+                [
+                  153.415631,
+                  -28.04792
+                ],
+                [
+                  153.415456,
+                  -28.058867
+                ],
+                [
+                  153.415459,
+                  -28.058925
                 ]
               ]
             ]
@@ -6370,15 +6558,81 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-829509-g",
+        "EVENT_ID": "INCD-830485-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "9",
+        "CUSTOMERS_AFFECTED": "6861",
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
-        "START": "4:35AM 07 Mar 2025",
+        "START": "10:07PM 07 Mar 2025",
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "HOTZ RD",
-        "SUBURBS": "JIMBOOMBA, LOGAN VILLAGE",
+        "STREETS": "ALBICORE ST, ALEC AVE, ALFRED ST, ALLANDALE ENT, ANGIE CT, APOLLO AVE, ARCADIA DR, ARTHUR ST, AUSTRALIS CT, AVANTI ST, BALLANDRA CT, BARDON AVE, BARRIER REEF DR, BEDARA CT, BIGHT CT, BINNACLE CT, BIRIGUN ST, BOWLINE RD, BRAKES CRES, BRAMPTON CT, BRIBIE CT, CADENCE AVE, CANBERRA CT, COMPASS CT, CONSTANCE AVE, COTTESLOE DR, COURTSIDE DR, CRESTMORE CT, CRUISER CT, DAME PATTI AVE, DAWN PDE, DOLPHIN AVE, DRIVER CT, DUET DR, FAIRSKY AVE, FIRMIN CT, FRASER AVE, GALLILEO PL, GOLD COAST HWY, GRASSMERE CT, HEDGES AVE, HELM CT, HENCHMAN AVE, HERON AVE, HILDA ST, HIMALAYA ST, HOOD CT, HYTHE ST, ILLAURA ST, INTREPID DR, JIB CT, JODIE CT, KALLAY ST, KARABELLA CT, KARBUNYA ST, KARRATHA CT, KELLY AVE, KEPPEL CT, KETCH CT, KIERS RD, KIRUP ST, KRATZMANN AVE, KURRAWA AVE, LA FRANCE CT, LANCELIN DR, LAUNCH RD, MARALINGA AVE, MARDELLA CT, MARINE PDE, MARKERI ST, MAYRA CT, MCILWAIN DR, MESSINES CRES, METRICUP CT, MIAMI SHORE PDE, MONTEBELLO CT, MONTREAL CRES, MOUNTAIN VIEW AVE, MURESK CT, NAGEL AVE, NALYA CT, NOBBY PDE, NUNDAH AVE, OAK AVE, OCEANIC DR, ONDINE CT, ORIANA DR, OZONE PDE, PACIFIC AVE, PARADISE AVE, PETER BLONDELL DR, PETER PDE, PETREL AVE, PHILS PL, PILOT CT, PIZZEY DR, PORT DR, QUEST CT, RAWLINNA DR, REDONDO AVE, RIO VISTA BVD, RIVIERA RD, ROPE CT, RUDDER CT, RUMRUNNER ST, SALACIA AVE, SALAMANDER CT, SANTA MONICA RD, SCHUSTER AVE, SCOULLER PL, SEAGULL AVE, SEASHELL AVE, SEASIDE AVE, SEQUANA AVE, SKIRMISH CT, SONIA ST, SOUTHERLY ST, SOVEREIGN DR, SPLICE ST, SPORTSMAN AVE, SUNDOWNER CT, SUNSHINE BVD, SUNSHINE PDE, SURF ST, TAMBORINE ST, TARTAN CT, TEQUILA CT, THE ESPLANADE, TIMANA AVE, TOOMBUL AVE, TOORAK PARK AVE, TURTLE ST, VANCOUVER DR, WAGIN CT, WANDERER AVE, WANNEROO CT, WAVE ST, WAYFARER AVE, WEATHERLY AVE, WILLIAM ST, WILLIS CT, WINCH CT, YALGOO CT",
+        "SUBURBS": "BROADBEACH, BROADBEACH WATERS, BURLEIGH HEADS, MERMAID BEACH, MERMAID WATERS, MIAMI, ROBINA",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.392516,
+              -27.933838
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.387452,
+                  -27.931932
+                ],
+                [
+                  153.396891,
+                  -27.936653
+                ],
+                [
+                  153.397581,
+                  -27.936485
+                ],
+                [
+                  153.397399,
+                  -27.935871
+                ],
+                [
+                  153.388244,
+                  -27.931059
+                ],
+                [
+                  153.387813,
+                  -27.931023
+                ],
+                [
+                  153.387529,
+                  -27.931114
+                ],
+                [
+                  153.387452,
+                  -27.931932
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830392-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "8:54PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BRISBANE RD, GOLD COAST HWY",
+        "SUBURBS": "BIGGERA WATERS, LABRADOR",
         "ETR_FLAG": "N"
       }
     },
@@ -7948,6 +8202,172 @@
           {
             "type": "Point",
             "coordinates": [
+              153.330695,
+              -28.077803
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.317258,
+                  -28.073914
+                ],
+                [
+                  153.31886,
+                  -28.085469
+                ],
+                [
+                  153.318886,
+                  -28.085565
+                ],
+                [
+                  153.319023,
+                  -28.085908
+                ],
+                [
+                  153.319196,
+                  -28.086117
+                ],
+                [
+                  153.327033,
+                  -28.091364
+                ],
+                [
+                  153.327036,
+                  -28.091366
+                ],
+                [
+                  153.328129,
+                  -28.092087
+                ],
+                [
+                  153.32837,
+                  -28.092173
+                ],
+                [
+                  153.332275,
+                  -28.092603
+                ],
+                [
+                  153.332604,
+                  -28.09254
+                ],
+                [
+                  153.340033,
+                  -28.088496
+                ],
+                [
+                  153.340102,
+                  -28.088451
+                ],
+                [
+                  153.343914,
+                  -28.085489
+                ],
+                [
+                  153.343988,
+                  -28.085418
+                ],
+                [
+                  153.344033,
+                  -28.085364
+                ],
+                [
+                  153.344133,
+                  -28.085094
+                ],
+                [
+                  153.344133,
+                  -28.085012
+                ],
+                [
+                  153.344125,
+                  -28.084937
+                ],
+                [
+                  153.343438,
+                  -28.081356
+                ],
+                [
+                  153.343414,
+                  -28.081277
+                ],
+                [
+                  153.342616,
+                  -28.079331
+                ],
+                [
+                  153.342576,
+                  -28.079257
+                ],
+                [
+                  153.332027,
+                  -28.063292
+                ],
+                [
+                  153.331613,
+                  -28.06307
+                ],
+                [
+                  153.330059,
+                  -28.063002
+                ],
+                [
+                  153.32999,
+                  -28.063003
+                ],
+                [
+                  153.329815,
+                  -28.063017
+                ],
+                [
+                  153.32952,
+                  -28.06313
+                ],
+                [
+                  153.327752,
+                  -28.064532
+                ],
+                [
+                  153.327734,
+                  -28.064546
+                ],
+                [
+                  153.317407,
+                  -28.073536
+                ],
+                [
+                  153.317258,
+                  -28.073914
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829160-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "378",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "In Progress",
+        "START": "7:16PM 06 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ALLEENA CT, ALTOS CT, BAILEYS RD, BERRIGANS RD, DUCHESS CT, DUKE CT, EARLE CT, ELAINE AVE, GRANDVIEW TCE, JULIE WAY, KAGOOLA DR, KERALA CT, MINERS CT, STOCKMAN CRES, STRIKE WAY, TALLAI RD, THE PANORAMA, UTOPIA CT, WALLANDRA RD, WORONGARY RD",
+        "SUBURBS": "MUDGEERABA, TALLAI",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.389369,
               -28.145867
             ]
@@ -8237,172 +8657,6 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ALEX CT, BAY ST, BORONIA ST, BOUNDARY ST, BROADWATER TCE, BUCKLER CT, CANE ST, CAROLYN PL, DART ST, ESPLANADE, FALKIRK PDE, GLADSTONE ST, GLENEAGLES CT, GRAY ST, HAMILTON ST, JAMES ST, LINKS CT, MAIN ST, MARINE ST, MARJORIE BUCKLER AVE, MASHIE PL, MILL ST, MONTROSE PL, MYER ST, NEVILLE CL, NIBLICK WAY, NORTH ST, PEEL ST, PINE TCE, PINELANDS CCT, PITT ST, SALISBURY ST, SCOTT ST, STRADBROKE ST, SUNNINGDALE DR, TATHRA CT, VERA ST, WESTBURN CT",
         "SUBURBS": "REDLAND BAY",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.330695,
-              -28.077803
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.317258,
-                  -28.073914
-                ],
-                [
-                  153.31886,
-                  -28.085469
-                ],
-                [
-                  153.318886,
-                  -28.085565
-                ],
-                [
-                  153.319023,
-                  -28.085908
-                ],
-                [
-                  153.319196,
-                  -28.086117
-                ],
-                [
-                  153.327033,
-                  -28.091364
-                ],
-                [
-                  153.327036,
-                  -28.091366
-                ],
-                [
-                  153.328129,
-                  -28.092087
-                ],
-                [
-                  153.32837,
-                  -28.092173
-                ],
-                [
-                  153.332275,
-                  -28.092603
-                ],
-                [
-                  153.332604,
-                  -28.09254
-                ],
-                [
-                  153.340033,
-                  -28.088496
-                ],
-                [
-                  153.340102,
-                  -28.088451
-                ],
-                [
-                  153.343914,
-                  -28.085489
-                ],
-                [
-                  153.343988,
-                  -28.085418
-                ],
-                [
-                  153.344033,
-                  -28.085364
-                ],
-                [
-                  153.344133,
-                  -28.085094
-                ],
-                [
-                  153.344133,
-                  -28.085012
-                ],
-                [
-                  153.344125,
-                  -28.084937
-                ],
-                [
-                  153.343438,
-                  -28.081356
-                ],
-                [
-                  153.343414,
-                  -28.081277
-                ],
-                [
-                  153.342616,
-                  -28.079331
-                ],
-                [
-                  153.342576,
-                  -28.079257
-                ],
-                [
-                  153.332027,
-                  -28.063292
-                ],
-                [
-                  153.331613,
-                  -28.06307
-                ],
-                [
-                  153.330059,
-                  -28.063002
-                ],
-                [
-                  153.32999,
-                  -28.063003
-                ],
-                [
-                  153.329815,
-                  -28.063017
-                ],
-                [
-                  153.32952,
-                  -28.06313
-                ],
-                [
-                  153.327752,
-                  -28.064532
-                ],
-                [
-                  153.327734,
-                  -28.064546
-                ],
-                [
-                  153.317407,
-                  -28.073536
-                ],
-                [
-                  153.317258,
-                  -28.073914
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829160-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "378",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "In Progress",
-        "START": "7:16PM 06 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "ALLEENA CT, ALTOS CT, BAILEYS RD, BERRIGANS RD, DUCHESS CT, DUKE CT, EARLE CT, ELAINE AVE, GRANDVIEW TCE, JULIE WAY, KAGOOLA DR, KERALA CT, MINERS CT, STOCKMAN CRES, STRIKE WAY, TALLAI RD, THE PANORAMA, UTOPIA CT, WALLANDRA RD, WORONGARY RD",
-        "SUBURBS": "MUDGEERABA, TALLAI",
         "ETR_FLAG": "N"
       }
     },
@@ -9696,7 +9950,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:25PM 07 Mar 2025",
-        "EST_FIX_TIME": "2:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "AINSWORTH ST, AMANU CRES, ARCHIPELAGO ST, ARRAGAN CT, ATOLI RISE, AUSTRAL CRES, BELONGIL ST, CHATHAM AVE, CONNEMARA RD, CORAI CL, CREEK PL, EMIRA PL, ENDERBURY CRES, ENTRANCE RD, EQUADOR CT, FLINT CT, GALAPAGOS WAY, GLADE DR, HENDERSON RISE, HESLOP RD, HIGH RIDGE RD, HILLARY CCT, HOWLAND CCT, INMAN CT, KINGMAN CT, KINGSTON DR, KNOLL CT, KOLONIA ST, LENNOX ST, LOU PL, MAKEMO ST, MAKIN RISE, MAPIA RISE, MATY PL, MATZIA AVE, MAUKE PL, MIDWAY TCE, MILLAROO DR, MOLOKAI CRES, MOOREA CT, MOTU CL, MUSSAU ST, NAPIDO LANE, NEWHEATH DR, NINIGO ST, OSMOND CT, PAGO TCE, PAPARA ST, PENRHYN ST, RAROTONGA RISE, RUSSELL RD, SALVADO DR, SANTA ISOBEL BVD, SOWARD CT, TALLOW ST, TEMATAGI ST, VICTORIA DR, WAIGEO ST, YAMBA ST",
         "SUBURBS": "ARUNDEL, GAVEN, HELENSVALE, PACIFIC PINES",
         "ETR_FLAG": "N"
@@ -9798,7 +10052,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:36PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "COUGAL ST, HIGH ST, QUEEN ST",
         "SUBURBS": "SOUTHPORT",
         "ETR_FLAG": "N"
@@ -10074,7 +10328,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "7:29PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BEE CT, BERMUDA ST, BURLEIGH CONNECTION RD, GREG CHAPPELL DR, HORNET PL, HUTCHINSON ST, REEDY CREEK RD, RUDMAN PDE, WILLIAM BANKS DR",
         "SUBURBS": "BURLEIGH HEADS, BURLEIGH WATERS, VARSITY LAKES",
         "ETR_FLAG": "N"
@@ -10932,124 +11186,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.411392,
-              -28.003663
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.407855,
-                  -28.011336
-                ],
-                [
-                  153.40944,
-                  -28.011727
-                ],
-                [
-                  153.409983,
-                  -28.011563
-                ],
-                [
-                  153.410808,
-                  -28.010587
-                ],
-                [
-                  153.410853,
-                  -28.010523
-                ],
-                [
-                  153.411095,
-                  -28.010106
-                ],
-                [
-                  153.411118,
-                  -28.01006
-                ],
-                [
-                  153.414541,
-                  -28.002076
-                ],
-                [
-                  153.414562,
-                  -28.002016
-                ],
-                [
-                  153.415264,
-                  -27.999292
-                ],
-                [
-                  153.415272,
-                  -27.999128
-                ],
-                [
-                  153.414765,
-                  -27.995971
-                ],
-                [
-                  153.414126,
-                  -27.995599
-                ],
-                [
-                  153.414007,
-                  -27.995628
-                ],
-                [
-                  153.413809,
-                  -27.995722
-                ],
-                [
-                  153.413471,
-                  -27.995981
-                ],
-                [
-                  153.413335,
-                  -27.996146
-                ],
-                [
-                  153.413227,
-                  -27.996372
-                ],
-                [
-                  153.413215,
-                  -27.996399
-                ],
-                [
-                  153.407512,
-                  -28.010751
-                ],
-                [
-                  153.407855,
-                  -28.011336
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829205-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "260",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "8:53PM 06 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "ASHMORE RD, BUNDALL RD, CROMBIE AVE, FERRY RD, FRIGO CT, HOLDEN PL, KARP CT, RACECOURSE DR, REGATTA PDE, SLATYER AVE, UPTON ST",
-        "SUBURBS": "BUNDALL, SOUTHPORT, SURFERS PARADISE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.314465,
               -27.998871
             ]
@@ -11194,9 +11330,127 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:35PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ANGLO CT, APPLEBLOSSOM PL, APRICOT AVE, BALOO CRES, BEAUDESERT NERANG RD, BENT ST, BIRDLIFE CT, BLUE HILL CT, BLUEBELLE DR, BRANSTON CT, BROOK CT, BURN CT, CENTURION CRES, CHERRY LANE, CITRUS DR, COUNTRY CRES, COUNTRY VIEW DR, CRANE CRES, CRUSADER WAY, DARGO ST, DELL CT, DONILLA PL, DUGANDAN ST, EALING CT, EUREKA CRES, FYFES RD, GERSHWIN CT, GILSTON RD, GOORA ST, HOBAN CT, HYDE CT, IBROX PARK CT, JINKER WAY, KEW CT, KNIGHT CRES, KOOLA DR, LILY CRES, MANDARIN CT, MANGO CT, MAROONG CRES, MERANTI CT, MERLOO DR, MORTENSEN RD, NORSE CL, PADAUK DR, PALADIN CT, PLUM PDE, RILL CT, RIVERLEA WATERS DR, RUSA CT, SAXON CT, SEATON CT, STRAUSS CT, SUMMERCREEK LANE, TEASDALE DR, THE AVENUE, THE CRITERION, THE DOMAIN, THE GRANGE, THE LINKWAY, THE LOCALE, THE STRAND, TIRRING ST, TUNBRIDGE DR, WEEDONS RD, WILLAWONG CRES, YALKURI DR, YARRAOWEE DR, YARRIMBAH DR, YOOLANTIE CRES, ZEPHYR ST",
         "SUBURBS": "GILSTON, NERANG",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.411392,
+              -28.003663
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.407855,
+                  -28.011336
+                ],
+                [
+                  153.40944,
+                  -28.011727
+                ],
+                [
+                  153.409983,
+                  -28.011563
+                ],
+                [
+                  153.410808,
+                  -28.010587
+                ],
+                [
+                  153.410853,
+                  -28.010523
+                ],
+                [
+                  153.411095,
+                  -28.010106
+                ],
+                [
+                  153.411118,
+                  -28.01006
+                ],
+                [
+                  153.414541,
+                  -28.002076
+                ],
+                [
+                  153.414562,
+                  -28.002016
+                ],
+                [
+                  153.415264,
+                  -27.999292
+                ],
+                [
+                  153.415272,
+                  -27.999128
+                ],
+                [
+                  153.414765,
+                  -27.995971
+                ],
+                [
+                  153.414126,
+                  -27.995599
+                ],
+                [
+                  153.414007,
+                  -27.995628
+                ],
+                [
+                  153.413809,
+                  -27.995722
+                ],
+                [
+                  153.413471,
+                  -27.995981
+                ],
+                [
+                  153.413335,
+                  -27.996146
+                ],
+                [
+                  153.413227,
+                  -27.996372
+                ],
+                [
+                  153.413215,
+                  -27.996399
+                ],
+                [
+                  153.407512,
+                  -28.010751
+                ],
+                [
+                  153.407855,
+                  -28.011336
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829205-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "260",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "8:53PM 06 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ASHMORE RD, BUNDALL RD, CROMBIE AVE, FERRY RD, FRIGO CT, HOLDEN PL, KARP CT, RACECOURSE DR, REGATTA PDE, SLATYER AVE, UPTON ST",
+        "SUBURBS": "BUNDALL, SOUTHPORT, SURFERS PARADISE",
         "ETR_FLAG": "N"
       }
     },
@@ -11542,103 +11796,9 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:31PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ALFRED MARTIN WAY, BALLOW RD, BALLOW ST, BANKSIA ST, BARTON ST, BAYLY ST, BEEHIVE RD, BERKELEY ST, BINGLE RD, BIRCH ST, BORONIA CT, BRIG ST, CHETTLE ST, CLAYTONS RD, COOK ST, CUMBERLAND ST, CUNNINGHAM ST, DICKSON WAY, DUNBAR ST, EAST COAST RD, ELLIS ST, FERNANDEZ ST, FINNEGAN ST, FLINDERS AVE, FRASER ST, GATUMBA ST, GEERA ST, GONZALES ST, GORE ST, GUY CRES, HARBOUR RD, HEXTON ST, ILLAWONG CRES, INDUSTRIAL DR, JUNNER ST, KAWANA ST, KINDARA ST, LLEWELLYN ST, LOGAN CRES, MACLAND ST, MALLON ST, MERMAID ST, MILES ST, MILLERS LANE, MIMOSA ST, MINING COMPANY RD, MIRIMAR ST, MITCHELL CRES, NORFOLK ST, OLD BALLOW RD, OXLEY PDE, PAMPHLET ST, PARSONS ST, PETRIE ST, POINT LOOKOUT RD, PROVIDENCE ST, ROUS ST, SALLY ST, SOVEREIGN RD, STRADBROKE PL, STURT ST, TOOMPANY ST, TOSH ST, WELSBY ST, YABBY ST",
         "SUBURBS": "AMITY, DUNWICH, NTH STRADBROKE ISLD",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.39431,
-              -28.103095
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.392745,
-                  -28.100239
-                ],
-                [
-                  153.392778,
-                  -28.101015
-                ],
-                [
-                  153.392778,
-                  -28.101018
-                ],
-                [
-                  153.39297,
-                  -28.104885
-                ],
-                [
-                  153.392972,
-                  -28.104905
-                ],
-                [
-                  153.393072,
-                  -28.105905
-                ],
-                [
-                  153.393418,
-                  -28.106292
-                ],
-                [
-                  153.394594,
-                  -28.10664
-                ],
-                [
-                  153.395257,
-                  -28.106284
-                ],
-                [
-                  153.395876,
-                  -28.102907
-                ],
-                [
-                  153.395826,
-                  -28.102628
-                ],
-                [
-                  153.394101,
-                  -28.099662
-                ],
-                [
-                  153.393288,
-                  -28.099551
-                ],
-                [
-                  153.392892,
-                  -28.099904
-                ],
-                [
-                  153.392745,
-                  -28.100239
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829257-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "31",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:17PM 06 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BRIDGMAN DR, HEULAN CT, ROYSTON CRES",
-        "SUBURBS": "REEDY CREEK",
         "ETR_FLAG": "N"
       }
     },
@@ -11768,6 +11928,100 @@
           {
             "type": "Point",
             "coordinates": [
+              153.39431,
+              -28.103095
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.392745,
+                  -28.100239
+                ],
+                [
+                  153.392778,
+                  -28.101015
+                ],
+                [
+                  153.392778,
+                  -28.101018
+                ],
+                [
+                  153.39297,
+                  -28.104885
+                ],
+                [
+                  153.392972,
+                  -28.104905
+                ],
+                [
+                  153.393072,
+                  -28.105905
+                ],
+                [
+                  153.393418,
+                  -28.106292
+                ],
+                [
+                  153.394594,
+                  -28.10664
+                ],
+                [
+                  153.395257,
+                  -28.106284
+                ],
+                [
+                  153.395876,
+                  -28.102907
+                ],
+                [
+                  153.395826,
+                  -28.102628
+                ],
+                [
+                  153.394101,
+                  -28.099662
+                ],
+                [
+                  153.393288,
+                  -28.099551
+                ],
+                [
+                  153.392892,
+                  -28.099904
+                ],
+                [
+                  153.392745,
+                  -28.100239
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829257-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "31",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "9:17PM 06 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BRIDGMAN DR, HEULAN CT, ROYSTON CRES",
+        "SUBURBS": "REEDY CREEK",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.387386,
               -27.689581
             ]
@@ -11868,9 +12122,95 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:13PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "AMBER AVE, ASH ST, BASKET BEACH RD, BAUHINIA DR, BURKE AVE, CENTRE RD, COOK AVE, COWDEROY DR, CUNNINGHAM AVE, CYPRESS AVE, DURINGAN ST, FALCONHURST RD, GAY TCE, HILLVIEW PDE, HUME ST, KENNEDY AVE, LEICHHARDT TCE, MALLEE ST, MORETON OTLK, NAPLES DR, PANDANUS DR, RUMBIN ST, SEAWARD DR, SHORE ST, SUNHAVEN RD, WAIKIKI BEACH RD, WILGA ST",
         "SUBURBS": "RUSSELL ISLAND",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.298935,
+              -28.154114
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.295548,
+                  -28.152311
+                ],
+                [
+                  153.295969,
+                  -28.157234
+                ],
+                [
+                  153.295973,
+                  -28.157265
+                ],
+                [
+                  153.29631,
+                  -28.159317
+                ],
+                [
+                  153.296747,
+                  -28.159699
+                ],
+                [
+                  153.297281,
+                  -28.159431
+                ],
+                [
+                  153.302323,
+                  -28.149104
+                ],
+                [
+                  153.3022,
+                  -28.148592
+                ],
+                [
+                  153.301613,
+                  -28.148528
+                ],
+                [
+                  153.295849,
+                  -28.151299
+                ],
+                [
+                  153.295584,
+                  -28.151671
+                ],
+                [
+                  153.295548,
+                  -28.152252
+                ],
+                [
+                  153.295548,
+                  -28.152311
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829407-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "12",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "12:14AM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "MT NIMMEL RD",
+        "SUBURBS": "AUSTINVILLE, SPRINGBROOK",
         "ETR_FLAG": "N"
       }
     },
@@ -12021,92 +12361,6 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "HARDYS RD, NATAN RD",
         "SUBURBS": "MUDGEERABA",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.298935,
-              -28.154114
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.295548,
-                  -28.152311
-                ],
-                [
-                  153.295969,
-                  -28.157234
-                ],
-                [
-                  153.295973,
-                  -28.157265
-                ],
-                [
-                  153.29631,
-                  -28.159317
-                ],
-                [
-                  153.296747,
-                  -28.159699
-                ],
-                [
-                  153.297281,
-                  -28.159431
-                ],
-                [
-                  153.302323,
-                  -28.149104
-                ],
-                [
-                  153.3022,
-                  -28.148592
-                ],
-                [
-                  153.301613,
-                  -28.148528
-                ],
-                [
-                  153.295849,
-                  -28.151299
-                ],
-                [
-                  153.295584,
-                  -28.151671
-                ],
-                [
-                  153.295548,
-                  -28.152252
-                ],
-                [
-                  153.295548,
-                  -28.152311
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-829407-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "12",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "12:14AM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "MT NIMMEL RD",
-        "SUBURBS": "AUSTINVILLE, SPRINGBROOK",
         "ETR_FLAG": "N"
       }
     },
@@ -12890,6 +13144,156 @@
           {
             "type": "Point",
             "coordinates": [
+              153.272328,
+              -27.931958
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.252599,
+                  -27.94893
+                ],
+                [
+                  153.255671,
+                  -27.962476
+                ],
+                [
+                  153.256221,
+                  -27.962835
+                ],
+                [
+                  153.276905,
+                  -27.960964
+                ],
+                [
+                  153.277166,
+                  -27.960871
+                ],
+                [
+                  153.278086,
+                  -27.960235
+                ],
+                [
+                  153.278135,
+                  -27.960196
+                ],
+                [
+                  153.27996,
+                  -27.958559
+                ],
+                [
+                  153.280096,
+                  -27.958332
+                ],
+                [
+                  153.292056,
+                  -27.906576
+                ],
+                [
+                  153.292013,
+                  -27.906284
+                ],
+                [
+                  153.290139,
+                  -27.902942
+                ],
+                [
+                  153.290083,
+                  -27.902863
+                ],
+                [
+                  153.28944,
+                  -27.902141
+                ],
+                [
+                  153.289426,
+                  -27.902126
+                ],
+                [
+                  153.288938,
+                  -27.901624
+                ],
+                [
+                  153.28879,
+                  -27.901519
+                ],
+                [
+                  153.288194,
+                  -27.901241
+                ],
+                [
+                  153.288076,
+                  -27.901202
+                ],
+                [
+                  153.287869,
+                  -27.901158
+                ],
+                [
+                  153.287794,
+                  -27.901147
+                ],
+                [
+                  153.286913,
+                  -27.90108
+                ],
+                [
+                  153.286618,
+                  -27.901138
+                ],
+                [
+                  153.28647,
+                  -27.901213
+                ],
+                [
+                  153.286298,
+                  -27.901356
+                ],
+                [
+                  153.255019,
+                  -27.943264
+                ],
+                [
+                  153.25497,
+                  -27.94335
+                ],
+                [
+                  153.252624,
+                  -27.948676
+                ],
+                [
+                  153.252599,
+                  -27.94893
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830188-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "677",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "3:59PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "AMANDA ST, ARBUCKLE PL, BARLEE PL, BEAUDESERT NERANG RD, BIGNELLS RD, BIRDS RD, BONNIE BRAE DR, BRAESIDE CRES, BURLEY GRIFFIN DR, CAPONE CT, CARDIFF CL, CARGELLICO ST, CHARLIES CROSSING RD N, COLCHESTER CT, DAVID ST, DIETRICH CT, ELANOR CT, FRED ASTAIRE AVE, GABOR CT, GATSBY PL, GENE KELLY CT, GINGER ROGERS RD, GREENACRE WAY, GUANABA CREEK RD, HARLOW CT, HAZLETT ST, HOLYROOD RD, HOWARD HUGHES CT, HUNTINGTON DR, JOHN WAYNE CL, KENILWORTH CT, KILLARNEY CT, LAGOON PARK DR, LLANDOVERY LANE, MAUDSLAND RD, MCQUEEN PL, MEADOW CT, MULWALA ST, NABBERU ST, POPPY ST, RIVERSTONE CRSG, SHERMAN DR, SHREWSBURY AVE, SINATRA PL, ST CLAIR CT, STEWART RD, SUMMER HILL CRES, TAMBORINE OXENFORD RD, TANDOU CT, TUXEDO JUNCTION DR, WALDORF PL, WHITTINGTON WAY, WILLANDRA CT",
+        "SUBURBS": "GUANABA, MAUDSLAND, MOUNT NATHAN, OXENFORD, UPPER COOMERA",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.368106,
               -27.959829
             ]
@@ -13080,156 +13484,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.272328,
-              -27.931958
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.252599,
-                  -27.94893
-                ],
-                [
-                  153.255671,
-                  -27.962476
-                ],
-                [
-                  153.256221,
-                  -27.962835
-                ],
-                [
-                  153.276905,
-                  -27.960964
-                ],
-                [
-                  153.277166,
-                  -27.960871
-                ],
-                [
-                  153.278086,
-                  -27.960235
-                ],
-                [
-                  153.278135,
-                  -27.960196
-                ],
-                [
-                  153.27996,
-                  -27.958559
-                ],
-                [
-                  153.280096,
-                  -27.958332
-                ],
-                [
-                  153.292056,
-                  -27.906576
-                ],
-                [
-                  153.292013,
-                  -27.906284
-                ],
-                [
-                  153.290139,
-                  -27.902942
-                ],
-                [
-                  153.290083,
-                  -27.902863
-                ],
-                [
-                  153.28944,
-                  -27.902141
-                ],
-                [
-                  153.289426,
-                  -27.902126
-                ],
-                [
-                  153.288938,
-                  -27.901624
-                ],
-                [
-                  153.28879,
-                  -27.901519
-                ],
-                [
-                  153.288194,
-                  -27.901241
-                ],
-                [
-                  153.288076,
-                  -27.901202
-                ],
-                [
-                  153.287869,
-                  -27.901158
-                ],
-                [
-                  153.287794,
-                  -27.901147
-                ],
-                [
-                  153.286913,
-                  -27.90108
-                ],
-                [
-                  153.286618,
-                  -27.901138
-                ],
-                [
-                  153.28647,
-                  -27.901213
-                ],
-                [
-                  153.286298,
-                  -27.901356
-                ],
-                [
-                  153.255019,
-                  -27.943264
-                ],
-                [
-                  153.25497,
-                  -27.94335
-                ],
-                [
-                  153.252624,
-                  -27.948676
-                ],
-                [
-                  153.252599,
-                  -27.94893
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830188-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "677",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "3:59PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "AMANDA ST, ARBUCKLE PL, BARLEE PL, BEAUDESERT NERANG RD, BIGNELLS RD, BIRDS RD, BONNIE BRAE DR, BRAESIDE CRES, BURLEY GRIFFIN DR, CAPONE CT, CARDIFF CL, CARGELLICO ST, CHARLIES CROSSING RD N, COLCHESTER CT, DAVID ST, DIETRICH CT, ELANOR CT, FRED ASTAIRE AVE, GABOR CT, GATSBY PL, GENE KELLY CT, GINGER ROGERS RD, GREENACRE WAY, GUANABA CREEK RD, HARLOW CT, HAZLETT ST, HOLYROOD RD, HOWARD HUGHES CT, HUNTINGTON DR, JOHN WAYNE CL, KENILWORTH CT, KILLARNEY CT, LAGOON PARK DR, LLANDOVERY LANE, MAUDSLAND RD, MCQUEEN PL, MEADOW CT, MULWALA ST, NABBERU ST, POPPY ST, RIVERSTONE CRSG, SHERMAN DR, SHREWSBURY AVE, SINATRA PL, ST CLAIR CT, STEWART RD, SUMMER HILL CRES, TAMBORINE OXENFORD RD, TANDOU CT, TUXEDO JUNCTION DR, WALDORF PL, WHITTINGTON WAY, WILLANDRA CT",
-        "SUBURBS": "GUANABA, MAUDSLAND, MOUNT NATHAN, OXENFORD, UPPER COOMERA",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.315776,
               -27.826328
             ]
@@ -13374,7 +13628,7 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "9:12PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ADDISYN ST, ANGELA WAY, ANLABY DR, ARCADIA BVD, ASPECT ST, AUGUSTA BVD, BAINES CT, BEAUMONT DR, BENWERRIN ST, BRAMPTON CT, BROOKFIELD ST, CAMBRIDGE CCT, CARNARVON CT, CASCADE ST, CHAPMAN ST, CHROME DR, CLAREDON LANE, COLLINGROVE CCT, COPPER PDE, COTMAN WAY, COTTRELL DR, COX RD, CUDMORE ST, CULLEN ST, CUNNINGHAM DR N, DARCEY ST, DIXON DR, DOBSON PL, EPPING AVE, FERNGROVE ST, FIRESTONE AVE, FLORA TCE, FOLEY CRES, FRY CT, GAINSBOROUGH DR, GEOFFREY MILLER AVE, GEORGE ALEXANDER WAY, GIDEON GDNS, GIRTIN CCT, GOOLWA CT, GOWER CT, GRAHAM ST, GREENWICH AVE, GYPSUM PL, HALLAM LINK, HAMPTON LANE, HANLIN WAY, HARVARD ST, HASHAM CT, HAZEL ST, HILLSBOROUGH PL, HUPFELD LANE, IDALIA ST, IMELDA WAY, ISABELLE PL, JUSTIN ST, KARINGAL DR, LABASSA AVE, LINDSAY LANE, MARIKA ST, MATAS DR, MATASHA CRES, MAURIE PEARS CRES, MAXWELL TCE, MAYBUSH WAY, MCWILLIAM ST, MEADOWS ST, MELVILLE DR, MERCER ST, MIEKA CRES, MILBROOK CRES, MOONSTONE ST, MOORINYA CCT, MORRIS ST, NICKEL ST, NOWENDOC AVE, OAK ST, OAKY CREEK DR, OLD PACIFIC HWY, OPAL LANE, OXFORD ST, PALUMA CRES, PARKLAND CCT, PEPPERTREE ST, PERCY EARL CRES, PETERS ST, PYRITE ST, RORY LANE, ROSEWOOD ST, ROSS CRES, RUNDLE AVE, SAPPHIRE PL, SIDNEY LANE, SIENNA CRES, SOLDIER BIRD AVE, STANFORD LANE, STEVEN CRES, SUDBURY DR, SUNSTONE AVE, THORNE DR, TIFFANY WAY, TROY KNIGHT DR, VOYAGER TCE, WILLIAM BVD, WOODROSE CCT, YALE ST, YAWALPAH RD, ZINC ST",
         "SUBURBS": "COOMERA, PIMPAMA",
         "ETR_FLAG": "N"
@@ -13738,6 +13992,132 @@
           {
             "type": "Point",
             "coordinates": [
+              153.540998,
+              -28.17017
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.530669,
+                  -28.171796
+                ],
+                [
+                  153.530764,
+                  -28.174747
+                ],
+                [
+                  153.530878,
+                  -28.175019
+                ],
+                [
+                  153.531131,
+                  -28.175295
+                ],
+                [
+                  153.531211,
+                  -28.175365
+                ],
+                [
+                  153.533287,
+                  -28.176814
+                ],
+                [
+                  153.533356,
+                  -28.176854
+                ],
+                [
+                  153.534157,
+                  -28.177245
+                ],
+                [
+                  153.534236,
+                  -28.177276
+                ],
+                [
+                  153.534479,
+                  -28.177351
+                ],
+                [
+                  153.534972,
+                  -28.177271
+                ],
+                [
+                  153.551155,
+                  -28.165306
+                ],
+                [
+                  153.551328,
+                  -28.164868
+                ],
+                [
+                  153.551196,
+                  -28.1643
+                ],
+                [
+                  153.550974,
+                  -28.164012
+                ],
+                [
+                  153.549278,
+                  -28.163038
+                ],
+                [
+                  153.548843,
+                  -28.162988
+                ],
+                [
+                  153.548546,
+                  -28.163074
+                ],
+                [
+                  153.548465,
+                  -28.163105
+                ],
+                [
+                  153.531538,
+                  -28.171093
+                ],
+                [
+                  153.531533,
+                  -28.171096
+                ],
+                [
+                  153.530933,
+                  -28.171387
+                ],
+                [
+                  153.530669,
+                  -28.171796
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-829333-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1204",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "11:30PM 06 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BALLOW ST, BOUNDARY ST, CARMICHAEL CL, CHALK ST, CLARKE ST, DIXON ST, DUTTON ST, EDEN AVE, GARRICK ST, GERRARD ST, GRIFFITH ST, HILL ST, KENT ST, LANHAM ST, MARINE PDE, MCDONALD ST, MCLEAN ST, PETRIE ST, REED ST, RUTLEDGE ST, SCOTT ST, SNAPPER ROCKS RD, STAPYLTON ST, TOOLOON ST, TWEED ST, TWEED TCE, WARD ST, WARRAWONG ST",
+        "SUBURBS": "COOLANGATTA",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.401823,
               -28.113044
             ]
@@ -13901,172 +14281,6 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ABBEY RIDGE RD, ALEX FISHER DR, ASPERIA ST, BARDEN RIDGE RD, BARTON ST, BELLATRIX ST, CAHILL CT, CAJEPUT CT, CALLICARPA ST, CASUA DR, COFFEEBUSH CT, CORDYLINE DR, CORONATA PL, CROWN CT, ERN HARLEY DR, FIDDLEWOOD PL, FLINDERSIA CT, FLINT CT, GILGANDRA CL, GOLDEN GROVE BVD, GORDONIA DR, GRAMPIAN CT, GROVE CREEK CL, JODRELL CT, JOHN DUNCAN CT, KAURI PINE ST, KINGCREST DR, KINGSMORE BVD, KIRKWOOD PL, LACEFLOWER CT, LITSEA CT, MONSERRAT CT, OBSERVATORY DR, OLD COACH RD, PACIFIC HWY, PARKES CT, PERKINS CL, POSSUMWOOD PL, PULCHELLA PL, REEDY CREEK RD, RINA CT, RIVERLILY ST, RUSTYPLUM CT, SCOTTSDALE DR, SKYWATCH CCT, SNOWWOOD ST, SORMANO ST, TUCKEROO PL, WILCOX CL, WOLLEMI CT, WOODLAND DR, WYLLIE WAY",
         "SUBURBS": "BURLEIGH HEADS, REEDY CREEK, VARSITY LAKES",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.448007,
-              -28.112722
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.436588,
-                  -28.10252
-                ],
-                [
-                  153.444657,
-                  -28.124951
-                ],
-                [
-                  153.444707,
-                  -28.12505
-                ],
-                [
-                  153.444804,
-                  -28.12519
-                ],
-                [
-                  153.4449,
-                  -28.125292
-                ],
-                [
-                  153.445187,
-                  -28.125518
-                ],
-                [
-                  153.445199,
-                  -28.125527
-                ],
-                [
-                  153.445358,
-                  -28.125646
-                ],
-                [
-                  153.445447,
-                  -28.125699
-                ],
-                [
-                  153.448701,
-                  -28.127226
-                ],
-                [
-                  153.448782,
-                  -28.127256
-                ],
-                [
-                  153.449776,
-                  -28.127543
-                ],
-                [
-                  153.450363,
-                  -28.127356
-                ],
-                [
-                  153.459359,
-                  -28.114828
-                ],
-                [
-                  153.459426,
-                  -28.114486
-                ],
-                [
-                  153.458822,
-                  -28.112115
-                ],
-                [
-                  153.458818,
-                  -28.112101
-                ],
-                [
-                  153.456168,
-                  -28.103096
-                ],
-                [
-                  153.456032,
-                  -28.102888
-                ],
-                [
-                  153.455831,
-                  -28.102713
-                ],
-                [
-                  153.45583,
-                  -28.102713
-                ],
-                [
-                  153.452305,
-                  -28.099661
-                ],
-                [
-                  153.452163,
-                  -28.099574
-                ],
-                [
-                  153.448764,
-                  -28.098182
-                ],
-                [
-                  153.448606,
-                  -28.098143
-                ],
-                [
-                  153.448347,
-                  -28.098118
-                ],
-                [
-                  153.448318,
-                  -28.098116
-                ],
-                [
-                  153.443592,
-                  -28.097901
-                ],
-                [
-                  153.443294,
-                  -28.097971
-                ],
-                [
-                  153.437745,
-                  -28.101084
-                ],
-                [
-                  153.437641,
-                  -28.101161
-                ],
-                [
-                  153.436697,
-                  -28.102079
-                ],
-                [
-                  153.436588,
-                  -28.10252
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830461-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "1202",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:43PM 07 Mar 2025",
-        "EST_FIX_TIME": "6:30AM 08 Mar 2025",
-        "STREETS": "ACRON ST, AGAVE ST, BANJO ST, BARKLYA PL, BERGAMONT ST, BIOTA CT, BIRCH CT, BLACKBEAN CT, BUNYIP ST, COOLIBAH DR, DIPLACUS DR, DOGWOOD DR, FLEAY CT, GABRIELLE GR, HAKEA CT, HOPBUSH ST, JAPONICA DR, KENTIA CT, KINGFISH CT, KORTUM DR, KURRAJONG CT, LINDEN CT, LING PL, LINUM ST, MACKEREL CT, MAHOGANY DR, MALLAWA DR, MATILDA ST, MATIPO PL, MELALEUCA DR, MURLONG CRES, NINETEENTH AVE, OCEAN PDE, PARNKI PDE, PINDARI AVE, REEDY CREEK RD, SATINWOOD PL, SUMACH PL, TALLEBUDGERA DR, VANTAGE POINT DR, WEST BURLEIGH RD",
-        "SUBURBS": "BURLEIGH HEADS, ELANORA, PALM BEACH",
         "ETR_FLAG": "N"
       }
     },
@@ -14402,8 +14616,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.540998,
-              -28.17017
+              153.448007,
+              -28.112722
             ]
           },
           {
@@ -14411,96 +14625,136 @@
             "coordinates": [
               [
                 [
-                  153.530669,
-                  -28.171796
+                  153.436588,
+                  -28.10252
                 ],
                 [
-                  153.530764,
-                  -28.174747
+                  153.444657,
+                  -28.124951
                 ],
                 [
-                  153.530878,
-                  -28.175019
+                  153.444707,
+                  -28.12505
                 ],
                 [
-                  153.531131,
-                  -28.175295
+                  153.444804,
+                  -28.12519
                 ],
                 [
-                  153.531211,
-                  -28.175365
+                  153.4449,
+                  -28.125292
                 ],
                 [
-                  153.533287,
-                  -28.176814
+                  153.445187,
+                  -28.125518
                 ],
                 [
-                  153.533356,
-                  -28.176854
+                  153.445199,
+                  -28.125527
                 ],
                 [
-                  153.534157,
-                  -28.177245
+                  153.445358,
+                  -28.125646
                 ],
                 [
-                  153.534236,
-                  -28.177276
+                  153.445447,
+                  -28.125699
                 ],
                 [
-                  153.534479,
-                  -28.177351
+                  153.448701,
+                  -28.127226
                 ],
                 [
-                  153.534972,
-                  -28.177271
+                  153.448782,
+                  -28.127256
                 ],
                 [
-                  153.551155,
-                  -28.165306
+                  153.449776,
+                  -28.127543
                 ],
                 [
-                  153.551328,
-                  -28.164868
+                  153.450363,
+                  -28.127356
                 ],
                 [
-                  153.551196,
-                  -28.1643
+                  153.459359,
+                  -28.114828
                 ],
                 [
-                  153.550974,
-                  -28.164012
+                  153.459426,
+                  -28.114486
                 ],
                 [
-                  153.549278,
-                  -28.163038
+                  153.458822,
+                  -28.112115
                 ],
                 [
-                  153.548843,
-                  -28.162988
+                  153.458818,
+                  -28.112101
                 ],
                 [
-                  153.548546,
-                  -28.163074
+                  153.456168,
+                  -28.103096
                 ],
                 [
-                  153.548465,
-                  -28.163105
+                  153.456032,
+                  -28.102888
                 ],
                 [
-                  153.531538,
-                  -28.171093
+                  153.455831,
+                  -28.102713
                 ],
                 [
-                  153.531533,
-                  -28.171096
+                  153.45583,
+                  -28.102713
                 ],
                 [
-                  153.530933,
-                  -28.171387
+                  153.452305,
+                  -28.099661
                 ],
                 [
-                  153.530669,
-                  -28.171796
+                  153.452163,
+                  -28.099574
+                ],
+                [
+                  153.448764,
+                  -28.098182
+                ],
+                [
+                  153.448606,
+                  -28.098143
+                ],
+                [
+                  153.448347,
+                  -28.098118
+                ],
+                [
+                  153.448318,
+                  -28.098116
+                ],
+                [
+                  153.443592,
+                  -28.097901
+                ],
+                [
+                  153.443294,
+                  -28.097971
+                ],
+                [
+                  153.437745,
+                  -28.101084
+                ],
+                [
+                  153.437641,
+                  -28.101161
+                ],
+                [
+                  153.436697,
+                  -28.102079
+                ],
+                [
+                  153.436588,
+                  -28.10252
                 ]
               ]
             ]
@@ -14508,15 +14762,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-829333-g",
+        "EVENT_ID": "INCD-830461-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "1204",
+        "CUSTOMERS_AFFECTED": "1202",
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
-        "START": "11:30PM 06 Mar 2025",
+        "START": "9:43PM 07 Mar 2025",
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BALLOW ST, BOUNDARY ST, CARMICHAEL CL, CHALK ST, CLARKE ST, DIXON ST, DUTTON ST, EDEN AVE, GARRICK ST, GERRARD ST, GRIFFITH ST, HILL ST, KENT ST, LANHAM ST, MARINE PDE, MCDONALD ST, MCLEAN ST, PETRIE ST, REED ST, RUTLEDGE ST, SCOTT ST, SNAPPER ROCKS RD, STAPYLTON ST, TOOLOON ST, TWEED ST, TWEED TCE, WARD ST, WARRAWONG ST",
-        "SUBURBS": "COOLANGATTA",
+        "STREETS": "ACRON ST, AGAVE ST, BANJO ST, BARKLYA PL, BERGAMONT ST, BIOTA CT, BIRCH CT, BLACKBEAN CT, BUNYIP ST, COOLIBAH DR, DIPLACUS DR, DOGWOOD DR, FLEAY CT, GABRIELLE GR, HAKEA CT, HOPBUSH ST, JAPONICA DR, KENTIA CT, KINGFISH CT, KORTUM DR, KURRAJONG CT, LINDEN CT, LING PL, LINUM ST, MACKEREL CT, MAHOGANY DR, MALLAWA DR, MATILDA ST, MATIPO PL, MELALEUCA DR, MURLONG CRES, NINETEENTH AVE, OCEAN PDE, PARNKI PDE, PINDARI AVE, REEDY CREEK RD, SATINWOOD PL, SUMACH PL, TALLEBUDGERA DR, VANTAGE POINT DR, WEST BURLEIGH RD",
+        "SUBURBS": "BURLEIGH HEADS, ELANORA, PALM BEACH",
         "ETR_FLAG": "N"
       }
     },
@@ -15504,7 +15758,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:13PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "MORALA AVE",
         "SUBURBS": "RUNAWAY BAY",
         "ETR_FLAG": "N"
@@ -15646,7 +15900,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "7:37PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BARNETT PL, ENERGY CRES, EXPORT DR, MANUFACTURER DR, PRECISION DR, PRODUCTION AVE, REICHERT DR",
         "SUBURBS": "MOLENDINAR",
         "ETR_FLAG": "N"
@@ -15780,7 +16034,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:36PM 07 Mar 2025",
-        "EST_FIX_TIME": "1:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ACTIVA WAY, AZURE WAY, BEACON LANE, BEAUFORT WAY, BELMONT CT E, BELMONT CT W, BLUEWATER CT, BOYKAMBIL ESP N, BOYKAMBIL ESP S, BROADWATER AVE, CAPRI CT, CARLTON CL, CARLTON DR, COOMBE AVE, COVA BVD, CRESCENT AVE, CRESSBROOK DR, DUNNES AVE, ELLENSBROOK DR, FERNLEA CL, FLYBRIDGE WAY, GALLEY RD, GLENGALLON WAY, GOWRIE WAY, GRACEMERE CCT, GRACEMERE CCT E, GRACEMERE CCT N, GRACEMERE CCT W, GRACEMERE DR, GRACEMERE GARDENS CCT, HALCYON WAY, HALYARD CRES, HAMMOCK PL, HARBOUR RISE, HARBOURVIEW DR, HOPE ISLAND RD, JOHN LUND DR, KEELSON CRES, LEESIDE PL, LYRA AVE, MAGNOLIA DR E, MAGNOLIA DR W, MAGNOLIA GARDENS CT, MARINA CT, MARINA QUAYS BVD, MARINER AVE, MAYFAIR LANE, NELSON AVE, NORTH QUAY CCT, NORTH WATER DR, NORTHWATER DR, OUTRIGGER CCT, OXLEY DR, PARK COVE BVD, PARK LANE, PETER SENIOR DR, POINT DR, POOL ST, PROMENADE CCT, REGENT LANE, SHEEHAN AVE, SHOE ST, SICKLE AVE, SORRENTO ST, SPINNAKER WAY, SPRINGFIELD DR, STILLWATER CT, TAROMEO CT, THE PALLADIAN DR, TRINITY CRES, VIRGINIA DR, WATERFRONT LANE, WATERS CL, WINDWARD CT, WYLARAH WAY, YANDERRA CL",
         "SUBURBS": "HOPE ISLAND, PARADISE POINT, RUNAWAY BAY",
         "ETR_FLAG": "N"
@@ -16401,6 +16655,196 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ATKIN ST, BIELBY ST, CABARITA AVE, COOLANGATTA RD, DANDALOO DR, DUNE ST, DURINGAN ST, ELIZABETH ST, FIELDING ST, GOLD COAST HWY, GOLDEN FOUR DR, HOOPER DR, KARANA ST, KATTA AVE, MAUD ST, OCONNOR ST, PACIFIC PDE, PANORAMA DR, SAND ST, SHELL ST, STATION ST, THROWER DR, TOOLONA ST, WEEUMBA ST, WIRRANINA PL, WYBERBA ST",
         "SUBURBS": "CURRUMBIN, TUGUN",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.36626,
+              -28.01908
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.35038,
+                  -28.018791
+                ],
+                [
+                  153.350424,
+                  -28.020097
+                ],
+                [
+                  153.350426,
+                  -28.020123
+                ],
+                [
+                  153.350446,
+                  -28.020326
+                ],
+                [
+                  153.350448,
+                  -28.020344
+                ],
+                [
+                  153.350989,
+                  -28.02407
+                ],
+                [
+                  153.351026,
+                  -28.024192
+                ],
+                [
+                  153.351732,
+                  -28.025641
+                ],
+                [
+                  153.351955,
+                  -28.025858
+                ],
+                [
+                  153.353262,
+                  -28.026492
+                ],
+                [
+                  153.35329,
+                  -28.026505
+                ],
+                [
+                  153.35342,
+                  -28.026558
+                ],
+                [
+                  153.353456,
+                  -28.026572
+                ],
+                [
+                  153.356073,
+                  -28.027452
+                ],
+                [
+                  153.356164,
+                  -28.027474
+                ],
+                [
+                  153.356274,
+                  -28.027492
+                ],
+                [
+                  153.356517,
+                  -28.027477
+                ],
+                [
+                  153.366693,
+                  -28.024602
+                ],
+                [
+                  153.366715,
+                  -28.024595
+                ],
+                [
+                  153.38078,
+                  -28.019983
+                ],
+                [
+                  153.380956,
+                  -28.019886
+                ],
+                [
+                  153.380996,
+                  -28.019852
+                ],
+                [
+                  153.381004,
+                  -28.019845
+                ],
+                [
+                  153.381158,
+                  -28.019708
+                ],
+                [
+                  153.381172,
+                  -28.019695
+                ],
+                [
+                  153.381209,
+                  -28.019659
+                ],
+                [
+                  153.381317,
+                  -28.0195
+                ],
+                [
+                  153.381339,
+                  -28.019441
+                ],
+                [
+                  153.381354,
+                  -28.019395
+                ],
+                [
+                  153.38214,
+                  -28.01635
+                ],
+                [
+                  153.38186,
+                  -28.01584
+                ],
+                [
+                  153.374175,
+                  -28.012659
+                ],
+                [
+                  153.374113,
+                  -28.012638
+                ],
+                [
+                  153.367094,
+                  -28.010668
+                ],
+                [
+                  153.36671,
+                  -28.010696
+                ],
+                [
+                  153.351646,
+                  -28.017516
+                ],
+                [
+                  153.351522,
+                  -28.017596
+                ],
+                [
+                  153.350533,
+                  -28.018455
+                ],
+                [
+                  153.35038,
+                  -28.018791
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830495-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1826",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "10:13PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ALISON RD, ALZINO PL, BIRMINGHAM RD, BRETTON CT, BURCOTT CT, CENTRAL PL, CHURCHILL CT, DAVIDSON PL, DREWE CT, DUNSBY DR, EDELSTEN CT, EMERALD ISLANDS DR, EMERALD LAKES DR, EVERGLADE AVE, FOXHILL CT, GARY CT, HARNEIL PL, HICKEY WAY, JERROB CT, JOHN MUNRO CT, LEFROY CT, MADIGAN RD, MARLA WAY, MARRANTIN CT, MAYJOHN AVE, MICHELMORE RD, MINUGH CT, MUREV WAY, MUSTON CT, PANORAMA DR, PLATEAU CRES, QUAY SOUTH DR, RYFIELD RD, ST GEORGES CT, THE BOULEVARDE, THE INLET DR, THE VISTAS DR, WHITIAN DR, WOOLMERE ST",
+        "SUBURBS": "CARRARA",
         "ETR_FLAG": "N"
       }
     },
@@ -17918,6 +18362,220 @@
           {
             "type": "Point",
             "coordinates": [
+              153.409057,
+              -28.023611
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.396069,
+                  -28.015699
+                ],
+                [
+                  153.396572,
+                  -28.022162
+                ],
+                [
+                  153.396581,
+                  -28.022219
+                ],
+                [
+                  153.396625,
+                  -28.022416
+                ],
+                [
+                  153.396627,
+                  -28.022425
+                ],
+                [
+                  153.396907,
+                  -28.023554
+                ],
+                [
+                  153.396968,
+                  -28.023689
+                ],
+                [
+                  153.397029,
+                  -28.02378
+                ],
+                [
+                  153.397095,
+                  -28.023857
+                ],
+                [
+                  153.401334,
+                  -28.027848
+                ],
+                [
+                  153.401356,
+                  -28.027867
+                ],
+                [
+                  153.401437,
+                  -28.027935
+                ],
+                [
+                  153.40153,
+                  -28.027996
+                ],
+                [
+                  153.412683,
+                  -28.03374
+                ],
+                [
+                  153.412815,
+                  -28.033788
+                ],
+                [
+                  153.413725,
+                  -28.03399
+                ],
+                [
+                  153.413753,
+                  -28.033995
+                ],
+                [
+                  153.41384,
+                  -28.03401
+                ],
+                [
+                  153.413846,
+                  -28.034011
+                ],
+                [
+                  153.415615,
+                  -28.034291
+                ],
+                [
+                  153.415866,
+                  -28.034274
+                ],
+                [
+                  153.417381,
+                  -28.033823
+                ],
+                [
+                  153.417647,
+                  -28.033639
+                ],
+                [
+                  153.417728,
+                  -28.033528
+                ],
+                [
+                  153.417773,
+                  -28.033449
+                ],
+                [
+                  153.422046,
+                  -28.023812
+                ],
+                [
+                  153.422005,
+                  -28.023408
+                ],
+                [
+                  153.417487,
+                  -28.016949
+                ],
+                [
+                  153.417351,
+                  -28.01682
+                ],
+                [
+                  153.411584,
+                  -28.013151
+                ],
+                [
+                  153.411467,
+                  -28.013096
+                ],
+                [
+                  153.411057,
+                  -28.012958
+                ],
+                [
+                  153.410813,
+                  -28.012932
+                ],
+                [
+                  153.396764,
+                  -28.014505
+                ],
+                [
+                  153.39667,
+                  -28.014523
+                ],
+                [
+                  153.396524,
+                  -28.014566
+                ],
+                [
+                  153.396221,
+                  -28.014804
+                ],
+                [
+                  153.396167,
+                  -28.014907
+                ],
+                [
+                  153.396122,
+                  -28.015048
+                ],
+                [
+                  153.396107,
+                  -28.015172
+                ],
+                [
+                  153.396106,
+                  -28.015179
+                ],
+                [
+                  153.396074,
+                  -28.01548
+                ],
+                [
+                  153.396072,
+                  -28.015511
+                ],
+                [
+                  153.396068,
+                  -28.015656
+                ],
+                [
+                  153.396069,
+                  -28.015699
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830496-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1640",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "10:13PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ALVARADO CT, ARAN CT, AROONA AVE, BEVERLEY CRES, BINDA PL, BLAIR ATHOL CRES, BOMBALA ST, BOOMERANG CRES, BUENA VISTA CT, BUNDALL RD, CAMPBELL ST, CLONTARF AVE, COOBOWIE ST, COSTA CT, DELUNGRA ST, DONEGAL CRES, DUNBARTON AVE, ELGIN CRES, EMU CT, ENSENADA CT, FORSTER AVE, FREYBURG ST, GRANT PL, HOLLAND CT, KALIMNA DR, KERRY CT, KILKENNY CT, KOOKABURRA CT, LA SPEZIA CT, LAKESIDE AVE, LARNE AVE, MACKAY CL, MARSEILLE CT, MCCLEARY ST, MCILWRAITH AVE, MOANA PARK AVE, MONACO ST, MONTE VISTA CT, MONTEREY CT, PACIFIC BVD, PALMETTO CT, PANITZ ST, PASADENA CT, PENSACOLA CT, PLATYPUS AVE, POINCIANA BVD, RIO VISTA BVD, ROWES CT, RUDD ST, SAN MICHELE CT, SAN REMO BVD, SEAFORTH AVE, ST MORITZ TCE, ST RAPHAEL TCE, ST TROPEZ TCE, T E PETERS DR, TAIN CT, TUMBI ST, TYRONE AVE, WALLABY PL, WATERVIEW CRES, WOMBAT CT",
+        "SUBURBS": "BROADBEACH WATERS, BUNDALL, SURFERS PARADISE",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.863368,
               -28.076029
             ]
@@ -17993,6 +18651,490 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "BOOMERANG DR",
         "SUBURBS": "KOORALBYN",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.333098,
+              -27.915492
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.319461,
+                  -27.913072
+                ],
+                [
+                  153.321326,
+                  -27.924509
+                ],
+                [
+                  153.32136,
+                  -27.924618
+                ],
+                [
+                  153.32165,
+                  -27.925233
+                ],
+                [
+                  153.322132,
+                  -27.926256
+                ],
+                [
+                  153.322381,
+                  -27.926489
+                ],
+                [
+                  153.331382,
+                  -27.930319
+                ],
+                [
+                  153.331725,
+                  -27.93035
+                ],
+                [
+                  153.338603,
+                  -27.928827
+                ],
+                [
+                  153.338963,
+                  -27.928528
+                ],
+                [
+                  153.343999,
+                  -27.914688
+                ],
+                [
+                  153.344014,
+                  -27.914635
+                ],
+                [
+                  153.346734,
+                  -27.902151
+                ],
+                [
+                  153.346649,
+                  -27.901803
+                ],
+                [
+                  153.345909,
+                  -27.90088
+                ],
+                [
+                  153.345631,
+                  -27.900707
+                ],
+                [
+                  153.345338,
+                  -27.900635
+                ],
+                [
+                  153.344963,
+                  -27.900671
+                ],
+                [
+                  153.319725,
+                  -27.912609
+                ],
+                [
+                  153.319461,
+                  -27.913072
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830435-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1022",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "9:21PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BAIRNSDALE CT, BINSTEAD WAY, BOREEN CT, BURDEKIN AVE, CAREEL CL, COOTHARABA DR, CORINDA CT, CORRINGLE CL, DISCOVERY DR, ELANDA PL, ELI PL, ENTERTAINMENT DR, FAIRHAVEN CT, GIPPSLAND DR, GLADE DR, GOLD COAST HWY, GORDONVALE PL, GOULBURN CT, GREENACRE DR, HALBURY CT, HESLOP RD, LAIDLEY PL, LATROBE AVE, METRO CRES, MILDURA DR, MOONDA CT, PACIFIC HWY, PARAMOUNT PL, PENTLAND CT, POEPPEL PL, PRESTON PL, RIDGEVALE DR, STUDIO DR, TIARO CT, TOWN CENTRE DR, UNIVERSAL ST, URANGAN CT, WAYNE PL, WHYALLA CT, YUNGABURRA PL",
+        "SUBURBS": "GAVEN, HELENSVALE, OXENFORD, PACIFIC PINES, PARKWOOD",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.380745,
+              -27.991868
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.368581,
+                  -27.983976
+                ],
+                [
+                  153.368598,
+                  -27.984093
+                ],
+                [
+                  153.36861,
+                  -27.984148
+                ],
+                [
+                  153.368662,
+                  -27.98433
+                ],
+                [
+                  153.368749,
+                  -27.984492
+                ],
+                [
+                  153.377699,
+                  -27.994982
+                ],
+                [
+                  153.377708,
+                  -27.994993
+                ],
+                [
+                  153.37974,
+                  -27.997239
+                ],
+                [
+                  153.379758,
+                  -27.997257
+                ],
+                [
+                  153.382663,
+                  -28.000137
+                ],
+                [
+                  153.382727,
+                  -28.000191
+                ],
+                [
+                  153.383046,
+                  -28.000414
+                ],
+                [
+                  153.383063,
+                  -28.000425
+                ],
+                [
+                  153.385545,
+                  -28.002017
+                ],
+                [
+                  153.38561,
+                  -28.002052
+                ],
+                [
+                  153.38573,
+                  -28.002107
+                ],
+                [
+                  153.385968,
+                  -28.002158
+                ],
+                [
+                  153.386497,
+                  -28.002154
+                ],
+                [
+                  153.386802,
+                  -28.002061
+                ],
+                [
+                  153.386917,
+                  -28.001982
+                ],
+                [
+                  153.386993,
+                  -28.001918
+                ],
+                [
+                  153.391221,
+                  -27.997548
+                ],
+                [
+                  153.391264,
+                  -27.997496
+                ],
+                [
+                  153.391817,
+                  -27.996725
+                ],
+                [
+                  153.391894,
+                  -27.996527
+                ],
+                [
+                  153.392912,
+                  -27.987307
+                ],
+                [
+                  153.392748,
+                  -27.986929
+                ],
+                [
+                  153.38626,
+                  -27.981692
+                ],
+                [
+                  153.38586,
+                  -27.981577
+                ],
+                [
+                  153.369724,
+                  -27.983209
+                ],
+                [
+                  153.369713,
+                  -27.98321
+                ],
+                [
+                  153.369032,
+                  -27.983293
+                ],
+                [
+                  153.368593,
+                  -27.983707
+                ],
+                [
+                  153.368579,
+                  -27.983887
+                ],
+                [
+                  153.368581,
+                  -27.983976
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830492-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "1426",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "10:11PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "ABBY CRES, ALLSPICE DR, ANTHEA CT, BANYAN CT, BINALONG DR, BLIGH CT, BOREE ST, BOXTHORN ST, CANARA ST, CARCOOLA ST, CONBEE ST, COOBAH CT, COOLONG CT, CORUNNA CRES, COTLEW ST, COTLEW ST W, CURRUMBURRA RD, DURI PL, EVANS DR, EXPO CT, FREDA ST, HEEB ST, HERMITAGE CL, HILLVIEW PDE, HORIZON AVE, KAMO CT, LIMOSA ST, LINDAL ST, LOWANNA DR, LUISA CT, MARIA PL, MARLBOROUGH CT, MILBONG TCE, MUALLA DR, MULYAN PL, MURRUMBA DR, MUSA ST, NEMO ST, PARASOL ST, PINKWOOD DR, RAFTERY ST, ROBA PL, SAMANTHA CT, SUN VALLEY DR, TAMBOURAH DR, TANGERINE ROW, THE CRESCENT, TOMANBIL TCE, WALLAROO WAY, WARDOO ST, WARRIGAL CRES, WUDINA CT, YANGOORA CRES, YARRADUP ST",
+        "SUBURBS": "ASHMORE, BENOWA, SOUTHPORT",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.264914,
+              -27.640301
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.242723,
+                  -27.658853
+                ],
+                [
+                  153.271562,
+                  -27.655019
+                ],
+                [
+                  153.271944,
+                  -27.654769
+                ],
+                [
+                  153.28759,
+                  -27.625953
+                ],
+                [
+                  153.287352,
+                  -27.625349
+                ],
+                [
+                  153.285258,
+                  -27.624462
+                ],
+                [
+                  153.285182,
+                  -27.624436
+                ],
+                [
+                  153.274809,
+                  -27.621748
+                ],
+                [
+                  153.274308,
+                  -27.621864
+                ],
+                [
+                  153.26623,
+                  -27.629101
+                ],
+                [
+                  153.266202,
+                  -27.629128
+                ],
+                [
+                  153.264324,
+                  -27.631104
+                ],
+                [
+                  153.264301,
+                  -27.63113
+                ],
+                [
+                  153.242238,
+                  -27.658141
+                ],
+                [
+                  153.242723,
+                  -27.658853
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830463-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "357",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "9:45PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BARADINE ST, BOTTLETREE CRES, BRIGALOW PL, DAINTREE DR, ELKHORN ST, FLAMETREE CRES, GERMAN CHURCH RD, GOLDEN WATTLE AVE, HABERMANN RD, HARDWOOD DR, JARDINE DR, LACEBARK CL, MARBLEWOOD ST, SUGARGUM AVE, TEVIOT RD, WHITEASH ST",
+        "SUBURBS": "CARBROOK, MOUNT COTTON, REDLAND BAY",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.412947,
+              -27.500397
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.410934,
+                  -27.505219
+                ],
+                [
+                  153.411405,
+                  -27.506535
+                ],
+                [
+                  153.411539,
+                  -27.506726
+                ],
+                [
+                  153.413215,
+                  -27.508138
+                ],
+                [
+                  153.414045,
+                  -27.507948
+                ],
+                [
+                  153.414962,
+                  -27.505393
+                ],
+                [
+                  153.414985,
+                  -27.505221
+                ],
+                [
+                  153.414308,
+                  -27.497402
+                ],
+                [
+                  153.414306,
+                  -27.497378
+                ],
+                [
+                  153.413971,
+                  -27.495091
+                ],
+                [
+                  153.413903,
+                  -27.494917
+                ],
+                [
+                  153.412609,
+                  -27.493001
+                ],
+                [
+                  153.412432,
+                  -27.492844
+                ],
+                [
+                  153.412073,
+                  -27.492657
+                ],
+                [
+                  153.411311,
+                  -27.493032
+                ],
+                [
+                  153.41091,
+                  -27.505069
+                ],
+                [
+                  153.410934,
+                  -27.505219
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-830446-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "104",
+        "REASON": "Damage Due To Cyclone",
+        "STATUS": "Awaiting",
+        "START": "9:34PM 07 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
+        "STREETS": "BALLOW RD, RAINBOW CRES",
+        "SUBURBS": "DUNWICH, NTH STRADBROKE ISLD",
         "ETR_FLAG": "N"
       }
     },
@@ -18115,316 +19257,6 @@
         "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "COOLIBAH ST, DANDAR DR, KENYON RD, KYEEMAGH CT, LARA AVE, LILLI PILLI DR, LOVETT CT, LURLINE ST, MILDRED ST, MYALL ST, MYRTLE CT, TONGARRA ST",
         "SUBURBS": "SOUTHPORT",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.333098,
-              -27.915492
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.319461,
-                  -27.913072
-                ],
-                [
-                  153.321326,
-                  -27.924509
-                ],
-                [
-                  153.32136,
-                  -27.924618
-                ],
-                [
-                  153.32165,
-                  -27.925233
-                ],
-                [
-                  153.322132,
-                  -27.926256
-                ],
-                [
-                  153.322381,
-                  -27.926489
-                ],
-                [
-                  153.331382,
-                  -27.930319
-                ],
-                [
-                  153.331725,
-                  -27.93035
-                ],
-                [
-                  153.338603,
-                  -27.928827
-                ],
-                [
-                  153.338963,
-                  -27.928528
-                ],
-                [
-                  153.343999,
-                  -27.914688
-                ],
-                [
-                  153.344014,
-                  -27.914635
-                ],
-                [
-                  153.346734,
-                  -27.902151
-                ],
-                [
-                  153.346649,
-                  -27.901803
-                ],
-                [
-                  153.345909,
-                  -27.90088
-                ],
-                [
-                  153.345631,
-                  -27.900707
-                ],
-                [
-                  153.345338,
-                  -27.900635
-                ],
-                [
-                  153.344963,
-                  -27.900671
-                ],
-                [
-                  153.319725,
-                  -27.912609
-                ],
-                [
-                  153.319461,
-                  -27.913072
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830435-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "1022",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:21PM 07 Mar 2025",
-        "EST_FIX_TIME": "1:00AM 08 Mar 2025",
-        "STREETS": "BAIRNSDALE CT, BINSTEAD WAY, BOREEN CT, BURDEKIN AVE, CAREEL CL, COOTHARABA DR, CORINDA CT, CORRINGLE CL, DISCOVERY DR, ELANDA PL, ELI PL, ENTERTAINMENT DR, FAIRHAVEN CT, GIPPSLAND DR, GLADE DR, GOLD COAST HWY, GORDONVALE PL, GOULBURN CT, GREENACRE DR, HALBURY CT, HESLOP RD, LAIDLEY PL, LATROBE AVE, METRO CRES, MILDURA DR, MOONDA CT, PACIFIC HWY, PARAMOUNT PL, PENTLAND CT, POEPPEL PL, PRESTON PL, RIDGEVALE DR, STUDIO DR, TIARO CT, TOWN CENTRE DR, UNIVERSAL ST, URANGAN CT, WAYNE PL, WHYALLA CT, YUNGABURRA PL",
-        "SUBURBS": "GAVEN, HELENSVALE, OXENFORD, PACIFIC PINES, PARKWOOD",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.264914,
-              -27.640301
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.242723,
-                  -27.658853
-                ],
-                [
-                  153.271562,
-                  -27.655019
-                ],
-                [
-                  153.271944,
-                  -27.654769
-                ],
-                [
-                  153.28759,
-                  -27.625953
-                ],
-                [
-                  153.287352,
-                  -27.625349
-                ],
-                [
-                  153.285258,
-                  -27.624462
-                ],
-                [
-                  153.285182,
-                  -27.624436
-                ],
-                [
-                  153.274809,
-                  -27.621748
-                ],
-                [
-                  153.274308,
-                  -27.621864
-                ],
-                [
-                  153.26623,
-                  -27.629101
-                ],
-                [
-                  153.266202,
-                  -27.629128
-                ],
-                [
-                  153.264324,
-                  -27.631104
-                ],
-                [
-                  153.264301,
-                  -27.63113
-                ],
-                [
-                  153.242238,
-                  -27.658141
-                ],
-                [
-                  153.242723,
-                  -27.658853
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830463-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "357",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:45PM 07 Mar 2025",
-        "EST_FIX_TIME": "1:30AM 08 Mar 2025",
-        "STREETS": "BARADINE ST, BOTTLETREE CRES, BRIGALOW PL, DAINTREE DR, ELKHORN ST, FLAMETREE CRES, GERMAN CHURCH RD, GOLDEN WATTLE AVE, HABERMANN RD, HARDWOOD DR, JARDINE DR, LACEBARK CL, MARBLEWOOD ST, SUGARGUM AVE, TEVIOT RD, WHITEASH ST",
-        "SUBURBS": "CARBROOK, MOUNT COTTON, REDLAND BAY",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.412947,
-              -27.500397
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.410934,
-                  -27.505219
-                ],
-                [
-                  153.411405,
-                  -27.506535
-                ],
-                [
-                  153.411539,
-                  -27.506726
-                ],
-                [
-                  153.413215,
-                  -27.508138
-                ],
-                [
-                  153.414045,
-                  -27.507948
-                ],
-                [
-                  153.414962,
-                  -27.505393
-                ],
-                [
-                  153.414985,
-                  -27.505221
-                ],
-                [
-                  153.414308,
-                  -27.497402
-                ],
-                [
-                  153.414306,
-                  -27.497378
-                ],
-                [
-                  153.413971,
-                  -27.495091
-                ],
-                [
-                  153.413903,
-                  -27.494917
-                ],
-                [
-                  153.412609,
-                  -27.493001
-                ],
-                [
-                  153.412432,
-                  -27.492844
-                ],
-                [
-                  153.412073,
-                  -27.492657
-                ],
-                [
-                  153.411311,
-                  -27.493032
-                ],
-                [
-                  153.41091,
-                  -27.505069
-                ],
-                [
-                  153.410934,
-                  -27.505219
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-830446-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "104",
-        "REASON": "Damage Due To Cyclone",
-        "STATUS": "Awaiting",
-        "START": "9:34PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
-        "STREETS": "BALLOW RD, RAINBOW CRES",
-        "SUBURBS": "DUNWICH, NTH STRADBROKE ISLD",
         "ETR_FLAG": "N"
       }
     },
@@ -19512,7 +20344,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:16PM 07 Mar 2025",
-        "EST_FIX_TIME": "12:00AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ABALONE AVE, BELAIR CRES, BRITTANIC CRES, DONALD AVE, DRAKE AVE, EIDER AVE, ESPLANADE WEST, EXCALIBUR CT, HAMPTON CT, HAVANA WAY, KENSINGTON MEWS, KILLOWILL AVE, KING ARTHURS CT, KING CHARLES DR, KING JAMES CT, KNIGHTSBRIDGE PDE E, KNIGHTSBRIDGE PDE W, MALLARD AVE, MUSCOVEY AVE, NANKEEN AVE, OCEANIA WAY, PARADISE PDE, PARKLANE TCE, PENINSULAR DR, QUEEN ANNE CT, QUEEN GUINEVERES PL, REGENTS CT, RIVER VISTA WAY, ROUEN AVE, ROYAL ALBERT CRES, ROYAL MEWS, SALACIA DR, SCOTER AVE, SHOVELLER AVE, SIR GALAHAD CL, SIR LANCELOT CL, TEAL AVE, THE ESPLANADE, THE PENINSULA, THE SOVEREIGN MILE, WESTMINSTER CT",
         "SUBURBS": "PARADISE POINT, SURFERS PARADISE",
         "ETR_FLAG": "N"
@@ -19614,7 +20446,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:42PM 07 Mar 2025",
-        "EST_FIX_TIME": "2:30AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ANNE AVE, ELIZABETH AVE, GOLD COAST HWY, MAIN PL, OLD BURLEIGH RD, PHILIP AVE, QUEENSLAND AVE, SURF PDE, VICTORIA AVE",
         "SUBURBS": "BROADBEACH",
         "ETR_FLAG": "N"
@@ -21208,7 +22040,7 @@
         "REASON": "Damage Due To Cyclone",
         "STATUS": "Awaiting",
         "START": "9:40PM 07 Mar 2025",
-        "EST_FIX_TIME": "2:30AM 08 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 08 Mar 2025",
         "STREETS": "ALABASTER DR, ASHMORE RD, GARDEN GR, LAKEVIEW TCE, NERANG-BROADBEACH RD, PLATEAU CRES, ROSS ST, SOUTH SHIELDS DR, THE BOULEVARDE, THE DRESS CIR, THEATRE DR",
         "SUBURBS": "BENOWA, CARRARA",
         "ETR_FLAG": "N"
@@ -21581,5 +22413,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1741349102.105881"
+  "extracted": "1741350001.692826"
 }
