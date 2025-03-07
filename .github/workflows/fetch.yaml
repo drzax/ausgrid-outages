@@ -21,6 +21,9 @@ jobs:
         curl https://www.ergon.com.au/static/Ergon/ergon_po_current_unplanned.geojson | jq . > ergon-unplanned.geojson
         curl https://www.ergon.com.au/static/Ergon/ergon_po_current_planned.geojson | jq . > ergon-planned.geojson
         curl https://www.essentialenergy.com.au/Assets/kmz/current.kml?GTg3NudO > essential-energy.kml
+    - name: Convert kml
+      run: |-
+        docker run --rm -v $(pwd):/data -w /data "ghcr.io/osgeo/gdal:alpine-small-3.10.2" ogr2ogr -f GeoJSON essential-energy.geojson essential-energy.kml
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
