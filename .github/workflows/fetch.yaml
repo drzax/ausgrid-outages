@@ -16,7 +16,7 @@ jobs:
       run: |-
         curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedUnplannedOutages | jq . > unplanned.json
         curl https://www.ausgrid.com.au/webapi/OutageListData/GetDetailedPlannedOutages | jq . > planned.json
-        curl https://www.energex.com.au/static/Energex/energex_po_current_unplanned.geojson | jq . > energex-unplanned.geojson
+        curl https://www.energex.com.au/static/Energex/energex_po_current_unplanned.geojson | jq . > energex-unplanned-bad.geojson
         curl https://www.energex.com.au/static/Energex/energex_po_current_planned.geojson | jq . > energex-planned.geojson
         curl https://www.ergon.com.au/static/Ergon/ergon_po_current_unplanned.geojson | jq . > ergon-unplanned.geojson
         curl https://www.ergon.com.au/static/Ergon/ergon_po_current_planned.geojson | jq . > ergon-planned.geojson
