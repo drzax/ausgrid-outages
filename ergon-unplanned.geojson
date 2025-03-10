@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              146.463749,
-              -22.47986
+              145.14483,
+              -17.585618
             ]
           },
           {
@@ -19,40 +19,44 @@
             "coordinates": [
               [
                 [
-                  146.390412,
-                  -22.521719
+                  145.132916,
+                  -17.572658
                 ],
                 [
-                  146.537558,
-                  -22.438776
+                  145.15544,
+                  -17.6028
                 ],
                 [
-                  146.537722,
-                  -22.438157
+                  145.155963,
+                  -17.602969
                 ],
                 [
-                  146.537057,
-                  -22.438002
+                  145.156294,
+                  -17.602546
                 ],
                 [
-                  146.394305,
-                  -22.516961
+                  145.156745,
+                  -17.579572
                 ],
                 [
-                  146.394213,
-                  -22.517026
+                  145.156525,
+                  -17.579181
                 ],
                 [
-                  146.38982,
-                  -22.521009
+                  145.138498,
+                  -17.568268
                 ],
                 [
-                  146.389775,
-                  -22.521609
+                  145.137955,
+                  -17.568295
                 ],
                 [
-                  146.390412,
-                  -22.521719
+                  145.133007,
+                  -17.57204
+                ],
+                [
+                  145.132916,
+                  -17.572658
                 ]
               ]
             ]
@@ -60,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25CA4747",
+        "EVENT_ID": "25FN3207",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
         "STATUS": "Work delayed - crews unable to continue",
-        "START": "4:06PM 09 Mar 2025",
-        "EST_FIX_TIME": "3:00PM 11 Mar 2025",
-        "STREETS": "LAGLAN RD",
-        "SUBURBS": "CLERMONT"
+        "START": "3:18PM 09 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BROWNSVILLE ST, BROWNVILLE RD, COOLGARRA RD, MILES GLY",
+        "SUBURBS": "MOUNT GARNET"
       }
     },
     {
@@ -626,6 +630,75 @@
           {
             "type": "Point",
             "coordinates": [
+              146.463749,
+              -22.47986
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.390412,
+                  -22.521719
+                ],
+                [
+                  146.537558,
+                  -22.438776
+                ],
+                [
+                  146.537722,
+                  -22.438157
+                ],
+                [
+                  146.537057,
+                  -22.438002
+                ],
+                [
+                  146.394305,
+                  -22.516961
+                ],
+                [
+                  146.394213,
+                  -22.517026
+                ],
+                [
+                  146.38982,
+                  -22.521009
+                ],
+                [
+                  146.389775,
+                  -22.521609
+                ],
+                [
+                  146.390412,
+                  -22.521719
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA4747",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "4:06PM 09 Mar 2025",
+        "EST_FIX_TIME": "3:00PM 11 Mar 2025",
+        "STREETS": "LAGLAN RD",
+        "SUBURBS": "CLERMONT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.169363,
               -23.540933
             ]
@@ -798,79 +871,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "OFF CAPRICORN HWY, OFF LURLINE RD, OFF WEIR RD, YACKAM RD",
         "SUBURBS": "BLACKWATER, COMET"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.14483,
-              -17.585618
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.132916,
-                  -17.572658
-                ],
-                [
-                  145.15544,
-                  -17.6028
-                ],
-                [
-                  145.155963,
-                  -17.602969
-                ],
-                [
-                  145.156294,
-                  -17.602546
-                ],
-                [
-                  145.156745,
-                  -17.579572
-                ],
-                [
-                  145.156525,
-                  -17.579181
-                ],
-                [
-                  145.138498,
-                  -17.568268
-                ],
-                [
-                  145.137955,
-                  -17.568295
-                ],
-                [
-                  145.133007,
-                  -17.57204
-                ],
-                [
-                  145.132916,
-                  -17.572658
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN3207",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "3:18PM 09 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BROWNSVILLE ST, BROWNVILLE RD, COOLGARRA RD, MILES GLY",
-        "SUBURBS": "MOUNT GARNET"
       }
     },
     {
@@ -1309,160 +1309,6 @@
           {
             "type": "Point",
             "coordinates": [
-              152.076,
-              -27.37667
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.068762,
-                  -27.377164
-                ],
-                [
-                  152.071404,
-                  -27.394099
-                ],
-                [
-                  152.071821,
-                  -27.394481
-                ],
-                [
-                  152.072353,
-                  -27.394239
-                ],
-                [
-                  152.079097,
-                  -27.38228
-                ],
-                [
-                  152.079144,
-                  -27.382148
-                ],
-                [
-                  152.083238,
-                  -27.359302
-                ],
-                [
-                  152.082457,
-                  -27.358859
-                ],
-                [
-                  152.074476,
-                  -27.363699
-                ],
-                [
-                  152.074456,
-                  -27.363712
-                ],
-                [
-                  152.074037,
-                  -27.363994
-                ],
-                [
-                  152.073866,
-                  -27.364202
-                ],
-                [
-                  152.068786,
-                  -27.376951
-                ],
-                [
-                  152.068762,
-                  -27.377164
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW4343",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "9",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "12:33AM 09 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "COLLINGWOOD RD, ESK HAMPTON RD, NEW ENGLAND HWY",
-        "SUBURBS": "HAMPTON"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              149.989637,
-              -25.591987
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.966465,
-                  -25.604235
-                ],
-                [
-                  150.013142,
-                  -25.595966
-                ],
-                [
-                  150.013335,
-                  -25.595157
-                ],
-                [
-                  149.989531,
-                  -25.57974
-                ],
-                [
-                  149.988868,
-                  -25.57981
-                ],
-                [
-                  149.965995,
-                  -25.603495
-                ],
-                [
-                  149.965938,
-                  -25.604017
-                ],
-                [
-                  149.966465,
-                  -25.604235
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW4602",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:08PM 10 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "CRACOW RD",
-        "SUBURBS": "TAROOM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               152.840031,
               -25.280556
             ]
@@ -1628,6 +1474,160 @@
           {
             "type": "Point",
             "coordinates": [
+              149.989637,
+              -25.591987
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.966465,
+                  -25.604235
+                ],
+                [
+                  150.013142,
+                  -25.595966
+                ],
+                [
+                  150.013335,
+                  -25.595157
+                ],
+                [
+                  149.989531,
+                  -25.57974
+                ],
+                [
+                  149.988868,
+                  -25.57981
+                ],
+                [
+                  149.965995,
+                  -25.603495
+                ],
+                [
+                  149.965938,
+                  -25.604017
+                ],
+                [
+                  149.966465,
+                  -25.604235
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW4602",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:08PM 10 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "CRACOW RD",
+        "SUBURBS": "TAROOM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.076,
+              -27.37667
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.068762,
+                  -27.377164
+                ],
+                [
+                  152.071404,
+                  -27.394099
+                ],
+                [
+                  152.071821,
+                  -27.394481
+                ],
+                [
+                  152.072353,
+                  -27.394239
+                ],
+                [
+                  152.079097,
+                  -27.38228
+                ],
+                [
+                  152.079144,
+                  -27.382148
+                ],
+                [
+                  152.083238,
+                  -27.359302
+                ],
+                [
+                  152.082457,
+                  -27.358859
+                ],
+                [
+                  152.074476,
+                  -27.363699
+                ],
+                [
+                  152.074456,
+                  -27.363712
+                ],
+                [
+                  152.074037,
+                  -27.363994
+                ],
+                [
+                  152.073866,
+                  -27.364202
+                ],
+                [
+                  152.068786,
+                  -27.376951
+                ],
+                [
+                  152.068762,
+                  -27.377164
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW4343",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "9",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "12:33AM 09 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "COLLINGWOOD RD, ESK HAMPTON RD, NEW ENGLAND HWY",
+        "SUBURBS": "HAMPTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               150.362235,
               -25.140815
             ]
@@ -1761,5 +1761,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1741618500.283624"
+  "extracted": "1741619101.419882"
 }
