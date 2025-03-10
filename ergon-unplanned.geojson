@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.699115,
-              -21.127962
+              146.463749,
+              -22.47986
             ]
           },
           {
@@ -19,36 +19,40 @@
             "coordinates": [
               [
                 [
-                  148.697564,
-                  -21.128178
+                  146.390412,
+                  -22.521719
                 ],
                 [
-                  148.700208,
-                  -21.128945
+                  146.537558,
+                  -22.438776
                 ],
                 [
-                  148.700826,
-                  -21.128582
+                  146.537722,
+                  -22.438157
                 ],
                 [
-                  148.701003,
-                  -21.127495
+                  146.537057,
+                  -22.438002
                 ],
                 [
-                  148.700469,
-                  -21.126979
+                  146.394305,
+                  -22.516961
                 ],
                 [
-                  148.697649,
-                  -21.127299
+                  146.394213,
+                  -22.517026
                 ],
                 [
-                  148.697227,
-                  -21.127706
+                  146.38982,
+                  -22.521009
                 ],
                 [
-                  148.697564,
-                  -21.128178
+                  146.389775,
+                  -22.521609
+                ],
+                [
+                  146.390412,
+                  -22.521719
                 ]
               ]
             ]
@@ -56,15 +60,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK1119",
+        "EVENT_ID": "25CA4747",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
         "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:57AM 04 Feb 2025",
-        "EST_FIX_TIME": "9:30AM 31 Mar 2025",
-        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
-        "SUBURBS": "OWENS CREEK, PINNACLE"
+        "START": "4:06PM 09 Mar 2025",
+        "EST_FIX_TIME": "3:00PM 11 Mar 2025",
+        "STREETS": "LAGLAN RD",
+        "SUBURBS": "CLERMONT"
       }
     },
     {
@@ -168,6 +172,75 @@
           {
             "type": "Point",
             "coordinates": [
+              145.458613,
+              -16.488222
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.457895,
+                  -16.487766
+                ],
+                [
+                  145.458246,
+                  -16.488872
+                ],
+                [
+                  145.458713,
+                  -16.489192
+                ],
+                [
+                  145.459151,
+                  -16.488837
+                ],
+                [
+                  145.45933,
+                  -16.488051
+                ],
+                [
+                  145.459121,
+                  -16.487571
+                ],
+                [
+                  145.458593,
+                  -16.487251
+                ],
+                [
+                  145.458059,
+                  -16.487275
+                ],
+                [
+                  145.457895,
+                  -16.487766
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN2751",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "8:44AM 27 Feb 2025",
+        "EST_FIX_TIME": "9:00AM 20 Mar 2025",
+        "STREETS": "PORT ST, SPINNAKER CL, WHARF ST",
+        "SUBURBS": "PORT DOUGLAS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               143.602504,
               -21.455109
             ]
@@ -251,6 +324,71 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "CHINBI SDNG, CONAMORE STATION, CRACRIN STATION, ELVIRA STATION, GLENELG STATION, KATANDRA STATION, NOTTINGHAM DNS STATION, ROSCAVAN STATION, VELLUM DOWNS STATION, VUNA STATION, WAIHAORUNGA STATION",
         "SUBURBS": "CORFIELD, HUGHENDEN, STAMFORD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.699115,
+              -21.127962
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.697564,
+                  -21.128178
+                ],
+                [
+                  148.700208,
+                  -21.128945
+                ],
+                [
+                  148.700826,
+                  -21.128582
+                ],
+                [
+                  148.701003,
+                  -21.127495
+                ],
+                [
+                  148.700469,
+                  -21.126979
+                ],
+                [
+                  148.697649,
+                  -21.127299
+                ],
+                [
+                  148.697227,
+                  -21.127706
+                ],
+                [
+                  148.697564,
+                  -21.128178
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK1119",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:57AM 04 Feb 2025",
+        "EST_FIX_TIME": "9:30AM 31 Mar 2025",
+        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
+        "SUBURBS": "OWENS CREEK, PINNACLE"
       }
     },
     {
@@ -798,75 +936,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "BUNYA HWY, DEAD HORSE LANE, KATHS RD",
         "SUBURBS": "DALBY, PIRRINUAN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.463749,
-              -22.47986
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.390412,
-                  -22.521719
-                ],
-                [
-                  146.537558,
-                  -22.438776
-                ],
-                [
-                  146.537722,
-                  -22.438157
-                ],
-                [
-                  146.537057,
-                  -22.438002
-                ],
-                [
-                  146.394305,
-                  -22.516961
-                ],
-                [
-                  146.394213,
-                  -22.517026
-                ],
-                [
-                  146.38982,
-                  -22.521009
-                ],
-                [
-                  146.389775,
-                  -22.521609
-                ],
-                [
-                  146.390412,
-                  -22.521719
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA4747",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "4:06PM 09 Mar 2025",
-        "EST_FIX_TIME": "3:00PM 11 Mar 2025",
-        "STREETS": "LAGLAN RD",
-        "SUBURBS": "CLERMONT"
       }
     },
     {
@@ -2101,5 +2170,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1741645801.301108"
+  "extracted": "1741646400.594565"
 }
