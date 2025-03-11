@@ -10,6 +10,71 @@
           {
             "type": "Point",
             "coordinates": [
+              140.922563,
+              -20.853846
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  140.865283,
+                  -20.797455
+                ],
+                [
+                  140.94784,
+                  -20.910916
+                ],
+                [
+                  140.948682,
+                  -20.910822
+                ],
+                [
+                  140.979844,
+                  -20.83367
+                ],
+                [
+                  140.97955,
+                  -20.833085
+                ],
+                [
+                  140.865831,
+                  -20.796776
+                ],
+                [
+                  140.865297,
+                  -20.79693
+                ],
+                [
+                  140.865283,
+                  -20.797455
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ4094",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:15PM 10 Mar 2025",
+        "EST_FIX_TIME": "5:00PM 12 Mar 2025",
+        "STREETS": "ARROLLA STATION, LEVUKA STATION, WYNBERG STATION",
+        "SUBURBS": "JULIA CREEK, OORINDI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -182,71 +247,6 @@
         "EST_FIX_TIME": "4:00PM 28 Mar 2025",
         "STREETS": "AKUBRA DR, CAMPBELL FORD DR, COUNTRY LANE, ELM ST",
         "SUBURBS": "EMERALD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              140.922563,
-              -20.853846
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  140.865283,
-                  -20.797455
-                ],
-                [
-                  140.94784,
-                  -20.910916
-                ],
-                [
-                  140.948682,
-                  -20.910822
-                ],
-                [
-                  140.979844,
-                  -20.83367
-                ],
-                [
-                  140.97955,
-                  -20.833085
-                ],
-                [
-                  140.865831,
-                  -20.796776
-                ],
-                [
-                  140.865297,
-                  -20.79693
-                ],
-                [
-                  140.865283,
-                  -20.797455
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ4094",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:15PM 10 Mar 2025",
-        "EST_FIX_TIME": "5:00PM 12 Mar 2025",
-        "STREETS": "ARROLLA STATION, LEVUKA STATION, WYNBERG STATION",
-        "SUBURBS": "JULIA CREEK, OORINDI"
       }
     },
     {
@@ -523,5 +523,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1741722305.410684"
+  "extracted": "1741722601.264277"
 }
