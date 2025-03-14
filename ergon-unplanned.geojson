@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              145.769112,
-              -17.071301
+              146.087873,
+              -17.94043
             ]
           },
           {
@@ -19,32 +19,56 @@
             "coordinates": [
               [
                 [
-                  145.769404,
-                  -17.070872
+                  146.086071,
+                  -17.941414
                 ],
                 [
-                  145.7689,
-                  -17.07083
+                  146.086585,
+                  -17.941772
                 ],
                 [
-                  145.768391,
-                  -17.071242
+                  146.086798,
+                  -17.941855
                 ],
                 [
-                  145.768819,
-                  -17.071731
+                  146.08844,
+                  -17.942075
                 ],
                 [
-                  145.769324,
-                  -17.071772
+                  146.088644,
+                  -17.942059
                 ],
                 [
-                  145.769832,
-                  -17.07136
+                  146.089407,
+                  -17.941834
                 ],
                 [
-                  145.769404,
-                  -17.070872
+                  146.08973,
+                  -17.941309
+                ],
+                [
+                  146.089283,
+                  -17.939269
+                ],
+                [
+                  146.08894,
+                  -17.938925
+                ],
+                [
+                  146.088383,
+                  -17.938786
+                ],
+                [
+                  146.087931,
+                  -17.938903
+                ],
+                [
+                  146.086016,
+                  -17.940729
+                ],
+                [
+                  146.086071,
+                  -17.941414
                 ]
               ]
             ]
@@ -52,15 +76,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25FN3463",
+        "EVENT_ID": "25FN3440",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
-        "START": "4:18PM 14 Mar 2025",
+        "CUSTOMERS_AFFECTED": "20",
+        "REASON": "The loss of supply is due to damage caused by storm activity.",
+        "STATUS": "Crews working on-site",
+        "START": "2:15PM 14 Mar 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BRUCE HWY",
-        "SUBURBS": "MERINGA"
+        "STREETS": "BEDARRA TCE, PARK LANE, THE BOULEVARD",
+        "SUBURBS": "SOUTH MISSION BEACH"
       }
     },
     {
@@ -407,91 +431,6 @@
           {
             "type": "Point",
             "coordinates": [
-              146.087873,
-              -17.94043
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.086071,
-                  -17.941414
-                ],
-                [
-                  146.086585,
-                  -17.941772
-                ],
-                [
-                  146.086798,
-                  -17.941855
-                ],
-                [
-                  146.08844,
-                  -17.942075
-                ],
-                [
-                  146.088644,
-                  -17.942059
-                ],
-                [
-                  146.089407,
-                  -17.941834
-                ],
-                [
-                  146.08973,
-                  -17.941309
-                ],
-                [
-                  146.089283,
-                  -17.939269
-                ],
-                [
-                  146.08894,
-                  -17.938925
-                ],
-                [
-                  146.088383,
-                  -17.938786
-                ],
-                [
-                  146.087931,
-                  -17.938903
-                ],
-                [
-                  146.086016,
-                  -17.940729
-                ],
-                [
-                  146.086071,
-                  -17.941414
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN3440",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "20",
-        "REASON": "The loss of supply is due to damage caused by storm activity.",
-        "STATUS": "Crews working on-site",
-        "START": "2:15PM 14 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BEDARRA TCE, PARK LANE, THE BOULEVARD",
-        "SUBURBS": "SOUTH MISSION BEACH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               151.215353,
               -23.885361
             ]
@@ -592,9 +531,70 @@
         "STREETS": "ROSSLYN CL",
         "SUBURBS": "CLINTON"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              145.769112,
+              -17.071301
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.769404,
+                  -17.070872
+                ],
+                [
+                  145.7689,
+                  -17.07083
+                ],
+                [
+                  145.768391,
+                  -17.071242
+                ],
+                [
+                  145.768819,
+                  -17.071731
+                ],
+                [
+                  145.769324,
+                  -17.071772
+                ],
+                [
+                  145.769832,
+                  -17.07136
+                ],
+                [
+                  145.769404,
+                  -17.070872
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN3463",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "4:18PM 14 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BRUCE HWY",
+        "SUBURBS": "MERINGA"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1741936801.432152"
+  "extracted": "1741937101.866429"
 }
