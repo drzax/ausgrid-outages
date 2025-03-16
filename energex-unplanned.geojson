@@ -10,6 +10,80 @@
           {
             "type": "Point",
             "coordinates": [
+              152.689911,
+              -27.702806
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.681408,
+                  -27.708744
+                ],
+                [
+                  152.695521,
+                  -27.724127
+                ],
+                [
+                  152.696074,
+                  -27.72427
+                ],
+                [
+                  152.696421,
+                  -27.723862
+                ],
+                [
+                  152.698475,
+                  -27.682113
+                ],
+                [
+                  152.698127,
+                  -27.681665
+                ],
+                [
+                  152.697025,
+                  -27.681342
+                ],
+                [
+                  152.696414,
+                  -27.681568
+                ],
+                [
+                  152.681348,
+                  -27.708256
+                ],
+                [
+                  152.681408,
+                  -27.708744
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-840326-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "10",
+        "REASON": "Damage due to flooding",
+        "STATUS": "In Progress",
+        "START": "8:50PM 10 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
+        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
+        "SUBURBS": "PURGA, WILLOWBANK",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.111242,
               -28.011799
             ]
@@ -221,80 +295,6 @@
         "EST_FIX_TIME": "12:00PM 17 Mar 2025",
         "STREETS": "CAMPBELL ST",
         "SUBURBS": "BOWEN HILLS",
-        "ETR_FLAG": "Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.689911,
-              -27.702806
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.681408,
-                  -27.708744
-                ],
-                [
-                  152.695521,
-                  -27.724127
-                ],
-                [
-                  152.696074,
-                  -27.72427
-                ],
-                [
-                  152.696421,
-                  -27.723862
-                ],
-                [
-                  152.698475,
-                  -27.682113
-                ],
-                [
-                  152.698127,
-                  -27.681665
-                ],
-                [
-                  152.697025,
-                  -27.681342
-                ],
-                [
-                  152.696414,
-                  -27.681568
-                ],
-                [
-                  152.681348,
-                  -27.708256
-                ],
-                [
-                  152.681408,
-                  -27.708744
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-840326-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "10",
-        "REASON": "Damage due to flooding",
-        "STATUS": "In Progress",
-        "START": "8:50PM 10 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
-        "SUBURBS": "PURGA, WILLOWBANK",
         "ETR_FLAG": "Y"
       }
     },
@@ -535,5 +535,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742161800.329889"
+  "extracted": "1742162100.266325"
 }
