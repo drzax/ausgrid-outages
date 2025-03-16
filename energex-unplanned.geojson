@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.01445,
-              -27.471304
+              152.689911,
+              -27.702806
             ]
           },
           {
@@ -19,24 +19,44 @@
             "coordinates": [
               [
                 [
-                  153.014957,
-                  -27.471304
+                  152.681408,
+                  -27.708744
                 ],
                 [
-                  153.01445,
-                  -27.470853
+                  152.695521,
+                  -27.724127
                 ],
                 [
-                  153.013944,
-                  -27.471304
+                  152.696074,
+                  -27.72427
                 ],
                 [
-                  153.014451,
-                  -27.471756
+                  152.696421,
+                  -27.723862
                 ],
                 [
-                  153.014957,
-                  -27.471304
+                  152.698475,
+                  -27.682113
+                ],
+                [
+                  152.698127,
+                  -27.681665
+                ],
+                [
+                  152.697025,
+                  -27.681342
+                ],
+                [
+                  152.696414,
+                  -27.681568
+                ],
+                [
+                  152.681348,
+                  -27.708256
+                ],
+                [
+                  152.681408,
+                  -27.708744
                 ]
               ]
             ]
@@ -44,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-846488-g",
+        "EVENT_ID": "INCD-840326-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "9",
-        "REASON": "Damage to our equipment",
-        "STATUS": "Awaiting",
-        "START": "5:05PM 14 Mar 2025",
+        "CUSTOMERS_AFFECTED": "10",
+        "REASON": "Damage due to flooding",
+        "STATUS": "In Progress",
+        "START": "8:50PM 10 Mar 2025",
         "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "MONTAGUE RD",
-        "SUBURBS": "SOUTH BRISBANE",
+        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
+        "SUBURBS": "PURGA, WILLOWBANK",
         "ETR_FLAG": "Y"
       }
     },
@@ -212,80 +232,6 @@
           {
             "type": "Point",
             "coordinates": [
-              152.689911,
-              -27.702806
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.681408,
-                  -27.708744
-                ],
-                [
-                  152.695521,
-                  -27.724127
-                ],
-                [
-                  152.696074,
-                  -27.72427
-                ],
-                [
-                  152.696421,
-                  -27.723862
-                ],
-                [
-                  152.698475,
-                  -27.682113
-                ],
-                [
-                  152.698127,
-                  -27.681665
-                ],
-                [
-                  152.697025,
-                  -27.681342
-                ],
-                [
-                  152.696414,
-                  -27.681568
-                ],
-                [
-                  152.681348,
-                  -27.708256
-                ],
-                [
-                  152.681408,
-                  -27.708744
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-840326-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "10",
-        "REASON": "Damage due to flooding",
-        "STATUS": "In Progress",
-        "START": "8:50PM 10 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
-        "SUBURBS": "PURGA, WILLOWBANK",
-        "ETR_FLAG": "Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.044763,
               -27.728292
             ]
@@ -430,10 +376,64 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "11:06PM 16 Mar 2025",
-        "EST_FIX_TIME": "1:30AM 17 Mar 2025",
+        "EST_FIX_TIME": "3:30AM 17 Mar 2025",
         "STREETS": "AUBURN CT, BARRINE CT, BATAVIA CT, BELAIR CL, BOTANY CT, CHESTERFIELD RD, CLANCY RD, DALKEITH CT, DURHAM CT, GARDENIA CT, GRANGER RD, MACKUNDA CT, MERLUNA RD, MT LINDESAY HWY, POLLEN CT, SAXBY CT, SOLANDRA RD, SYLVAN RD, THYLUNGRA RD",
         "SUBURBS": "PARK RIDGE SOUTH",
         "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.01445,
+              -27.471304
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.014957,
+                  -27.471304
+                ],
+                [
+                  153.01445,
+                  -27.470853
+                ],
+                [
+                  153.013944,
+                  -27.471304
+                ],
+                [
+                  153.014451,
+                  -27.471756
+                ],
+                [
+                  153.014957,
+                  -27.471304
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-846488-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "9",
+        "REASON": "Damage to our equipment",
+        "STATUS": "Awaiting",
+        "START": "5:05PM 14 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
+        "STREETS": "MONTAGUE RD",
+        "SUBURBS": "SOUTH BRISBANE",
+        "ETR_FLAG": "Y"
       }
     },
     {
@@ -596,7 +596,7 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "11:06PM 16 Mar 2025",
-        "EST_FIX_TIME": "1:30AM 17 Mar 2025",
+        "EST_FIX_TIME": "3:30AM 17 Mar 2025",
         "STREETS": "ANDALL RD, ANDALUSIAN DR, APPALOOSA CT, ARLINGTON CT, BASCOMBE CT, BELINDA CT, BELLENDEN CL, BLENHEIM CT, CARDWELL CL, CARTER RD, CHAMBERS FLAT RD, CHLOE DR, COALSTOUN CT, CONWAY CT, CROWSON LANE, DEBORAH CT, EACHAM CT, EILDON CL, EVERLEIGH DR, GLENWOOD RD, GORKY PL, GRANGER RD, GREENBANK RD, GREENHILL RD, GROSVENOR CT, HEATHCOTE CT, HICKEY RD, HOLYROOD CT, HYDE CT, IVORY PKWY, JAMES LANE, JANELLE CT, JASPER PL, KENSINGTON DR, KEW PL, KOORINGAL RD, KYEEMA CT, LEEUWIN CT, MADISON CT, MT LINDESAY HWY, NORRIS CREEK RD, PALMERSTON CT, PARK RIDGE RD, PENDA RD, REGENT CT, RICHMOND CT, SERENGETTI DR, SHERBROOKE CT, SHETLAND CT, STANLEY CT, TARA CT, TEMPEST CT, TERESA DR, WINDSOR CT, YELLOWSTONE CT",
         "SUBURBS": "GREENBANK, MUNRUBEN, NORTH MACLEAN, PARK RIDGE, PARK RIDGE SOUTH",
         "ETR_FLAG": "N"
@@ -605,5 +605,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742136305.406806"
+  "extracted": "1742136601.29658"
 }
