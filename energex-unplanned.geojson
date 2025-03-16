@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              152.689911,
-              -27.702806
+              153.258208,
+              -28.213938
             ]
           },
           {
@@ -19,44 +19,32 @@
             "coordinates": [
               [
                 [
-                  152.681408,
-                  -27.708744
+                  153.259052,
+                  -28.213984
                 ],
                 [
-                  152.695521,
-                  -27.724127
+                  153.258029,
+                  -28.213206
                 ],
                 [
-                  152.696074,
-                  -27.72427
+                  153.25731,
+                  -28.213254
                 ],
                 [
-                  152.696421,
-                  -27.723862
+                  153.257365,
+                  -28.213891
                 ],
                 [
-                  152.698475,
-                  -27.682113
+                  153.258388,
+                  -28.214669
                 ],
                 [
-                  152.698127,
-                  -27.681665
+                  153.259107,
+                  -28.214621
                 ],
                 [
-                  152.697025,
-                  -27.681342
-                ],
-                [
-                  152.696414,
-                  -27.681568
-                ],
-                [
-                  152.681348,
-                  -27.708256
-                ],
-                [
-                  152.681408,
-                  -27.708744
+                  153.259052,
+                  -28.213984
                 ]
               ]
             ]
@@ -64,16 +52,16 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-840326-g",
+        "EVENT_ID": "INCD-847920-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "10",
-        "REASON": "Damage due to flooding",
-        "STATUS": "In Progress",
-        "START": "8:50PM 10 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
-        "SUBURBS": "PURGA, WILLOWBANK",
-        "ETR_FLAG": "Y"
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "6:39AM 17 Mar 2025",
+        "EST_FIX_TIME": "9:30AM 17 Mar 2025",
+        "STREETS": "LYREBIRD RIDGE RD",
+        "SUBURBS": "SPRINGBROOK",
+        "ETR_FLAG": "N"
       }
     },
     {
@@ -306,6 +294,80 @@
           {
             "type": "Point",
             "coordinates": [
+              152.689911,
+              -27.702806
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.681408,
+                  -27.708744
+                ],
+                [
+                  152.695521,
+                  -27.724127
+                ],
+                [
+                  152.696074,
+                  -27.72427
+                ],
+                [
+                  152.696421,
+                  -27.723862
+                ],
+                [
+                  152.698475,
+                  -27.682113
+                ],
+                [
+                  152.698127,
+                  -27.681665
+                ],
+                [
+                  152.697025,
+                  -27.681342
+                ],
+                [
+                  152.696414,
+                  -27.681568
+                ],
+                [
+                  152.681348,
+                  -27.708256
+                ],
+                [
+                  152.681408,
+                  -27.708744
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-840326-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "10",
+        "REASON": "Damage due to flooding",
+        "STATUS": "In Progress",
+        "START": "8:50PM 10 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
+        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
+        "SUBURBS": "PURGA, WILLOWBANK",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.01445,
               -27.471304
             ]
@@ -469,71 +531,9 @@
         "SUBURBS": "SPRINGBROOK",
         "ETR_FLAG": "N"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.258208,
-              -28.213938
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.259052,
-                  -28.213984
-                ],
-                [
-                  153.258029,
-                  -28.213206
-                ],
-                [
-                  153.25731,
-                  -28.213254
-                ],
-                [
-                  153.257365,
-                  -28.213891
-                ],
-                [
-                  153.258388,
-                  -28.214669
-                ],
-                [
-                  153.259107,
-                  -28.214621
-                ],
-                [
-                  153.259052,
-                  -28.213984
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-847920-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
-        "START": "6:39AM 17 Mar 2025",
-        "EST_FIX_TIME": "9:30AM 17 Mar 2025",
-        "STREETS": "LYREBIRD RIDGE RD",
-        "SUBURBS": "SPRINGBROOK",
-        "ETR_FLAG": "N"
-      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742159400.341531"
+  "extracted": "1742160000.474703"
 }
