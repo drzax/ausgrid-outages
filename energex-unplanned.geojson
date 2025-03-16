@@ -10,6 +10,60 @@
           {
             "type": "Point",
             "coordinates": [
+              153.030242,
+              -27.445635
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.030748,
+                  -27.445635
+                ],
+                [
+                  153.030242,
+                  -27.445183
+                ],
+                [
+                  153.029736,
+                  -27.445635
+                ],
+                [
+                  153.030242,
+                  -27.446086
+                ],
+                [
+                  153.030748,
+                  -27.445635
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-837572-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Damage due to severe weather",
+        "STATUS": "In Progress",
+        "START": "6:42PM 09 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
+        "STREETS": "CAMPBELL ST",
+        "SUBURBS": "BOWEN HILLS",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.689911,
               -27.702806
             ]
@@ -73,60 +127,6 @@
         "EST_FIX_TIME": "12:00PM 17 Mar 2025",
         "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
         "SUBURBS": "PURGA, WILLOWBANK",
-        "ETR_FLAG": "Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.030242,
-              -27.445635
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.030748,
-                  -27.445635
-                ],
-                [
-                  153.030242,
-                  -27.445183
-                ],
-                [
-                  153.029736,
-                  -27.445635
-                ],
-                [
-                  153.030242,
-                  -27.446086
-                ],
-                [
-                  153.030748,
-                  -27.445635
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-837572-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Damage due to severe weather",
-        "STATUS": "In Progress",
-        "START": "6:42PM 09 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "CAMPBELL ST",
-        "SUBURBS": "BOWEN HILLS",
         "ETR_FLAG": "Y"
       }
     },
@@ -281,5 +281,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742142900.294904"
+  "extracted": "1742143201.408704"
 }
