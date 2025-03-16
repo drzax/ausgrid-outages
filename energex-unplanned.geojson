@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.030242,
-              -27.445635
+              152.689911,
+              -27.702806
             ]
           },
           {
@@ -19,24 +19,44 @@
             "coordinates": [
               [
                 [
-                  153.030748,
-                  -27.445635
+                  152.681408,
+                  -27.708744
                 ],
                 [
-                  153.030242,
-                  -27.445183
+                  152.695521,
+                  -27.724127
                 ],
                 [
-                  153.029736,
-                  -27.445635
+                  152.696074,
+                  -27.72427
                 ],
                 [
-                  153.030242,
-                  -27.446086
+                  152.696421,
+                  -27.723862
                 ],
                 [
-                  153.030748,
-                  -27.445635
+                  152.698475,
+                  -27.682113
+                ],
+                [
+                  152.698127,
+                  -27.681665
+                ],
+                [
+                  152.697025,
+                  -27.681342
+                ],
+                [
+                  152.696414,
+                  -27.681568
+                ],
+                [
+                  152.681348,
+                  -27.708256
+                ],
+                [
+                  152.681408,
+                  -27.708744
                 ]
               ]
             ]
@@ -44,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-837572-g",
+        "EVENT_ID": "INCD-840326-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Damage due to severe weather",
+        "CUSTOMERS_AFFECTED": "10",
+        "REASON": "Damage due to flooding",
         "STATUS": "In Progress",
-        "START": "6:42PM 09 Mar 2025",
+        "START": "8:50PM 10 Mar 2025",
         "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "CAMPBELL ST",
-        "SUBURBS": "BOWEN HILLS",
+        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
+        "SUBURBS": "PURGA, WILLOWBANK",
         "ETR_FLAG": "Y"
       }
     },
@@ -518,80 +538,6 @@
           {
             "type": "Point",
             "coordinates": [
-              152.689911,
-              -27.702806
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.681408,
-                  -27.708744
-                ],
-                [
-                  152.695521,
-                  -27.724127
-                ],
-                [
-                  152.696074,
-                  -27.72427
-                ],
-                [
-                  152.696421,
-                  -27.723862
-                ],
-                [
-                  152.698475,
-                  -27.682113
-                ],
-                [
-                  152.698127,
-                  -27.681665
-                ],
-                [
-                  152.697025,
-                  -27.681342
-                ],
-                [
-                  152.696414,
-                  -27.681568
-                ],
-                [
-                  152.681348,
-                  -27.708256
-                ],
-                [
-                  152.681408,
-                  -27.708744
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-840326-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "10",
-        "REASON": "Damage due to flooding",
-        "STATUS": "In Progress",
-        "START": "8:50PM 10 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
-        "STREETS": "ANDERSON DAY DR, BAUERS RD, CUNNINGHAM HWY, GREENS RD, LUBES RD, MIDDLE RD",
-        "SUBURBS": "PURGA, WILLOWBANK",
-        "ETR_FLAG": "Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.031393,
               -27.612945
             ]
@@ -833,9 +779,63 @@
         "SUBURBS": "SOUTH BRISBANE",
         "ETR_FLAG": "Y"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.030242,
+              -27.445635
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.030748,
+                  -27.445635
+                ],
+                [
+                  153.030242,
+                  -27.445183
+                ],
+                [
+                  153.029736,
+                  -27.445635
+                ],
+                [
+                  153.030242,
+                  -27.446086
+                ],
+                [
+                  153.030748,
+                  -27.445635
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-837572-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Damage due to severe weather",
+        "STATUS": "In Progress",
+        "START": "6:42PM 09 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 17 Mar 2025",
+        "STREETS": "CAMPBELL ST",
+        "SUBURBS": "BOWEN HILLS",
+        "ETR_FLAG": "Y"
+      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742166902.284421"
+  "extracted": "1742167500.588656"
 }
