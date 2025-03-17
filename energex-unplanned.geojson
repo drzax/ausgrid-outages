@@ -10,6 +10,72 @@
           {
             "type": "Point",
             "coordinates": [
+              152.697422,
+              -27.682879
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.696378,
+                  -27.681891
+                ],
+                [
+                  152.697061,
+                  -27.684086
+                ],
+                [
+                  152.697569,
+                  -27.684416
+                ],
+                [
+                  152.698047,
+                  -27.684053
+                ],
+                [
+                  152.698466,
+                  -27.682181
+                ],
+                [
+                  152.698127,
+                  -27.681665
+                ],
+                [
+                  152.697025,
+                  -27.681342
+                ],
+                [
+                  152.696378,
+                  -27.681891
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-848070-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Damage due to flooding",
+        "STATUS": "Awaiting",
+        "START": "10:14AM 17 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 18 Mar 2025",
+        "STREETS": "ANDERSON DAY DR, CUNNINGHAM HWY, GREENS RD",
+        "SUBURBS": "PURGA, WILLOWBANK",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.970841,
               -27.236685
             ]
@@ -249,72 +315,6 @@
         "EST_FIX_TIME": "6:00PM 17 Mar 2025",
         "STREETS": "MONTAGUE RD",
         "SUBURBS": "SOUTH BRISBANE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.697422,
-              -27.682879
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.696378,
-                  -27.681891
-                ],
-                [
-                  152.697061,
-                  -27.684086
-                ],
-                [
-                  152.697569,
-                  -27.684416
-                ],
-                [
-                  152.698047,
-                  -27.684053
-                ],
-                [
-                  152.698466,
-                  -27.682181
-                ],
-                [
-                  152.698127,
-                  -27.681665
-                ],
-                [
-                  152.697025,
-                  -27.681342
-                ],
-                [
-                  152.696378,
-                  -27.681891
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-848070-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "Damage due to flooding",
-        "STATUS": "Awaiting",
-        "START": "10:14AM 17 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 18 Mar 2025",
-        "STREETS": "ANDERSON DAY DR, CUNNINGHAM HWY, GREENS RD",
-        "SUBURBS": "PURGA, WILLOWBANK",
         "ETR_FLAG": "N"
       }
     },
@@ -602,7 +602,7 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "4:42PM 17 Mar 2025",
-        "EST_FIX_TIME": "10:00PM 17 Mar 2025",
+        "EST_FIX_TIME": "11:00PM 17 Mar 2025",
         "STREETS": "BARRY RD, KILMORE DR, LUCAS RD",
         "SUBURBS": "TAMBORINE",
         "ETR_FLAG": "N"
@@ -611,5 +611,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742210105.291496"
+  "extracted": "1742210401.229415"
 }
