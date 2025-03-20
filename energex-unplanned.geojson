@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.016003,
+              -27.363485
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.01625,
+                  -27.363058
+                ],
+                [
+                  153.015886,
+                  -27.363016
+                ],
+                [
+                  153.01532,
+                  -27.363406
+                ],
+                [
+                  153.015756,
+                  -27.363911
+                ],
+                [
+                  153.016119,
+                  -27.363954
+                ],
+                [
+                  153.016686,
+                  -27.363564
+                ],
+                [
+                  153.01625,
+                  -27.363058
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-849689-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "9",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "12:00AM 21 Mar 2025",
+        "EST_FIX_TIME": "2:30AM 21 Mar 2025",
+        "STREETS": "GAYFORD ST",
+        "SUBURBS": "ASPLEY",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1742479203.42751"
+  "extracted": "1742479500.448165"
 }
