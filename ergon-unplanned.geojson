@@ -180,6 +180,67 @@
           {
             "type": "Point",
             "coordinates": [
+              152.259903,
+              -28.67666
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.260759,
+                  -28.677635
+                ],
+                [
+                  152.260026,
+                  -28.675432
+                ],
+                [
+                  152.259393,
+                  -28.675126
+                ],
+                [
+                  152.259047,
+                  -28.675685
+                ],
+                [
+                  152.25978,
+                  -28.677888
+                ],
+                [
+                  152.260413,
+                  -28.678193
+                ],
+                [
+                  152.260759,
+                  -28.677635
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW5084",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews on route",
+        "START": "5:58AM 22 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "RAZORBACK RD",
+        "SUBURBS": "RIVERTREE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -235,67 +296,6 @@
         "EST_FIX_TIME": "9:30AM 31 Mar 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.259903,
-              -28.67666
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.260759,
-                  -28.677635
-                ],
-                [
-                  152.260026,
-                  -28.675432
-                ],
-                [
-                  152.259393,
-                  -28.675126
-                ],
-                [
-                  152.259047,
-                  -28.675685
-                ],
-                [
-                  152.25978,
-                  -28.677888
-                ],
-                [
-                  152.260413,
-                  -28.678193
-                ],
-                [
-                  152.260759,
-                  -28.677635
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW5084",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews on route",
-        "START": "5:58AM 22 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "RAZORBACK RD",
-        "SUBURBS": "RIVERTREE"
       }
     },
     {
@@ -697,5 +697,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1742613901.439445"
+  "extracted": "1742614801.418263"
 }
