@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1249554_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
+<Placemark id="INCD-244752-q">
+<Snippet><![CDATA[INCD-244752-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-244752-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>25/03/2025 06:21:49</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>4</div><div><span>Reason:</span>Unknown, we are investigating</div><div><span>Last Updated:</span>25/03/2025 07:06:18</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5703086,0,28735334}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+152.9157672,-31.03253812 152.9157633,-31.03254888 152.9149589,-31.03480425 152.9149520,-31.03482380 152.9149313,-31.03486065 152.9149045,-31.03489439 152.9148720,-31.03492425 152.9148347,-31.03494957 152.9147934,-31.03496974 152.9147490,-31.03498431 152.9147025,-31.03499296 152.9146788,-31.03499421 152.9146551,-31.03499546 152.9146078,-31.03499179 152.9145617,-31.03498201 152.9145178,-31.03496634 152.9144772,-31.03494516 152.9144407,-31.03491894 152.9144092,-31.03488829 152.9143835,-31.03485391 152.9143738,-31.03483524 152.9138261,-31.03378152 152.9138166,-31.03376317 152.9138040,-31.03372445 152.9137983,-31.03368455 152.9137995,-31.03364437 152.9138076,-31.03360479 152.9138224,-31.03356667 152.9138437,-31.03353087 152.9138708,-31.03349818 152.9138871,-31.03348374 152.9152392,-31.03228210 152.9152482,-31.03227401 152.9152679,-31.03225921 152.9152890,-31.03224587 152.9153113,-31.03223409 152.9153346,-31.03222395 152.9153588,-31.03221552 152.9153838,-31.03220885 152.9154093,-31.03220399 152.9154352,-31.03220099 152.9154614,-31.03219986 152.9154875,-31.03220062 152.9155134,-31.03220323 152.9155391,-31.03220770 152.9155642,-31.03221400 152.9155886,-31.03222208 152.9156121,-31.03223188 152.9156233,-31.03223761 152.9156346,-31.03224333 152.9156559,-31.03225636 152.9156759,-31.03227088 152.9156944,-31.03228676 152.9157113,-31.03230393 152.9157265,-31.03232226 152.9157398,-31.03234161 152.9157513,-31.03236185 152.9157607,-31.03238284 152.9157681,-31.03240443 152.9157734,-31.03242648 152.9157765,-31.03244883 152.9157774,-31.03247133 152.9157762,-31.03249382 152.9157727,-31.03251613 152.9157672,-31.03253812</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5703086,0,28735334}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+152.9152032,-31.03284981</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-15709-w">
 <Snippet><![CDATA[INCD-15709-w]]></Snippet>
 <styleUrl>#sw_1249554_normal_planned</styleUrl>
