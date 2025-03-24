@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1249554_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
+<Placemark id="INCD-244750-q">
+<Snippet><![CDATA[INCD-244750-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-244750-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>25/03/2025 02:43:46</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>439</div><div><span>Reason:</span>Unknown, we are investigating</div><div><span>Last Updated:</span>25/03/2025 02:43:46</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5601450,0,28734902}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+152.1556491,-28.97771640 152.1556486,-28.97773415 152.1539118,-29.03286253 152.1539114,-29.03287475 152.1539081,-29.03289901 152.1539052,-29.03291096 152.1509837,-29.04504045 152.1509789,-29.04506026 152.1509627,-29.04509818 152.1509403,-29.04513355 152.1509121,-29.04516559 152.1508789,-29.04519359 152.1508412,-29.04521690 152.1508000,-29.04523501 152.1507562,-29.04524753 152.1507334,-29.04525085 152.0622129,-29.05813264 152.0495202,-29.05920869 152.0495013,-29.05921030 152.0494633,-29.05920938 152.0494257,-29.05920435 152.0493891,-29.05919528 152.0493715,-29.05918880 152.0070141,-29.04351356 152.0070005,-29.04350849 152.0069744,-29.04349610 152.0069498,-29.04348157 152.0069268,-29.04346500 152.0069059,-29.04344658 152.0068870,-29.04342647 152.0068704,-29.04340485 152.0068563,-29.04338193 152.0068505,-29.04336992 151.9917518,-29.01198711 151.9917421,-29.01196693 151.9917304,-29.01192436 151.9917266,-29.01188068 151.9917308,-29.01183703 151.9917431,-29.01179456 151.9917629,-29.01175438 151.9917899,-29.01171752 151.9918232,-29.01168498 151.9918427,-29.01167128 152.0220108,-28.99041563 152.0220247,-28.99040580 152.0220551,-28.99038911 152.0220712,-28.99038236 152.0649690,-28.97248162 152.0649830,-28.97247579 152.0650121,-28.97246664 152.0650422,-28.97246012 152.0650728,-28.97245630 152.0650883,-28.97245575 152.1223665,-28.97041525 152.1444874,-28.97162891 152.1445060,-28.97162992 152.1445426,-28.97163591 152.1445782,-28.97164575 152.1446122,-28.97165930 152.1446281,-28.97166783 152.1555015,-28.97749617 152.1555187,-28.97750541 152.1555502,-28.97752771 152.1555780,-28.97755345 152.1556018,-28.97758216 152.1556211,-28.97761337 152.1556355,-28.97764653 152.1556450,-28.97768107 152.1556491,-28.97771640</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5601450,0,28734902}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+152.0746498,-29.01410886</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-15709-w">
 <Snippet><![CDATA[INCD-15709-w]]></Snippet>
 <styleUrl>#sw_1249554_normal_planned</styleUrl>
