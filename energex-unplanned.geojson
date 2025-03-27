@@ -10,6 +10,72 @@
           {
             "type": "Point",
             "coordinates": [
+              153.055409,
+              -27.38092
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.054084,
+                  -27.381591
+                ],
+                [
+                  153.056457,
+                  -27.382402
+                ],
+                [
+                  153.057045,
+                  -27.382248
+                ],
+                [
+                  153.057035,
+                  -27.381701
+                ],
+                [
+                  153.055044,
+                  -27.379439
+                ],
+                [
+                  153.054154,
+                  -27.379615
+                ],
+                [
+                  153.053773,
+                  -27.381066
+                ],
+                [
+                  153.054084,
+                  -27.381591
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-851445-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "2:15PM 27 Mar 2025",
+        "EST_FIX_TIME": "10:00PM 27 Mar 2025",
+        "STREETS": "BILSEN RD, BRICKYARD RD",
+        "SUBURBS": "GEEBUNG, VIRGINIA, WAVELL HEIGHTS",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.050936,
               -26.441736
             ]
@@ -96,77 +162,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "31",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "6:35PM 27 Mar 2025",
         "EST_FIX_TIME": "10:00PM 27 Mar 2025",
         "STREETS": "CHARLOTTE DR, EUMARELLA RD, PARADISE DR",
         "SUBURBS": "WEYBA DOWNS",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.055409,
-              -27.38092
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.054084,
-                  -27.381591
-                ],
-                [
-                  153.056457,
-                  -27.382402
-                ],
-                [
-                  153.057045,
-                  -27.382248
-                ],
-                [
-                  153.057035,
-                  -27.381701
-                ],
-                [
-                  153.055044,
-                  -27.379439
-                ],
-                [
-                  153.054154,
-                  -27.379615
-                ],
-                [
-                  153.053773,
-                  -27.381066
-                ],
-                [
-                  153.054084,
-                  -27.381591
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-851445-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
-        "START": "2:15PM 27 Mar 2025",
-        "EST_FIX_TIME": "10:00PM 27 Mar 2025",
-        "STREETS": "BILSEN RD, BRICKYARD RD",
-        "SUBURBS": "GEEBUNG, VIRGINIA, WAVELL HEIGHTS",
         "ETR_FLAG": "N"
       }
     },
@@ -299,5 +299,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1743073801.633461"
+  "extracted": "1743074107.372115"
 }
