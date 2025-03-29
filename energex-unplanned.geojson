@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.109817,
+              -27.232811
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.109698,
+                  -27.233972
+                ],
+                [
+                  153.110884,
+                  -27.232001
+                ],
+                [
+                  153.110749,
+                  -27.231431
+                ],
+                [
+                  153.110098,
+                  -27.231455
+                ],
+                [
+                  153.10899,
+                  -27.232367
+                ],
+                [
+                  153.108828,
+                  -27.23267
+                ],
+                [
+                  153.10875,
+                  -27.233728
+                ],
+                [
+                  153.109114,
+                  -27.234192
+                ],
+                [
+                  153.109698,
+                  -27.233972
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-852008-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "5:41AM 29 Mar 2025",
+        "EST_FIX_TIME": "2:30AM 30 Mar 2025",
+        "STREETS": "OXLEY AVE, SYDNEY ST",
+        "SUBURBS": "REDCLIFFE",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1743262205.124117"
+  "extracted": "1743262500.488895"
 }
