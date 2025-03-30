@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              144.598944,
-              -27.628299
+              142.704427,
+              -25.29303
             ]
           },
           {
@@ -19,32 +19,44 @@
             "coordinates": [
               [
                 [
-                  144.645347,
-                  -27.647799
+                  142.661706,
+                  -25.404704
                 ],
                 [
-                  144.552983,
-                  -27.607988
+                  142.747644,
+                  -25.360811
                 ],
                 [
-                  144.552306,
-                  -27.608197
+                  142.747885,
+                  -25.360323
                 ],
                 [
-                  144.552541,
-                  -27.6088
+                  142.740133,
+                  -25.327716
                 ],
                 [
-                  144.644906,
-                  -27.648611
+                  142.740114,
+                  -25.327655
                 ],
                 [
-                  144.645582,
-                  -27.648401
+                  142.680792,
+                  -25.181646
                 ],
                 [
-                  144.645347,
-                  -27.647799
+                  142.680259,
+                  -25.181356
+                ],
+                [
+                  142.679834,
+                  -25.181767
+                ],
+                [
+                  142.660968,
+                  -25.404277
+                ],
+                [
+                  142.661706,
+                  -25.404704
                 ]
               ]
             ]
@@ -52,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5212",
+        "EVENT_ID": "25CA5767",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "7:49AM 26 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "TOOMPINE RD",
-        "SUBURBS": "EULO"
+        "CUSTOMERS_AFFECTED": "6",
+        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
+        "STATUS": "Crews working on-site",
+        "START": "6:01PM 28 Mar 2025",
+        "EST_FIX_TIME": "4:00PM 06 Apr 2025",
+        "STREETS": "UNKNOWN ST, WINDORAH JUNDAH RD, WINDORAH-QUILPIE RD",
+        "SUBURBS": "WINDORAH"
       }
     },
     {
@@ -235,6 +247,67 @@
         "EST_FIX_TIME": "12:00PM 31 Mar 2025",
         "STREETS": "APIS CREEK RD, OFF APIS CREEK RD, SMITH RD",
         "SUBURBS": "DUARINGA, GOGANGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              144.598944,
+              -27.628299
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  144.645347,
+                  -27.647799
+                ],
+                [
+                  144.552983,
+                  -27.607988
+                ],
+                [
+                  144.552306,
+                  -27.608197
+                ],
+                [
+                  144.552541,
+                  -27.6088
+                ],
+                [
+                  144.644906,
+                  -27.648611
+                ],
+                [
+                  144.645582,
+                  -27.648401
+                ],
+                [
+                  144.645347,
+                  -27.647799
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW5212",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "7:49AM 26 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "TOOMPINE RD",
+        "SUBURBS": "EULO"
       }
     },
     {
@@ -556,79 +629,6 @@
         "EST_FIX_TIME": "4:00PM 31 Mar 2025",
         "STREETS": "KIRKNIE RD",
         "SUBURBS": "HOME HILL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              142.704427,
-              -25.29303
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  142.661706,
-                  -25.404704
-                ],
-                [
-                  142.747644,
-                  -25.360811
-                ],
-                [
-                  142.747885,
-                  -25.360323
-                ],
-                [
-                  142.740133,
-                  -25.327716
-                ],
-                [
-                  142.740114,
-                  -25.327655
-                ],
-                [
-                  142.680792,
-                  -25.181646
-                ],
-                [
-                  142.680259,
-                  -25.181356
-                ],
-                [
-                  142.679834,
-                  -25.181767
-                ],
-                [
-                  142.660968,
-                  -25.404277
-                ],
-                [
-                  142.661706,
-                  -25.404704
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA5767",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "6",
-        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
-        "STATUS": "Crews working on-site",
-        "START": "6:01PM 28 Mar 2025",
-        "EST_FIX_TIME": "4:00PM 06 Apr 2025",
-        "STREETS": "UNKNOWN ST, WINDORAH JUNDAH RD, WINDORAH-QUILPIE RD",
-        "SUBURBS": "WINDORAH"
       }
     },
     {
@@ -1295,6 +1295,107 @@
           {
             "type": "Point",
             "coordinates": [
+              146.243776,
+              -20.214813
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.228551,
+                  -20.23124
+                ],
+                [
+                  146.232286,
+                  -20.234242
+                ],
+                [
+                  146.232558,
+                  -20.234349
+                ],
+                [
+                  146.236486,
+                  -20.234643
+                ],
+                [
+                  146.236659,
+                  -20.234626
+                ],
+                [
+                  146.254175,
+                  -20.229782
+                ],
+                [
+                  146.254515,
+                  -20.229407
+                ],
+                [
+                  146.259168,
+                  -20.195772
+                ],
+                [
+                  146.258752,
+                  -20.195266
+                ],
+                [
+                  146.256342,
+                  -20.194983
+                ],
+                [
+                  146.25614,
+                  -20.195
+                ],
+                [
+                  146.253109,
+                  -20.195896
+                ],
+                [
+                  146.253085,
+                  -20.195904
+                ],
+                [
+                  146.230969,
+                  -20.203675
+                ],
+                [
+                  146.230659,
+                  -20.204062
+                ],
+                [
+                  146.228384,
+                  -20.23086
+                ],
+                [
+                  146.228551,
+                  -20.23124
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ4910",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "23",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "9:31PM 30 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "MACOVIN RIDGE RD, MT LEYSHON RD, QUARTZBLOW RD, ROCKY CREEK RD",
+        "SUBURBS": "SEVENTY MILE, SEVENTY MILE RANGE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               145.108194,
               -21.188216
             ]
@@ -1416,5 +1517,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1743334204.306089"
+  "extracted": "1743334801.416647"
 }
