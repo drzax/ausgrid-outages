@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.367971,
+              -27.96469
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.367859,
+                  -27.964155
+                ],
+                [
+                  153.36737,
+                  -27.964582
+                ],
+                [
+                  153.367363,
+                  -27.96522
+                ],
+                [
+                  153.368082,
+                  -27.965226
+                ],
+                [
+                  153.368572,
+                  -27.964799
+                ],
+                [
+                  153.368578,
+                  -27.96416
+                ],
+                [
+                  153.367859,
+                  -27.964155
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-852616-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "5:45AM 31 Mar 2025",
+        "EST_FIX_TIME": "9:30AM 31 Mar 2025",
+        "STREETS": "PRODUCTION AVE",
+        "SUBURBS": "MOLENDINAR",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1743374400.850076"
+  "extracted": "1743374704.012806"
 }
