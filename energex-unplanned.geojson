@@ -10,6 +10,68 @@
           {
             "type": "Point",
             "coordinates": [
+              153.367971,
+              -27.96469
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.367859,
+                  -27.964155
+                ],
+                [
+                  153.36737,
+                  -27.964582
+                ],
+                [
+                  153.367363,
+                  -27.96522
+                ],
+                [
+                  153.368082,
+                  -27.965226
+                ],
+                [
+                  153.368572,
+                  -27.964799
+                ],
+                [
+                  153.368578,
+                  -27.96416
+                ],
+                [
+                  153.367859,
+                  -27.964155
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-852616-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Damage to our equipment",
+        "STATUS": "In Progress",
+        "START": "5:45AM 31 Mar 2025",
+        "EST_FIX_TIME": "1:00PM 31 Mar 2025",
+        "STREETS": "PRODUCTION AVE",
+        "SUBURBS": "MOLENDINAR",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.999433,
               -26.543001
             ]
@@ -144,68 +206,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.367971,
-              -27.96469
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.367859,
-                  -27.964155
-                ],
-                [
-                  153.36737,
-                  -27.964582
-                ],
-                [
-                  153.367363,
-                  -27.96522
-                ],
-                [
-                  153.368082,
-                  -27.965226
-                ],
-                [
-                  153.368572,
-                  -27.964799
-                ],
-                [
-                  153.368578,
-                  -27.96416
-                ],
-                [
-                  153.367859,
-                  -27.964155
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-852616-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Damage to our equipment",
-        "STATUS": "In Progress",
-        "START": "5:45AM 31 Mar 2025",
-        "EST_FIX_TIME": "6:00PM 31 Mar 2025",
-        "STREETS": "PRODUCTION AVE",
-        "SUBURBS": "MOLENDINAR",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.0343,
               -26.527005
             ]
@@ -292,9 +292,9 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "1146",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "9:35AM 31 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 31 Mar 2025",
+        "EST_FIX_TIME": "12:30PM 31 Mar 2025",
         "STREETS": "ACCESS CRES, ARCOONA RD, AUBURN CT, BARNS LANE, CANIA PL, CARNARVON CT, CORBOULD RD, DACMAR RD, DOONAN BRIDGE RD, FOCAL AVE, HUON RD, JUNCTION DR, LEICHHARDT DR, LINK CRES, LOMANDRA PL, LYSAGHT ST, MCCORDS RD, MUSGRAVE DR, NORTH ARM-YANDINA CREEK RD, PRYOR RD, QUANDA RD, RESEARCH ST, RICKARD RD, TOOLBOROUGH RD, VALDORA RD, VENTURE CL, YANDINA-COOLUM RD, ZGRAJEWSKI RD",
         "SUBURBS": "COOLUM BEACH, NORTH ARM, VALDORA, VERRIERDALE, YANDINA, YANDINA CREEK",
         "ETR_FLAG": "N"
@@ -405,5 +405,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1743378601.541829"
+  "extracted": "1743380401.664027"
 }
