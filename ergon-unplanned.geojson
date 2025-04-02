@@ -529,7 +529,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "19",
         "REASON": "The loss of supply is due to damage caused by external influences, such as birds or animals. ",
-        "STATUS": "Crews on route",
+        "STATUS": "Work delayed - crews unable to continue",
         "START": "8:19AM 02 Apr 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "ERROMANGO DR",
@@ -791,7 +791,7 @@
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
         "STATUS": "Crews working on-site",
         "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
+        "EST_FIX_TIME": "12:00PM 04 Apr 2025",
         "STREETS": "MIRANI BOLDON RD",
         "SUBURBS": "MIRANI"
       }
@@ -1047,6 +1047,75 @@
           {
             "type": "Point",
             "coordinates": [
+              146.00298,
+              -17.619365
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.002392,
+                  -17.617562
+                ],
+                [
+                  146.002627,
+                  -17.621223
+                ],
+                [
+                  146.003122,
+                  -17.621646
+                ],
+                [
+                  146.003568,
+                  -17.621175
+                ],
+                [
+                  146.003448,
+                  -17.618559
+                ],
+                [
+                  146.003446,
+                  -17.618532
+                ],
+                [
+                  146.003331,
+                  -17.617487
+                ],
+                [
+                  146.002823,
+                  -17.617084
+                ],
+                [
+                  146.002392,
+                  -17.617562
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN4283",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "4:32PM 02 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "WILKIE GRAY RD",
+        "SUBURBS": "BOOGAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               143.060127,
               -24.833362
             ]
@@ -1110,75 +1179,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "MILES ST",
         "SUBURBS": "JUNDAH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.00298,
-              -17.619365
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.002392,
-                  -17.617562
-                ],
-                [
-                  146.002627,
-                  -17.621223
-                ],
-                [
-                  146.003122,
-                  -17.621646
-                ],
-                [
-                  146.003568,
-                  -17.621175
-                ],
-                [
-                  146.003448,
-                  -17.618559
-                ],
-                [
-                  146.003446,
-                  -17.618532
-                ],
-                [
-                  146.003331,
-                  -17.617487
-                ],
-                [
-                  146.002823,
-                  -17.617084
-                ],
-                [
-                  146.002392,
-                  -17.617562
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN4283",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "4:32PM 02 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "WILKIE GRAY RD",
-        "SUBURBS": "BOOGAN"
       }
     },
     {
@@ -1667,6 +1667,99 @@
           {
             "type": "Point",
             "coordinates": [
+              143.8251,
+              -27.994725
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  143.822698,
+                  -27.996182
+                ],
+                [
+                  143.826439,
+                  -27.996668
+                ],
+                [
+                  143.826984,
+                  -27.99639
+                ],
+                [
+                  143.827742,
+                  -27.994718
+                ],
+                [
+                  143.827778,
+                  -27.994527
+                ],
+                [
+                  143.827704,
+                  -27.993205
+                ],
+                [
+                  143.827112,
+                  -27.992783
+                ],
+                [
+                  143.825777,
+                  -27.992983
+                ],
+                [
+                  143.825562,
+                  -27.993064
+                ],
+                [
+                  143.824485,
+                  -27.993763
+                ],
+                [
+                  143.82447,
+                  -27.993773
+                ],
+                [
+                  143.823863,
+                  -27.994198
+                ],
+                [
+                  143.823829,
+                  -27.994225
+                ],
+                [
+                  143.822422,
+                  -27.995409
+                ],
+                [
+                  143.822698,
+                  -27.996182
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW5387",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "26",
+        "REASON": "The loss of supply is due to public safety concerns.",
+        "STATUS": "Crews working on-site",
+        "START": "4:40AM 31 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "DOWLING ST, ECCLES ST, FITZWALTER ST, POWELL ST, SAMS ST",
+        "SUBURBS": "THARGOMINDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.504752,
               -25.937211
             ]
@@ -1718,160 +1811,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "MIVA RD",
         "SUBURBS": "GUNALDA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              143.03145,
-              -24.818312
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  143.011232,
-                  -24.812028
-                ],
-                [
-                  143.051062,
-                  -24.829381
-                ],
-                [
-                  143.0517,
-                  -24.829205
-                ],
-                [
-                  143.051565,
-                  -24.82861
-                ],
-                [
-                  143.019356,
-                  -24.80727
-                ],
-                [
-                  143.01882,
-                  -24.807243
-                ],
-                [
-                  143.0112,
-                  -24.81123
-                ],
-                [
-                  143.011232,
-                  -24.812028
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA5684",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
-        "STATUS": "Crews working on-site",
-        "START": "1:14PM 27 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "WINDORAH RD",
-        "SUBURBS": "JUNDAH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.967973,
-              -26.679612
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  151.967939,
-                  -26.681396
-                ],
-                [
-                  151.968553,
-                  -26.679916
-                ],
-                [
-                  151.968556,
-                  -26.679911
-                ],
-                [
-                  151.968953,
-                  -26.678916
-                ],
-                [
-                  151.968976,
-                  -26.678695
-                ],
-                [
-                  151.968813,
-                  -26.677758
-                ],
-                [
-                  151.967929,
-                  -26.677544
-                ],
-                [
-                  151.967265,
-                  -26.678279
-                ],
-                [
-                  151.967154,
-                  -26.678531
-                ],
-                [
-                  151.967005,
-                  -26.680399
-                ],
-                [
-                  151.967004,
-                  -26.680414
-                ],
-                [
-                  151.966969,
-                  -26.68122
-                ],
-                [
-                  151.967371,
-                  -26.681679
-                ],
-                [
-                  151.967939,
-                  -26.681396
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25WB4583",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "8",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "6:25PM 02 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "KURRAJONG DR",
-        "SUBURBS": "NANANGO"
       }
     },
     {
@@ -1967,8 +1906,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.8251,
-              -27.994725
+              151.967973,
+              -26.679612
             ]
           },
           {
@@ -1976,64 +1915,60 @@
             "coordinates": [
               [
                 [
-                  143.822698,
-                  -27.996182
+                  151.967939,
+                  -26.681396
                 ],
                 [
-                  143.826439,
-                  -27.996668
+                  151.968553,
+                  -26.679916
                 ],
                 [
-                  143.826984,
-                  -27.99639
+                  151.968556,
+                  -26.679911
                 ],
                 [
-                  143.827742,
-                  -27.994718
+                  151.968953,
+                  -26.678916
                 ],
                 [
-                  143.827778,
-                  -27.994527
+                  151.968976,
+                  -26.678695
                 ],
                 [
-                  143.827704,
-                  -27.993205
+                  151.968813,
+                  -26.677758
                 ],
                 [
-                  143.827112,
-                  -27.992783
+                  151.967929,
+                  -26.677544
                 ],
                 [
-                  143.825777,
-                  -27.992983
+                  151.967265,
+                  -26.678279
                 ],
                 [
-                  143.825562,
-                  -27.993064
+                  151.967154,
+                  -26.678531
                 ],
                 [
-                  143.824485,
-                  -27.993763
+                  151.967005,
+                  -26.680399
                 ],
                 [
-                  143.82447,
-                  -27.993773
+                  151.967004,
+                  -26.680414
                 ],
                 [
-                  143.823863,
-                  -27.994198
+                  151.966969,
+                  -26.68122
                 ],
                 [
-                  143.823829,
-                  -27.994225
+                  151.967371,
+                  -26.681679
                 ],
                 [
-                  143.822422,
-                  -27.995409
-                ],
-                [
-                  143.822698,
-                  -27.996182
+                  151.967939,
+                  -26.681396
                 ]
               ]
             ]
@@ -2041,15 +1976,80 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5387",
+        "EVENT_ID": "25WB4583",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "26",
-        "REASON": "The loss of supply is due to public safety concerns.",
-        "STATUS": "Crews working on-site",
-        "START": "4:40AM 31 Mar 2025",
+        "CUSTOMERS_AFFECTED": "8",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews on route",
+        "START": "6:25PM 02 Apr 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "DOWLING ST, ECCLES ST, FITZWALTER ST, POWELL ST, SAMS ST",
-        "SUBURBS": "THARGOMINDAH"
+        "STREETS": "KURRAJONG DR",
+        "SUBURBS": "NANANGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              143.03145,
+              -24.818312
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  143.011232,
+                  -24.812028
+                ],
+                [
+                  143.051062,
+                  -24.829381
+                ],
+                [
+                  143.0517,
+                  -24.829205
+                ],
+                [
+                  143.051565,
+                  -24.82861
+                ],
+                [
+                  143.019356,
+                  -24.80727
+                ],
+                [
+                  143.01882,
+                  -24.807243
+                ],
+                [
+                  143.0112,
+                  -24.81123
+                ],
+                [
+                  143.011232,
+                  -24.812028
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA5684",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
+        "STATUS": "Crews working on-site",
+        "START": "1:14PM 27 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "WINDORAH RD",
+        "SUBURBS": "JUNDAH"
       }
     },
     {
@@ -2181,5 +2181,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1743583801.143961"
+  "extracted": "1743584101.090476"
 }
