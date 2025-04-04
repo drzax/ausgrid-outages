@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.343035,
-              -22.707696
+              144.155405,
+              -18.852959
             ]
           },
           {
@@ -19,36 +19,44 @@
             "coordinates": [
               [
                 [
-                  143.337003,
-                  -22.739214
+                  144.141349,
+                  -18.863156
                 ],
                 [
-                  143.350025,
-                  -22.678883
+                  144.166139,
+                  -18.877747
                 ],
                 [
-                  143.349833,
-                  -22.678429
+                  144.166709,
+                  -18.877695
                 ],
                 [
-                  143.345942,
-                  -22.675822
+                  144.169443,
+                  -18.875295
                 ],
                 [
-                  143.345176,
-                  -22.676127
+                  144.169595,
+                  -18.874949
                 ],
                 [
-                  143.336044,
-                  -22.739066
+                  144.168025,
+                  -18.828587
                 ],
                 [
-                  143.336446,
-                  -22.73957
+                  144.16769,
+                  -18.82817
                 ],
                 [
-                  143.337003,
-                  -22.739214
+                  144.167167,
+                  -18.828337
+                ],
+                [
+                  144.141214,
+                  -18.862508
+                ],
+                [
+                  144.141349,
+                  -18.863156
                 ]
               ]
             ]
@@ -56,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ4684",
+        "EVENT_ID": "25FN4300",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to a pole fire.",
+        "CUSTOMERS_AFFECTED": "12",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
         "STATUS": "Work delayed - crews unable to continue",
-        "START": "11:30AM 25 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 09 Apr 2025",
-        "STREETS": "MELROSE STATION, TUCSON STATION",
-        "SUBURBS": "LONGREACH, WINTON"
+        "START": "11:41PM 02 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "GILBERTON RD, OLD KIDSTON RD, PARALLEL ST, UNKNOWN ST",
+        "SUBURBS": "EINASLEIGH, KIDSTON"
       }
     },
     {
@@ -209,79 +217,6 @@
           {
             "type": "Point",
             "coordinates": [
-              144.155405,
-              -18.852959
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.141349,
-                  -18.863156
-                ],
-                [
-                  144.166139,
-                  -18.877747
-                ],
-                [
-                  144.166709,
-                  -18.877695
-                ],
-                [
-                  144.169443,
-                  -18.875295
-                ],
-                [
-                  144.169595,
-                  -18.874949
-                ],
-                [
-                  144.168025,
-                  -18.828587
-                ],
-                [
-                  144.16769,
-                  -18.82817
-                ],
-                [
-                  144.167167,
-                  -18.828337
-                ],
-                [
-                  144.141214,
-                  -18.862508
-                ],
-                [
-                  144.141349,
-                  -18.863156
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN4300",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "12",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "11:41PM 02 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "GILBERTON RD, OLD KIDSTON RD, PARALLEL ST, UNKNOWN ST",
-        "SUBURBS": "EINASLEIGH, KIDSTON"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               147.316865,
               -28.846256
             ]
@@ -394,6 +329,71 @@
         "EST_FIX_TIME": "12:00PM 11 Apr 2025",
         "STREETS": "MIRANI BOLDON RD",
         "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              143.343035,
+              -22.707696
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  143.337003,
+                  -22.739214
+                ],
+                [
+                  143.350025,
+                  -22.678883
+                ],
+                [
+                  143.349833,
+                  -22.678429
+                ],
+                [
+                  143.345942,
+                  -22.675822
+                ],
+                [
+                  143.345176,
+                  -22.676127
+                ],
+                [
+                  143.336044,
+                  -22.739066
+                ],
+                [
+                  143.336446,
+                  -22.73957
+                ],
+                [
+                  143.337003,
+                  -22.739214
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ4684",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to a pole fire.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "11:30AM 25 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 09 Apr 2025",
+        "STREETS": "MELROSE STATION, TUCSON STATION",
+        "SUBURBS": "LONGREACH, WINTON"
       }
     },
     {
@@ -1364,8 +1364,8 @@
           {
             "type": "Point",
             "coordinates": [
-              152.017963,
-              -24.526025
+              143.970048,
+              -27.639933
             ]
           },
           {
@@ -1373,72 +1373,36 @@
             "coordinates": [
               [
                 [
-                  152.007983,
-                  -24.516781
+                  143.872744,
+                  -27.773136
                 ],
                 [
-                  152.011191,
-                  -24.52716
+                  143.942069,
+                  -27.767328
                 ],
                 [
-                  152.011402,
-                  -24.527418
+                  143.942487,
+                  -27.767057
                 ],
                 [
-                  152.025936,
-                  -24.535832
+                  144.067823,
+                  -27.507304
                 ],
                 [
-                  152.026648,
-                  -24.535637
+                  144.067597,
+                  -27.506729
                 ],
                 [
-                  152.027944,
-                  -24.533003
+                  144.066935,
+                  -27.50688
                 ],
                 [
-                  152.027944,
-                  -24.532635
+                  143.872272,
+                  -27.772441
                 ],
                 [
-                  152.027803,
-                  -24.532346
-                ],
-                [
-                  152.027757,
-                  -24.532271
-                ],
-                [
-                  152.017346,
-                  -24.518664
-                ],
-                [
-                  152.017162,
-                  -24.518519
-                ],
-                [
-                  152.016334,
-                  -24.518142
-                ],
-                [
-                  152.016316,
-                  -24.518134
-                ],
-                [
-                  152.014462,
-                  -24.517377
-                ],
-                [
-                  152.014363,
-                  -24.517348
-                ],
-                [
-                  152.008558,
-                  -24.516218
-                ],
-                [
-                  152.007983,
-                  -24.516781
+                  143.872744,
+                  -27.773136
                 ]
               ]
             ]
@@ -1446,15 +1410,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25WB4727",
+        "EVENT_ID": "25SW5362",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "168",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Crews working on-site",
-        "START": "4:15AM 05 Apr 2025",
-        "EST_FIX_TIME": "10:00AM 05 Apr 2025",
-        "STREETS": "BAFFLE ESTATE RD, BAUER RD, BROLGA ST, COLONIAL CT, DRIFTWOOD CT, FISHERMANS CT, ISLAND VIEW DR, PANGOLA ST, ROCKY POINT RD, ROSEDALE RD, WATTLE ST, WINFIELD RD",
-        "SUBURBS": "WINFIELD"
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:14AM 30 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "AUTUMNVALE RD, KIANDRA RD, OLD THARGOMINDAH RD",
+        "SUBURBS": "QUILPIE, THARGOMINDAH"
       }
     },
     {
@@ -1465,8 +1429,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.820848,
-              -27.988785
+              144.999434,
+              -24.997039
             ]
           },
           {
@@ -1474,36 +1438,44 @@
             "coordinates": [
               [
                 [
-                  143.81936,
-                  -27.986348
+                  144.93463,
+                  -25.012766
                 ],
                 [
-                  143.821358,
-                  -27.991881
+                  144.934642,
+                  -25.013048
                 ],
                 [
-                  143.821976,
-                  -27.992178
+                  144.935225,
+                  -25.013474
                 ],
                 [
-                  143.822337,
-                  -27.991643
+                  145.034761,
+                  -24.99705
                 ],
                 [
-                  143.820759,
-                  -27.985537
+                  145.034923,
+                  -24.996995
                 ],
                 [
-                  143.819838,
-                  -27.985392
+                  145.064032,
+                  -24.981428
                 ],
                 [
-                  143.819418,
-                  -27.985964
+                  145.064238,
+                  -24.980864
                 ],
                 [
-                  143.81936,
-                  -27.986348
+                  145.063652,
+                  -24.980603
+                ],
+                [
+                  144.934996,
+                  -25.012313
+                ],
+                [
+                  144.93463,
+                  -25.012766
                 ]
               ]
             ]
@@ -1511,15 +1483,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5630",
+        "EVENT_ID": "25CA6047",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
-        "STATUS": "Crews working on-site",
-        "START": "4:19AM 01 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "GILMOUR ST, STAFFORD ST, WATTS ST",
-        "SUBURBS": "THARGOMINDAH"
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "8:51AM 02 Apr 2025",
+        "EST_FIX_TIME": "4:00PM 07 Apr 2025",
+        "STREETS": "ADAVALE RD, OFF ISISFORD-B'ALL RD",
+        "SUBURBS": "BLACKALL"
       }
     },
     {
@@ -1688,8 +1660,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.816614,
-              -27.99784
+              143.820848,
+              -27.988785
             ]
           },
           {
@@ -1697,44 +1669,36 @@
             "coordinates": [
               [
                 [
-                  143.815546,
-                  -27.998638
+                  143.81936,
+                  -27.986348
                 ],
                 [
-                  143.816308,
-                  -27.998849
+                  143.821358,
+                  -27.991881
                 ],
                 [
-                  143.816873,
-                  -27.99868
+                  143.821976,
+                  -27.992178
                 ],
                 [
-                  143.817432,
-                  -27.997983
+                  143.822337,
+                  -27.991643
                 ],
                 [
-                  143.817448,
-                  -27.997962
+                  143.820759,
+                  -27.985537
                 ],
                 [
-                  143.817813,
-                  -27.997447
+                  143.819838,
+                  -27.985392
                 ],
                 [
-                  143.817738,
-                  -27.996884
+                  143.819418,
+                  -27.985964
                 ],
                 [
-                  143.817102,
-                  -27.996832
-                ],
-                [
-                  143.815415,
-                  -27.997833
-                ],
-                [
-                  143.815546,
-                  -27.998638
+                  143.81936,
+                  -27.986348
                 ]
               ]
             ]
@@ -1742,14 +1706,14 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5623",
+        "EVENT_ID": "25SW5630",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "7",
+        "CUSTOMERS_AFFECTED": "5",
         "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
         "STATUS": "Crews working on-site",
         "START": "4:19AM 01 Apr 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "MOORE ST, SAMS ST",
+        "STREETS": "GILMOUR ST, STAFFORD ST, WATTS ST",
         "SUBURBS": "THARGOMINDAH"
       }
     },
@@ -1761,8 +1725,8 @@
           {
             "type": "Point",
             "coordinates": [
-              144.999434,
-              -24.997039
+              143.825034,
+              -27.996793
             ]
           },
           {
@@ -1770,44 +1734,48 @@
             "coordinates": [
               [
                 [
-                  144.93463,
-                  -25.012766
+                  143.823971,
+                  -27.997655
                 ],
                 [
-                  144.934642,
-                  -25.013048
+                  143.824808,
+                  -27.99767
                 ],
                 [
-                  144.935225,
-                  -25.013474
+                  143.825123,
+                  -27.99758
                 ],
                 [
-                  145.034761,
-                  -24.99705
+                  143.826435,
+                  -27.996708
                 ],
                 [
-                  145.034923,
-                  -24.996995
+                  143.826582,
+                  -27.996141
                 ],
                 [
-                  145.064032,
-                  -24.981428
+                  143.825979,
+                  -27.995917
                 ],
                 [
-                  145.064238,
-                  -24.980864
+                  143.825446,
+                  -27.996064
                 ],
                 [
-                  145.063652,
-                  -24.980603
+                  143.825373,
+                  -27.996091
                 ],
                 [
-                  144.934996,
-                  -25.012313
+                  143.823756,
+                  -27.9968
                 ],
                 [
-                  144.93463,
-                  -25.012766
+                  143.823485,
+                  -27.997303
+                ],
+                [
+                  143.823971,
+                  -27.997655
                 ]
               ]
             ]
@@ -1815,15 +1783,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25CA6047",
+        "EVENT_ID": "25SW5386",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "8:51AM 02 Apr 2025",
-        "EST_FIX_TIME": "4:00PM 07 Apr 2025",
-        "STREETS": "ADAVALE RD, OFF ISISFORD-B'ALL RD",
-        "SUBURBS": "BLACKALL"
+        "REASON": "The loss of supply is due to public safety concerns.",
+        "STATUS": "Crews working on-site",
+        "START": "2:25AM 31 Mar 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "POWELL ST",
+        "SUBURBS": "THARGOMINDAH"
       }
     },
     {
@@ -1951,8 +1919,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.825034,
-              -27.996793
+              152.017963,
+              -24.526025
             ]
           },
           {
@@ -1960,48 +1928,72 @@
             "coordinates": [
               [
                 [
-                  143.823971,
-                  -27.997655
+                  152.007983,
+                  -24.516781
                 ],
                 [
-                  143.824808,
-                  -27.99767
+                  152.011191,
+                  -24.52716
                 ],
                 [
-                  143.825123,
-                  -27.99758
+                  152.011402,
+                  -24.527418
                 ],
                 [
-                  143.826435,
-                  -27.996708
+                  152.025936,
+                  -24.535832
                 ],
                 [
-                  143.826582,
-                  -27.996141
+                  152.026648,
+                  -24.535637
                 ],
                 [
-                  143.825979,
-                  -27.995917
+                  152.027944,
+                  -24.533003
                 ],
                 [
-                  143.825446,
-                  -27.996064
+                  152.027944,
+                  -24.532635
                 ],
                 [
-                  143.825373,
-                  -27.996091
+                  152.027803,
+                  -24.532346
                 ],
                 [
-                  143.823756,
-                  -27.9968
+                  152.027757,
+                  -24.532271
                 ],
                 [
-                  143.823485,
-                  -27.997303
+                  152.017346,
+                  -24.518664
                 ],
                 [
-                  143.823971,
-                  -27.997655
+                  152.017162,
+                  -24.518519
+                ],
+                [
+                  152.016334,
+                  -24.518142
+                ],
+                [
+                  152.016316,
+                  -24.518134
+                ],
+                [
+                  152.014462,
+                  -24.517377
+                ],
+                [
+                  152.014363,
+                  -24.517348
+                ],
+                [
+                  152.008558,
+                  -24.516218
+                ],
+                [
+                  152.007983,
+                  -24.516781
                 ]
               ]
             ]
@@ -2009,15 +2001,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5386",
+        "EVENT_ID": "25WB4727",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to public safety concerns.",
+        "CUSTOMERS_AFFECTED": "168",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
         "STATUS": "Crews working on-site",
-        "START": "2:25AM 31 Mar 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "POWELL ST",
-        "SUBURBS": "THARGOMINDAH"
+        "START": "4:15AM 05 Apr 2025",
+        "EST_FIX_TIME": "10:00AM 05 Apr 2025",
+        "STREETS": "BAFFLE ESTATE RD, BAUER RD, BROLGA ST, COLONIAL CT, DRIFTWOOD CT, FISHERMANS CT, ISLAND VIEW DR, PANGOLA ST, ROCKY POINT RD, ROSEDALE RD, WATTLE ST, WINFIELD RD",
+        "SUBURBS": "WINFIELD"
       }
     },
     {
@@ -2093,8 +2085,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.970048,
-              -27.639933
+              143.816614,
+              -27.99784
             ]
           },
           {
@@ -2102,36 +2094,44 @@
             "coordinates": [
               [
                 [
-                  143.872744,
-                  -27.773136
+                  143.815546,
+                  -27.998638
                 ],
                 [
-                  143.942069,
-                  -27.767328
+                  143.816308,
+                  -27.998849
                 ],
                 [
-                  143.942487,
-                  -27.767057
+                  143.816873,
+                  -27.99868
                 ],
                 [
-                  144.067823,
-                  -27.507304
+                  143.817432,
+                  -27.997983
                 ],
                 [
-                  144.067597,
-                  -27.506729
+                  143.817448,
+                  -27.997962
                 ],
                 [
-                  144.066935,
-                  -27.50688
+                  143.817813,
+                  -27.997447
                 ],
                 [
-                  143.872272,
-                  -27.772441
+                  143.817738,
+                  -27.996884
                 ],
                 [
-                  143.872744,
-                  -27.773136
+                  143.817102,
+                  -27.996832
+                ],
+                [
+                  143.815415,
+                  -27.997833
+                ],
+                [
+                  143.815546,
+                  -27.998638
                 ]
               ]
             ]
@@ -2139,15 +2139,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5362",
+        "EVENT_ID": "25SW5623",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:14AM 30 Mar 2025",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
+        "STATUS": "Crews working on-site",
+        "START": "4:19AM 01 Apr 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "AUTUMNVALE RD, KIANDRA RD, OLD THARGOMINDAH RD",
-        "SUBURBS": "QUILPIE, THARGOMINDAH"
+        "STREETS": "MOORE ST, SAMS ST",
+        "SUBURBS": "THARGOMINDAH"
       }
     },
     {
@@ -2214,5 +2214,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1743805501.081735"
+  "extracted": "1743805805.240451"
 }
