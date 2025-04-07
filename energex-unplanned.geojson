@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.825199,
+              -26.993522
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.824885,
+                  -26.993169
+                ],
+                [
+                  152.824884,
+                  -26.99317
+                ],
+                [
+                  152.824804,
+                  -26.993804
+                ],
+                [
+                  152.825512,
+                  -26.993876
+                ],
+                [
+                  152.825513,
+                  -26.993875
+                ],
+                [
+                  152.825593,
+                  -26.99324
+                ],
+                [
+                  152.824885,
+                  -26.993169
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-854597-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "7:05AM 08 Apr 2025",
+        "EST_FIX_TIME": "9:30AM 08 Apr 2025",
+        "STREETS": "D'AGUILAR HWY",
+        "SUBURBS": "BRACALBA",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1744059901.579744"
+  "extracted": "1744060800.373937"
 }
