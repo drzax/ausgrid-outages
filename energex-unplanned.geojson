@@ -1,8 +1,63 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.344396,
+              -27.723329
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.344904,
+                  -27.723328
+                ],
+                [
+                  153.344395,
+                  -27.722878
+                ],
+                [
+                  153.343889,
+                  -27.723331
+                ],
+                [
+                  153.344398,
+                  -27.723781
+                ],
+                [
+                  153.344904,
+                  -27.723328
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-855117-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "3:44AM 10 Apr 2025",
+        "EST_FIX_TIME": "6:30AM 10 Apr 2025",
+        "STREETS": "ROCKY POINT RD",
+        "SUBURBS": "WOONGOOLBA",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1744220109.158589"
+  "extracted": "1744220706.3129"
 }
