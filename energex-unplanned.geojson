@@ -10,6 +10,80 @@
           {
             "type": "Point",
             "coordinates": [
+              153.331576,
+              -28.068739
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.330358,
+                  -28.068691
+                ],
+                [
+                  153.330368,
+                  -28.068773
+                ],
+                [
+                  153.330503,
+                  -28.069037
+                ],
+                [
+                  153.33065,
+                  -28.069176
+                ],
+                [
+                  153.33113,
+                  -28.069308
+                ],
+                [
+                  153.332397,
+                  -28.069062
+                ],
+                [
+                  153.332794,
+                  -28.068569
+                ],
+                [
+                  153.332279,
+                  -28.06817
+                ],
+                [
+                  153.330855,
+                  -28.068194
+                ],
+                [
+                  153.330358,
+                  -28.068691
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-855063-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "3:59PM 09 Apr 2025",
+        "EST_FIX_TIME": "6:30PM 09 Apr 2025",
+        "STREETS": "EARLE CT",
+        "SUBURBS": "TALLAI",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.340831,
               -28.068183
             ]
@@ -164,80 +238,6 @@
         "START": "1:58PM 09 Apr 2025",
         "EST_FIX_TIME": "7:00PM 09 Apr 2025",
         "STREETS": "BARON CT, FOXTAIL CT, MEWSDALE ROW, PRINCESS PL, TALLAI RD, VISCOUNT DR",
-        "SUBURBS": "TALLAI",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.331576,
-              -28.068739
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.330358,
-                  -28.068691
-                ],
-                [
-                  153.330368,
-                  -28.068773
-                ],
-                [
-                  153.330503,
-                  -28.069037
-                ],
-                [
-                  153.33065,
-                  -28.069176
-                ],
-                [
-                  153.33113,
-                  -28.069308
-                ],
-                [
-                  153.332397,
-                  -28.069062
-                ],
-                [
-                  153.332794,
-                  -28.068569
-                ],
-                [
-                  153.332279,
-                  -28.06817
-                ],
-                [
-                  153.330855,
-                  -28.068194
-                ],
-                [
-                  153.330358,
-                  -28.068691
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-855063-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
-        "START": "3:59PM 09 Apr 2025",
-        "EST_FIX_TIME": "6:30PM 09 Apr 2025",
-        "STREETS": "EARLE CT",
         "SUBURBS": "TALLAI",
         "ETR_FLAG": "N"
       }
@@ -529,5 +529,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1744183805.192582"
+  "extracted": "1744184101.794"
 }
