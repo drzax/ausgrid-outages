@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              143.803604,
-              -27.987301
+              148.699115,
+              -21.127962
             ]
           },
           {
@@ -19,24 +19,36 @@
             "coordinates": [
               [
                 [
-                  143.804111,
-                  -27.987313
+                  148.697564,
+                  -21.128178
                 ],
                 [
-                  143.803617,
-                  -27.98685
+                  148.700208,
+                  -21.128945
                 ],
                 [
-                  143.803096,
-                  -27.987289
+                  148.700826,
+                  -21.128582
                 ],
                 [
-                  143.80359,
-                  -27.987752
+                  148.701003,
+                  -21.127495
                 ],
                 [
-                  143.804111,
-                  -27.987313
+                  148.700469,
+                  -21.126979
+                ],
+                [
+                  148.697649,
+                  -21.127299
+                ],
+                [
+                  148.697227,
+                  -21.127706
+                ],
+                [
+                  148.697564,
+                  -21.128178
                 ]
               ]
             ]
@@ -44,15 +56,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW5618",
+        "EVENT_ID": "25MK1119",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
-        "STATUS": "Crews working on-site",
-        "START": "4:19AM 01 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "LOWER CEMETERY RD",
-        "SUBURBS": "THARGOMINDAH"
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:57AM 04 Feb 2025",
+        "EST_FIX_TIME": "9:30AM 29 Apr 2025",
+        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
+        "SUBURBS": "OWENS CREEK, PINNACLE"
       }
     },
     {
@@ -493,6 +505,59 @@
           {
             "type": "Point",
             "coordinates": [
+              143.803604,
+              -27.987301
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  143.804111,
+                  -27.987313
+                ],
+                [
+                  143.803617,
+                  -27.98685
+                ],
+                [
+                  143.803096,
+                  -27.987289
+                ],
+                [
+                  143.80359,
+                  -27.987752
+                ],
+                [
+                  143.804111,
+                  -27.987313
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW5618",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
+        "STATUS": "Crews working on-site",
+        "START": "4:19AM 01 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "LOWER CEMETERY RD",
+        "SUBURBS": "THARGOMINDAH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               142.621735,
               -9.384292
             ]
@@ -691,74 +756,9 @@
         "STREETS": "JAKELWAR GOODOOGA RD, JAKELWAR-GOODOOGA RD",
         "SUBURBS": "DIRRANBANDI, HEBEL"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.699115,
-              -21.127962
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.697564,
-                  -21.128178
-                ],
-                [
-                  148.700208,
-                  -21.128945
-                ],
-                [
-                  148.700826,
-                  -21.128582
-                ],
-                [
-                  148.701003,
-                  -21.127495
-                ],
-                [
-                  148.700469,
-                  -21.126979
-                ],
-                [
-                  148.697649,
-                  -21.127299
-                ],
-                [
-                  148.697227,
-                  -21.127706
-                ],
-                [
-                  148.697564,
-                  -21.128178
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK1119",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:57AM 04 Feb 2025",
-        "EST_FIX_TIME": "9:30AM 29 Apr 2025",
-        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
-        "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1744221301.021118"
+  "extracted": "1744221901.442611"
 }
