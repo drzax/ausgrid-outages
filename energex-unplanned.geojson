@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.866357,
+              -26.685855
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.865217,
+                  -26.686266
+                ],
+                [
+                  152.866077,
+                  -26.686561
+                ],
+                [
+                  152.866501,
+                  -26.686533
+                ],
+                [
+                  152.867586,
+                  -26.68599
+                ],
+                [
+                  152.867818,
+                  -26.685452
+                ],
+                [
+                  152.867271,
+                  -26.685149
+                ],
+                [
+                  152.865326,
+                  -26.685397
+                ],
+                [
+                  152.864897,
+                  -26.685794
+                ],
+                [
+                  152.865217,
+                  -26.686266
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-855551-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "7:25AM 12 Apr 2025",
+        "EST_FIX_TIME": "11:00AM 12 Apr 2025",
+        "STREETS": "NARROWS RD",
+        "SUBURBS": "MONTVILLE, NORTH MALENY",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1744408201.017818"
+  "extracted": "1744408501.037394"
 }
