@@ -10,6 +10,68 @@
           {
             "type": "Point",
             "coordinates": [
+              152.930279,
+              -26.993849
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.931313,
+                  -26.996125
+                ],
+                [
+                  152.930231,
+                  -26.991391
+                ],
+                [
+                  152.929637,
+                  -26.991039
+                ],
+                [
+                  152.929244,
+                  -26.991572
+                ],
+                [
+                  152.930326,
+                  -26.996306
+                ],
+                [
+                  152.93092,
+                  -26.996658
+                ],
+                [
+                  152.931313,
+                  -26.996125
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-856871-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "3:30PM 17 Apr 2025",
+        "EST_FIX_TIME": "9:00PM 17 Apr 2025",
+        "STREETS": "BEERBURRUM RD, MCDOUGALL RD",
+        "SUBURBS": "ELIMBAH",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.366213,
               -26.969655
             ]
@@ -101,68 +163,6 @@
         "EST_FIX_TIME": "2:00AM 18 Apr 2025",
         "STREETS": "ANN ST, BRISBANE VALLEY HWY, CAMBROOK RD, D'AGUILAR HWY, FOGGS RD, GREGORS CREEK RD, HOLLAND RD, IVORY CREEK RD, JOSEY RD, MARGARET ST, NURINDA RD, O'LEARYS LANE, RUCKERS LANE, SINNAMONS LANE, TOM ST, TURTLE CREEK RD, UNNAMED RD",
         "SUBURBS": "COLINTON, GREGORS CREEK, HARLIN, YIMBUN",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.930279,
-              -26.993849
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.931313,
-                  -26.996125
-                ],
-                [
-                  152.930231,
-                  -26.991391
-                ],
-                [
-                  152.929637,
-                  -26.991039
-                ],
-                [
-                  152.929244,
-                  -26.991572
-                ],
-                [
-                  152.930326,
-                  -26.996306
-                ],
-                [
-                  152.93092,
-                  -26.996658
-                ],
-                [
-                  152.931313,
-                  -26.996125
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-856871-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Under Investigation",
-        "STATUS": "In Progress",
-        "START": "3:30PM 17 Apr 2025",
-        "EST_FIX_TIME": "9:00PM 17 Apr 2025",
-        "STREETS": "BEERBURRUM RD, MCDOUGALL RD",
-        "SUBURBS": "ELIMBAH",
         "ETR_FLAG": "N"
       }
     },
@@ -292,9 +292,9 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "1354",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "11:02PM 17 Apr 2025",
-        "EST_FIX_TIME": "1:30AM 18 Apr 2025",
+        "EST_FIX_TIME": "2:00AM 18 Apr 2025",
         "STREETS": "BEACON ST, BLOOMFIELD ST, BRIGALOW CT, BROLGA CT, CABOOLTURE RIVER RD, CORALFERN CT, CORELLA CT, COX DR, CRESTA CT, CRESTBROOK DR, CRESTHAVEN DR, CRESTLEIGH CT, CRESTRIDGE CRES, CRESTWELL CL, CRESTWOOD AVE, CURRAWILLA ST, DAJARRA ST, DENHAM ST, EINASLEIGH ST, EVERGLADES DR, FROGMOUTH CT, GARDENVALE RD, GLENGYLE ST, GRANT RD, GREBE CT, HIGHVIEW PDE, HILLDALE CRES, HILLGATE CT, HILLGROVE CT, HILLMONT CRES, HILLTOP CT, HINCHINBROOK CCT, HOOP CT, JAMESON CL, JARRAH CT, KENNERTON CT, KOOKABURRA CT, KWILA CT, LOEL CT, LOGRUNNER DR, LONG CT, MALLARD CT, MAPLE DR, MONKIRA ST, NARETHA CT, PETERSEN RD, PIPIT CT, RIFLEBIRD DR, RIVERPILLY CT, RIVIERA CT, ROKEBY ST, RONALD CT, SAPPHIRE CT, SHELBURNE ST, SILKYOAK DR, SKYVIEW CT, TANSEY CT, TATTLER CT, TEAK CT, THORNBILL DR, WALKERS RD, WARBLER CT, WELLSIDE ST, WHISTLER CT, WINDORAH CCT",
         "SUBURBS": "MORAYFIELD, UPPER CABOOLTURE",
         "ETR_FLAG": "N"
@@ -405,5 +405,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1744898701.625991"
+  "extracted": "1744899305.307554"
 }
