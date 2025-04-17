@@ -112,7 +112,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "1493",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews working on-site",
         "START": "12:00AM 18 Apr 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "AGNES ST, ALBA ST, ANNIE ST, BARTLE ST, BENWELL ST, BRADFORD ST, BREEN ST, BROWNLEE ST, BRUCE HWY, BUNDA ST, CAHILL ST, CARGILL ST, CARMEL ST, CASSOWARY ST, CHARLES ST, CHURCH ST, CLANCY ST, CLARE ST, COQUETTE POINT RD, CORINDA ST, CORONATION DR, DANELLE ST, DOVE ST, DUFFY ST, EAST ESP, EDITH ST, EMU ST, ERNEST ST, ESPLANADE, FITZGERALD ST, FLORENCE ST, GLADY ST, GRAHAM ST, HEAVEY ST, HICKEY ST, HILDA ST, HOWE ST, IBIS ST, JODRELL ST, JOHNSTON RD, KARBOOTA ST, KOOKABURRA CL, LEICHARDT ST, LILY ST, LOWER HICKEY ST, MAHOGANY ST, MARJORIE ST, MARTIN ST, MARTY ST, MARY ST, MCGOWAN DR, MEAGHER CL, MORIARTY ST, MOURILYAN RD, MYNARD RD, NOONE ST, PALMERSTON DR, PALMERSTON HWY, PAYNE ST, PELICAN ST, PHYLLIS ST, PINE ST, POWER ST, PROPENSE ST, PUNCHARD ST, RILEY ST, RIVER RD, ROWNEY ST, RYAN ST, SCHEU ST, SHERWOOD ST, STATION ST, THE CORSO, TRAMWAY ST, TURNER ST, VANDELEUR CL, VELUTION ST, WEBB CRES",
@@ -346,67 +346,6 @@
           {
             "type": "Point",
             "coordinates": [
-              146.207433,
-              -18.981624
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.217416,
-                  -18.982893
-                ],
-                [
-                  146.197621,
-                  -18.979466
-                ],
-                [
-                  146.197069,
-                  -18.97983
-                ],
-                [
-                  146.197451,
-                  -18.980355
-                ],
-                [
-                  146.217246,
-                  -18.983782
-                ],
-                [
-                  146.217798,
-                  -18.983418
-                ],
-                [
-                  146.217416,
-                  -18.982893
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ1993",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:16AM 02 Feb 2025",
-        "EST_FIX_TIME": "6:00PM 30 Apr 2025",
-        "STREETS": "INTAKE RD",
-        "SUBURBS": "MUTARNEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               147.852252,
               -24.986621
             ]
@@ -470,6 +409,67 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "MT MOFFATT RD, MT TABOR RD, UNNAMED RD",
         "SUBURBS": "AUGATHELLA, MITCHELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.207433,
+              -18.981624
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.217416,
+                  -18.982893
+                ],
+                [
+                  146.197621,
+                  -18.979466
+                ],
+                [
+                  146.197069,
+                  -18.97983
+                ],
+                [
+                  146.197451,
+                  -18.980355
+                ],
+                [
+                  146.217246,
+                  -18.983782
+                ],
+                [
+                  146.217798,
+                  -18.983418
+                ],
+                [
+                  146.217416,
+                  -18.982893
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ1993",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:16AM 02 Feb 2025",
+        "EST_FIX_TIME": "6:00PM 30 Apr 2025",
+        "STREETS": "INTAKE RD",
+        "SUBURBS": "MUTARNEE"
       }
     },
     {
@@ -597,5 +597,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1744899900.303731"
+  "extracted": "1744900501.587926"
 }
