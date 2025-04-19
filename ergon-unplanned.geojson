@@ -10,6 +10,123 @@
           {
             "type": "Point",
             "coordinates": [
+              146.732183,
+              -19.374183
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.730091,
+                  -19.372984
+                ],
+                [
+                  146.730579,
+                  -19.376191
+                ],
+                [
+                  146.730586,
+                  -19.376229
+                ],
+                [
+                  146.73063,
+                  -19.376408
+                ],
+                [
+                  146.731314,
+                  -19.376706
+                ],
+                [
+                  146.734023,
+                  -19.375364
+                ],
+                [
+                  146.734275,
+                  -19.374904
+                ],
+                [
+                  146.73426,
+                  -19.374792
+                ],
+                [
+                  146.734247,
+                  -19.374732
+                ],
+                [
+                  146.733941,
+                  -19.373668
+                ],
+                [
+                  146.73393,
+                  -19.373635
+                ],
+                [
+                  146.733626,
+                  -19.372825
+                ],
+                [
+                  146.733617,
+                  -19.372802
+                ],
+                [
+                  146.733401,
+                  -19.372312
+                ],
+                [
+                  146.733359,
+                  -19.372237
+                ],
+                [
+                  146.733083,
+                  -19.371841
+                ],
+                [
+                  146.732539,
+                  -19.371661
+                ],
+                [
+                  146.730895,
+                  -19.37217
+                ],
+                [
+                  146.730769,
+                  -19.372229
+                ],
+                [
+                  146.730289,
+                  -19.372549
+                ],
+                [
+                  146.730091,
+                  -19.372984
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ5901",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "81",
+        "REASON": "The loss of supply is our repair crews are attending. Fault finding is in progress. ",
+        "STATUS": "Outage reported",
+        "START": "1:09PM 19 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "EILEEN CT, ELIZA ST, FRAMARA DR, MAUD ST, NEVILLE CT, RIVERWAY DR, WARD RD",
+        "SUBURBS": "KELSO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               147.254695,
               -19.765087
             ]
@@ -136,67 +253,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "12:00PM 22 Apr 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -248,6 +304,67 @@
         "EST_FIX_TIME": "6:00PM 30 Apr 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "12:00PM 22 Apr 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -314,5 +431,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1745032201.6217"
+  "extracted": "1745033103.258539"
 }
