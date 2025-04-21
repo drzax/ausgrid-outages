@@ -150,8 +150,8 @@
           {
             "type": "Point",
             "coordinates": [
-              153.018118,
-              -27.51903
+              153.018983,
+              -27.519263
             ]
           },
           {
@@ -159,12 +159,20 @@
             "coordinates": [
               [
                 [
-                  153.016249,
-                  -27.519698
+                  153.017632,
+                  -27.519216
                 ],
                 [
-                  153.019726,
-                  -27.520462
+                  153.017783,
+                  -27.519531
+                ],
+                [
+                  153.018032,
+                  -27.519761
+                ],
+                [
+                  153.019631,
+                  -27.520433
                 ],
                 [
                   153.020333,
@@ -183,32 +191,24 @@
                   -27.518359
                 ],
                 [
-                  153.019459,
-                  -27.518083
+                  153.019173,
+                  -27.518094
                 ],
                 [
-                  153.017407,
-                  -27.517627
+                  153.018129,
+                  -27.518411
                 ],
                 [
-                  153.017315,
-                  -27.517615
+                  153.017912,
+                  -27.518541
                 ],
                 [
-                  153.01697,
-                  -27.517597
+                  153.017716,
+                  -27.518742
                 ],
                 [
-                  153.016474,
-                  -27.517873
-                ],
-                [
-                  153.015903,
-                  -27.519085
-                ],
-                [
-                  153.016249,
-                  -27.519698
+                  153.017632,
+                  -27.519216
                 ]
               ]
             ]
@@ -218,12 +218,12 @@
       "properties": {
         "EVENT_ID": "INCD-857497-g",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "146",
+        "CUSTOMERS_AFFECTED": "36",
         "REASON": "Emergency Repairs",
         "STATUS": "Awaiting",
         "START": "11:08PM 21 Apr 2025",
         "EST_FIX_TIME": "3:00AM 22 Apr 2025",
-        "STREETS": "CHRISTENSEN ST, FAIRFIELD RD, LAKE ST, PARK RD",
+        "STREETS": "CHRISTENSEN ST, PARK RD",
         "SUBURBS": "YERONGA",
         "ETR_FLAG": "N"
       }
@@ -400,89 +400,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "48",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "8:36PM 21 Apr 2025",
         "EST_FIX_TIME": "2:00AM 22 Apr 2025",
         "STREETS": "AURORA CRES, STARDUST ST, SUNDOWN ST, TWILIGHT ST",
         "SUBURBS": "KENMORE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.017301,
-              -27.518696
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.016344,
-                  -27.519711
-                ],
-                [
-                  153.018167,
-                  -27.519796
-                ],
-                [
-                  153.0187,
-                  -27.519334
-                ],
-                [
-                  153.018681,
-                  -27.518628
-                ],
-                [
-                  153.018471,
-                  -27.518273
-                ],
-                [
-                  153.017582,
-                  -27.5177
-                ],
-                [
-                  153.017315,
-                  -27.517615
-                ],
-                [
-                  153.01697,
-                  -27.517597
-                ],
-                [
-                  153.016474,
-                  -27.517873
-                ],
-                [
-                  153.015903,
-                  -27.519085
-                ],
-                [
-                  153.016344,
-                  -27.519711
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-857478-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "110",
-        "REASON": "Under Investigation",
-        "STATUS": "In Progress",
-        "START": "8:45PM 21 Apr 2025",
-        "EST_FIX_TIME": "1:30AM 22 Apr 2025",
-        "STREETS": "CHRISTENSEN ST, FAIRFIELD RD, LAKE ST",
-        "SUBURBS": "YERONGA",
         "ETR_FLAG": "N"
       }
     },
@@ -561,6 +483,84 @@
         "EST_FIX_TIME": "3:30AM 22 Apr 2025",
         "STREETS": "BELLEVUE TCE, GAILEY RD, HEROES AVE, SIR FRED SCHONELL DR",
         "SUBURBS": "ST LUCIA, TARINGA",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.017301,
+              -27.518696
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.016344,
+                  -27.519711
+                ],
+                [
+                  153.018167,
+                  -27.519796
+                ],
+                [
+                  153.0187,
+                  -27.519334
+                ],
+                [
+                  153.018681,
+                  -27.518628
+                ],
+                [
+                  153.018471,
+                  -27.518273
+                ],
+                [
+                  153.017582,
+                  -27.5177
+                ],
+                [
+                  153.017315,
+                  -27.517615
+                ],
+                [
+                  153.01697,
+                  -27.517597
+                ],
+                [
+                  153.016474,
+                  -27.517873
+                ],
+                [
+                  153.015903,
+                  -27.519085
+                ],
+                [
+                  153.016344,
+                  -27.519711
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-857478-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "110",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "8:45PM 21 Apr 2025",
+        "EST_FIX_TIME": "2:00AM 22 Apr 2025",
+        "STREETS": "CHRISTENSEN ST, FAIRFIELD RD, LAKE ST",
+        "SUBURBS": "YERONGA",
         "ETR_FLAG": "N"
       }
     },
@@ -668,7 +668,7 @@
         "REASON": "Under Investigation",
         "STATUS": "In Progress",
         "START": "8:42PM 21 Apr 2025",
-        "EST_FIX_TIME": "1:30AM 22 Apr 2025",
+        "EST_FIX_TIME": "4:00AM 22 Apr 2025",
         "STREETS": "AURORA CRES, STARDUST ST, SUNDOWN ST, TWILIGHT ST",
         "SUBURBS": "KENMORE",
         "ETR_FLAG": "N"
@@ -759,5 +759,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1745248801.117497"
+  "extracted": "1745249403.759051"
 }
