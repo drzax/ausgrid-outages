@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              147.254695,
-              -19.765087
+              151.816325,
+              -26.43904
             ]
           },
           {
@@ -19,32 +19,40 @@
             "coordinates": [
               [
                 [
-                  147.255837,
-                  -19.764913
+                  151.81296,
+                  -26.439947
                 ],
                 [
-                  147.253804,
-                  -19.764389
+                  151.819762,
+                  -26.439351
                 ],
                 [
-                  147.253218,
-                  -19.764706
+                  151.820213,
+                  -26.438897
                 ],
                 [
-                  147.253553,
-                  -19.765261
+                  151.819748,
+                  -26.438454
                 ],
                 [
-                  147.255586,
-                  -19.765785
+                  151.814674,
+                  -26.438133
                 ],
                 [
-                  147.256172,
-                  -19.765468
+                  151.814385,
+                  -26.438195
                 ],
                 [
-                  147.255837,
-                  -19.764913
+                  151.812658,
+                  -26.439111
+                ],
+                [
+                  151.812436,
+                  -26.439638
+                ],
+                [
+                  151.81296,
+                  -26.439947
                 ]
               ]
             ]
@@ -52,15 +60,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ4471",
+        "EVENT_ID": "25WB5146",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
         "STATUS": "Work delayed - crews unable to continue",
-        "START": "9:24AM 19 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 30 Apr 2025",
-        "STREETS": "KIRKNIE RD",
-        "SUBURBS": "HOME HILL"
+        "START": "9:14PM 22 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BUNYA HWY, WEBBS RD",
+        "SUBURBS": "WOOROOLIN"
       }
     },
     {
@@ -126,6 +134,67 @@
         "EST_FIX_TIME": "9:30AM 29 Apr 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              147.254695,
+              -19.765087
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.255837,
+                  -19.764913
+                ],
+                [
+                  147.253804,
+                  -19.764389
+                ],
+                [
+                  147.253218,
+                  -19.764706
+                ],
+                [
+                  147.253553,
+                  -19.765261
+                ],
+                [
+                  147.255586,
+                  -19.765785
+                ],
+                [
+                  147.256172,
+                  -19.765468
+                ],
+                [
+                  147.255837,
+                  -19.764913
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ4471",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "9:24AM 19 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 30 Apr 2025",
+        "STREETS": "KIRKNIE RD",
+        "SUBURBS": "HOME HILL"
       }
     },
     {
@@ -260,75 +329,6 @@
         "EST_FIX_TIME": "6:00PM 30 Apr 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.816325,
-              -26.43904
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  151.81296,
-                  -26.439947
-                ],
-                [
-                  151.819762,
-                  -26.439351
-                ],
-                [
-                  151.820213,
-                  -26.438897
-                ],
-                [
-                  151.819748,
-                  -26.438454
-                ],
-                [
-                  151.814674,
-                  -26.438133
-                ],
-                [
-                  151.814385,
-                  -26.438195
-                ],
-                [
-                  151.812658,
-                  -26.439111
-                ],
-                [
-                  151.812436,
-                  -26.439638
-                ],
-                [
-                  151.81296,
-                  -26.439947
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25WB5146",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "9:14PM 22 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BUNYA HWY, WEBBS RD",
-        "SUBURBS": "WOOROOLIN"
       }
     },
     {
@@ -557,5 +557,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1745343003.766424"
+  "extracted": "1745343305.564556"
 }
