@@ -72,13 +72,13 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-858200-g",
+        "EVENT_ID": "INCD-858217-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "5",
         "REASON": "Under Investigation",
-        "STATUS": "In Progress",
-        "START": "11:10PM 24 Apr 2025",
-        "EST_FIX_TIME": "12:00PM 25 Apr 2025",
+        "STATUS": "Awaiting",
+        "START": "2:58AM 25 Apr 2025",
+        "EST_FIX_TIME": "6:30AM 25 Apr 2025",
         "STREETS": "CORNELIUS RD, MCKEES RD",
         "SUBURBS": "PALMWOODS",
         "ETR_FLAG": "N"
@@ -166,6 +166,88 @@
           {
             "type": "Point",
             "coordinates": [
+              152.947324,
+              -26.684748
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.946646,
+                  -26.686628
+                ],
+                [
+                  152.947564,
+                  -26.685759
+                ],
+                [
+                  152.947629,
+                  -26.685684
+                ],
+                [
+                  152.948759,
+                  -26.684026
+                ],
+                [
+                  152.948822,
+                  -26.683882
+                ],
+                [
+                  152.948865,
+                  -26.683695
+                ],
+                [
+                  152.948505,
+                  -26.683168
+                ],
+                [
+                  152.946883,
+                  -26.682773
+                ],
+                [
+                  152.946254,
+                  -26.683148
+                ],
+                [
+                  152.945783,
+                  -26.686256
+                ],
+                [
+                  152.946064,
+                  -26.686724
+                ],
+                [
+                  152.946646,
+                  -26.686628
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-858200-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "11:10PM 24 Apr 2025",
+        "EST_FIX_TIME": "12:00PM 25 Apr 2025",
+        "STREETS": "CORNELIUS RD, MCKEES RD",
+        "SUBURBS": "PALMWOODS",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.829694,
               -27.469662
             ]
@@ -243,91 +325,9 @@
         "SUBURBS": "UPPER BROOKFIELD",
         "ETR_FLAG": "Y"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.947324,
-              -26.684748
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.946646,
-                  -26.686628
-                ],
-                [
-                  152.947564,
-                  -26.685759
-                ],
-                [
-                  152.947629,
-                  -26.685684
-                ],
-                [
-                  152.948759,
-                  -26.684026
-                ],
-                [
-                  152.948822,
-                  -26.683882
-                ],
-                [
-                  152.948865,
-                  -26.683695
-                ],
-                [
-                  152.948505,
-                  -26.683168
-                ],
-                [
-                  152.946883,
-                  -26.682773
-                ],
-                [
-                  152.946254,
-                  -26.683148
-                ],
-                [
-                  152.945783,
-                  -26.686256
-                ],
-                [
-                  152.946064,
-                  -26.686724
-                ],
-                [
-                  152.946646,
-                  -26.686628
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-858217-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
-        "START": "2:58AM 25 Apr 2025",
-        "EST_FIX_TIME": "5:30AM 25 Apr 2025",
-        "STREETS": "CORNELIUS RD, MCKEES RD",
-        "SUBURBS": "PALMWOODS",
-        "ETR_FLAG": "N"
-      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1745520001.25872"
+  "extracted": "1745520601.21024"
 }
