@@ -10,6 +10,80 @@
           {
             "type": "Point",
             "coordinates": [
+              153.030294,
+              -26.688666
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.028047,
+                  -26.690437
+                ],
+                [
+                  153.031142,
+                  -26.689596
+                ],
+                [
+                  153.031381,
+                  -26.689455
+                ],
+                [
+                  153.033112,
+                  -26.687609
+                ],
+                [
+                  153.033139,
+                  -26.687058
+                ],
+                [
+                  153.032553,
+                  -26.686894
+                ],
+                [
+                  153.028443,
+                  -26.688259
+                ],
+                [
+                  153.028165,
+                  -26.688485
+                ],
+                [
+                  153.027449,
+                  -26.689807
+                ],
+                [
+                  153.028047,
+                  -26.690437
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-858220-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "11",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "5:30AM 25 Apr 2025",
+        "EST_FIX_TIME": "9:00AM 25 Apr 2025",
+        "STREETS": "TWIN RIDGES RD",
+        "SUBURBS": "MONS",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.959936,
               -26.557156
             ]
@@ -248,7 +322,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "3",
         "REASON": "Under Investigation",
-        "STATUS": "In Progress",
+        "STATUS": "Awaiting",
         "START": "6:47AM 25 Apr 2025",
         "EST_FIX_TIME": "9:00AM 25 Apr 2025",
         "STREETS": "BARONGA RD",
@@ -400,85 +474,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "3",
         "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "7:09AM 25 Apr 2025",
-        "EST_FIX_TIME": "11:30AM 25 Apr 2025",
+        "EST_FIX_TIME": "10:30AM 25 Apr 2025",
         "STREETS": "BARONGA RD",
         "SUBURBS": "KIAMBA",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.030294,
-              -26.688666
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.028047,
-                  -26.690437
-                ],
-                [
-                  153.031142,
-                  -26.689596
-                ],
-                [
-                  153.031381,
-                  -26.689455
-                ],
-                [
-                  153.033112,
-                  -26.687609
-                ],
-                [
-                  153.033139,
-                  -26.687058
-                ],
-                [
-                  153.032553,
-                  -26.686894
-                ],
-                [
-                  153.028443,
-                  -26.688259
-                ],
-                [
-                  153.028165,
-                  -26.688485
-                ],
-                [
-                  153.027449,
-                  -26.689807
-                ],
-                [
-                  153.028047,
-                  -26.690437
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-858220-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "11",
-        "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
-        "START": "5:30AM 25 Apr 2025",
-        "EST_FIX_TIME": "9:00AM 25 Apr 2025",
-        "STREETS": "TWIN RIDGES RD",
-        "SUBURBS": "MONS",
         "ETR_FLAG": "N"
       }
     },
@@ -849,5 +849,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1745535001.484124"
+  "extracted": "1745535303.23604"
 }
