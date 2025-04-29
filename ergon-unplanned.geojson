@@ -10,6 +10,75 @@
           {
             "type": "Point",
             "coordinates": [
+              140.872859,
+              -22.118145
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  140.768423,
+                  -21.97339
+                ],
+                [
+                  140.863004,
+                  -22.187102
+                ],
+                [
+                  140.863168,
+                  -22.187295
+                ],
+                [
+                  140.976611,
+                  -22.263468
+                ],
+                [
+                  140.977229,
+                  -22.263427
+                ],
+                [
+                  140.977294,
+                  -22.262853
+                ],
+                [
+                  140.76927,
+                  -21.972969
+                ],
+                [
+                  140.768642,
+                  -21.972822
+                ],
+                [
+                  140.768423,
+                  -21.97339
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ6187",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "12:57PM 29 Apr 2025",
+        "EST_FIX_TIME": "4:00PM 29 Apr 2025",
+        "STREETS": "CUKADOO STATION, SANDILA STATION, TOOLEBUC STATION",
+        "SUBURBS": "JULIA CREEK, MCKINLAY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -142,75 +211,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "BARWON HWY, BIMBLE RD, CANARVON HWY, CARNARVON HWY, CHELMER RD, HOCKING ST, MAYES ST, STERNS ST, UNKNOWN RD, WEST HARAN RD",
         "SUBURBS": "NINDIGULLY, ST GEORGE, THALLON"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              140.872859,
-              -22.118145
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  140.768423,
-                  -21.97339
-                ],
-                [
-                  140.863004,
-                  -22.187102
-                ],
-                [
-                  140.863168,
-                  -22.187295
-                ],
-                [
-                  140.976611,
-                  -22.263468
-                ],
-                [
-                  140.977229,
-                  -22.263427
-                ],
-                [
-                  140.977294,
-                  -22.262853
-                ],
-                [
-                  140.76927,
-                  -21.972969
-                ],
-                [
-                  140.768642,
-                  -21.972822
-                ],
-                [
-                  140.768423,
-                  -21.97339
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ6187",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "12:57PM 29 Apr 2025",
-        "EST_FIX_TIME": "4:00PM 29 Apr 2025",
-        "STREETS": "CUKADOO STATION, SANDILA STATION, TOOLEBUC STATION",
-        "SUBURBS": "JULIA CREEK, MCKINLAY"
       }
     },
     {
@@ -516,5 +516,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1745902200.241558"
+  "extracted": "1745902500.306783"
 }
