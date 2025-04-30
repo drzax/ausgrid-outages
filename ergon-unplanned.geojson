@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.208629,
-              -19.974298
+              148.899297,
+              -21.144287
             ]
           },
           {
@@ -19,32 +19,32 @@
             "coordinates": [
               [
                 [
-                  148.209137,
-                  -19.973425
+                  148.901015,
+                  -21.145863
                 ],
                 [
-                  148.207583,
-                  -19.974424
+                  148.898377,
+                  -21.142205
                 ],
                 [
-                  148.207457,
-                  -19.975052
+                  148.897709,
+                  -21.142084
                 ],
                 [
-                  148.208121,
-                  -19.975172
+                  148.89758,
+                  -21.142711
                 ],
                 [
-                  148.209674,
-                  -19.974172
+                  148.900217,
+                  -21.146369
                 ],
                 [
-                  148.2098,
-                  -19.973545
+                  148.900886,
+                  -21.14649
                 ],
                 [
-                  148.209137,
-                  -19.973425
+                  148.901015,
+                  -21.145863
                 ]
               ]
             ]
@@ -52,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ6273",
+        "EVENT_ID": "25MK3215",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is our repair crews are attending. Fault finding is in progress. ",
-        "STATUS": "Outage reported",
-        "START": "6:51PM 30 Apr 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "INVERDON RD, WEEKES RD",
-        "SUBURBS": "BOWEN"
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "12:00PM 02 May 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -136,6 +136,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.208629,
+              -19.974298
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.209137,
+                  -19.973425
+                ],
+                [
+                  148.207583,
+                  -19.974424
+                ],
+                [
+                  148.207457,
+                  -19.975052
+                ],
+                [
+                  148.208121,
+                  -19.975172
+                ],
+                [
+                  148.209674,
+                  -19.974172
+                ],
+                [
+                  148.2098,
+                  -19.973545
+                ],
+                [
+                  148.209137,
+                  -19.973425
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ6273",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is our repair crews are attending. Fault finding is in progress. ",
+        "STATUS": "Outage reported",
+        "START": "6:51PM 30 Apr 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "INVERDON RD, WEEKES RD",
+        "SUBURBS": "BOWEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -187,67 +248,6 @@
         "EST_FIX_TIME": "6:00PM 31 May 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "12:00PM 02 May 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -314,5 +314,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1746006350.109322"
+  "extracted": "1746006601.533705"
 }
