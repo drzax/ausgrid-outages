@@ -10,92 +10,6 @@
           {
             "type": "Point",
             "coordinates": [
-              152.802054,
-              -27.237473
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.797884,
-                  -27.23963
-                ],
-                [
-                  152.802179,
-                  -27.24069
-                ],
-                [
-                  152.802542,
-                  -27.240658
-                ],
-                [
-                  152.806432,
-                  -27.238896
-                ],
-                [
-                  152.806575,
-                  -27.238188
-                ],
-                [
-                  152.803145,
-                  -27.234853
-                ],
-                [
-                  152.802855,
-                  -27.234713
-                ],
-                [
-                  152.799728,
-                  -27.234256
-                ],
-                [
-                  152.799172,
-                  -27.234549
-                ],
-                [
-                  152.798322,
-                  -27.236659
-                ],
-                [
-                  152.798312,
-                  -27.236685
-                ],
-                [
-                  152.797534,
-                  -27.239069
-                ],
-                [
-                  152.797884,
-                  -27.23963
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-859476-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "14",
-        "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
-        "START": "12:03PM 01 May 2025",
-        "EST_FIX_TIME": "2:30PM 01 May 2025",
-        "STREETS": "ALISON BOOKER CT, WATSON RD",
-        "SUBURBS": "ARMSTRONG CREEK, KOBBLE CREEK",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.017843,
               -27.883346
             ]
@@ -189,12 +103,98 @@
         "EVENT_ID": "INCD-859492-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "115",
-        "REASON": "Emergency Repairs",
+        "REASON": "Emergency repairs in-progress",
         "STATUS": "Awaiting",
         "START": "12:44PM 01 May 2025",
         "EST_FIX_TIME": "3:30PM 01 May 2025",
         "STREETS": "BANKSIA CT, BIRCHWOOD ST, BLACKBEAN ST, BLOODWOOD CT, CASCARA DR, MILLSTREAM RD, TEAK ST",
         "SUBURBS": "CEDAR VALE, VERESDALE SCRUB",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.802054,
+              -27.237473
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.797884,
+                  -27.23963
+                ],
+                [
+                  152.802179,
+                  -27.24069
+                ],
+                [
+                  152.802542,
+                  -27.240658
+                ],
+                [
+                  152.806432,
+                  -27.238896
+                ],
+                [
+                  152.806575,
+                  -27.238188
+                ],
+                [
+                  152.803145,
+                  -27.234853
+                ],
+                [
+                  152.802855,
+                  -27.234713
+                ],
+                [
+                  152.799728,
+                  -27.234256
+                ],
+                [
+                  152.799172,
+                  -27.234549
+                ],
+                [
+                  152.798322,
+                  -27.236659
+                ],
+                [
+                  152.798312,
+                  -27.236685
+                ],
+                [
+                  152.797534,
+                  -27.239069
+                ],
+                [
+                  152.797884,
+                  -27.23963
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-859476-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "14",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "12:03PM 01 May 2025",
+        "EST_FIX_TIME": "2:30PM 01 May 2025",
+        "STREETS": "ALISON BOOKER CT, WATSON RD",
+        "SUBURBS": "ARMSTRONG CREEK, KOBBLE CREEK",
         "ETR_FLAG": "N"
       }
     },
@@ -430,7 +430,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "42",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "12:54PM 01 May 2025",
         "EST_FIX_TIME": "2:30PM 01 May 2025",
         "STREETS": "GALLIPOLI RD, GYRANDA ST, KILDARE ST, WARENDA ST",
@@ -441,5 +441,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1746068700.514074"
+  "extracted": "1746070202.24554"
 }
