@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              145.633795,
-              -16.813789
+              148.899297,
+              -21.144287
             ]
           },
           {
@@ -19,40 +19,32 @@
             "coordinates": [
               [
                 [
-                  145.632518,
-                  -16.813543
+                  148.901015,
+                  -21.145863
                 ],
                 [
-                  145.634591,
-                  -16.814816
+                  148.898377,
+                  -21.142205
                 ],
                 [
-                  145.635183,
-                  -16.814747
+                  148.897709,
+                  -21.142084
                 ],
                 [
-                  145.635226,
-                  -16.814174
+                  148.89758,
+                  -21.142711
                 ],
                 [
-                  145.634965,
-                  -16.81382
+                  148.900217,
+                  -21.146369
                 ],
                 [
-                  145.634801,
-                  -16.813681
+                  148.900886,
+                  -21.14649
                 ],
                 [
-                  145.632988,
-                  -16.812763
-                ],
-                [
-                  145.632364,
-                  -16.812936
-                ],
-                [
-                  145.632518,
-                  -16.813543
+                  148.901015,
+                  -21.145863
                 ]
               ]
             ]
@@ -60,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25FN5279",
+        "EVENT_ID": "25MK3215",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
         "STATUS": "Crews working on-site",
-        "START": "12:59PM 01 May 2025",
-        "EST_FIX_TIME": "6:00PM 01 May 2025",
-        "STREETS": "KENNEDY HWY, SPEAR RD",
-        "SUBURBS": "KURANDA"
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "12:00PM 02 May 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -213,6 +205,75 @@
           {
             "type": "Point",
             "coordinates": [
+              145.633795,
+              -16.813789
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.632518,
+                  -16.813543
+                ],
+                [
+                  145.634591,
+                  -16.814816
+                ],
+                [
+                  145.635183,
+                  -16.814747
+                ],
+                [
+                  145.635226,
+                  -16.814174
+                ],
+                [
+                  145.634965,
+                  -16.81382
+                ],
+                [
+                  145.634801,
+                  -16.813681
+                ],
+                [
+                  145.632988,
+                  -16.812763
+                ],
+                [
+                  145.632364,
+                  -16.812936
+                ],
+                [
+                  145.632518,
+                  -16.813543
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN5279",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "12:59PM 01 May 2025",
+        "EST_FIX_TIME": "6:00PM 01 May 2025",
+        "STREETS": "KENNEDY HWY, SPEAR RD",
+        "SUBURBS": "KURANDA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.575294,
               -26.074761
             ]
@@ -296,67 +357,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "CLIFF JONES RD, CROSS CRES, RODNEY RD",
         "SUBURBS": "CURRA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "12:00PM 02 May 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -662,5 +662,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1746086701.0235"
+  "extracted": "1746087306.931208"
 }
