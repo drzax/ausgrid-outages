@@ -156,6 +156,83 @@
           {
             "type": "Point",
             "coordinates": [
+              145.876141,
+              -17.135862
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.846293,
+                  -17.131527
+                ],
+                [
+                  145.904921,
+                  -17.163434
+                ],
+                [
+                  145.905497,
+                  -17.163349
+                ],
+                [
+                  145.906131,
+                  -17.162695
+                ],
+                [
+                  145.90616,
+                  -17.162111
+                ],
+                [
+                  145.879378,
+                  -17.12864
+                ],
+                [
+                  145.879359,
+                  -17.128618
+                ],
+                [
+                  145.860909,
+                  -17.10829
+                ],
+                [
+                  145.860151,
+                  -17.108355
+                ],
+                [
+                  145.846121,
+                  -17.130902
+                ],
+                [
+                  145.846293,
+                  -17.131527
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN5359",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "43",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "6:11AM 03 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BARBAGALLO RD, BENNETT RD, DALTON RD, MCALOON RD, VOHLANDS RD",
+        "SUBURBS": "ALOOMBA, CHARINGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               149.180684,
               -21.118428
             ]
@@ -271,83 +348,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "EVANS AVE, GLENPARK ST, MORTENSEN ST, QUARRY ST",
         "SUBURBS": "NORTH MACKAY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.876141,
-              -17.135862
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.846293,
-                  -17.131527
-                ],
-                [
-                  145.904921,
-                  -17.163434
-                ],
-                [
-                  145.905497,
-                  -17.163349
-                ],
-                [
-                  145.906131,
-                  -17.162695
-                ],
-                [
-                  145.90616,
-                  -17.162111
-                ],
-                [
-                  145.879378,
-                  -17.12864
-                ],
-                [
-                  145.879359,
-                  -17.128618
-                ],
-                [
-                  145.860909,
-                  -17.10829
-                ],
-                [
-                  145.860151,
-                  -17.108355
-                ],
-                [
-                  145.846121,
-                  -17.130902
-                ],
-                [
-                  145.846293,
-                  -17.131527
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN5359",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "43",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
-        "START": "6:11AM 03 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BARBAGALLO RD, BENNETT RD, DALTON RD, MCALOON RD, VOHLANDS RD",
-        "SUBURBS": "ALOOMBA, CHARINGA"
       }
     },
     {
@@ -698,5 +698,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1746223206.602971"
+  "extracted": "1746223802.187771"
 }
