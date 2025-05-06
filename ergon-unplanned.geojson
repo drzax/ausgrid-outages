@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              146.770919,
-              -19.272062
+              147.316865,
+              -28.846256
             ]
           },
           {
@@ -19,44 +19,32 @@
             "coordinates": [
               [
                 [
-                  146.770802,
-                  -19.272768
+                  147.329421,
+                  -28.872491
                 ],
                 [
-                  146.771523,
-                  -19.272219
+                  147.30526,
+                  -28.819685
                 ],
                 [
-                  146.77168,
-                  -19.271997
+                  147.304593,
+                  -28.819435
                 ],
                 [
-                  146.771699,
-                  -19.271939
+                  147.304309,
+                  -28.820022
                 ],
                 [
-                  146.771244,
-                  -19.271356
+                  147.32847,
+                  -28.872828
                 ],
                 [
-                  146.771235,
-                  -19.271356
+                  147.329137,
+                  -28.873078
                 ],
                 [
-                  146.770921,
-                  -19.271468
-                ],
-                [
-                  146.770191,
-                  -19.272075
-                ],
-                [
-                  146.770139,
-                  -19.272705
-                ],
-                [
-                  146.770802,
-                  -19.272768
+                  147.329421,
+                  -28.872491
                 ]
               ]
             ]
@@ -64,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ6529",
+        "EVENT_ID": "25SW5356",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "7",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "3:13AM 07 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "DALRYMPLE RD",
-        "SUBURBS": "GARBUTT"
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "4:37PM 29 Mar 2025",
+        "EST_FIX_TIME": "12:00PM 13 May 2025",
+        "STREETS": "JAKELWAR GOODOOGA RD, JAKELWAR-GOODOOGA RD",
+        "SUBURBS": "DIRRANBANDI, HEBEL"
       }
     },
     {
@@ -138,6 +126,79 @@
         "EST_FIX_TIME": "9:30AM 30 May 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.770919,
+              -19.272062
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.770802,
+                  -19.272768
+                ],
+                [
+                  146.771523,
+                  -19.272219
+                ],
+                [
+                  146.77168,
+                  -19.271997
+                ],
+                [
+                  146.771699,
+                  -19.271939
+                ],
+                [
+                  146.771244,
+                  -19.271356
+                ],
+                [
+                  146.771235,
+                  -19.271356
+                ],
+                [
+                  146.770921,
+                  -19.271468
+                ],
+                [
+                  146.770191,
+                  -19.272075
+                ],
+                [
+                  146.770139,
+                  -19.272705
+                ],
+                [
+                  146.770802,
+                  -19.272768
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ6529",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "3:13AM 07 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "DALRYMPLE RD",
+        "SUBURBS": "GARBUTT"
       }
     },
     {
@@ -342,70 +403,9 @@
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              147.316865,
-              -28.846256
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.329421,
-                  -28.872491
-                ],
-                [
-                  147.30526,
-                  -28.819685
-                ],
-                [
-                  147.304593,
-                  -28.819435
-                ],
-                [
-                  147.304309,
-                  -28.820022
-                ],
-                [
-                  147.32847,
-                  -28.872828
-                ],
-                [
-                  147.329137,
-                  -28.873078
-                ],
-                [
-                  147.329421,
-                  -28.872491
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW5356",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "4:37PM 29 Mar 2025",
-        "EST_FIX_TIME": "12:00PM 13 May 2025",
-        "STREETS": "JAKELWAR GOODOOGA RD, JAKELWAR-GOODOOGA RD",
-        "SUBURBS": "DIRRANBANDI, HEBEL"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1746550201.277433"
+  "extracted": "1746550805.822511"
 }
