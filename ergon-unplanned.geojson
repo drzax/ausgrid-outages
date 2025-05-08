@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              146.207433,
-              -18.981624
+              145.759698,
+              -16.928982
             ]
           },
           {
@@ -19,32 +19,52 @@
             "coordinates": [
               [
                 [
-                  146.217416,
-                  -18.982893
+                  145.758951,
+                  -16.929359
                 ],
                 [
-                  146.197621,
-                  -18.979466
+                  145.759113,
+                  -16.929509
                 ],
                 [
-                  146.197069,
-                  -18.97983
+                  145.759479,
+                  -16.929634
                 ],
                 [
-                  146.197451,
-                  -18.980355
+                  145.759759,
+                  -16.929611
                 ],
                 [
-                  146.217246,
-                  -18.983782
+                  145.760084,
+                  -16.929445
                 ],
                 [
-                  146.217798,
-                  -18.983418
+                  145.760423,
+                  -16.929043
                 ],
                 [
-                  146.217416,
-                  -18.982893
+                  145.760444,
+                  -16.928502
+                ],
+                [
+                  145.75991,
+                  -16.928329
+                ],
+                [
+                  145.759258,
+                  -16.928537
+                ],
+                [
+                  145.759177,
+                  -16.928571
+                ],
+                [
+                  145.75905,
+                  -16.928639
+                ],
+                [
+                  145.758951,
+                  -16.929359
                 ]
               ]
             ]
@@ -52,15 +72,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ1993",
+        "EVENT_ID": "25FN5553",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:16AM 02 Feb 2025",
-        "EST_FIX_TIME": "6:00PM 31 May 2025",
-        "STREETS": "INTAKE RD",
-        "SUBURBS": "MUTARNEE"
+        "CUSTOMERS_AFFECTED": "17",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "3:44AM 09 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "MULGRAVE RD, WINKWORTH ST",
+        "SUBURBS": "BUNGALOW, WESTCOURT"
       }
     },
     {
@@ -136,6 +156,67 @@
           {
             "type": "Point",
             "coordinates": [
+              146.207433,
+              -18.981624
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.217416,
+                  -18.982893
+                ],
+                [
+                  146.197621,
+                  -18.979466
+                ],
+                [
+                  146.197069,
+                  -18.97983
+                ],
+                [
+                  146.197451,
+                  -18.980355
+                ],
+                [
+                  146.217246,
+                  -18.983782
+                ],
+                [
+                  146.217798,
+                  -18.983418
+                ],
+                [
+                  146.217416,
+                  -18.982893
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ1993",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:16AM 02 Feb 2025",
+        "EST_FIX_TIME": "6:00PM 31 May 2025",
+        "STREETS": "INTAKE RD",
+        "SUBURBS": "MUTARNEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.899297,
               -21.144287
             ]
@@ -188,90 +269,9 @@
         "STREETS": "MIRANI BOLDON RD",
         "SUBURBS": "MIRANI"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.759698,
-              -16.928982
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.758951,
-                  -16.929359
-                ],
-                [
-                  145.759113,
-                  -16.929509
-                ],
-                [
-                  145.759479,
-                  -16.929634
-                ],
-                [
-                  145.759759,
-                  -16.929611
-                ],
-                [
-                  145.760084,
-                  -16.929445
-                ],
-                [
-                  145.760423,
-                  -16.929043
-                ],
-                [
-                  145.760444,
-                  -16.928502
-                ],
-                [
-                  145.75991,
-                  -16.928329
-                ],
-                [
-                  145.759258,
-                  -16.928537
-                ],
-                [
-                  145.759177,
-                  -16.928571
-                ],
-                [
-                  145.75905,
-                  -16.928639
-                ],
-                [
-                  145.758951,
-                  -16.929359
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN5553",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "17",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "3:44AM 09 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "MULGRAVE RD, WINKWORTH ST",
-        "SUBURBS": "BUNGALOW, WESTCOURT"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1746732901.216515"
+  "extracted": "1746733201.300027"
 }
