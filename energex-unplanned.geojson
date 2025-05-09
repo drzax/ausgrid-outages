@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.924951,
+              -26.376234
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.926238,
+                  -26.375562
+                ],
+                [
+                  152.923483,
+                  -26.376018
+                ],
+                [
+                  152.923081,
+                  -26.376544
+                ],
+                [
+                  152.923665,
+                  -26.376906
+                ],
+                [
+                  152.92642,
+                  -26.37645
+                ],
+                [
+                  152.926822,
+                  -26.375924
+                ],
+                [
+                  152.926238,
+                  -26.375562
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-861022-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "6:19AM 10 May 2025",
+        "EST_FIX_TIME": "9:30AM 10 May 2025",
+        "STREETS": "HAMILTON RD",
+        "SUBURBS": "LAKE MACDONALD",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1746821704.275039"
+  "extracted": "1746822301.507617"
 }
