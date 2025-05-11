@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.69038,
+              -26.220105
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.689419,
+                  -26.220092
+                ],
+                [
+                  152.68989,
+                  -26.220725
+                ],
+                [
+                  152.690624,
+                  -26.220822
+                ],
+                [
+                  152.691342,
+                  -26.220289
+                ],
+                [
+                  152.691077,
+                  -26.219492
+                ],
+                [
+                  152.690044,
+                  -26.219392
+                ],
+                [
+                  152.689992,
+                  -26.219389
+                ],
+                [
+                  152.689836,
+                  -26.219389
+                ],
+                [
+                  152.689419,
+                  -26.220092
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-861144-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "Damage to our equipment",
+        "STATUS": "Awaiting",
+        "START": "12:35PM 11 May 2025",
+        "EST_FIX_TIME": "1:00AM 12 May 2025",
+        "STREETS": "EDWIN CAMPION DR",
+        "SUBURBS": "MONKLAND",
+        "ETR_FLAG": "Y"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1746971701.045171"
+  "extracted": "1746972005.269596"
 }
