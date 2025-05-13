@@ -56,7 +56,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "2",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "12:25PM 13 May 2025",
         "EST_FIX_TIME": "5:59PM 13 May 2025",
         "STREETS": "MICK READY RD",
@@ -290,6 +290,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 16 May 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               145.775471,
               -16.922097
             ]
@@ -399,67 +460,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 16 May 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               145.313333,
               -17.375467
             ]
@@ -540,5 +540,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1747111800.351158"
+  "extracted": "1747112402.818572"
 }
