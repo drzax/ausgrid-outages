@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
+              147.279319,
+              -19.567487
             ]
           },
           {
@@ -19,32 +19,48 @@
             "coordinates": [
               [
                 [
-                  148.901015,
-                  -21.145863
+                  147.277614,
+                  -19.572452
                 ],
                 [
-                  148.898377,
-                  -21.142205
+                  147.280921,
+                  -19.566836
                 ],
                 [
-                  148.897709,
-                  -21.142084
+                  147.28097,
+                  -19.566716
                 ],
                 [
-                  148.89758,
-                  -21.142711
+                  147.281895,
+                  -19.562853
                 ],
                 [
-                  148.900217,
-                  -21.146369
+                  147.281588,
+                  -19.562327
                 ],
                 [
-                  148.900886,
-                  -21.14649
+                  147.281001,
+                  -19.562556
                 ],
                 [
-                  148.901015,
-                  -21.145863
+                  147.27786,
+                  -19.568701
+                ],
+                [
+                  147.277834,
+                  -19.568764
+                ],
+                [
+                  147.276743,
+                  -19.572098
+                ],
+                [
+                  147.27701,
+                  -19.572647
+                ],
+                [
+                  147.277614,
+                  -19.572452
                 ]
               ]
             ]
@@ -52,15 +68,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK3215",
+        "EVENT_ID": "25NQ6877",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 16 May 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "2:15PM 14 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BRUCE HWY",
+        "SUBURBS": "BRANDON"
       }
     },
     {
@@ -126,83 +142,6 @@
         "EST_FIX_TIME": "9:30AM 30 May 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              147.279319,
-              -19.567487
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.277614,
-                  -19.572452
-                ],
-                [
-                  147.280921,
-                  -19.566836
-                ],
-                [
-                  147.28097,
-                  -19.566716
-                ],
-                [
-                  147.281895,
-                  -19.562853
-                ],
-                [
-                  147.281588,
-                  -19.562327
-                ],
-                [
-                  147.281001,
-                  -19.562556
-                ],
-                [
-                  147.27786,
-                  -19.568701
-                ],
-                [
-                  147.277834,
-                  -19.568764
-                ],
-                [
-                  147.276743,
-                  -19.572098
-                ],
-                [
-                  147.27701,
-                  -19.572647
-                ],
-                [
-                  147.277614,
-                  -19.572452
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ6877",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "5:23PM 14 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BRUCE HWY",
-        "SUBURBS": "BRANDON"
       }
     },
     {
@@ -330,9 +269,70 @@
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 16 May 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1747207501.380886"
+  "extracted": "1747207818.263625"
 }
