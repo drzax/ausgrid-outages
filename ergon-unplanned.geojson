@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
+              150.608785,
+              -26.757163
             ]
           },
           {
@@ -19,32 +19,40 @@
             "coordinates": [
               [
                 [
-                  148.901015,
-                  -21.145863
+                  150.608218,
+                  -26.757955
                 ],
                 [
-                  148.898377,
-                  -21.142205
+                  150.608692,
+                  -26.757962
                 ],
                 [
-                  148.897709,
-                  -21.142084
+                  150.608987,
+                  -26.757881
                 ],
                 [
-                  148.89758,
-                  -21.142711
+                  150.609769,
+                  -26.757392
                 ],
                 [
-                  148.900217,
-                  -21.146369
+                  150.609644,
+                  -26.756595
                 ],
                 [
-                  148.900886,
-                  -21.14649
+                  150.608886,
+                  -26.756363
                 ],
                 [
-                  148.901015,
-                  -21.145863
+                  150.608298,
+                  -26.756551
+                ],
+                [
+                  150.6078,
+                  -26.757265
+                ],
+                [
+                  150.608218,
+                  -26.757955
                 ]
               ]
             ]
@@ -52,15 +60,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK3215",
+        "EVENT_ID": "25SW7117",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
+        "CUSTOMERS_AFFECTED": "5",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
+        "STATUS": "Crews on route",
+        "START": "5:44AM 19 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "CHINCHILLA TARA RD, RACECOURSE RD",
+        "SUBURBS": "CHINCHILLA"
       }
     },
     {
@@ -132,6 +140,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -188,78 +257,9 @@
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              150.608785,
-              -26.757163
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  150.608218,
-                  -26.757955
-                ],
-                [
-                  150.608692,
-                  -26.757962
-                ],
-                [
-                  150.608987,
-                  -26.757881
-                ],
-                [
-                  150.609769,
-                  -26.757392
-                ],
-                [
-                  150.609644,
-                  -26.756595
-                ],
-                [
-                  150.608886,
-                  -26.756363
-                ],
-                [
-                  150.608298,
-                  -26.756551
-                ],
-                [
-                  150.6078,
-                  -26.757265
-                ],
-                [
-                  150.608218,
-                  -26.757955
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW7117",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
-        "START": "5:44AM 19 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "CHINCHILLA TARA RD, RACECOURSE RD",
-        "SUBURBS": "CHINCHILLA"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1747604100.257935"
+  "extracted": "1747604400.289229"
 }
