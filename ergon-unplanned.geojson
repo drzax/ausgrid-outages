@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
+              149.331444,
+              -21.930185
             ]
           },
           {
@@ -19,32 +19,48 @@
             "coordinates": [
               [
                 [
-                  148.901015,
-                  -21.145863
+                  149.328944,
+                  -21.931875
                 ],
                 [
-                  148.898377,
-                  -21.142205
+                  149.329936,
+                  -21.931611
                 ],
                 [
-                  148.897709,
-                  -21.142084
+                  149.330024,
+                  -21.931578
                 ],
                 [
-                  148.89758,
-                  -21.142711
+                  149.334258,
+                  -21.929553
                 ],
                 [
-                  148.900217,
-                  -21.146369
+                  149.334517,
+                  -21.929092
                 ],
                 [
-                  148.900886,
-                  -21.14649
+                  149.334139,
+                  -21.92871
                 ],
                 [
-                  148.901015,
-                  -21.145863
+                  149.333057,
+                  -21.928494
+                ],
+                [
+                  149.332693,
+                  -21.928556
+                ],
+                [
+                  149.328548,
+                  -21.931063
+                ],
+                [
+                  149.328371,
+                  -21.931628
+                ],
+                [
+                  149.328944,
+                  -21.931875
                 ]
               ]
             ]
@@ -52,15 +68,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK3215",
+        "EVENT_ID": "25MK4227",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
         "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
+        "START": "8:00AM 19 May 2025",
+        "EST_FIX_TIME": "3:00PM 19 May 2025",
+        "STREETS": "GARNHAMS RD, TAYLORS RD",
+        "SUBURBS": "CARMILA"
       }
     },
     {
@@ -306,6 +322,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -358,86 +435,9 @@
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              149.331444,
-              -21.930185
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.328944,
-                  -21.931875
-                ],
-                [
-                  149.329936,
-                  -21.931611
-                ],
-                [
-                  149.330024,
-                  -21.931578
-                ],
-                [
-                  149.334258,
-                  -21.929553
-                ],
-                [
-                  149.334517,
-                  -21.929092
-                ],
-                [
-                  149.334139,
-                  -21.92871
-                ],
-                [
-                  149.333057,
-                  -21.928494
-                ],
-                [
-                  149.332693,
-                  -21.928556
-                ],
-                [
-                  149.328548,
-                  -21.931063
-                ],
-                [
-                  149.328371,
-                  -21.931628
-                ],
-                [
-                  149.328944,
-                  -21.931875
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK4227",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "8:00AM 19 May 2025",
-        "EST_FIX_TIME": "3:00PM 19 May 2025",
-        "STREETS": "GARNHAMS RD, TAYLORS RD",
-        "SUBURBS": "CARMILA"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1747608900.445388"
+  "extracted": "1747609500.276683"
 }
