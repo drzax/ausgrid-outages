@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.889283,
-              -23.576897
+              146.207433,
+              -18.981624
             ]
           },
           {
@@ -19,36 +19,32 @@
             "coordinates": [
               [
                 [
-                  148.888783,
-                  -23.577174
+                  146.217416,
+                  -18.982893
                 ],
                 [
-                  148.889193,
-                  -23.577444
+                  146.197621,
+                  -18.979466
                 ],
                 [
-                  148.889965,
-                  -23.577034
+                  146.197069,
+                  -18.97983
                 ],
                 [
-                  148.889938,
-                  -23.57676
+                  146.197451,
+                  -18.980355
                 ],
                 [
-                  148.889443,
-                  -23.57635
+                  146.217246,
+                  -18.983782
                 ],
                 [
-                  148.88906,
-                  -23.576355
+                  146.217798,
+                  -18.983418
                 ],
                 [
-                  148.8886,
-                  -23.576673
-                ],
-                [
-                  148.888783,
-                  -23.577174
+                  146.217416,
+                  -18.982893
                 ]
               ]
             ]
@@ -56,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25CA7989",
+        "EVENT_ID": "25NQ1993",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "2:45PM 27 May 2025",
-        "EST_FIX_TIME": "5:36PM 28 May 2025",
-        "STREETS": "ARTHUR ST, BLAIN ST",
-        "SUBURBS": "BLACKWATER"
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:16AM 02 Feb 2025",
+        "EST_FIX_TIME": "6:00PM 30 Jul 2025",
+        "STREETS": "INTAKE RD",
+        "SUBURBS": "MUTARNEE"
       }
     },
     {
@@ -265,6 +261,71 @@
           {
             "type": "Point",
             "coordinates": [
+              148.889283,
+              -23.576897
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.888783,
+                  -23.577174
+                ],
+                [
+                  148.889193,
+                  -23.577444
+                ],
+                [
+                  148.889965,
+                  -23.577034
+                ],
+                [
+                  148.889938,
+                  -23.57676
+                ],
+                [
+                  148.889443,
+                  -23.57635
+                ],
+                [
+                  148.88906,
+                  -23.576355
+                ],
+                [
+                  148.8886,
+                  -23.576673
+                ],
+                [
+                  148.888783,
+                  -23.577174
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA7989",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "2:45PM 27 May 2025",
+        "EST_FIX_TIME": "5:36PM 28 May 2025",
+        "STREETS": "ARTHUR ST, BLAIN ST",
+        "SUBURBS": "BLACKWATER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.073091,
               -28.541554
             ]
@@ -372,67 +433,6 @@
         "EST_FIX_TIME": "3:00PM 28 May 2025",
         "STREETS": "CULLENDORE RD, DALMOAK RD, FAGGS RD, GLEN NIVEN RD, HOPGOOD LANE, KIA-ORA RD, LESLIE ST, MARYLAND RD, MARYLAND STATION RD, MT LINDESAY RD, RIDGE RD, SMALLS LANE, SUMMIT RD, TUNNEL RD, WYLIE CREEK RD",
         "SUBURBS": "DALVEEN, GLEN NIVEN, LISTON, MARYLAND, THE SUMMIT, WYLIE CREEK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.207433,
-              -18.981624
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.217416,
-                  -18.982893
-                ],
-                [
-                  146.197621,
-                  -18.979466
-                ],
-                [
-                  146.197069,
-                  -18.97983
-                ],
-                [
-                  146.197451,
-                  -18.980355
-                ],
-                [
-                  146.217246,
-                  -18.983782
-                ],
-                [
-                  146.217798,
-                  -18.983418
-                ],
-                [
-                  146.217416,
-                  -18.982893
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ1993",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:16AM 02 Feb 2025",
-        "EST_FIX_TIME": "6:00PM 30 Jul 2025",
-        "STREETS": "INTAKE RD",
-        "SUBURBS": "MUTARNEE"
       }
     },
     {
@@ -564,5 +564,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748349903.391541"
+  "extracted": "1748350804.740935"
 }
