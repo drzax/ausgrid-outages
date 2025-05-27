@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.889283,
-              -23.576897
+              148.741638,
+              -20.273382
             ]
           },
           {
@@ -19,36 +19,40 @@
             "coordinates": [
               [
                 [
-                  148.888783,
-                  -23.577174
+                  148.738536,
+                  -20.272727
                 ],
                 [
-                  148.889193,
-                  -23.577444
+                  148.743897,
+                  -20.279767
                 ],
                 [
-                  148.889965,
-                  -23.577034
+                  148.744466,
+                  -20.279922
                 ],
                 [
-                  148.889938,
-                  -23.57676
+                  148.744758,
+                  -20.279436
                 ],
                 [
-                  148.889443,
-                  -23.57635
+                  148.742774,
+                  -20.267217
                 ],
                 [
-                  148.88906,
-                  -23.576355
+                  148.742396,
+                  -20.266842
                 ],
                 [
-                  148.8886,
-                  -23.576673
+                  148.741893,
+                  -20.267048
                 ],
                 [
-                  148.888783,
-                  -23.577174
+                  148.738517,
+                  -20.272227
+                ],
+                [
+                  148.738536,
+                  -20.272727
                 ]
               ]
             ]
@@ -56,15 +60,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25CA7989",
+        "EVENT_ID": "25MK4459",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "2:45PM 27 May 2025",
-        "EST_FIX_TIME": "5:36PM 28 May 2025",
-        "STREETS": "ARTHUR ST, BLAIN ST",
-        "SUBURBS": "BLACKWATER"
+        "CUSTOMERS_AFFECTED": "11",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews on route",
+        "START": "3:01PM 27 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "MANDALAY RD, SHUTE HARBOUR RD, WAVERLEY ST",
+        "SUBURBS": "BUCASIA, JUBILEE POCKET, MANDALAY"
       }
     },
     {
@@ -140,6 +144,71 @@
           {
             "type": "Point",
             "coordinates": [
+              148.889283,
+              -23.576897
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.888783,
+                  -23.577174
+                ],
+                [
+                  148.889193,
+                  -23.577444
+                ],
+                [
+                  148.889965,
+                  -23.577034
+                ],
+                [
+                  148.889938,
+                  -23.57676
+                ],
+                [
+                  148.889443,
+                  -23.57635
+                ],
+                [
+                  148.88906,
+                  -23.576355
+                ],
+                [
+                  148.8886,
+                  -23.576673
+                ],
+                [
+                  148.888783,
+                  -23.577174
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA7989",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "2:45PM 27 May 2025",
+        "EST_FIX_TIME": "5:36PM 28 May 2025",
+        "STREETS": "ARTHUR ST, BLAIN ST",
+        "SUBURBS": "BLACKWATER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -201,75 +270,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.741638,
-              -20.273382
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.738536,
-                  -20.272727
-                ],
-                [
-                  148.743897,
-                  -20.279767
-                ],
-                [
-                  148.744466,
-                  -20.279922
-                ],
-                [
-                  148.744758,
-                  -20.279436
-                ],
-                [
-                  148.742774,
-                  -20.267217
-                ],
-                [
-                  148.742396,
-                  -20.266842
-                ],
-                [
-                  148.741893,
-                  -20.267048
-                ],
-                [
-                  148.738517,
-                  -20.272227
-                ],
-                [
-                  148.738536,
-                  -20.272727
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK4459",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "11",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
-        "START": "3:01PM 27 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "MANDALAY RD, SHUTE HARBOUR RD, WAVERLEY ST",
-        "SUBURBS": "BUCASIA, JUBILEE POCKET, MANDALAY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               148.899297,
               -21.144287
             ]
@@ -321,91 +321,6 @@
         "EST_FIX_TIME": "2:00PM 06 Jun 2025",
         "STREETS": "MIRANI BOLDON RD",
         "SUBURBS": "MIRANI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.242089,
-              -19.004541
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.742529,
-                  -18.685192
-                ],
-                [
-                  144.83447,
-                  -19.236075
-                ],
-                [
-                  144.834662,
-                  -19.23637
-                ],
-                [
-                  144.932871,
-                  -19.303655
-                ],
-                [
-                  144.933016,
-                  -19.303723
-                ],
-                [
-                  145.741046,
-                  -19.52569
-                ],
-                [
-                  145.74165,
-                  -19.525195
-                ],
-                [
-                  145.599924,
-                  -18.531558
-                ],
-                [
-                  145.599484,
-                  -18.531168
-                ],
-                [
-                  144.80064,
-                  -18.483391
-                ],
-                [
-                  144.800152,
-                  -18.483723
-                ],
-                [
-                  144.74254,
-                  -18.685002
-                ],
-                [
-                  144.742529,
-                  -18.685192
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "24NQ17153",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "190",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "2:13PM 19 Dec 2024",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "ACACIA DR, BANKSIA CT, BLUE RANGE STATION, CAMEL CREEK STATION, CASSIA CT, CHRISTMAS CREEK STATION, CHURCH RD, CONJUBOY RD, CONJUBOY STATION, CRAIGLEE STATION, CRAIGS POCKET STATION, DEPOT RD, DRYANDRA CT, EUCALYPTUS CT, GADARA STATION, GERANIUM CT, GILLDALE STATION, GREENVALE STATION, GREGORY DEVELOPMENTAL RD, GREVILLEA CT, HAKEA CT, JERVOISE STATION, JESSIE SPRINGS RD, KYLEE CT, LAVA PLAINS STATION, LINCOLN SPRINGS STATION, LUCKY DOWNS RD, LUCKY DOWNS STATION, LUCKY SPRINGS STATION, LYND HWY, MARIONVALE STATION, MELALEUCA CT, MT FULLSTOP STATION, MT OWEENEE STATION, OAK HILLS STATION, PADDIES DAM STATION, PANDANUS STATION, POISON LAKE RD, PORPHRY STATION, REDBANK DR, REEDYBROOK STATION, RHONELLA PARK STATION, TELOPEA CT, TRISTANA CT, VALLEY LAGOONS, VEENEE STATION, WYANDOTTE STATION",
-        "SUBURBS": "BLUEWATER SPRINGS, CHARTERS TOWERS, CLARKE RIVER, GREENVALE, MOUNT FOX, MOUNT GARNET"
       }
     },
     {
@@ -541,67 +456,6 @@
           {
             "type": "Point",
             "coordinates": [
-              149.186752,
-              -21.326931
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.189761,
-                  -21.326452
-                ],
-                [
-                  149.183733,
-                  -21.326507
-                ],
-                [
-                  149.183255,
-                  -21.326962
-                ],
-                [
-                  149.183742,
-                  -21.327409
-                ],
-                [
-                  149.18977,
-                  -21.327355
-                ],
-                [
-                  149.190248,
-                  -21.326899
-                ],
-                [
-                  149.189761,
-                  -21.326452
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK4461",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "6:10PM 27 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BRUCE HWY",
-        "SUBURBS": "ALLIGATOR CREEK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               144.49737,
               -28.860625
             ]
@@ -658,9 +512,70 @@
         "STREETS": "EULO-HUNGERFORD RD",
         "SUBURBS": "CUNNAMULLA"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              149.186752,
+              -21.326931
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.189761,
+                  -21.326452
+                ],
+                [
+                  149.183733,
+                  -21.326507
+                ],
+                [
+                  149.183255,
+                  -21.326962
+                ],
+                [
+                  149.183742,
+                  -21.327409
+                ],
+                [
+                  149.18977,
+                  -21.327355
+                ],
+                [
+                  149.190248,
+                  -21.326899
+                ],
+                [
+                  149.189761,
+                  -21.326452
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK4461",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "6:10PM 27 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BRUCE HWY",
+        "SUBURBS": "ALLIGATOR CREEK"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748337601.292412"
+  "extracted": "1748338204.238693"
 }
