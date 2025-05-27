@@ -10,6 +10,68 @@
           {
             "type": "Point",
             "coordinates": [
+              153.372614,
+              -27.65727
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.372003,
+                  -27.657522
+                ],
+                [
+                  153.372234,
+                  -27.657787
+                ],
+                [
+                  153.373119,
+                  -27.65764
+                ],
+                [
+                  153.373224,
+                  -27.657331
+                ],
+                [
+                  153.372664,
+                  -27.656754
+                ],
+                [
+                  153.372329,
+                  -27.656799
+                ],
+                [
+                  153.372003,
+                  -27.657522
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-864520-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Emergency Repairs",
+        "STATUS": "In Progress",
+        "START": "5:31PM 27 May 2025",
+        "EST_FIX_TIME": "12:00AM 28 May 2025",
+        "STREETS": "MONSOON ST, ORCHID ST",
+        "SUBURBS": "RUSSELL ISLAND",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.178088,
               -28.145947
             ]
@@ -85,68 +147,6 @@
         "EST_FIX_TIME": "6:00AM 28 May 2025",
         "STREETS": "MACKENZIE RD, SOUTH WEST RD, SUMMERVILLE RD",
         "SUBURBS": "BEECHMONT",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.372614,
-              -27.65727
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.372003,
-                  -27.657522
-                ],
-                [
-                  153.372234,
-                  -27.657787
-                ],
-                [
-                  153.373119,
-                  -27.65764
-                ],
-                [
-                  153.373224,
-                  -27.657331
-                ],
-                [
-                  153.372664,
-                  -27.656754
-                ],
-                [
-                  153.372329,
-                  -27.656799
-                ],
-                [
-                  153.372003,
-                  -27.657522
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-864520-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "Emergency Repairs",
-        "STATUS": "In Progress",
-        "START": "5:31PM 27 May 2025",
-        "EST_FIX_TIME": "12:00AM 28 May 2025",
-        "STREETS": "MONSOON ST, ORCHID ST",
-        "SUBURBS": "RUSSELL ISLAND",
         "ETR_FLAG": "N"
       }
     },
@@ -267,5 +267,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1748375401.555355"
+  "extracted": "1748375701.23852"
 }
