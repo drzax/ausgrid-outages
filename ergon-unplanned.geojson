@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              149.186752,
-              -21.326931
+              148.899297,
+              -21.144287
             ]
           },
           {
@@ -19,32 +19,32 @@
             "coordinates": [
               [
                 [
-                  149.189761,
-                  -21.326452
+                  148.901015,
+                  -21.145863
                 ],
                 [
-                  149.183733,
-                  -21.326507
+                  148.898377,
+                  -21.142205
                 ],
                 [
-                  149.183255,
-                  -21.326962
+                  148.897709,
+                  -21.142084
                 ],
                 [
-                  149.183742,
-                  -21.327409
+                  148.89758,
+                  -21.142711
                 ],
                 [
-                  149.18977,
-                  -21.327355
+                  148.900217,
+                  -21.146369
                 ],
                 [
-                  149.190248,
-                  -21.326899
+                  148.900886,
+                  -21.14649
                 ],
                 [
-                  149.189761,
-                  -21.326452
+                  148.901015,
+                  -21.145863
                 ]
               ]
             ]
@@ -52,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK4461",
+        "EVENT_ID": "25MK3215",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
         "STATUS": "Crews working on-site",
-        "START": "6:10PM 27 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BRUCE HWY",
-        "SUBURBS": "ALLIGATOR CREEK"
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -376,7 +376,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "86",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
+        "STATUS": "Work delayed - crews unable to continue",
         "START": "8:22PM 27 May 2025",
         "EST_FIX_TIME": "3:00PM 28 May 2025",
         "STREETS": "CULLENDORE RD, DALMOAK RD, FAGGS RD, GLEN NIVEN RD, HOPGOOD LANE, KIA-ORA RD, LESLIE ST, MARYLAND RD, MARYLAND STATION RD, MT LINDESAY RD, RIDGE RD, SMALLS LANE, SUMMIT RD, TUNNEL RD, WYLIE CREEK RD",
@@ -452,67 +452,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               144.49737,
               -28.860625
             ]
@@ -569,9 +508,70 @@
         "STREETS": "EULO-HUNGERFORD RD",
         "SUBURBS": "CUNNAMULLA"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              149.186752,
+              -21.326931
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  149.189761,
+                  -21.326452
+                ],
+                [
+                  149.183733,
+                  -21.326507
+                ],
+                [
+                  149.183255,
+                  -21.326962
+                ],
+                [
+                  149.183742,
+                  -21.327409
+                ],
+                [
+                  149.18977,
+                  -21.327355
+                ],
+                [
+                  149.190248,
+                  -21.326899
+                ],
+                [
+                  149.189761,
+                  -21.326452
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK4461",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "6:10PM 27 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BRUCE HWY",
+        "SUBURBS": "ALLIGATOR CREEK"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748343001.061674"
+  "extracted": "1748343901.486357"
 }
