@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
+              151.054201,
+              -26.93457
             ]
           },
           {
@@ -19,32 +19,36 @@
             "coordinates": [
               [
                 [
-                  148.901015,
-                  -21.145863
+                  151.043174,
+                  -26.932903
                 ],
                 [
-                  148.898377,
-                  -21.142205
+                  151.064691,
+                  -26.941262
                 ],
                 [
-                  148.897709,
-                  -21.142084
+                  151.065309,
+                  -26.9411
                 ],
                 [
-                  148.89758,
-                  -21.142711
+                  151.065241,
+                  -26.940526
                 ],
                 [
-                  148.900217,
-                  -21.146369
+                  151.050757,
+                  -26.927929
                 ],
                 [
-                  148.900886,
-                  -21.14649
+                  151.050127,
+                  -26.927878
                 ],
                 [
-                  148.901015,
-                  -21.145863
+                  151.043094,
+                  -26.932116
+                ],
+                [
+                  151.043174,
+                  -26.932903
                 ]
               ]
             ]
@@ -52,15 +56,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK3215",
+        "EVENT_ID": "25SW7588",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
         "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
+        "START": "5:03PM 29 May 2025",
+        "EST_FIX_TIME": "6:30PM 29 May 2025",
+        "STREETS": "HILLIAR'S RD, KENTS RD",
+        "SUBURBS": "MACALISTER"
       }
     },
     {
@@ -136,6 +140,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -187,71 +252,6 @@
         "EST_FIX_TIME": "6:00PM 30 Jul 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.054201,
-              -26.93457
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  151.043174,
-                  -26.932903
-                ],
-                [
-                  151.064691,
-                  -26.941262
-                ],
-                [
-                  151.065309,
-                  -26.9411
-                ],
-                [
-                  151.065241,
-                  -26.940526
-                ],
-                [
-                  151.050757,
-                  -26.927929
-                ],
-                [
-                  151.050127,
-                  -26.927878
-                ],
-                [
-                  151.043094,
-                  -26.932116
-                ],
-                [
-                  151.043174,
-                  -26.932903
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW7588",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "5:03PM 29 May 2025",
-        "EST_FIX_TIME": "6:30PM 29 May 2025",
-        "STREETS": "HILLIAR'S RD, KENTS RD",
-        "SUBURBS": "MACALISTER"
       }
     },
     {
@@ -322,5 +322,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748502601.306921"
+  "extracted": "1748503201.659461"
 }
