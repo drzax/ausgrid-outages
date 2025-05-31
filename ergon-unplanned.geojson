@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              151.908542,
-              -27.539838
+              148.899297,
+              -21.144287
             ]
           },
           {
@@ -19,48 +19,32 @@
             "coordinates": [
               [
                 [
-                  151.908291,
-                  -27.540748
+                  148.901015,
+                  -21.145863
                 ],
                 [
-                  151.909203,
-                  -27.540357
+                  148.898377,
+                  -21.142205
                 ],
                 [
-                  151.909489,
-                  -27.539971
+                  148.897709,
+                  -21.142084
                 ],
                 [
-                  151.909515,
-                  -27.539449
+                  148.89758,
+                  -21.142711
                 ],
                 [
-                  151.909054,
-                  -27.538981
+                  148.900217,
+                  -21.146369
                 ],
                 [
-                  151.908354,
-                  -27.538928
+                  148.900886,
+                  -21.14649
                 ],
                 [
-                  151.907823,
-                  -27.539259
-                ],
-                [
-                  151.907601,
-                  -27.539997
-                ],
-                [
-                  151.907585,
-                  -27.540084
-                ],
-                [
-                  151.907568,
-                  -27.540312
-                ],
-                [
-                  151.908291,
-                  -27.540748
+                  148.901015,
+                  -21.145863
                 ]
               ]
             ]
@@ -68,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25SW7680",
+        "EVENT_ID": "25MK3215",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "9",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "7:48PM 31 May 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "ORFORD CT",
-        "SUBURBS": "WILSONTON"
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -142,67 +126,6 @@
         "EST_FIX_TIME": "9:30AM 13 Jun 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
       }
     },
     {
@@ -423,9 +346,86 @@
         "STREETS": "EULO-HUNGERFORD RD",
         "SUBURBS": "CUNNAMULLA"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.908542,
+              -27.539838
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  151.908291,
+                  -27.540748
+                ],
+                [
+                  151.909203,
+                  -27.540357
+                ],
+                [
+                  151.909489,
+                  -27.539971
+                ],
+                [
+                  151.909515,
+                  -27.539449
+                ],
+                [
+                  151.909054,
+                  -27.538981
+                ],
+                [
+                  151.908354,
+                  -27.538928
+                ],
+                [
+                  151.907823,
+                  -27.539259
+                ],
+                [
+                  151.907601,
+                  -27.539997
+                ],
+                [
+                  151.907585,
+                  -27.540084
+                ],
+                [
+                  151.907568,
+                  -27.540312
+                ],
+                [
+                  151.908291,
+                  -27.540748
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW7680",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "9",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "7:48PM 31 May 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "ORFORD CT",
+        "SUBURBS": "WILSONTON"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748689801.132338"
+  "extracted": "1748690401.070912"
 }
