@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
+              145.559131,
+              -17.399408
             ]
           },
           {
@@ -19,32 +19,48 @@
             "coordinates": [
               [
                 [
-                  148.901015,
-                  -21.145863
+                  145.542499,
+                  -17.417768
                 ],
                 [
-                  148.898377,
-                  -21.142205
+                  145.566775,
+                  -17.411659
                 ],
                 [
-                  148.897709,
-                  -21.142084
+                  145.566996,
+                  -17.411535
                 ],
                 [
-                  148.89758,
-                  -21.142711
+                  145.576239,
+                  -17.402284
                 ],
                 [
-                  148.900217,
-                  -21.146369
+                  145.5763,
+                  -17.401735
                 ],
                 [
-                  148.900886,
-                  -21.14649
+                  145.56313,
+                  -17.381047
                 ],
                 [
-                  148.901015,
-                  -21.145863
+                  145.562327,
+                  -17.381048
+                ],
+                [
+                  145.555447,
+                  -17.391906
+                ],
+                [
+                  145.555431,
+                  -17.391935
+                ],
+                [
+                  145.541961,
+                  -17.417125
+                ],
+                [
+                  145.542499,
+                  -17.417768
                 ]
               ]
             ]
@@ -52,15 +68,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK3215",
+        "EVENT_ID": "25FN6383",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "CUSTOMERS_AFFECTED": "25",
+        "REASON": "The loss of supply is due to a pole fire.",
         "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
+        "START": "7:53AM 02 Jun 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "LANDRY RD, MERRAGALLAN RD",
+        "SUBURBS": "JAGGAN, MALANDA"
       }
     },
     {
@@ -132,6 +148,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -188,86 +265,9 @@
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.559131,
-              -17.399408
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.542499,
-                  -17.417768
-                ],
-                [
-                  145.566775,
-                  -17.411659
-                ],
-                [
-                  145.566996,
-                  -17.411535
-                ],
-                [
-                  145.576239,
-                  -17.402284
-                ],
-                [
-                  145.5763,
-                  -17.401735
-                ],
-                [
-                  145.56313,
-                  -17.381047
-                ],
-                [
-                  145.562327,
-                  -17.381048
-                ],
-                [
-                  145.555447,
-                  -17.391906
-                ],
-                [
-                  145.555431,
-                  -17.391935
-                ],
-                [
-                  145.541961,
-                  -17.417125
-                ],
-                [
-                  145.542499,
-                  -17.417768
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN6383",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "25",
-        "REASON": "The loss of supply is due to a pole fire.",
-        "STATUS": "Crews working on-site",
-        "START": "7:53AM 02 Jun 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "LANDRY RD, MERRAGALLAN RD",
-        "SUBURBS": "JAGGAN, MALANDA"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1748821801.429042"
+  "extracted": "1748822100.28994"
 }
