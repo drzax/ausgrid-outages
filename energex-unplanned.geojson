@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.986166,
+              -26.470979
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.985372,
+                  -26.471905
+                ],
+                [
+                  152.986894,
+                  -26.471421
+                ],
+                [
+                  152.987132,
+                  -26.471262
+                ],
+                [
+                  152.987582,
+                  -26.47071
+                ],
+                [
+                  152.98755,
+                  -26.470141
+                ],
+                [
+                  152.986925,
+                  -26.470053
+                ],
+                [
+                  152.984952,
+                  -26.471089
+                ],
+                [
+                  152.98475,
+                  -26.471669
+                ],
+                [
+                  152.985372,
+                  -26.471905
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-866206-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "9:25PM 03 Jun 2025",
+        "EST_FIX_TIME": "12:00AM 04 Jun 2025",
+        "STREETS": "EUMUNDI NOOSA RD",
+        "SUBURBS": "EUMUNDI, VERRIERDALE",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1748949901.792942"
+  "extracted": "1748950501.384401"
 }
