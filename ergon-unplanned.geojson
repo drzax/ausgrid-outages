@@ -254,7 +254,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "68",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews on route",
         "START": "11:35AM 04 Jun 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "ARRARA STATION, BANJOURA STATION, BARRAGUNDA STATION, BIBIL STATION, BIRRICANNIA STATION, BRAEMAR STATION, CAMERON DOWNS STATION, EASTFIELD STATION, ELABE STATION, ELWELL STATION, ENSAY STATION, EVANDALE STATION, EVANDALE WEST STATION, GLENARIFF STATION, HOLMLEIGH STATION, HOMELEIGH STATION, HUGHENDEN STATION, INVERESK STATION, IONA STATION, JANEVILLE STATION, JIREENA STATION, KENTLE DNS STATION, LANDSBOROUGH STATION, LUDGATE STATION, MOKANA STATION, MT DEVLIN STATION, MT ETNA STATION, NEEDLEWOOD STATION, PERONNE STATION, REAY STATION, REDCLIFFE STATION, STENHOUSE STATION, STRATHROY STATION, THORNTON STATION, WATERVIEW STATION, WEST EVANDALE STATION, ZARA STATION",
@@ -362,67 +362,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.899297,
-              -21.144287
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.901015,
-                  -21.145863
-                ],
-                [
-                  148.898377,
-                  -21.142205
-                ],
-                [
-                  148.897709,
-                  -21.142084
-                ],
-                [
-                  148.89758,
-                  -21.142711
-                ],
-                [
-                  148.900217,
-                  -21.146369
-                ],
-                [
-                  148.900886,
-                  -21.14649
-                ],
-                [
-                  148.901015,
-                  -21.145863
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK3215",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews working on-site",
-        "START": "6:23PM 01 Apr 2025",
-        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
-        "STREETS": "MIRANI BOLDON RD",
-        "SUBURBS": "MIRANI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -475,9 +414,70 @@
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.899297,
+              -21.144287
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.901015,
+                  -21.145863
+                ],
+                [
+                  148.898377,
+                  -21.142205
+                ],
+                [
+                  148.897709,
+                  -21.142084
+                ],
+                [
+                  148.89758,
+                  -21.142711
+                ],
+                [
+                  148.900217,
+                  -21.146369
+                ],
+                [
+                  148.900886,
+                  -21.14649
+                ],
+                [
+                  148.901015,
+                  -21.145863
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK3215",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews working on-site",
+        "START": "6:23PM 01 Apr 2025",
+        "EST_FIX_TIME": "2:00PM 06 Jun 2025",
+        "STREETS": "MIRANI BOLDON RD",
+        "SUBURBS": "MIRANI"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1749013808.768692"
+  "extracted": "1749014400.273767"
 }
