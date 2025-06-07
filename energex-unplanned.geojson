@@ -79,13 +79,13 @@
         "EVENT_ID": "INCD-867024-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "16",
-        "REASON": "Emergency Repairs",
+        "REASON": "Emergency repairs in-progress",
         "STATUS": "In Progress",
         "START": "5:43AM 08 Jun 2025",
         "EST_FIX_TIME": "10:30AM 08 Jun 2025",
         "STREETS": "BK RD, E SUMMERVILLES RD, HILLS RD, HOLTS RD, PINE MOUNTAIN RD",
         "SUBURBS": "BORALLON",
-        "ETR_FLAG": "N"
+        "ETR_FLAG": "Y"
       }
     },
     {
@@ -197,13 +197,13 @@
         "EVENT_ID": "INCD-866998-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "90",
-        "REASON": "Emergency Repairs",
+        "REASON": "Emergency repairs in-progress",
         "STATUS": "Awaiting",
         "START": "11:58PM 07 Jun 2025",
-        "EST_FIX_TIME": "4:30AM 08 Jun 2025",
+        "EST_FIX_TIME": "6:00PM 08 Jun 2025",
         "STREETS": "EDITH DR, MAHER ST, SIMMONS RD, WATERWORKS RD, WELDON ST, WHITTAKER ST",
         "SUBURBS": "BRASSALL, NORTH IPSWICH",
-        "ETR_FLAG": "N"
+        "ETR_FLAG": "Y"
       }
     },
     {
@@ -316,6 +316,120 @@
           {
             "type": "Point",
             "coordinates": [
+              153.021384,
+              -27.423288
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.01917,
+                  -27.423563
+                ],
+                [
+                  153.019515,
+                  -27.424677
+                ],
+                [
+                  153.02009,
+                  -27.425002
+                ],
+                [
+                  153.022622,
+                  -27.424602
+                ],
+                [
+                  153.022885,
+                  -27.424483
+                ],
+                [
+                  153.02318,
+                  -27.424229
+                ],
+                [
+                  153.023329,
+                  -27.423972
+                ],
+                [
+                  153.023367,
+                  -27.423749
+                ],
+                [
+                  153.023382,
+                  -27.42366
+                ],
+                [
+                  153.023382,
+                  -27.423659
+                ],
+                [
+                  153.023598,
+                  -27.422374
+                ],
+                [
+                  153.023179,
+                  -27.421861
+                ],
+                [
+                  153.021213,
+                  -27.421575
+                ],
+                [
+                  153.020823,
+                  -27.421663
+                ],
+                [
+                  153.020696,
+                  -27.42175
+                ],
+                [
+                  153.020692,
+                  -27.421752
+                ],
+                [
+                  153.020567,
+                  -27.42184
+                ],
+                [
+                  153.020498,
+                  -27.421898
+                ],
+                [
+                  153.019277,
+                  -27.423146
+                ],
+                [
+                  153.01917,
+                  -27.423563
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-867037-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "93",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "9:12AM 08 Jun 2025",
+        "EST_FIX_TIME": "12:30PM 08 Jun 2025",
+        "STREETS": "FERRES ST, JEAN ST, MEECHAM ST, UXBRIDGE ST",
+        "SUBURBS": "GRANGE",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.9523,
               -26.475341
             ]
@@ -385,5 +499,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1749338400.316491"
+  "extracted": "1749339002.075928"
 }
