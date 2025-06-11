@@ -286,7 +286,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "11",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews on route",
         "START": "10:25PM 11 Jun 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "COOMRITH RD, DILGA RD, GLENEARN RD",
@@ -511,6 +511,67 @@
           {
             "type": "Point",
             "coordinates": [
+              146.207433,
+              -18.981624
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.217416,
+                  -18.982893
+                ],
+                [
+                  146.197621,
+                  -18.979466
+                ],
+                [
+                  146.197069,
+                  -18.97983
+                ],
+                [
+                  146.197451,
+                  -18.980355
+                ],
+                [
+                  146.217246,
+                  -18.983782
+                ],
+                [
+                  146.217798,
+                  -18.983418
+                ],
+                [
+                  146.217416,
+                  -18.982893
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ1993",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:16AM 02 Feb 2025",
+        "EST_FIX_TIME": "6:00PM 09 Jul 2025",
+        "STREETS": "INTAKE RD",
+        "SUBURBS": "MUTARNEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.205858,
               -24.980382
             ]
@@ -565,76 +626,15 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "7",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "4:55AM 12 Jun 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "CEDARVIEW LANE, HILLANDALE RD",
         "SUBURBS": "SOUTH BINGERA"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.207433,
-              -18.981624
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.217416,
-                  -18.982893
-                ],
-                [
-                  146.197621,
-                  -18.979466
-                ],
-                [
-                  146.197069,
-                  -18.97983
-                ],
-                [
-                  146.197451,
-                  -18.980355
-                ],
-                [
-                  146.217246,
-                  -18.983782
-                ],
-                [
-                  146.217798,
-                  -18.983418
-                ],
-                [
-                  146.217416,
-                  -18.982893
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ1993",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:16AM 02 Feb 2025",
-        "EST_FIX_TIME": "6:00PM 09 Jul 2025",
-        "STREETS": "INTAKE RD",
-        "SUBURBS": "MUTARNEE"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1749676501.750918"
+  "extracted": "1749677101.065049"
 }
