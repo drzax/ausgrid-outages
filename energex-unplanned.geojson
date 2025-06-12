@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.801333,
+              -27.720598
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.801926,
+                  -27.720681
+                ],
+                [
+                  152.801672,
+                  -27.720156
+                ],
+                [
+                  152.801006,
+                  -27.71992
+                ],
+                [
+                  152.800741,
+                  -27.720514
+                ],
+                [
+                  152.800995,
+                  -27.721039
+                ],
+                [
+                  152.801661,
+                  -27.721275
+                ],
+                [
+                  152.801926,
+                  -27.720681
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-868272-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "7:20AM 13 Jun 2025",
+        "EST_FIX_TIME": "10:00AM 13 Jun 2025",
+        "STREETS": "MCGUIRES HUT RD",
+        "SUBURBS": "SOUTH RIPLEY",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1749767100.312226"
+  "extracted": "1749767700.334787"
 }
