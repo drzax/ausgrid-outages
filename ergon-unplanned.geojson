@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              145.790637,
-              -17.088055
+              145.231353,
+              -24.980773
             ]
           },
           {
@@ -19,60 +19,80 @@
             "coordinates": [
               [
                 [
-                  145.788335,
-                  -17.088995
+                  144.773204,
+                  -24.883815
                 ],
                 [
-                  145.788388,
-                  -17.089277
+                  145.147813,
+                  -25.413387
                 ],
                 [
-                  145.788961,
-                  -17.089635
+                  145.148136,
+                  -25.413585
                 ],
                 [
-                  145.792592,
-                  -17.088793
+                  145.431973,
+                  -25.463548
                 ],
                 [
-                  145.792947,
-                  -17.088412
+                  145.432539,
+                  -25.463246
                 ],
                 [
-                  145.792706,
-                  -17.087956
+                  145.689557,
+                  -24.752114
                 ],
                 [
-                  145.790078,
-                  -17.086585
+                  145.68957,
+                  -24.751877
                 ],
                 [
-                  145.789983,
-                  -17.086548
+                  145.651654,
+                  -24.593142
                 ],
                 [
-                  145.789711,
-                  -17.086474
+                  145.651451,
+                  -24.592866
                 ],
                 [
-                  145.789191,
-                  -17.08666
+                  145.567876,
+                  -24.540294
                 ],
                 [
-                  145.788428,
-                  -17.087771
+                  145.567631,
+                  -24.540216
                 ],
                 [
-                  145.788351,
-                  -17.088008
+                  144.932818,
+                  -24.497997
                 ],
                 [
-                  145.788327,
-                  -17.088903
+                  144.932469,
+                  -24.498098
                 ],
                 [
-                  145.788335,
-                  -17.088995
+                  144.860274,
+                  -24.552022
+                ],
+                [
+                  144.860118,
+                  -24.552229
+                ],
+                [
+                  144.823107,
+                  -24.653943
+                ],
+                [
+                  144.823091,
+                  -24.653998
+                ],
+                [
+                  144.773135,
+                  -24.883484
+                ],
+                [
+                  144.773204,
+                  -24.883815
                 ]
               ]
             ]
@@ -80,15 +100,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25FN6854",
+        "EVENT_ID": "25CA8706",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "30",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "CUSTOMERS_AFFECTED": "80",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
         "STATUS": "Crews working on-site",
-        "START": "11:00PM 14 Jun 2025",
+        "START": "2:26AM 14 Jun 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "DIGGER ST, O'NEILL ST, RUSHWORTH RD",
-        "SUBURBS": "GORDONVALE"
+        "STREETS": "ADAVALE RD, BLACKALL-QUILPIE RD, EMMET-BLACKALL RD, OFF ISISFORD-B'ALL RD, OFF LANDSBOROUGH HWY, OFF LANGLO RD, PENTWYN RD, RAVENSBOURNE RD",
+        "SUBURBS": "BLACKALL, CHARLEVILLE"
       }
     },
     {
@@ -303,11 +323,100 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "6",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "10:45PM 14 Jun 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "WILLOWS RD",
         "SUBURBS": "TOLGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              145.790637,
+              -17.088055
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.788335,
+                  -17.088995
+                ],
+                [
+                  145.788388,
+                  -17.089277
+                ],
+                [
+                  145.788961,
+                  -17.089635
+                ],
+                [
+                  145.792592,
+                  -17.088793
+                ],
+                [
+                  145.792947,
+                  -17.088412
+                ],
+                [
+                  145.792706,
+                  -17.087956
+                ],
+                [
+                  145.790078,
+                  -17.086585
+                ],
+                [
+                  145.789983,
+                  -17.086548
+                ],
+                [
+                  145.789711,
+                  -17.086474
+                ],
+                [
+                  145.789191,
+                  -17.08666
+                ],
+                [
+                  145.788428,
+                  -17.087771
+                ],
+                [
+                  145.788351,
+                  -17.088008
+                ],
+                [
+                  145.788327,
+                  -17.088903
+                ],
+                [
+                  145.788335,
+                  -17.088995
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN6854",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "30",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "11:00PM 14 Jun 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "DIGGER ST, O'NEILL ST, RUSHWORTH RD",
+        "SUBURBS": "GORDONVALE"
       }
     },
     {
@@ -370,118 +479,9 @@
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.231353,
-              -24.980773
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  144.773204,
-                  -24.883815
-                ],
-                [
-                  145.147813,
-                  -25.413387
-                ],
-                [
-                  145.148136,
-                  -25.413585
-                ],
-                [
-                  145.431973,
-                  -25.463548
-                ],
-                [
-                  145.432539,
-                  -25.463246
-                ],
-                [
-                  145.689557,
-                  -24.752114
-                ],
-                [
-                  145.68957,
-                  -24.751877
-                ],
-                [
-                  145.651654,
-                  -24.593142
-                ],
-                [
-                  145.651451,
-                  -24.592866
-                ],
-                [
-                  145.567876,
-                  -24.540294
-                ],
-                [
-                  145.567631,
-                  -24.540216
-                ],
-                [
-                  144.932818,
-                  -24.497997
-                ],
-                [
-                  144.932469,
-                  -24.498098
-                ],
-                [
-                  144.860274,
-                  -24.552022
-                ],
-                [
-                  144.860118,
-                  -24.552229
-                ],
-                [
-                  144.823107,
-                  -24.653943
-                ],
-                [
-                  144.823091,
-                  -24.653998
-                ],
-                [
-                  144.773135,
-                  -24.883484
-                ],
-                [
-                  144.773204,
-                  -24.883815
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA8706",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "80",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews working on-site",
-        "START": "2:26AM 14 Jun 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "ADAVALE RD, BLACKALL-QUILPIE RD, EMMET-BLACKALL RD, OFF ISISFORD-B'ALL RD, OFF LANDSBOROUGH HWY, OFF LANGLO RD, PENTWYN RD, RAVENSBOURNE RD",
-        "SUBURBS": "BLACKALL, CHARLEVILLE"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1749907207.852149"
+  "extracted": "1749907805.309346"
 }
