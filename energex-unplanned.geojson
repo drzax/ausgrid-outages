@@ -10,92 +10,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.120008,
-              -27.610072
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.119204,
-                  -27.611817
-                ],
-                [
-                  153.121113,
-                  -27.610983
-                ],
-                [
-                  153.121374,
-                  -27.610713
-                ],
-                [
-                  153.121538,
-                  -27.610243
-                ],
-                [
-                  153.121453,
-                  -27.60983
-                ],
-                [
-                  153.120407,
-                  -27.608642
-                ],
-                [
-                  153.120338,
-                  -27.608578
-                ],
-                [
-                  153.120128,
-                  -27.608417
-                ],
-                [
-                  153.119654,
-                  -27.608327
-                ],
-                [
-                  153.119219,
-                  -27.608442
-                ],
-                [
-                  153.118861,
-                  -27.608815
-                ],
-                [
-                  153.118479,
-                  -27.611352
-                ],
-                [
-                  153.119204,
-                  -27.611817
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-868533-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "38",
-        "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
-        "START": "9:34AM 14 Jun 2025",
-        "EST_FIX_TIME": "12:30PM 14 Jun 2025",
-        "STREETS": "FRANCESCA CT, SPORTS DR, SPRINGWOOD RD",
-        "SUBURBS": "UNDERWOOD",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.405186,
               -28.173592
             ]
@@ -181,13 +95,13 @@
         "EVENT_ID": "INCD-868552-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "120",
-        "REASON": "Emergency Repairs",
+        "REASON": "Emergency repairs in-progress",
         "STATUS": "Awaiting",
         "START": "10:49AM 14 Jun 2025",
         "EST_FIX_TIME": "1:30PM 14 Jun 2025",
         "STREETS": "BOWDEN CL, DES QUINLAN CRES, DUCATS RD, REYNELLA RD, SYNDICATE RD, TREES RD",
         "SUBURBS": "TALLEBUDGERA, TALLEBUDGERA VALLEY",
-        "ETR_FLAG": "N"
+        "ETR_FLAG": "Y"
       }
     },
     {
@@ -259,9 +173,95 @@
         "SUBURBS": "MALENY",
         "ETR_FLAG": "N"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.120008,
+              -27.610072
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.119204,
+                  -27.611817
+                ],
+                [
+                  153.121113,
+                  -27.610983
+                ],
+                [
+                  153.121374,
+                  -27.610713
+                ],
+                [
+                  153.121538,
+                  -27.610243
+                ],
+                [
+                  153.121453,
+                  -27.60983
+                ],
+                [
+                  153.120407,
+                  -27.608642
+                ],
+                [
+                  153.120338,
+                  -27.608578
+                ],
+                [
+                  153.120128,
+                  -27.608417
+                ],
+                [
+                  153.119654,
+                  -27.608327
+                ],
+                [
+                  153.119219,
+                  -27.608442
+                ],
+                [
+                  153.118861,
+                  -27.608815
+                ],
+                [
+                  153.118479,
+                  -27.611352
+                ],
+                [
+                  153.119204,
+                  -27.611817
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-868533-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "38",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "9:34AM 14 Jun 2025",
+        "EST_FIX_TIME": "1:00PM 14 Jun 2025",
+        "STREETS": "FRANCESCA CT, SPORTS DR, SPRINGWOOD RD",
+        "SUBURBS": "UNDERWOOD",
+        "ETR_FLAG": "N"
+      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1749864901.331683"
+  "extracted": "1749867304.862563"
 }
