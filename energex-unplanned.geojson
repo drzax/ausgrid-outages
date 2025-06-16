@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.84555,
+              -26.364837
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.844042,
+                  -26.363495
+                ],
+                [
+                  152.844135,
+                  -26.366218
+                ],
+                [
+                  152.844931,
+                  -26.366569
+                ],
+                [
+                  152.847058,
+                  -26.365172
+                ],
+                [
+                  152.847039,
+                  -26.364431
+                ],
+                [
+                  152.84482,
+                  -26.363105
+                ],
+                [
+                  152.844042,
+                  -26.363495
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-868987-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "8",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "7:51PM 16 Jun 2025",
+        "EST_FIX_TIME": "9:30PM 16 Jun 2025",
+        "STREETS": "JAMPOT CREEK RD, JAMPOT LANE",
+        "SUBURBS": "POMONA",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1750067701.640974"
+  "extracted": "1750068302.099087"
 }
