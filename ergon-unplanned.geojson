@@ -10,6 +10,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.682307,
+              -21.173927
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.681938,
+                  -21.173533
+                ],
+                [
+                  148.681761,
+                  -21.174041
+                ],
+                [
+                  148.682069,
+                  -21.174611
+                ],
+                [
+                  148.682676,
+                  -21.174322
+                ],
+                [
+                  148.682853,
+                  -21.173814
+                ],
+                [
+                  148.682546,
+                  -21.173244
+                ],
+                [
+                  148.681938,
+                  -21.173533
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK4878",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "8:50AM 17 Jun 2025",
+        "EST_FIX_TIME": "10:00AM 17 Jun 2025",
+        "STREETS": "LUCAS PADDOCK RD",
+        "SUBURBS": "PINNACLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -243,67 +304,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "ARTHUR ST, SCOTT ST",
         "SUBURBS": "NANANGO"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.682307,
-              -21.173927
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.681938,
-                  -21.173533
-                ],
-                [
-                  148.681761,
-                  -21.174041
-                ],
-                [
-                  148.682069,
-                  -21.174611
-                ],
-                [
-                  148.682676,
-                  -21.174322
-                ],
-                [
-                  148.682853,
-                  -21.173814
-                ],
-                [
-                  148.682546,
-                  -21.173244
-                ],
-                [
-                  148.681938,
-                  -21.173533
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK4878",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "8:50AM 17 Jun 2025",
-        "EST_FIX_TIME": "10:00AM 17 Jun 2025",
-        "STREETS": "LUCAS PADDOCK RD",
-        "SUBURBS": "PINNACLE"
       }
     },
     {
@@ -737,5 +737,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1750117200.398213"
+  "extracted": "1750117501.736432"
 }
