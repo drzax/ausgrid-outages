@@ -10,6 +10,76 @@
           {
             "type": "Point",
             "coordinates": [
+              153.044173,
+              -27.123375
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.041979,
+                  -27.122387
+                ],
+                [
+                  153.045738,
+                  -27.125068
+                ],
+                [
+                  153.046447,
+                  -27.124996
+                ],
+                [
+                  153.046367,
+                  -27.124362
+                ],
+                [
+                  153.045179,
+                  -27.123515
+                ],
+                [
+                  153.043277,
+                  -27.122158
+                ],
+                [
+                  153.042608,
+                  -27.121681
+                ],
+                [
+                  153.041899,
+                  -27.121753
+                ],
+                [
+                  153.041979,
+                  -27.122387
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-869229-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "6",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "5:27PM 17 Jun 2025",
+        "EST_FIX_TIME": "7:30PM 17 Jun 2025",
+        "STREETS": "BEACHMERE RD",
+        "SUBURBS": "BEACHMERE",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.11958,
               -27.612206
             ]
@@ -74,79 +144,9 @@
         "REASON": "Under Investigation",
         "STATUS": "In Progress",
         "START": "4:45PM 17 Jun 2025",
-        "EST_FIX_TIME": "7:00PM 17 Jun 2025",
+        "EST_FIX_TIME": "7:30PM 17 Jun 2025",
         "STREETS": "BERNICE AVE, ELEANOR AVE, LOGAN RD, NERISSA CT, SPRINGWOOD RD",
         "SUBURBS": "SPRINGWOOD, UNDERWOOD",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.044173,
-              -27.123375
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.041979,
-                  -27.122387
-                ],
-                [
-                  153.045738,
-                  -27.125068
-                ],
-                [
-                  153.046447,
-                  -27.124996
-                ],
-                [
-                  153.046367,
-                  -27.124362
-                ],
-                [
-                  153.045179,
-                  -27.123515
-                ],
-                [
-                  153.043277,
-                  -27.122158
-                ],
-                [
-                  153.042608,
-                  -27.121681
-                ],
-                [
-                  153.041899,
-                  -27.121753
-                ],
-                [
-                  153.041979,
-                  -27.122387
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-869229-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "6",
-        "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
-        "START": "5:27PM 17 Jun 2025",
-        "EST_FIX_TIME": "7:00PM 17 Jun 2025",
-        "STREETS": "BEACHMERE RD",
-        "SUBURBS": "BEACHMERE",
         "ETR_FLAG": "N"
       }
     },
@@ -255,5 +255,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1750150201.457593"
+  "extracted": "1750150806.814914"
 }
