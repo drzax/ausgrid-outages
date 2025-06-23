@@ -1,8 +1,75 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.681382,
+              -26.327946
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.680096,
+                  -26.328719
+                ],
+                [
+                  152.680339,
+                  -26.328896
+                ],
+                [
+                  152.680969,
+                  -26.328897
+                ],
+                [
+                  152.682569,
+                  -26.327736
+                ],
+                [
+                  152.682667,
+                  -26.327127
+                ],
+                [
+                  152.682,
+                  -26.326996
+                ],
+                [
+                  152.680156,
+                  -26.32798
+                ],
+                [
+                  152.680096,
+                  -26.328719
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-870385-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "6:52AM 24 Jun 2025",
+        "EST_FIX_TIME": "9:30AM 24 Jun 2025",
+        "STREETS": "HUTCHINS RD",
+        "SUBURBS": "AMAMOOR",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1750711800.545671"
+  "extracted": "1750712100.341884"
 }
