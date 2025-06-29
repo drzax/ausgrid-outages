@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              148.699115,
-              -21.127962
+              148.04345,
+              -22.00063
             ]
           },
           {
@@ -19,36 +19,32 @@
             "coordinates": [
               [
                 [
-                  148.697564,
-                  -21.128178
+                  148.044035,
+                  -22.000762
                 ],
                 [
-                  148.700208,
-                  -21.128945
+                  148.043757,
+                  -22.000147
                 ],
                 [
-                  148.700826,
-                  -21.128582
+                  148.043123,
+                  -21.999906
                 ],
                 [
-                  148.701003,
-                  -21.127495
+                  148.042865,
+                  -22.000497
                 ],
                 [
-                  148.700469,
-                  -21.126979
+                  148.043142,
+                  -22.001113
                 ],
                 [
-                  148.697649,
-                  -21.127299
+                  148.043776,
+                  -22.001354
                 ],
                 [
-                  148.697227,
-                  -21.127706
-                ],
-                [
-                  148.697564,
-                  -21.128178
+                  148.044035,
+                  -22.000762
                 ]
               ]
             ]
@@ -56,15 +52,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25MK1119",
+        "EVENT_ID": "25MK5157",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:57AM 04 Feb 2025",
-        "EST_FIX_TIME": "10:00AM 31 Jul 2025",
-        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
-        "SUBURBS": "OWENS CREEK, PINNACLE"
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "9:04PM 29 Jun 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "ST FRANCIS DR",
+        "SUBURBS": "MORANBAH"
       }
     },
     {
@@ -200,6 +196,71 @@
           {
             "type": "Point",
             "coordinates": [
+              148.699115,
+              -21.127962
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.697564,
+                  -21.128178
+                ],
+                [
+                  148.700208,
+                  -21.128945
+                ],
+                [
+                  148.700826,
+                  -21.128582
+                ],
+                [
+                  148.701003,
+                  -21.127495
+                ],
+                [
+                  148.700469,
+                  -21.126979
+                ],
+                [
+                  148.697649,
+                  -21.127299
+                ],
+                [
+                  148.697227,
+                  -21.127706
+                ],
+                [
+                  148.697564,
+                  -21.128178
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK1119",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:57AM 04 Feb 2025",
+        "EST_FIX_TIME": "10:00AM 31 Jul 2025",
+        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
+        "SUBURBS": "OWENS CREEK, PINNACLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               149.19215,
               -21.121973
             ]
@@ -301,67 +362,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.04345,
-              -22.00063
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.044035,
-                  -22.000762
-                ],
-                [
-                  148.043757,
-                  -22.000147
-                ],
-                [
-                  148.043123,
-                  -21.999906
-                ],
-                [
-                  148.042865,
-                  -22.000497
-                ],
-                [
-                  148.043142,
-                  -22.001113
-                ],
-                [
-                  148.043776,
-                  -22.001354
-                ],
-                [
-                  148.044035,
-                  -22.000762
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK5157",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews working on-site",
-        "START": "9:04PM 29 Jun 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "ST FRANCIS DR",
-        "SUBURBS": "MORANBAH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               146.207433,
               -18.981624
             ]
@@ -418,5 +418,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1751232900.679057"
+  "extracted": "1751233204.076772"
 }
