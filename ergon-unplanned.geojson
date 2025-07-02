@@ -246,7 +246,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "107",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "5:41AM 03 Jul 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "BIRTLEY RD, BUCKLAND RD, CUNGELELLA RD, DAWSON DEVELOPMENT RD, DUMP RD, FAIRVIEW ACCESS RD, GLENLEE RD, MILLTHORPE RD, MOUNT PLAYFAIR RD, MT PLAYFAIR RD, OFF TAMBO RD, TAMBO RD, TANDERRA RD, UNKNOWN ST",
@@ -448,7 +448,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "39",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "11:07PM 02 Jul 2025",
         "EST_FIX_TIME": "4:00PM 03 Jul 2025",
         "STREETS": "BYRNES PDE, DOBBS ST, EAST EXTD ST, GANTER ST, GOWDIE ST, HILL LANE, HILL ST, ROCHE ST",
@@ -514,6 +514,79 @@
         "EST_FIX_TIME": "6:00PM 09 Jul 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              147.401718,
+              -19.529414
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.399834,
+                  -19.524899
+                ],
+                [
+                  147.399856,
+                  -19.528852
+                ],
+                [
+                  147.399856,
+                  -19.528859
+                ],
+                [
+                  147.399959,
+                  -19.53356
+                ],
+                [
+                  147.400366,
+                  -19.533998
+                ],
+                [
+                  147.403074,
+                  -19.534377
+                ],
+                [
+                  147.403601,
+                  -19.533801
+                ],
+                [
+                  147.400768,
+                  -19.524768
+                ],
+                [
+                  147.400241,
+                  -19.52445
+                ],
+                [
+                  147.399834,
+                  -19.524899
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ8870",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to the operating of protective equipment. ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "2:22AM 03 Jul 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "CHIPPENDALE ST, KALAMIA RD",
+        "SUBURBS": "AYR"
       }
     },
     {
@@ -632,82 +705,9 @@
         "STREETS": "CALIGUEL ST, COXEN ST, FOSTER ST, KENNEDY ST, MARKET ST, TIEREYBOO ST, WAMBO ST, WILSON ST, WOOD ST",
         "SUBURBS": "CONDAMINE"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              147.401718,
-              -19.529414
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.399834,
-                  -19.524899
-                ],
-                [
-                  147.399856,
-                  -19.528852
-                ],
-                [
-                  147.399856,
-                  -19.528859
-                ],
-                [
-                  147.399959,
-                  -19.53356
-                ],
-                [
-                  147.400366,
-                  -19.533998
-                ],
-                [
-                  147.403074,
-                  -19.534377
-                ],
-                [
-                  147.403601,
-                  -19.533801
-                ],
-                [
-                  147.400768,
-                  -19.524768
-                ],
-                [
-                  147.400241,
-                  -19.52445
-                ],
-                [
-                  147.399834,
-                  -19.524899
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25NQ8870",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "2:22AM 03 Jul 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "CHIPPENDALE ST, KALAMIA RD",
-        "SUBURBS": "AYR"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1751488800.339915"
+  "extracted": "1751489401.145505"
 }
