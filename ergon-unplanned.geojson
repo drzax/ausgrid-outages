@@ -10,71 +10,6 @@
           {
             "type": "Point",
             "coordinates": [
-              148.699115,
-              -21.127962
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.697564,
-                  -21.128178
-                ],
-                [
-                  148.700208,
-                  -21.128945
-                ],
-                [
-                  148.700826,
-                  -21.128582
-                ],
-                [
-                  148.701003,
-                  -21.127495
-                ],
-                [
-                  148.700469,
-                  -21.126979
-                ],
-                [
-                  148.697649,
-                  -21.127299
-                ],
-                [
-                  148.697227,
-                  -21.127706
-                ],
-                [
-                  148.697564,
-                  -21.128178
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK1119",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:57AM 04 Feb 2025",
-        "EST_FIX_TIME": "10:00AM 31 Jul 2025",
-        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
-        "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               147.932358,
               -26.389478
             ]
@@ -133,11 +68,76 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "6",
         "REASON": "The loss of supply is due to the operating of protective equipment. ",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews on route",
         "START": "8:17AM 07 Jul 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "DUNEDIN RD, FORESTVALE RD, PINELANDS LANE",
         "SUBURBS": "MITCHELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.699115,
+              -21.127962
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.697564,
+                  -21.128178
+                ],
+                [
+                  148.700208,
+                  -21.128945
+                ],
+                [
+                  148.700826,
+                  -21.128582
+                ],
+                [
+                  148.701003,
+                  -21.127495
+                ],
+                [
+                  148.700469,
+                  -21.126979
+                ],
+                [
+                  148.697649,
+                  -21.127299
+                ],
+                [
+                  148.697227,
+                  -21.127706
+                ],
+                [
+                  148.697564,
+                  -21.128178
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK1119",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:57AM 04 Feb 2025",
+        "EST_FIX_TIME": "10:00AM 31 Jul 2025",
+        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
+        "SUBURBS": "OWENS CREEK, PINNACLE"
       }
     },
     {
@@ -226,7 +226,7 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "44",
         "REASON": "The loss of supply is our repair crews are attending. Fault finding is in progress. ",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews working on-site",
         "START": "8:03AM 07 Jul 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "COQUETTE POINT RD, JOHNSTON RD, MYNARD RD",
@@ -292,6 +292,83 @@
         "EST_FIX_TIME": "6:00PM 09 Jul 2025",
         "STREETS": "INTAKE RD",
         "SUBURBS": "MUTARNEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.097099,
+              -17.924383
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  146.096503,
+                  -17.924695
+                ],
+                [
+                  146.0967,
+                  -17.925212
+                ],
+                [
+                  146.09721,
+                  -17.925504
+                ],
+                [
+                  146.097614,
+                  -17.925088
+                ],
+                [
+                  146.097683,
+                  -17.924141
+                ],
+                [
+                  146.097684,
+                  -17.924128
+                ],
+                [
+                  146.097701,
+                  -17.923725
+                ],
+                [
+                  146.097312,
+                  -17.923262
+                ],
+                [
+                  146.09678,
+                  -17.923567
+                ],
+                [
+                  146.096497,
+                  -17.9244
+                ],
+                [
+                  146.096503,
+                  -17.924695
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN7618",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "7:11AM 07 Jul 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "NISSEN ST, REID RD",
+        "SUBURBS": "WONGALING BEACH"
       }
     },
     {
@@ -390,86 +467,9 @@
         "STREETS": "BRIDSONS RD, BRUCE HWY, BRUCE HWY S, EDEN LASSIE CREEK RD, GORDEN GLEN RD, GORDON GLEN RD, JOCHHEIM RD, LONGFORD CREEK, MT CHALLENGER STATION, MT MARY",
         "SUBURBS": "BOWEN"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.097099,
-              -17.924383
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  146.096503,
-                  -17.924695
-                ],
-                [
-                  146.0967,
-                  -17.925212
-                ],
-                [
-                  146.09721,
-                  -17.925504
-                ],
-                [
-                  146.097614,
-                  -17.925088
-                ],
-                [
-                  146.097683,
-                  -17.924141
-                ],
-                [
-                  146.097684,
-                  -17.924128
-                ],
-                [
-                  146.097701,
-                  -17.923725
-                ],
-                [
-                  146.097312,
-                  -17.923262
-                ],
-                [
-                  146.09678,
-                  -17.923567
-                ],
-                [
-                  146.096497,
-                  -17.9244
-                ],
-                [
-                  146.096503,
-                  -17.924695
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN7618",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "7",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
-        "START": "7:11AM 07 Jul 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "NISSEN ST, REID RD",
-        "SUBURBS": "WONGALING BEACH"
-      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1751841004.253298"
+  "extracted": "1751841901.077661"
 }
