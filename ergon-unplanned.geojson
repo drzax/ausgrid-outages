@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              151.772228,
-              -26.729658
+              140.38923,
+              -20.975997
             ]
           },
           {
@@ -19,36 +19,104 @@
             "coordinates": [
               [
                 [
-                  151.769893,
-                  -26.729148
+                  140.249175,
+                  -20.59852
                 ],
                 [
-                  151.773881,
-                  -26.7316
+                  140.223585,
+                  -21.167995
                 ],
                 [
-                  151.774527,
-                  -26.731539
+                  140.223591,
+                  -21.168087
                 ],
                 [
-                  151.774563,
-                  -26.730957
+                  140.232216,
+                  -21.217245
                 ],
                 [
-                  151.771922,
-                  -26.727837
+                  140.232308,
+                  -21.217444
                 ],
                 [
-                  151.771281,
-                  -26.727716
+                  140.232371,
+                  -21.217521
                 ],
                 [
-                  151.769934,
-                  -26.728382
+                  140.232421,
+                  -21.217574
                 ],
                 [
-                  151.769893,
-                  -26.729148
+                  140.253893,
+                  -21.236797
+                ],
+                [
+                  140.253933,
+                  -21.236829
+                ],
+                [
+                  140.402038,
+                  -21.342877
+                ],
+                [
+                  140.402142,
+                  -21.342934
+                ],
+                [
+                  140.475089,
+                  -21.371731
+                ],
+                [
+                  140.475395,
+                  -21.371752
+                ],
+                [
+                  140.498777,
+                  -21.366121
+                ],
+                [
+                  140.499135,
+                  -21.365725
+                ],
+                [
+                  140.554876,
+                  -20.757075
+                ],
+                [
+                  140.554841,
+                  -20.756867
+                ],
+                [
+                  140.539819,
+                  -20.722457
+                ],
+                [
+                  140.539796,
+                  -20.722413
+                ],
+                [
+                  140.530715,
+                  -20.706717
+                ],
+                [
+                  140.53061,
+                  -20.706593
+                ],
+                [
+                  140.377145,
+                  -20.580348
+                ],
+                [
+                  140.376761,
+                  -20.580242
+                ],
+                [
+                  140.249581,
+                  -20.598095
+                ],
+                [
+                  140.249175,
+                  -20.59852
                 ]
               ]
             ]
@@ -56,15 +124,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25WB7439",
+        "EVENT_ID": "25NQ9187",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "7",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
-        "START": "10:04PM 10 Jul 2025",
+        "CUSTOMERS_AFFECTED": "452",
+        "REASON": "The loss of supply is due to public safety concerns.",
+        "STATUS": "Crews working on-site",
+        "START": "10:31PM 10 Jul 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "PARKER RD",
-        "SUBURBS": "ELLESMERE"
+        "STREETS": "BRIGHTLANDS STATION, BURKE RD, BURKE ST, CHUMVALE STATION, COOPER ST, CORELLA PARK STATION, DEVONCOURT STATION, DOUGLAS ST, ERNEST ST, FAIRFIELD MINE HOLDING, FARLEY STATION, FLAT TOP STATION, FLINDERS HWY, HARTIG CRES, HARVEY SUTTON CL, HUTCHINSON PDE, KING ST, MALBON BORE, MALBON RD, MALBON SDNG, MCCLURE ST, MCILWRAITH ST, MCKINLAY ST, MELDRUM ST, MICROWAVE RD, MILE GDN, MT AVERICE RD, NEW HAVEN STATION, PALMER ST, PHILLIPS ST, POWERHOUSE RD, RAILWAY AVE, RAILWAY RES, RAILWAY ST, ROUNDOAK RD, ROUNDOAK STATION, ROXMERE RD, ROXMERE STN RD, SCARR ST, SELWYN RD, SEYMOUR ST, STATION ST, STEELE ST, TRANSMITTER RD, UHR ST, WALTONS FARM HOLDING, WALTONS WELL RVR, WELL RVR, Y-AUST BORE",
+        "SUBURBS": "CLONCURRY"
       }
     },
     {
@@ -221,6 +289,71 @@
           {
             "type": "Point",
             "coordinates": [
+              151.772228,
+              -26.729658
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  151.769893,
+                  -26.729148
+                ],
+                [
+                  151.773881,
+                  -26.7316
+                ],
+                [
+                  151.774527,
+                  -26.731539
+                ],
+                [
+                  151.774563,
+                  -26.730957
+                ],
+                [
+                  151.771922,
+                  -26.727837
+                ],
+                [
+                  151.771281,
+                  -26.727716
+                ],
+                [
+                  151.769934,
+                  -26.728382
+                ],
+                [
+                  151.769893,
+                  -26.729148
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25WB7439",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews on route",
+        "START": "10:04PM 10 Jul 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "PARKER RD",
+        "SUBURBS": "ELLESMERE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               150.520772,
               -23.334323
             ]
@@ -349,5 +482,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1752150005.526489"
+  "extracted": "1752150900.250741"
 }
