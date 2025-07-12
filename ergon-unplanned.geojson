@@ -10,8 +10,8 @@
           {
             "type": "Point",
             "coordinates": [
-              150.347556,
-              -23.987844
+              149.146787,
+              -21.272737
             ]
           },
           {
@@ -19,32 +19,44 @@
             "coordinates": [
               [
                 [
-                  150.348543,
-                  -23.990448
+                  149.139877,
+                  -21.270295
                 ],
                 [
-                  150.347536,
-                  -23.985087
+                  149.147164,
+                  -21.27595
                 ],
                 [
-                  150.346969,
-                  -23.98472
+                  149.147739,
+                  -21.275977
                 ],
                 [
-                  150.346568,
-                  -23.985241
+                  149.15384,
+                  -21.272139
                 ],
                 [
-                  150.347575,
-                  -23.990602
+                  149.153813,
+                  -21.271373
                 ],
                 [
-                  150.348142,
-                  -23.990969
+                  149.151104,
+                  -21.269905
                 ],
                 [
-                  150.348543,
-                  -23.990448
+                  149.15088,
+                  -21.269844
+                ],
+                [
+                  149.140201,
+                  -21.269496
+                ],
+                [
+                  149.139734,
+                  -21.269787
+                ],
+                [
+                  149.139877,
+                  -21.270295
                 ]
               ]
             ]
@@ -52,15 +64,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25CA9656",
+        "EVENT_ID": "25MK5460",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "CUSTOMERS_AFFECTED": "7",
+        "REASON": "The loss of supply is due to public safety concerns.",
         "STATUS": "Crews working on-site",
-        "START": "8:22AM 12 Jul 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "TOMLIN RD",
-        "SUBURBS": "WOWAN"
+        "START": "8:48AM 12 Jul 2025",
+        "EST_FIX_TIME": "1:30PM 12 Jul 2025",
+        "STREETS": "CHRISTENSENS RD",
+        "SUBURBS": "BALBERRA"
       }
     },
     {
@@ -136,6 +148,67 @@
           {
             "type": "Point",
             "coordinates": [
+              150.347556,
+              -23.987844
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  150.348543,
+                  -23.990448
+                ],
+                [
+                  150.347536,
+                  -23.985087
+                ],
+                [
+                  150.346969,
+                  -23.98472
+                ],
+                [
+                  150.346568,
+                  -23.985241
+                ],
+                [
+                  150.347575,
+                  -23.990602
+                ],
+                [
+                  150.348142,
+                  -23.990969
+                ],
+                [
+                  150.348543,
+                  -23.990448
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA9656",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "8:22AM 12 Jul 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "TOMLIN RD",
+        "SUBURBS": "WOWAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               147.646759,
               -24.130684
             ]
@@ -187,79 +260,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "OFF TAMBO RD",
         "SUBURBS": "SPRINGSURE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              149.146787,
-              -21.272737
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  149.139877,
-                  -21.270295
-                ],
-                [
-                  149.147164,
-                  -21.27595
-                ],
-                [
-                  149.147739,
-                  -21.275977
-                ],
-                [
-                  149.15384,
-                  -21.272139
-                ],
-                [
-                  149.153813,
-                  -21.271373
-                ],
-                [
-                  149.151104,
-                  -21.269905
-                ],
-                [
-                  149.15088,
-                  -21.269844
-                ],
-                [
-                  149.140201,
-                  -21.269496
-                ],
-                [
-                  149.139734,
-                  -21.269787
-                ],
-                [
-                  149.139877,
-                  -21.270295
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK5460",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "7",
-        "REASON": "The loss of supply is due to public safety concerns.",
-        "STATUS": "Crews working on-site",
-        "START": "8:48AM 12 Jul 2025",
-        "EST_FIX_TIME": "1:30PM 12 Jul 2025",
-        "STREETS": "CHRISTENSENS RD",
-        "SUBURBS": "BALBERRA"
       }
     },
     {
@@ -383,5 +383,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1752287101.136418"
+  "extracted": "1752289501.374375"
 }
