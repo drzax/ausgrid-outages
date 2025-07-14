@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.779497,
+              -27.322539
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.780009,
+                  -27.322444
+                ],
+                [
+                  152.77989,
+                  -27.322231
+                ],
+                [
+                  152.779212,
+                  -27.322028
+                ],
+                [
+                  152.778985,
+                  -27.322634
+                ],
+                [
+                  152.779104,
+                  -27.322847
+                ],
+                [
+                  152.779782,
+                  -27.323049
+                ],
+                [
+                  152.780009,
+                  -27.322444
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-875418-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Emergency Repairs",
+        "STATUS": "In Progress",
+        "START": "4:31PM 14 Jul 2025",
+        "EST_FIX_TIME": "2:30AM 15 Jul 2025",
+        "STREETS": "CEDAR CREEK RD",
+        "SUBURBS": "CEDAR CREEK",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1752506701.119786"
+  "extracted": "1752507300.823831"
 }
