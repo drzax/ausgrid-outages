@@ -1,8 +1,75 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.470629,
+              -27.711949
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.469154,
+                  -27.708728
+                ],
+                [
+                  152.469401,
+                  -27.715276
+                ],
+                [
+                  152.470199,
+                  -27.71563
+                ],
+                [
+                  152.471913,
+                  -27.714556
+                ],
+                [
+                  152.472104,
+                  -27.71405
+                ],
+                [
+                  152.470144,
+                  -27.708576
+                ],
+                [
+                  152.469575,
+                  -27.708268
+                ],
+                [
+                  152.469154,
+                  -27.708728
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-876137-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "Under Investigation",
+        "STATUS": "In Progress",
+        "START": "3:07PM 17 Jul 2025",
+        "EST_FIX_TIME": "1:00AM 18 Jul 2025",
+        "STREETS": "GRANDCHESTER MT MORT RD, HIDDENVALE RD",
+        "SUBURBS": "GRANDCHESTER",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1752761401.09748"
+  "extracted": "1752762301.088003"
 }
