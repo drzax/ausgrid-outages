@@ -7,20 +7,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.380064,
-          -27.957547
+          153.183874,
+          -27.519916
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-869560-g",
+        "EVENT_ID": "INCD-869341-g",
         "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "9",
+        "CUSTOMERS_AFFECTED": "6",
         "REASON": "Planned Maintenance",
         "STATUS": "Scheduled",
-        "START": "9:30PM 20 Jul 2025",
-        "EST_FIX_TIME": "3:30AM 21 Jul 2025",
-        "STREETS": "OLSEN AVE",
-        "SUBURBS": "PARKWOOD",
+        "START": "8:00PM 20 Jul 2025",
+        "EST_FIX_TIME": "4:00AM 21 Jul 2025",
+        "STREETS": "MT GRAVATT-CAPALABA RD, TYBERRY ST",
+        "SUBURBS": "CHANDLER",
         "ETR_FLAG": "N"
       }
     },
@@ -51,6 +51,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          152.995292,
+          -27.473161
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-865114-g",
+        "TYPE": "PLANNED",
+        "CUSTOMERS_AFFECTED": "15",
+        "REASON": "Planned Maintenance",
+        "STATUS": "Completed",
+        "START": "7:00AM 20 Jul 2025",
+        "EST_FIX_TIME": "3:00PM 20 Jul 2025",
+        "STREETS": "MILTON RD, WIENHOLT ST",
+        "SUBURBS": "AUCHENFLOWER",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           152.659288,
           -26.184985
         ]
@@ -65,72 +87,6 @@
         "EST_FIX_TIME": "3:00PM 20 Jul 2025",
         "STREETS": "ALFRED ST, HENRY ST",
         "SUBURBS": "GYMPIE",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.981684,
-          -27.168979
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-870421-g",
-        "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "Planned Maintenance",
-        "STATUS": "Completed",
-        "START": "8:00AM 20 Jul 2025",
-        "EST_FIX_TIME": "3:00PM 20 Jul 2025",
-        "STREETS": "BRUCE HWY EASTERN SERVICE RD",
-        "SUBURBS": "BURPENGARY EAST",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.094334,
-          -27.527344
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-869517-g",
-        "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "132",
-        "REASON": "Planned Maintenance",
-        "STATUS": "Cancelled",
-        "START": "9:00AM 20 Jul 2025",
-        "EST_FIX_TIME": "11:00AM 20 Jul 2025",
-        "STREETS": "BLANTYRE RD, CREEK RD, FORTESCUE CT, KAIJA ST, TICK ST",
-        "SUBURBS": "MT GRAVATT EAST",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.40971,
-          -27.957443
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-862297-g",
-        "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "22",
-        "REASON": "Planned Maintenance",
-        "STATUS": "Completed",
-        "START": "8:00AM 20 Jul 2025",
-        "EST_FIX_TIME": "4:00PM 20 Jul 2025",
-        "STREETS": "GOLD COAST HWY, MARINE PDE, STEVENS ST",
-        "SUBURBS": "SOUTHPORT",
         "ETR_FLAG": "N"
       }
     },
@@ -183,20 +139,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.183874,
-          -27.519916
+          153.40971,
+          -27.957443
         ]
       },
       "properties": {
-        "EVENT_ID": "INCD-869341-g",
+        "EVENT_ID": "INCD-862297-g",
         "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "6",
+        "CUSTOMERS_AFFECTED": "22",
+        "REASON": "Planned Maintenance",
+        "STATUS": "Completed",
+        "START": "8:00AM 20 Jul 2025",
+        "EST_FIX_TIME": "4:00PM 20 Jul 2025",
+        "STREETS": "GOLD COAST HWY, MARINE PDE, STEVENS ST",
+        "SUBURBS": "SOUTHPORT",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.981684,
+          -27.168979
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-870421-g",
+        "TYPE": "PLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Planned Maintenance",
+        "STATUS": "Completed",
+        "START": "8:00AM 20 Jul 2025",
+        "EST_FIX_TIME": "3:00PM 20 Jul 2025",
+        "STREETS": "BRUCE HWY EASTERN SERVICE RD",
+        "SUBURBS": "BURPENGARY EAST",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.094334,
+          -27.527344
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-869517-g",
+        "TYPE": "PLANNED",
+        "CUSTOMERS_AFFECTED": "132",
+        "REASON": "Planned Maintenance",
+        "STATUS": "Cancelled",
+        "START": "9:00AM 20 Jul 2025",
+        "EST_FIX_TIME": "11:00AM 20 Jul 2025",
+        "STREETS": "BLANTYRE RD, CREEK RD, FORTESCUE CT, KAIJA ST, TICK ST",
+        "SUBURBS": "MT GRAVATT EAST",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.380064,
+          -27.957547
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-869560-g",
+        "TYPE": "PLANNED",
+        "CUSTOMERS_AFFECTED": "9",
         "REASON": "Planned Maintenance",
         "STATUS": "Scheduled",
-        "START": "8:00PM 20 Jul 2025",
-        "EST_FIX_TIME": "4:00AM 21 Jul 2025",
-        "STREETS": "MT GRAVATT-CAPALABA RD, TYBERRY ST",
-        "SUBURBS": "CHANDLER",
+        "START": "9:30PM 20 Jul 2025",
+        "EST_FIX_TIME": "3:30AM 21 Jul 2025",
+        "STREETS": "OLSEN AVE",
+        "SUBURBS": "PARKWOOD",
         "ETR_FLAG": "N"
       }
     },
@@ -221,31 +243,9 @@
         "SUBURBS": "MT GRAVATT EAST",
         "ETR_FLAG": "N"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.995292,
-          -27.473161
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-865114-g",
-        "TYPE": "PLANNED",
-        "CUSTOMERS_AFFECTED": "15",
-        "REASON": "Planned Maintenance",
-        "STATUS": "Completed",
-        "START": "7:00AM 20 Jul 2025",
-        "EST_FIX_TIME": "3:00PM 20 Jul 2025",
-        "STREETS": "MILTON RD, WIENHOLT ST",
-        "SUBURBS": "AUCHENFLOWER",
-        "ETR_FLAG": "N"
-      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1752999004.080451"
+  "extracted": "1752999903.839495"
 }
