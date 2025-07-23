@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
+<Placemark id="INCD-19041-w">
+<Snippet><![CDATA[INCD-19041-w]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-19041-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>24/07/2025 07:30:00</div><div><span>Est. Time On:</span>24/07/2025 16:30:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>24/07/2025 07:33:02</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{3417437,0,29714416}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+146.6165689,-35.24711489 146.6165688,-35.24712818 146.6165688,-35.24713191 146.6165688,-35.24713883 146.6163023,-35.25512450 146.6163019,-35.25513739 146.6162981,-35.25516297 146.6162913,-35.25518815 146.6162816,-35.25521268 146.6162691,-35.25523634 146.6162539,-35.25525892 146.6162362,-35.25528022 146.6162161,-35.25530003 146.6162050,-35.25530912 146.6161985,-35.25531438 146.6161870,-35.25532374 146.6161619,-35.25534052 146.6161348,-35.25535520 146.6161062,-35.25536764 146.6160762,-35.25537771 146.6160452,-35.25538533 146.6160134,-35.25539042 146.6159811,-35.25539292 146.6159649,-35.25539287 146.6159604,-35.25539286 146.6159558,-35.25539284 146.6159396,-35.25539279 146.6159074,-35.25539008 146.6158756,-35.25538480 146.6158447,-35.25537698 146.6158148,-35.25536671 146.6157863,-35.25535410 146.6157594,-35.25533924 146.6157344,-35.25532230 146.6157230,-35.25531287 146.6157166,-35.25530757 146.6157052,-35.25529813 146.6156847,-35.25527752 146.6156668,-35.25525536 146.6156517,-35.25523188 146.6156394,-35.25520729 146.6156301,-35.25518182 146.6156239,-35.25515573 146.6156208,-35.25512928 146.6156209,-35.25511598 146.6156209,-35.25511225 146.6156210,-35.25510534 146.6158875,-35.24711966 146.6158879,-35.24710678 146.6158918,-35.24708119 146.6158986,-35.24705602 146.6159082,-35.24703149 146.6159207,-35.24700782 146.6159359,-35.24698525 146.6159536,-35.24696395 146.6159737,-35.24694413 146.6159849,-35.24693505 146.6159913,-35.24692979 146.6160028,-35.24692043 146.6160279,-35.24690365 146.6160550,-35.24688896 146.6160836,-35.24687653 146.6161136,-35.24686645 146.6161446,-35.24685883 146.6161764,-35.24685375 146.6162087,-35.24685125 146.6162249,-35.24685130 146.6162294,-35.24685131 146.6162340,-35.24685133 146.6162502,-35.24685138 146.6162824,-35.24685408 146.6163141,-35.24685937 146.6163451,-35.24686719 146.6163750,-35.24687745 146.6164035,-35.24689007 146.6164304,-35.24690492 146.6164553,-35.24692186 146.6164667,-35.24693130 146.6164732,-35.24693660 146.6164846,-35.24694603 146.6165050,-35.24696665 146.6165229,-35.24698880 146.6165381,-35.24701229 146.6165504,-35.24703688 146.6165597,-35.24706235 146.6165659,-35.24708843 146.6165689,-35.24711489</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{3417437,0,29714416}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+146.6160949,-35.25112209</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-106342-r">
 <Snippet><![CDATA[INCD-106342-r]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
