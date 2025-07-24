@@ -10,108 +10,6 @@
           {
             "type": "Point",
             "coordinates": [
-              153.429929,
-              -28.022562
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.428731,
-                  -28.022529
-                ],
-                [
-                  153.429717,
-                  -28.023663
-                ],
-                [
-                  153.430232,
-                  -28.023827
-                ],
-                [
-                  153.430824,
-                  -28.023708
-                ],
-                [
-                  153.43122,
-                  -28.023244
-                ],
-                [
-                  153.431132,
-                  -28.021805
-                ],
-                [
-                  153.430974,
-                  -28.021502
-                ],
-                [
-                  153.430885,
-                  -28.021427
-                ],
-                [
-                  153.430544,
-                  -28.021303
-                ],
-                [
-                  153.430206,
-                  -28.021297
-                ],
-                [
-                  153.430183,
-                  -28.021297
-                ],
-                [
-                  153.429796,
-                  -28.021306
-                ],
-                [
-                  153.429542,
-                  -28.021374
-                ],
-                [
-                  153.428905,
-                  -28.021725
-                ],
-                [
-                  153.428678,
-                  -28.022003
-                ],
-                [
-                  153.428639,
-                  -28.022148
-                ],
-                [
-                  153.428731,
-                  -28.022529
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-877277-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "142",
-        "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
-        "START": "8:29AM 24 Jul 2025",
-        "EST_FIX_TIME": "11:00AM 24 Jul 2025",
-        "STREETS": "CHELSEA AVE, ROSEWOOD AVE, SURF PDE",
-        "SUBURBS": "BROADBEACH",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               153.412616,
               -27.981959
             ]
@@ -229,12 +127,114 @@
         "EVENT_ID": "INCD-877287-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "609",
-        "REASON": "Under Investigation",
+        "REASON": "Emergency repairs in-progress",
         "STATUS": "In Progress",
         "START": "8:52AM 24 Jul 2025",
         "EST_FIX_TIME": "11:00AM 24 Jul 2025",
         "STREETS": "BROLGA AVE, CASE ST, CHARLTON ST, COLLEGE AVE, COOPER PDE, DEAUVILLE DR, DRURY AVE, EGERTON ST, FERRY RD, GILLIAN LANE, GREER TCE, HARCOURT CRES, HARVEST CT, KORONG ST, LUPUS ST, MCMILLAN CT, MERON ST, NESBIT ST, PETERSEN AVE, PINTER DR, RADFORD ST, REGATTA PDE, WILDASH ST, WINCHESTER ST, YACHT ST",
         "SUBURBS": "SOUTHPORT",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.429929,
+              -28.022562
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.428731,
+                  -28.022529
+                ],
+                [
+                  153.429717,
+                  -28.023663
+                ],
+                [
+                  153.430232,
+                  -28.023827
+                ],
+                [
+                  153.430824,
+                  -28.023708
+                ],
+                [
+                  153.43122,
+                  -28.023244
+                ],
+                [
+                  153.431132,
+                  -28.021805
+                ],
+                [
+                  153.430974,
+                  -28.021502
+                ],
+                [
+                  153.430885,
+                  -28.021427
+                ],
+                [
+                  153.430544,
+                  -28.021303
+                ],
+                [
+                  153.430206,
+                  -28.021297
+                ],
+                [
+                  153.430183,
+                  -28.021297
+                ],
+                [
+                  153.429796,
+                  -28.021306
+                ],
+                [
+                  153.429542,
+                  -28.021374
+                ],
+                [
+                  153.428905,
+                  -28.021725
+                ],
+                [
+                  153.428678,
+                  -28.022003
+                ],
+                [
+                  153.428639,
+                  -28.022148
+                ],
+                [
+                  153.428731,
+                  -28.022529
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-877277-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "142",
+        "REASON": "A vehicle damaging our equipment",
+        "STATUS": "Awaiting",
+        "START": "8:29AM 24 Jul 2025",
+        "EST_FIX_TIME": "11:00AM 24 Jul 2025",
+        "STREETS": "CHELSEA AVE, ROSEWOOD AVE, SURF PDE",
+        "SUBURBS": "BROADBEACH",
         "ETR_FLAG": "N"
       }
     },
@@ -303,5 +303,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1753314600.415554"
+  "extracted": "1753315500.452221"
 }
