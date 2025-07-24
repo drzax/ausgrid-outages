@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>5 Records</description>
+<description>6 Records</description>
+<Placemark id="INCD-108609-r">
+<Snippet><![CDATA[INCD-108609-r]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-108609-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>24/07/2025 20:00:00</div><div><span>Est. Time On:</span>25/07/2025 02:00:00</div></div><div><span>No. of Customers affected:</span>122</div><div><span>Reason:</span>Critical repairs</div><div><span>Last Updated:</span>24/07/2025 19:32:57</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|future_coverage|{5598123,957031250,29718682}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+149.8415689,-29.46506271 149.8415683,-29.46507528 149.8414758,-29.46699617 149.8414749,-29.46701580 149.8414665,-29.46705442 149.8414519,-29.46709157 149.8414312,-29.46712649 149.8414051,-29.46715842 149.8413739,-29.46718672 149.8413384,-29.46721077 149.8412992,-29.46723006 149.8412783,-29.46723714 149.8412573,-29.46724422 149.8412135,-29.46725292 149.8411687,-29.46725600 149.8411239,-29.46725337 149.8410800,-29.46724510 149.8410379,-29.46723137 149.8409986,-29.46721246 149.8409627,-29.46718876 149.8409469,-29.46717478 149.8389634,-29.46541571 149.8389482,-29.46540223 149.8389224,-29.46537185 149.8389017,-29.46533862 149.8388865,-29.46530318 149.8388771,-29.46526624 149.8388736,-29.46522850 149.8388762,-29.46519072 149.8388847,-29.46515361 149.8388919,-29.46513576 149.8396708,-29.46320252 149.8396772,-29.46318667 149.8396944,-29.46315660 149.8397156,-29.46312862 149.8397407,-29.46310315 149.8397550,-29.46309188 149.8403903,-29.46258880 149.8404028,-29.46257892 149.8404300,-29.46256163 149.8404593,-29.46254705 149.8404902,-29.46253533 149.8405224,-29.46252662 149.8405554,-29.46252101 149.8405890,-29.46251859 149.8406226,-29.46251936 149.8406393,-29.46252135 149.8406560,-29.46252334 149.8406887,-29.46253045 149.8407203,-29.46254063 149.8407504,-29.46255376 149.8407788,-29.46256967 149.8408050,-29.46258819 149.8408287,-29.46260908 149.8408497,-29.46263211 149.8408587,-29.46264455 149.8412283,-29.46315470 149.8412370,-29.46316674 149.8412515,-29.46319228 149.8412628,-29.46321902 149.8412708,-29.46324664 149.8412732,-29.46326074 149.8415654,-29.46502509 149.8415675,-29.46503755 149.8415689,-29.46506271</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|future_coverage|{5598123,957031250,29718682}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+149.8402080,-29.46466842</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-256480-q">
 <Snippet><![CDATA[INCD-256480-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
