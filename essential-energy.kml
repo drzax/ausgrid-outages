@@ -43,10 +43,50 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
 <Placemark id="INCD-106342-r">
 <Snippet><![CDATA[INCD-106342-r]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
@@ -68,6 +108,30 @@
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 152.4289677,-31.92652971</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-19251-w">
+<Snippet><![CDATA[INCD-19251-w]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-19251-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>30/07/2025 07:30:00</div><div><span>Est. Time On:</span>30/07/2025 16:30:00</div></div><div><span>No. of Customers affected:</span>23</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>30/07/2025 07:34:53</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5857090,0,29741533}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+147.3393644,-35.21345401 147.3393455,-35.21345534 147.3351431,-35.21374952 147.3299402,-35.21363915 147.3299246,-35.21363882 147.3298935,-35.21363573 147.3298629,-35.21363022 147.3298331,-35.21362237 147.3298043,-35.21361223 147.3297769,-35.21359989 147.3297510,-35.21358548 147.3297268,-35.21356912 147.3297157,-35.21356003 147.3287547,-35.21277147 147.3287438,-35.21276257 147.3287243,-35.21274320 147.3287156,-35.21273281 147.3088532,-35.18887345 147.3088450,-35.18886362 147.3088308,-35.18884283 147.3088248,-35.18883197 147.3039421,-35.17993294 147.3039326,-35.17991563 147.3039197,-35.17987916 147.3039131,-35.17984159 147.3039130,-35.17980361 147.3039194,-35.17976600 147.3039320,-35.17972947 147.3039508,-35.17969476 147.3039753,-35.17966255 147.3039901,-35.17964800 147.3040050,-35.17963346 147.3040394,-35.17960806 147.3040777,-35.17958685 147.3041193,-35.17957025 147.3041633,-35.17955859 147.3042089,-35.17955208 147.3042551,-35.17955086 147.3043011,-35.17955496 147.3043235,-35.17955962 147.3266785,-35.18420919 147.3266980,-35.18421324 147.3267355,-35.18422516 147.3267709,-35.18424073 147.3268037,-35.18425971 147.3268335,-35.18428182 147.3268598,-35.18430674 147.3268823,-35.18433411 147.3269005,-35.18436351 147.3269073,-35.18437901 147.3396273,-35.21309335 147.3396337,-35.21310794 147.3396425,-35.21313814 147.3396470,-35.21316897 147.3396472,-35.21320002 147.3396430,-35.21323088 147.3396346,-35.21326116 147.3396220,-35.21329044 147.3396055,-35.21331834 147.3395953,-35.21333143 147.3395851,-35.21334451 147.3395612,-35.21336859 147.3395341,-35.21339028 147.3395042,-35.21340928 147.3394718,-35.21342534 147.3394374,-35.21343826 147.3394014,-35.21344786 147.3393644,-35.21345401</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5857090,0,29741533}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+147.3217658,-35.19380797</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
