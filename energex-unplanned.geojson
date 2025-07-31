@@ -10,6 +10,68 @@
           {
             "type": "Point",
             "coordinates": [
+              152.914923,
+              -27.365843
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.914681,
+                  -27.365184
+                ],
+                [
+                  152.914231,
+                  -27.366156
+                ],
+                [
+                  152.914505,
+                  -27.366745
+                ],
+                [
+                  152.915166,
+                  -27.366501
+                ],
+                [
+                  152.915616,
+                  -27.365529
+                ],
+                [
+                  152.915342,
+                  -27.36494
+                ],
+                [
+                  152.914681,
+                  -27.365184
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-878695-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Emergency Repairs",
+        "STATUS": "In Progress",
+        "START": "4:51PM 31 Jul 2025",
+        "EST_FIX_TIME": "11:00PM 31 Jul 2025",
+        "STREETS": "MAILMANS TRK",
+        "SUBURBS": "DRAPER",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.738339,
               -27.549297
             ]
@@ -94,68 +156,6 @@
         "STREETS": "BAYLEY RD, COSTELLO CT, COTTONWOOD PL, H BELLS RD, HOUGHS RD, KHOLO RD, LESLIE DR, MAHONS RD, MERLOT PL, OLD FACTORY RD, PENNELL RD, PINE MOUNTAIN RD, RIVERSIDE DR, RUSSELLS RD, SHERLOCKS RD, SKYLINE DR, ST MICHAELS TCE",
         "SUBURBS": "KHOLO, MUIRLEA, PINE MOUNTAIN",
         "ETR_FLAG": "Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.914923,
-              -27.365843
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.914681,
-                  -27.365184
-                ],
-                [
-                  152.914231,
-                  -27.366156
-                ],
-                [
-                  152.914505,
-                  -27.366745
-                ],
-                [
-                  152.915166,
-                  -27.366501
-                ],
-                [
-                  152.915616,
-                  -27.365529
-                ],
-                [
-                  152.915342,
-                  -27.36494
-                ],
-                [
-                  152.914681,
-                  -27.365184
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-878695-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "Emergency Repairs",
-        "STATUS": "In Progress",
-        "START": "4:51PM 31 Jul 2025",
-        "EST_FIX_TIME": "11:00PM 31 Jul 2025",
-        "STREETS": "MAILMANS TRK",
-        "SUBURBS": "DRAPER",
-        "ETR_FLAG": "N"
       }
     },
     {
@@ -263,5 +263,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1753955108.301437"
+  "extracted": "1753955700.450223"
 }
