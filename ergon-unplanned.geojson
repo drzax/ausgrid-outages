@@ -75,8 +75,8 @@
           {
             "type": "Point",
             "coordinates": [
-              147.050498,
-              -19.534297
+              145.881553,
+              -17.45862
             ]
           },
           {
@@ -84,68 +84,96 @@
             "coordinates": [
               [
                 [
-                  147.042748,
-                  -19.535081
+                  145.85235,
+                  -17.453518
                 ],
                 [
-                  147.043554,
-                  -19.539404
+                  145.853054,
+                  -17.489014
                 ],
                 [
-                  147.043733,
-                  -19.539684
+                  145.853401,
+                  -17.489441
                 ],
                 [
-                  147.048553,
-                  -19.543183
+                  145.874868,
+                  -17.495042
                 ],
                 [
-                  147.048603,
-                  -19.543214
+                  145.875384,
+                  -17.494855
                 ],
                 [
-                  147.057533,
-                  -19.548154
+                  145.907404,
+                  -17.448231
                 ],
                 [
-                  147.058249,
-                  -19.547752
+                  145.907467,
+                  -17.448094
                 ],
                 [
-                  147.058111,
-                  -19.542657
+                  145.910743,
+                  -17.435754
                 ],
                 [
-                  147.058077,
-                  -19.5425
+                  145.910755,
+                  -17.435595
                 ],
                 [
-                  147.048831,
-                  -19.520723
+                  145.909846,
+                  -17.427202
                 ],
                 [
-                  147.048387,
-                  -19.52044
+                  145.909532,
+                  -17.426822
                 ],
                 [
-                  147.047946,
-                  -19.520727
+                  145.895588,
+                  -17.422197
                 ],
                 [
-                  147.0465,
-                  -19.524209
+                  145.895227,
+                  -17.422219
                 ],
                 [
-                  147.046491,
-                  -19.524232
+                  145.889844,
+                  -17.424756
                 ],
                 [
-                  147.042765,
-                  -19.534859
+                  145.889842,
+                  -17.424758
                 ],
                 [
-                  147.042748,
-                  -19.535081
+                  145.85963,
+                  -17.43922
+                ],
+                [
+                  145.859497,
+                  -17.439315
+                ],
+                [
+                  145.853973,
+                  -17.444955
+                ],
+                [
+                  145.853861,
+                  -17.445151
+                ],
+                [
+                  145.853246,
+                  -17.447421
+                ],
+                [
+                  145.853236,
+                  -17.447471
+                ],
+                [
+                  145.852355,
+                  -17.453446
+                ],
+                [
+                  145.85235,
+                  -17.453518
                 ]
               ]
             ]
@@ -153,15 +181,15 @@
         ]
       },
       "properties": {
-        "EVENT_ID": "25NQ9981",
+        "EVENT_ID": "25FN8327",
         "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "14",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
-        "START": "7:07PM 02 Aug 2025",
+        "CUSTOMERS_AFFECTED": "162",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "8:26PM 02 Aug 2025",
         "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "BRUCE HWY, LINK RD, SARRI RD",
-        "SUBURBS": "GIRU"
+        "STREETS": "BARTLE FRERE RD, BIGGS RD, BRUCE HWY, CONNAUGHTON RD, EMSON RD, JOYCE RD, KNUST RD, MENZIES RD, PRICE RD, ROGERS RD, THIELE RD, WATSON RD, WOOPEN CREEK RD",
+        "SUBURBS": "BARTLE FRERE, WOOPEN CREEK"
       }
     },
     {
@@ -256,9 +284,106 @@
         "STREETS": "CASTLE ROCK RD, POLKA RD",
         "SUBURBS": "BYFIELD"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              147.050498,
+              -19.534297
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.042748,
+                  -19.535081
+                ],
+                [
+                  147.043554,
+                  -19.539404
+                ],
+                [
+                  147.043733,
+                  -19.539684
+                ],
+                [
+                  147.048553,
+                  -19.543183
+                ],
+                [
+                  147.048603,
+                  -19.543214
+                ],
+                [
+                  147.057533,
+                  -19.548154
+                ],
+                [
+                  147.058249,
+                  -19.547752
+                ],
+                [
+                  147.058111,
+                  -19.542657
+                ],
+                [
+                  147.058077,
+                  -19.5425
+                ],
+                [
+                  147.048831,
+                  -19.520723
+                ],
+                [
+                  147.048387,
+                  -19.52044
+                ],
+                [
+                  147.047946,
+                  -19.520727
+                ],
+                [
+                  147.0465,
+                  -19.524209
+                ],
+                [
+                  147.046491,
+                  -19.524232
+                ],
+                [
+                  147.042765,
+                  -19.534859
+                ],
+                [
+                  147.042748,
+                  -19.535081
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ9981",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "14",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Crews working on-site",
+        "START": "7:07PM 02 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BRUCE HWY, LINK RD, SARRI RD",
+        "SUBURBS": "GIRU"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1754129710.798089"
+  "extracted": "1754130607.384136"
 }
