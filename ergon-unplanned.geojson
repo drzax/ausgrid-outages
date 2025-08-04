@@ -10,6 +10,59 @@
           {
             "type": "Point",
             "coordinates": [
+              147.550367,
+              -22.422213
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.550852,
+                  -22.422211
+                ],
+                [
+                  147.550365,
+                  -22.421761
+                ],
+                [
+                  147.549881,
+                  -22.422215
+                ],
+                [
+                  147.550368,
+                  -22.422665
+                ],
+                [
+                  147.550852,
+                  -22.422211
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA10457",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "8:30AM 05 Aug 2025",
+        "EST_FIX_TIME": "10:30AM 05 Aug 2025",
+        "STREETS": "DIAMOND DOWNS RD",
+        "SUBURBS": "CLERMONT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -65,59 +118,6 @@
         "EST_FIX_TIME": "10:00AM 28 Aug 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              147.550367,
-              -22.422213
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  147.550852,
-                  -22.422211
-                ],
-                [
-                  147.550365,
-                  -22.421761
-                ],
-                [
-                  147.549881,
-                  -22.422215
-                ],
-                [
-                  147.550368,
-                  -22.422665
-                ],
-                [
-                  147.550852,
-                  -22.422211
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA10457",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "8:30AM 05 Aug 2025",
-        "EST_FIX_TIME": "10:30AM 05 Aug 2025",
-        "STREETS": "DIAMOND DOWNS RD",
-        "SUBURBS": "CLERMONT"
       }
     },
     {
@@ -220,5 +220,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1754347200.427504"
+  "extracted": "1754347800.445123"
 }
