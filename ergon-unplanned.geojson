@@ -10,6 +10,71 @@
           {
             "type": "Point",
             "coordinates": [
+              148.699115,
+              -21.127962
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.697564,
+                  -21.128178
+                ],
+                [
+                  148.700208,
+                  -21.128945
+                ],
+                [
+                  148.700826,
+                  -21.128582
+                ],
+                [
+                  148.701003,
+                  -21.127495
+                ],
+                [
+                  148.700469,
+                  -21.126979
+                ],
+                [
+                  148.697649,
+                  -21.127299
+                ],
+                [
+                  148.697227,
+                  -21.127706
+                ],
+                [
+                  148.697564,
+                  -21.128178
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25MK1119",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to fallen power lines.  ",
+        "STATUS": "Work delayed - crews unable to continue",
+        "START": "6:57AM 04 Feb 2025",
+        "EST_FIX_TIME": "10:00AM 28 Aug 2025",
+        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
+        "SUBURBS": "OWENS CREEK, PINNACLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.606663,
               -23.133132
             ]
@@ -109,71 +174,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "ALBRO RD, ALPHA-CLERMONT RD, CLERMONT RD, DEGULLA RD, DERWENT WATER RD, FORRESTER-HOBARTVL RD, MONKLANDS RD, OFF ALBRO RD, OFF ALPHA-CLERMONT RD, OFF CAPRICORN HWY, OFF FORRESTER RD",
         "SUBURBS": "ALPHA, CLERMONT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.699115,
-              -21.127962
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.697564,
-                  -21.128178
-                ],
-                [
-                  148.700208,
-                  -21.128945
-                ],
-                [
-                  148.700826,
-                  -21.128582
-                ],
-                [
-                  148.701003,
-                  -21.127495
-                ],
-                [
-                  148.700469,
-                  -21.126979
-                ],
-                [
-                  148.697649,
-                  -21.127299
-                ],
-                [
-                  148.697227,
-                  -21.127706
-                ],
-                [
-                  148.697564,
-                  -21.128178
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25MK1119",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to fallen power lines.  ",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "6:57AM 04 Feb 2025",
-        "EST_FIX_TIME": "10:00AM 28 Aug 2025",
-        "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
-        "SUBURBS": "OWENS CREEK, PINNACLE"
       }
     },
     {
@@ -352,7 +352,7 @@
         "CUSTOMERS_AFFECTED": "27",
         "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
         "STATUS": "Crews working on-site",
-        "START": "9:23AM 06 Aug 2025",
+        "START": "9:46AM 06 Aug 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "DANALGUB ST, KORABA RD, LANGIE-DRAHA ST, LOYALTY BEACH RD, MAIN RD, MUGAI ST, TRADESMAN LANE, TUMEMA ST, UNKNOWN ST",
         "SUBURBS": "NEW MAPOON, SEISIA"
@@ -589,7 +589,7 @@
         "EVENT_ID": "25WB8135",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "REASON": "The loss of supply is due to damage caused by accidental contact with powerlines by a third party. ",
         "STATUS": "Crews on route",
         "START": "7:34AM 06 Aug 2025",
         "EST_FIX_TIME": "Under Investigation",
@@ -600,5 +600,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1754437504.569894"
+  "extracted": "1754438100.291225"
 }
