@@ -10,6 +10,107 @@
           {
             "type": "Point",
             "coordinates": [
+              150.264139,
+              -23.348643
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  150.186799,
+                  -23.290194
+                ],
+                [
+                  150.197534,
+                  -23.348294
+                ],
+                [
+                  150.197662,
+                  -23.348529
+                ],
+                [
+                  150.260521,
+                  -23.409649
+                ],
+                [
+                  150.261196,
+                  -23.409679
+                ],
+                [
+                  150.341318,
+                  -23.345396
+                ],
+                [
+                  150.34148,
+                  -23.344984
+                ],
+                [
+                  150.340636,
+                  -23.340083
+                ],
+                [
+                  150.340358,
+                  -23.339744
+                ],
+                [
+                  150.298635,
+                  -23.321941
+                ],
+                [
+                  150.298619,
+                  -23.321934
+                ],
+                [
+                  150.216623,
+                  -23.29011
+                ],
+                [
+                  150.216603,
+                  -23.290103
+                ],
+                [
+                  150.209386,
+                  -23.287632
+                ],
+                [
+                  150.209167,
+                  -23.287606
+                ],
+                [
+                  150.187231,
+                  -23.28967
+                ],
+                [
+                  150.186799,
+                  -23.290194
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA10521",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "58",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "8:35AM 06 Aug 2025",
+        "EST_FIX_TIME": "12:30PM 06 Aug 2025",
+        "STREETS": "BROUGHTON RD, DALMA-RIDGELANDS RD, DUNNING RD, GOODMAN RD, HARDING RD, HOARE RD, HUNTER GULLY RD, LIMESTONE RD, SHANNEN RD, STANWELL WAROULA RD, TYSOE RD, WEALE CREEK RD",
+        "SUBURBS": "ALTON DOWNS, DALMA, MORINISH, STANWELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               148.699115,
               -21.127962
             ]
@@ -65,107 +166,6 @@
         "EST_FIX_TIME": "10:00AM 28 Aug 2025",
         "STREETS": "MACKAY EUNGELLA RD, OWENS CREEK RD, SCHOOL RD",
         "SUBURBS": "OWENS CREEK, PINNACLE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.324512,
-              -25.127411
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.27823,
-                  -25.115836
-                ],
-                [
-                  152.297781,
-                  -25.165351
-                ],
-                [
-                  152.298291,
-                  -25.165647
-                ],
-                [
-                  152.348153,
-                  -25.161457
-                ],
-                [
-                  152.348577,
-                  -25.161148
-                ],
-                [
-                  152.370795,
-                  -25.099062
-                ],
-                [
-                  152.370756,
-                  -25.098703
-                ],
-                [
-                  152.367059,
-                  -25.092711
-                ],
-                [
-                  152.366987,
-                  -25.092622
-                ],
-                [
-                  152.363937,
-                  -25.089684
-                ],
-                [
-                  152.363597,
-                  -25.089543
-                ],
-                [
-                  152.352811,
-                  -25.089174
-                ],
-                [
-                  152.352642,
-                  -25.089195
-                ],
-                [
-                  152.280951,
-                  -25.110116
-                ],
-                [
-                  152.280647,
-                  -25.110368
-                ],
-                [
-                  152.278241,
-                  -25.115507
-                ],
-                [
-                  152.27823,
-                  -25.115836
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25WB8135",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "101",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Crews on route",
-        "START": "7:34AM 06 Aug 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "ATWELLS RD, BOUCHARDTS RD, COACH RD, FARNSFIELD RD, GARRYOWEN RD, GOODWOOD RD, HARNEYS RD, HETHERINGTONS RD, MCKENZIES RD, PEIRSON RD, PITTS RD, PRANGES RD, RUDDS RD, SETTLEMENT RD, SUTTONS RD, TRAMWAY RD",
-        "SUBURBS": "FARNSFIELD, GOODWOOD, NORTH ISIS, REDRIDGE"
       }
     },
     {
@@ -377,9 +377,110 @@
         "STREETS": "ALPHA AVE, CARINA AVE, DELTA AVE, FISHER DR, NAMBUT CRES, SUNSET DR",
         "SUBURBS": "SUNSET, WINSTON"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.324512,
+              -25.127411
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.27823,
+                  -25.115836
+                ],
+                [
+                  152.297781,
+                  -25.165351
+                ],
+                [
+                  152.298291,
+                  -25.165647
+                ],
+                [
+                  152.348153,
+                  -25.161457
+                ],
+                [
+                  152.348577,
+                  -25.161148
+                ],
+                [
+                  152.370795,
+                  -25.099062
+                ],
+                [
+                  152.370756,
+                  -25.098703
+                ],
+                [
+                  152.367059,
+                  -25.092711
+                ],
+                [
+                  152.366987,
+                  -25.092622
+                ],
+                [
+                  152.363937,
+                  -25.089684
+                ],
+                [
+                  152.363597,
+                  -25.089543
+                ],
+                [
+                  152.352811,
+                  -25.089174
+                ],
+                [
+                  152.352642,
+                  -25.089195
+                ],
+                [
+                  152.280951,
+                  -25.110116
+                ],
+                [
+                  152.280647,
+                  -25.110368
+                ],
+                [
+                  152.278241,
+                  -25.115507
+                ],
+                [
+                  152.27823,
+                  -25.115836
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25WB8135",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "101",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Crews on route",
+        "START": "7:34AM 06 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "ATWELLS RD, BOUCHARDTS RD, COACH RD, FARNSFIELD RD, GARRYOWEN RD, GOODWOOD RD, HARNEYS RD, HETHERINGTONS RD, MCKENZIES RD, PEIRSON RD, PITTS RD, PRANGES RD, RUDDS RD, SETTLEMENT RD, SUTTONS RD, TRAMWAY RD",
+        "SUBURBS": "FARNSFIELD, GOODWOOD, NORTH ISIS, REDRIDGE"
+      }
     }
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1754433300.341159"
+  "extracted": "1754433908.722824"
 }
