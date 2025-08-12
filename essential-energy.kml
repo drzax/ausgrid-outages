@@ -43,10 +43,50 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>4 Records</description>
+<description>5 Records</description>
 <Placemark id="INCD-108660-r">
 <Snippet><![CDATA[INCD-108660-r]]></Snippet>
 <styleUrl>#sw_1249554_normal_planned</styleUrl>
@@ -68,6 +108,30 @@
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 151.6689793,-30.51253474</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-258597-q">
+<Snippet><![CDATA[INCD-258597-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-258597-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>12/08/2025 23:34:14</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>48</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>13/08/2025 00:16:00</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5693532,0,29913503}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+152.9320312,-29.67503280 152.9320167,-29.67503542 152.9314053,-29.67514581 152.9313875,-29.67514903 152.9313511,-29.67515176 152.9313147,-29.67515075 152.9312786,-29.67514598 152.9312435,-29.67513756 152.9312097,-29.67512556 152.9311777,-29.67511019 152.9311481,-29.67509164 152.9311346,-29.67508090 152.9282416,-29.67277458 152.9282260,-29.67276218 152.9281990,-29.67273390 152.9281767,-29.67270268 152.9281594,-29.67266911 152.9281475,-29.67263381 152.9281413,-29.67259742 152.9281407,-29.67256062 152.9281459,-29.67252410 152.9281513,-29.67250631 152.9281567,-29.67248853 152.9281729,-29.67245457 152.9281943,-29.67242285 152.9282204,-29.67239395 152.9282507,-29.67236843 152.9282848,-29.67234674 152.9283219,-29.67232929 152.9283613,-29.67231641 152.9283819,-29.67231236 152.9296600,-29.67206103 152.9296766,-29.67205776 152.9297104,-29.67205446 152.9297274,-29.67205444 152.9308333,-29.67205331 152.9308521,-29.67205329 152.9308893,-29.67205721 152.9309256,-29.67206502 152.9309606,-29.67207660 152.9309938,-29.67209181 152.9310246,-29.67211039 152.9310526,-29.67213210 152.9310774,-29.67215660 152.9310881,-29.67217007 152.9319520,-29.67326618 152.9319617,-29.67327837 152.9319777,-29.67330445 152.9319904,-29.67333190 152.9319996,-29.67336041 152.9320023,-29.67337501 152.9322588,-29.67472728 152.9322613,-29.67474001 152.9322633,-29.67476578 152.9322625,-29.67479159 152.9322588,-29.67481722 152.9322524,-29.67484243 152.9322433,-29.67486699 152.9322315,-29.67489067 152.9322172,-29.67491326 152.9322005,-29.67493456 152.9321815,-29.67495436 152.9321604,-29.67497249 152.9321375,-29.67498876 152.9321128,-29.67500306 152.9320868,-29.67501523 152.9320595,-29.67502518 152.9320312,-29.67503280</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5693532,0,29913503}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+152.9301746,-29.67321201</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
