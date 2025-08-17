@@ -1,8 +1,74 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              147.401702,
+              -19.698717
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  147.399696,
+                  -19.698803
+                ],
+                [
+                  147.403543,
+                  -19.699519
+                ],
+                [
+                  147.404036,
+                  -19.699319
+                ],
+                [
+                  147.404085,
+                  -19.699248
+                ],
+                [
+                  147.403765,
+                  -19.698559
+                ],
+                [
+                  147.39987,
+                  -19.697914
+                ],
+                [
+                  147.399318,
+                  -19.698277
+                ],
+                [
+                  147.399696,
+                  -19.698803
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25NQ10419",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "2:48PM 17 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "BECKE RD",
+        "SUBURBS": "HOME HILL, OSBORNE"
+      }
+    }
+  ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1755405614.802881"
+  "extracted": "1755406201.703854"
 }
