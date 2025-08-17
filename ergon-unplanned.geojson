@@ -1,8 +1,78 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              145.623854,
+              -17.309956
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.622438,
+                  -17.31207
+                ],
+                [
+                  145.626036,
+                  -17.308461
+                ],
+                [
+                  145.62608,
+                  -17.307886
+                ],
+                [
+                  145.6255,
+                  -17.307738
+                ],
+                [
+                  145.62195,
+                  -17.309306
+                ],
+                [
+                  145.621676,
+                  -17.309707
+                ],
+                [
+                  145.621628,
+                  -17.311747
+                ],
+                [
+                  145.621918,
+                  -17.312175
+                ],
+                [
+                  145.622438,
+                  -17.31207
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN8738",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to public safety concerns.",
+        "STATUS": "Crews working on-site",
+        "START": "9:37AM 18 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "LAKE BARRINE RD, MCKENZIE RD",
+        "SUBURBS": "PEERAMON"
+      }
+    }
+  ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1755473701.477034"
+  "extracted": "1755474301.664319"
 }
