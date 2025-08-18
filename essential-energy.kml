@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-258997-q">
+<Snippet><![CDATA[INCD-258997-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-258997-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>19/08/2025 06:41:50</div><div><span>Est. Time On:</span>19/08/2025 11:30:00</div></div><div><span>No. of Customers affected:</span>76</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>19/08/2025 06:41:50</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5468750,0,29947388}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+147.8396878,-31.49004643 147.8396879,-31.49005763 147.8398310,-31.52256231 147.8398310,-31.52257703 147.8398274,-31.52260630 147.8398201,-31.52263508 147.8398093,-31.52266300 147.8397949,-31.52268974 147.8397773,-31.52271499 147.8397565,-31.52273846 147.8397329,-31.52275986 147.8397198,-31.52276940 147.8397068,-31.52277895 147.8396783,-31.52279549 147.8396480,-31.52280929 147.8396160,-31.52282019 147.8395829,-31.52282806 147.8395490,-31.52283281 147.8395147,-31.52283438 147.8394804,-31.52283276 147.8394634,-31.52283036 147.6822673,-31.50045849 147.6822532,-31.50045646 147.6822254,-31.50045024 147.6821984,-31.50044189 147.6821724,-31.50043148 147.6821477,-31.50041909 147.6821243,-31.50040483 147.6821026,-31.50038881 147.6820826,-31.50037117 147.6820736,-31.50036161 147.5862788,-31.39861913 147.5018669,-31.30114304 147.5018536,-31.30112770 147.5018324,-31.30109412 147.5018168,-31.30105831 147.5018073,-31.30102098 147.5018057,-31.30100192 147.4858080,-31.11758855 147.4858064,-31.11757040 147.4858089,-31.11753407 147.4858130,-31.11751622 147.5052410,-31.03225796 147.5052448,-31.03224105 147.5052574,-31.03220833 147.5052748,-31.03217726 147.5052965,-31.03214833 147.5053224,-31.03212202 147.5053519,-31.03209874 147.5053846,-31.03207888 147.5054200,-31.03206274 147.5054388,-31.03205668 147.5054575,-31.03205061 147.5054964,-31.03204266 147.5055362,-31.03203903 147.5055763,-31.03203978 147.5056159,-31.03204489 147.5056544,-31.03205430 147.5056912,-31.03206782 147.5057257,-31.03208527 147.5057416,-31.03209580 147.6996101,-31.16069610 147.6996276,-31.16070769 147.6996585,-31.16073486 147.6996716,-31.16075017 147.7125120,-31.17574931 147.7125261,-31.17576574 147.7125482,-31.17580185 147.7125560,-31.17582113 147.8396703,-31.48996969 147.8396746,-31.48998028 147.8396812,-31.49000199 147.8396856,-31.49002409 147.8396878,-31.49004643</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5468750,0,29947388}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+147.6624266,-31.30804792</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
