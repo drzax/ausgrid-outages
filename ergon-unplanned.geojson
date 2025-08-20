@@ -10,6 +10,59 @@
           {
             "type": "Point",
             "coordinates": [
+              150.425453,
+              -23.419534
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  150.425942,
+                  -23.419523
+                ],
+                [
+                  150.425441,
+                  -23.419083
+                ],
+                [
+                  150.424964,
+                  -23.419545
+                ],
+                [
+                  150.425465,
+                  -23.419985
+                ],
+                [
+                  150.425942,
+                  -23.419523
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA11052",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "5:07PM 20 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "FAIRY BOWER RD",
+        "SUBURBS": "FAIRY BOWER, GRACEMERE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               151.695401,
               -27.633265
             ]
@@ -111,59 +164,6 @@
           {
             "type": "Point",
             "coordinates": [
-              150.425453,
-              -23.419534
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  150.425942,
-                  -23.419523
-                ],
-                [
-                  150.425441,
-                  -23.419083
-                ],
-                [
-                  150.424964,
-                  -23.419545
-                ],
-                [
-                  150.425465,
-                  -23.419985
-                ],
-                [
-                  150.425942,
-                  -23.419523
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA11052",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Outage reported",
-        "START": "5:07PM 20 Aug 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "FAIRY BOWER RD",
-        "SUBURBS": "FAIRY BOWER, GRACEMERE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
               149.184237,
               -22.657231
             ]
@@ -252,5 +252,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1755733200.308459"
+  "extracted": "1755733501.865678"
 }
