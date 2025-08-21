@@ -10,6 +10,67 @@
           {
             "type": "Point",
             "coordinates": [
+              148.550386,
+              -23.945279
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  148.553702,
+                  -23.956289
+                ],
+                [
+                  148.548026,
+                  -23.934063
+                ],
+                [
+                  148.547435,
+                  -23.933727
+                ],
+                [
+                  148.547069,
+                  -23.934269
+                ],
+                [
+                  148.552746,
+                  -23.956495
+                ],
+                [
+                  148.553336,
+                  -23.956832
+                ],
+                [
+                  148.553702,
+                  -23.956289
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA11066",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "8:30AM 22 Aug 2025",
+        "EST_FIX_TIME": "2:00PM 22 Aug 2025",
+        "STREETS": "COMET ROLLESTON RD",
+        "SUBURBS": "COMET"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               145.460278,
               -16.520725
             ]
@@ -101,67 +162,6 @@
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "ARLINGTON CL, EGRET CL, ENDEAVOUR ST, HOPE ST, ST CRISPINS AVE",
         "SUBURBS": "PORT DOUGLAS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              148.550386,
-              -23.945279
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  148.553702,
-                  -23.956289
-                ],
-                [
-                  148.548026,
-                  -23.934063
-                ],
-                [
-                  148.547435,
-                  -23.933727
-                ],
-                [
-                  148.547069,
-                  -23.934269
-                ],
-                [
-                  148.552746,
-                  -23.956495
-                ],
-                [
-                  148.553336,
-                  -23.956832
-                ],
-                [
-                  148.553702,
-                  -23.956289
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA11066",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "8:30AM 22 Aug 2025",
-        "EST_FIX_TIME": "2:00PM 22 Aug 2025",
-        "STREETS": "COMET ROLLESTON RD",
-        "SUBURBS": "COMET"
       }
     },
     {
@@ -313,5 +313,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1755817201.180072"
+  "extracted": "1755817800.434854"
 }
