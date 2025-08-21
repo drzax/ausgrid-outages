@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.072953,
+              -27.677976
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.072935,
+                  -27.677417
+                ],
+                [
+                  153.072349,
+                  -27.677823
+                ],
+                [
+                  153.072261,
+                  -27.678456
+                ],
+                [
+                  153.072972,
+                  -27.678535
+                ],
+                [
+                  153.073558,
+                  -27.678129
+                ],
+                [
+                  153.073646,
+                  -27.677496
+                ],
+                [
+                  153.072935,
+                  -27.677417
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-882511-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "9:37AM 21 Aug 2025",
+        "EST_FIX_TIME": "12:00PM 21 Aug 2025",
+        "STREETS": "MAGNESIUM DR",
+        "SUBURBS": "CRESTMEAD",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1755736223.854761"
+  "extracted": "1755737700.315245"
 }
