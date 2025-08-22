@@ -10,6 +10,67 @@
           {
             "type": "Point",
             "coordinates": [
+              141.88877,
+              -12.681116
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  141.889302,
+                  -12.683579
+                ],
+                [
+                  141.889156,
+                  -12.678627
+                ],
+                [
+                  141.888685,
+                  -12.67819
+                ],
+                [
+                  141.888239,
+                  -12.678653
+                ],
+                [
+                  141.888384,
+                  -12.683605
+                ],
+                [
+                  141.888856,
+                  -12.684042
+                ],
+                [
+                  141.889302,
+                  -12.683579
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25FN8918",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "1:18PM 22 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "MOI-NGUM ST, NAPRANUM ST",
+        "SUBURBS": "NAPRANUM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.901291,
               -25.337526
             ]
@@ -88,72 +149,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "13",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
-        "STATUS": "Crews on route",
+        "STATUS": "Crews working on-site",
         "START": "12:30PM 22 Aug 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "JANINE ST",
         "SUBURBS": "BOORAL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              141.88877,
-              -12.681116
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  141.889302,
-                  -12.683579
-                ],
-                [
-                  141.889156,
-                  -12.678627
-                ],
-                [
-                  141.888685,
-                  -12.67819
-                ],
-                [
-                  141.888239,
-                  -12.678653
-                ],
-                [
-                  141.888384,
-                  -12.683605
-                ],
-                [
-                  141.888856,
-                  -12.684042
-                ],
-                [
-                  141.889302,
-                  -12.683579
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25FN8918",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "4",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
-        "START": "1:18PM 22 Aug 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "MOI-NGUM ST, NAPRANUM ST",
-        "SUBURBS": "NAPRANUM"
       }
     },
     {
@@ -260,5 +260,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1755841801.868006"
+  "extracted": "1755842406.547031"
 }
