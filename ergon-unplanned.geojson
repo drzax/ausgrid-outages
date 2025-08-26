@@ -10,6 +10,67 @@
           {
             "type": "Point",
             "coordinates": [
+              151.953311,
+              -28.168346
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  151.957393,
+                  -28.168214
+                ],
+                [
+                  151.949318,
+                  -28.167582
+                ],
+                [
+                  151.948768,
+                  -28.167991
+                ],
+                [
+                  151.949229,
+                  -28.168479
+                ],
+                [
+                  151.957304,
+                  -28.16911
+                ],
+                [
+                  151.957855,
+                  -28.168702
+                ],
+                [
+                  151.957393,
+                  -28.168214
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25SW11316",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
+        "STATUS": "Crews working on-site",
+        "START": "9:00AM 27 Aug 2025",
+        "EST_FIX_TIME": "3:00PM 27 Aug 2025",
+        "STREETS": "TOOLBURRA RD",
+        "SUBURBS": "ALLAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               146.28534,
               -18.632308
             ]
@@ -65,67 +126,6 @@
         "EST_FIX_TIME": "12:00PM 27 Aug 2025",
         "STREETS": "MIZZIS RD",
         "SUBURBS": "BRAEMEADOWS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.953311,
-              -28.168346
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  151.957393,
-                  -28.168214
-                ],
-                [
-                  151.949318,
-                  -28.167582
-                ],
-                [
-                  151.948768,
-                  -28.167991
-                ],
-                [
-                  151.949229,
-                  -28.168479
-                ],
-                [
-                  151.957304,
-                  -28.16911
-                ],
-                [
-                  151.957855,
-                  -28.168702
-                ],
-                [
-                  151.957393,
-                  -28.168214
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25SW11316",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "2",
-        "REASON": "The loss of supply is to allow emergency maintenance of the electricity network.",
-        "STATUS": "Crews working on-site",
-        "START": "9:00AM 27 Aug 2025",
-        "EST_FIX_TIME": "3:00PM 27 Aug 2025",
-        "STREETS": "TOOLBURRA RD",
-        "SUBURBS": "ALLAN"
       }
     },
     {
@@ -358,5 +358,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1756248002.502869"
+  "extracted": "1756248602.358796"
 }
