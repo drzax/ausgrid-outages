@@ -10,6 +10,72 @@
           {
             "type": "Point",
             "coordinates": [
+              153.349767,
+              -27.871605
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.348605,
+                  -27.871717
+                ],
+                [
+                  153.348728,
+                  -27.871918
+                ],
+                [
+                  153.349185,
+                  -27.872155
+                ],
+                [
+                  153.350433,
+                  -27.872132
+                ],
+                [
+                  153.350929,
+                  -27.871708
+                ],
+                [
+                  153.350496,
+                  -27.871234
+                ],
+                [
+                  153.349125,
+                  -27.871055
+                ],
+                [
+                  153.348605,
+                  -27.871717
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-883658-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "Emergency repairs in-progress",
+        "STATUS": "Awaiting",
+        "START": "10:30AM 27 Aug 2025",
+        "EST_FIX_TIME": "2:30PM 27 Aug 2025",
+        "STREETS": "ELLENSBROOK DR, HOPE ISLAND RD",
+        "SUBURBS": "HOPE ISLAND",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.981631,
               -26.720205
             ]
@@ -159,7 +225,7 @@
         "EVENT_ID": "INCD-883686-g",
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "1763",
-        "REASON": "Under Investigation",
+        "REASON": "Trees on powerlines",
         "STATUS": "Awaiting",
         "START": "11:49AM 27 Aug 2025",
         "EST_FIX_TIME": "2:30PM 27 Aug 2025",
@@ -245,75 +311,9 @@
         "SUBURBS": "BAHRS SCRUB",
         "ETR_FLAG": "N"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.349767,
-              -27.871605
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.348605,
-                  -27.871717
-                ],
-                [
-                  153.348728,
-                  -27.871918
-                ],
-                [
-                  153.349185,
-                  -27.872155
-                ],
-                [
-                  153.350433,
-                  -27.872132
-                ],
-                [
-                  153.350929,
-                  -27.871708
-                ],
-                [
-                  153.350496,
-                  -27.871234
-                ],
-                [
-                  153.349125,
-                  -27.871055
-                ],
-                [
-                  153.348605,
-                  -27.871717
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-883658-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "Emergency repairs in-progress",
-        "STATUS": "Awaiting",
-        "START": "10:30AM 27 Aug 2025",
-        "EST_FIX_TIME": "1:00PM 27 Aug 2025",
-        "STREETS": "ELLENSBROOK DR, HOPE ISLAND RD",
-        "SUBURBS": "HOPE ISLAND",
-        "ETR_FLAG": "Y"
-      }
     }
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1756260601.411716"
+  "extracted": "1756262400.446593"
 }
