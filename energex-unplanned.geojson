@@ -1,8 +1,75 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.349767,
+              -27.871605
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.348605,
+                  -27.871717
+                ],
+                [
+                  153.348728,
+                  -27.871918
+                ],
+                [
+                  153.349185,
+                  -27.872155
+                ],
+                [
+                  153.350433,
+                  -27.872132
+                ],
+                [
+                  153.350929,
+                  -27.871708
+                ],
+                [
+                  153.350496,
+                  -27.871234
+                ],
+                [
+                  153.349125,
+                  -27.871055
+                ],
+                [
+                  153.348605,
+                  -27.871717
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-883658-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "10:30AM 27 Aug 2025",
+        "EST_FIX_TIME": "1:30PM 27 Aug 2025",
+        "STREETS": "ELLENSBROOK DR, HOPE ISLAND RD",
+        "SUBURBS": "HOPE ISLAND",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1756252500.402226"
+  "extracted": "1756254602.160543"
 }
