@@ -1,8 +1,71 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.637834,
+              -27.441289
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.640546,
+                  -27.442336
+                ],
+                [
+                  152.635677,
+                  -27.439488
+                ],
+                [
+                  152.634977,
+                  -27.439618
+                ],
+                [
+                  152.635122,
+                  -27.440243
+                ],
+                [
+                  152.639991,
+                  -27.443091
+                ],
+                [
+                  152.640691,
+                  -27.442961
+                ],
+                [
+                  152.640546,
+                  -27.442336
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-883824-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "2:42AM 28 Aug 2025",
+        "EST_FIX_TIME": "5:30AM 28 Aug 2025",
+        "STREETS": "BRISBANE VALLEY HWY",
+        "SUBURBS": "FERNVALE",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1756312500.965805"
+  "extracted": "1756313101.533463"
 }
