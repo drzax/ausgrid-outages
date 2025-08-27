@@ -10,6 +10,72 @@
           {
             "type": "Point",
             "coordinates": [
+              153.349767,
+              -27.871605
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.348605,
+                  -27.871717
+                ],
+                [
+                  153.348728,
+                  -27.871918
+                ],
+                [
+                  153.349185,
+                  -27.872155
+                ],
+                [
+                  153.350433,
+                  -27.872132
+                ],
+                [
+                  153.350929,
+                  -27.871708
+                ],
+                [
+                  153.350496,
+                  -27.871234
+                ],
+                [
+                  153.349125,
+                  -27.871055
+                ],
+                [
+                  153.348605,
+                  -27.871717
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-883658-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "5",
+        "REASON": "Emergency repairs in-progress",
+        "STATUS": "Awaiting",
+        "START": "10:30AM 27 Aug 2025",
+        "EST_FIX_TIME": "4:00PM 27 Aug 2025",
+        "STREETS": "ELLENSBROOK DR, HOPE ISLAND RD",
+        "SUBURBS": "HOPE ISLAND",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.969114,
               -27.581948
             ]
@@ -126,72 +192,6 @@
         "STREETS": "ABELIA ST, APRICOT ST, ASH ST, AZALEA ST, BALSA ST, BAMBOO ST, BARBERRY ST, BEDARRA ST, BEGONIA ST, BIOTA ST, BLACKTHORN ST, BOUNDARY RD, BRAMPTON ST, BRENTFORD RD, BUDDLEIA ST, CASSIA ST, CATTIGER ST, CLEMATIS ST, COIN TREE CL, CORAL ST, CROCUS ST, CYPRESS ST, DEODAR ST, EBONY ST, ELDER ST, EUGENIA ST, FARINAZZO ST, FLINT ST, FRANGIPANI ST, FREEMAN RD, HOOK ST, HYDRANGEA ST, ILEX ST, IPSWICH RD, JAPONICA ST, JASMINE ST, JORDAN ST, KARO ST, KIMBERLEY ST, LAVENDER ST, LILAC ST, LITTLETON RD, LOBELIA ST, MIAVA ST, NURSERY PL, PANORAMA ST, POINSETTIA ST, POPLAR ST, RAZARK ST, ROBINIA ST, RORY ST, ROWAN ST, RUDD ST, RYECROFT PL, SAIGON PL, TALLOW ST, TERRERICCHE PL, TOFONI PL, TOLLANA PL, URIGEN ST, VIETNAM ST, WILLOW ST, YULAN ST",
         "SUBURBS": "DARRA, INALA, OXLEY, RICHLANDS",
         "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.349767,
-              -27.871605
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.348605,
-                  -27.871717
-                ],
-                [
-                  153.348728,
-                  -27.871918
-                ],
-                [
-                  153.349185,
-                  -27.872155
-                ],
-                [
-                  153.350433,
-                  -27.872132
-                ],
-                [
-                  153.350929,
-                  -27.871708
-                ],
-                [
-                  153.350496,
-                  -27.871234
-                ],
-                [
-                  153.349125,
-                  -27.871055
-                ],
-                [
-                  153.348605,
-                  -27.871717
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-883658-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "5",
-        "REASON": "Emergency repairs in-progress",
-        "STATUS": "Awaiting",
-        "START": "10:30AM 27 Aug 2025",
-        "EST_FIX_TIME": "4:00PM 27 Aug 2025",
-        "STREETS": "ELLENSBROOK DR, HOPE ISLAND RD",
-        "SUBURBS": "HOPE ISLAND",
-        "ETR_FLAG": "Y"
       }
     },
     {
@@ -328,9 +328,9 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "179",
         "REASON": "Trees on powerlines",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "1:02PM 27 Aug 2025",
-        "EST_FIX_TIME": "3:30PM 27 Aug 2025",
+        "EST_FIX_TIME": "4:30PM 27 Aug 2025",
         "STREETS": "ABBOTT CT, BIGNELLS RD, BIRDS RD, BRAESIDE CRES, CABALLO RD, CANDY CREEK RD, CHESTERTON RD, COLLAROY RD, EQUESTRIAN DR, GUANABA CREEK RD, KRIEDEMAN RD, LINK RD, LYNWOOD DR, PURCELL RD, SUNVALLEY CT, TARATA RD",
         "SUBURBS": "GUANABA, MAUDSLAND, WONGAWALLAN",
         "ETR_FLAG": "N"
@@ -495,5 +495,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1756267202.878115"
+  "extracted": "1756267800.370864"
 }
