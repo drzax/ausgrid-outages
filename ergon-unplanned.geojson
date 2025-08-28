@@ -1,8 +1,70 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.848207,
+              -25.006025
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  151.849648,
+                  -25.00531
+                ],
+                [
+                  151.846576,
+                  -25.005856
+                ],
+                [
+                  151.846186,
+                  -25.006384
+                ],
+                [
+                  151.846765,
+                  -25.00674
+                ],
+                [
+                  151.849837,
+                  -25.006193
+                ],
+                [
+                  151.850228,
+                  -25.005665
+                ],
+                [
+                  151.849648,
+                  -25.00531
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25WB8870",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "2",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "4:24AM 29 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "MOUNT PERRY RD",
+        "SUBURBS": "MOOLBOOLAMAN"
+      }
+    }
+  ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1756415437.464603"
+  "extracted": "1756415937.073293"
 }
