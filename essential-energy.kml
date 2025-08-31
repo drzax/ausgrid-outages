@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
+<Placemark id="INCD-20136-w">
+<Snippet><![CDATA[INCD-20136-w]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-20136-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>01/09/2025 07:00:00</div><div><span>Est. Time On:</span>01/09/2025 09:30:00</div></div><div><span>No. of Customers affected:</span>12</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>01/09/2025 07:04:33</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{3414947,0,30006511}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+146.5444819,-34.72605557 146.5444762,-34.72606644 146.5414414,-34.73188025 146.5410574,-34.73248948 146.5410502,-34.73250100 146.5410331,-34.73252277 146.5410135,-34.73254309 146.5409917,-34.73256177 146.5409678,-34.73257864 146.5409420,-34.73259355 146.5409147,-34.73260635 146.5408860,-34.73261693 146.5408562,-34.73262519 146.5408256,-34.73263106 146.5407944,-34.73263449 146.5407630,-34.73263544 146.5407316,-34.73263389 146.5407005,-34.73262987 146.5406701,-34.73262342 146.5406405,-34.73261459 146.5406263,-34.73260903 146.5371987,-34.73126662 146.5371766,-34.73125797 146.5371361,-34.73123546 146.5371000,-34.73120823 146.5370692,-34.73117688 146.5370568,-34.73115950 146.5362420,-34.73001728 146.5362285,-34.72999828 146.5362092,-34.72995715 146.5361982,-34.72991397 146.5361958,-34.72986991 146.5361990,-34.72984801 146.5372794,-34.72235747 146.5372816,-34.72234238 146.5372900,-34.72231277 146.5373024,-34.72228413 146.5373186,-34.72225681 146.5373384,-34.72223117 146.5373616,-34.72220751 146.5373878,-34.72218616 146.5374168,-34.72216737 146.5374324,-34.72215937 146.5376241,-34.72206149 146.5376443,-34.72205118 146.5376879,-34.72203558 146.5377108,-34.72203046 146.5423693,-34.72098888 146.5423846,-34.72098546 146.5424158,-34.72098110 146.5424473,-34.72097923 146.5424789,-34.72097987 146.5425103,-34.72098303 146.5425411,-34.72098866 146.5425712,-34.72099672 146.5426002,-34.72100713 146.5426278,-34.72101979 146.5426539,-34.72103460 146.5426780,-34.72105140 146.5427002,-34.72107005 146.5427200,-34.72109036 146.5427374,-34.72111217 146.5427521,-34.72113525 146.5427641,-34.72115939 146.5427687,-34.72117188 146.5444890,-34.72588126 146.5444932,-34.72589259 146.5444990,-34.72591578 146.5445024,-34.72593929 146.5445033,-34.72596296 146.5445016,-34.72598661 146.5444975,-34.72601004 146.5444909,-34.72603309 146.5444819,-34.72605557</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{3414947,0,30006511}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+146.5403550,-34.72695846</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-260126-q">
 <Snippet><![CDATA[INCD-260126-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
