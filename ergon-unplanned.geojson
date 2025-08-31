@@ -10,6 +10,71 @@
           {
             "type": "Point",
             "coordinates": [
+              152.29785,
+              -24.970949
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.290108,
+                  -24.972715
+                ],
+                [
+                  152.30574,
+                  -24.970073
+                ],
+                [
+                  152.306139,
+                  -24.969568
+                ],
+                [
+                  152.305602,
+                  -24.969183
+                ],
+                [
+                  152.290559,
+                  -24.970513
+                ],
+                [
+                  152.290149,
+                  -24.970791
+                ],
+                [
+                  152.289561,
+                  -24.972103
+                ],
+                [
+                  152.290108,
+                  -24.972715
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25WB8912",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
+        "STATUS": "Work delayed. Crew unable to continue.",
+        "START": "4:25PM 30 Aug 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "NEW VALLEY RD",
+        "SUBURBS": "ALLOWAY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               147.994814,
               -23.818934
             ]
@@ -125,71 +190,6 @@
         "EST_FIX_TIME": "8:59PM 01 Sep 2025",
         "STREETS": "ARCTURUS RD, CAMP FAIRBAIRN RD, COORABELLE RD, CUDDIES RD, CULLIN LA RINGO RD, CULLIN-LA-RINGO RD, DENISON RD, FAIRBAIRN DAM RD, GLENORA RD, GLENORINA RD, GREGORY HWY, HOWARDS RD, LAKEVIEW DR, LEXTON RD, LONG ST, MARSHALL RD, MILROY DOWNS RD, MINERVA HILLS RD, NORWOOD RD, OFF GREGORY HWY, OFF SELMA RD, OLD CULLIN LA RINGO RD, QUARRY ST, ROCKHOUND RD, RUSS LAYTON DR, SELMA RD, SKI RD, UNMETERED SUPPLY, WEEMAH CHANNEL RD, WURBA RD",
         "SUBURBS": "EMERALD, FERNLEES, GINDIE, SAPPHIRE CENTRAL, SPRINGSURE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              152.29785,
-              -24.970949
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  152.290108,
-                  -24.972715
-                ],
-                [
-                  152.30574,
-                  -24.970073
-                ],
-                [
-                  152.306139,
-                  -24.969568
-                ],
-                [
-                  152.305602,
-                  -24.969183
-                ],
-                [
-                  152.290559,
-                  -24.970513
-                ],
-                [
-                  152.290149,
-                  -24.970791
-                ],
-                [
-                  152.289561,
-                  -24.972103
-                ],
-                [
-                  152.290108,
-                  -24.972715
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25WB8912",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "3",
-        "REASON": "The loss of supply is due to public safety concerns as directed by emergency services.",
-        "STATUS": "Work delayed. Crew unable to continue.",
-        "START": "4:25PM 30 Aug 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "NEW VALLEY RD",
-        "SUBURBS": "ALLOWAY"
       }
     },
     {
@@ -389,5 +389,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1756618501.563254"
+  "extracted": "1756618800.922966"
 }
