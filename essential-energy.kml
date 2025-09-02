@@ -43,10 +43,50 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>5 Records</description>
+<description>6 Records</description>
 <Placemark id="INCD-260266-q">
 <Snippet><![CDATA[INCD-260266-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
@@ -68,6 +108,30 @@
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 146.0480202,-35.53957788</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-109799-r">
+<Snippet><![CDATA[INCD-109799-r]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-109799-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>02/09/2025 20:30:00</div><div><span>Est. Time On:</span>03/09/2025 06:00:00</div></div><div><span>No. of Customers affected:</span>89</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>02/09/2025 20:35:35</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5655283,468750000,30014545}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+153.5299948,-28.17514207 153.5299933,-28.17515871 153.5298324,-28.17696661 153.5298313,-28.17697910 153.5298265,-28.17700377 153.5298191,-28.17702794 153.5298092,-28.17705140 153.5298031,-28.17706267 153.5295262,-28.17757035 153.5295190,-28.17758355 153.5295014,-28.17760843 153.5294809,-28.17763146 153.5294577,-28.17765239 153.5294321,-28.17767097 153.5294043,-28.17768697 153.5293748,-28.17770020 153.5293438,-28.17771051 153.5293278,-28.17771414 153.5293117,-28.17771778 153.5292790,-28.17772192 153.5292459,-28.17772289 153.5292129,-28.17772066 153.5291803,-28.17771528 153.5291486,-28.17770680 153.5291181,-28.17769531 153.5290893,-28.17768096 153.5290758,-28.17767244 153.5267435,-28.17619791 153.5267266,-28.17618717 153.5266962,-28.17616180 153.5266701,-28.17613299 153.5266486,-28.17610127 153.5266323,-28.17606728 153.5266213,-28.17603161 153.5266159,-28.17599495 153.5266163,-28.17595799 153.5266193,-28.17593969 153.5266223,-28.17592141 153.5266339,-28.17588590 153.5266508,-28.17585212 153.5266728,-28.17582072 153.5266995,-28.17579227 153.5267303,-28.17576731 153.5267646,-28.17574632 153.5268019,-28.17572967 153.5268216,-28.17572368 153.5295916,-28.17488263 153.5296094,-28.17487722 153.5296463,-28.17487038 153.5296838,-28.17486763 153.5297214,-28.17486899 153.5297586,-28.17487447 153.5297947,-28.17488397 153.5298292,-28.17489735 153.5298616,-28.17491439 153.5298765,-28.17492462 153.5298914,-28.17493484 153.5299181,-28.17495840 153.5299413,-28.17498469 153.5299606,-28.17501333 153.5299759,-28.17504386 153.5299867,-28.17507582 153.5299931,-28.17510873 153.5299948,-28.17514207</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5655283,468750000,30014545}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+153.5283478,-28.17626107</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
