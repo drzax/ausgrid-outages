@@ -10,6 +10,99 @@
           {
             "type": "Point",
             "coordinates": [
+              145.942265,
+              -22.760032
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  145.691344,
+                  -22.950676
+                ],
+                [
+                  145.916144,
+                  -23.008806
+                ],
+                [
+                  145.916649,
+                  -23.008662
+                ],
+                [
+                  146.132929,
+                  -22.769349
+                ],
+                [
+                  146.133029,
+                  -22.769163
+                ],
+                [
+                  146.193301,
+                  -22.530372
+                ],
+                [
+                  146.193312,
+                  -22.530307
+                ],
+                [
+                  146.193498,
+                  -22.528305
+                ],
+                [
+                  146.193154,
+                  -22.527834
+                ],
+                [
+                  146.134169,
+                  -22.511258
+                ],
+                [
+                  146.133729,
+                  -22.511334
+                ],
+                [
+                  145.782305,
+                  -22.765001
+                ],
+                [
+                  145.78216,
+                  -22.765171
+                ],
+                [
+                  145.691032,
+                  -22.950054
+                ],
+                [
+                  145.691344,
+                  -22.950676
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25CA11559",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "17",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
+        "STATUS": "Outage reported",
+        "START": "4:46PM 03 Sep 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "CLARE-CLUNIE VALE RD, DUNROBIN RD, JERICHO-ARAMAC RD, JERICHO-TOR CREEK RD, OFF JERICHO-TOR CK RD, THE LAKE RD",
+        "SUBURBS": "ARAMAC, JERICHO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               145.397703,
               -17.408618
             ]
@@ -96,104 +189,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "13",
         "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Outage reported",
+        "STATUS": "Crews on route",
         "START": "6:23AM 04 Sep 2025",
         "EST_FIX_TIME": "Under Investigation",
         "STREETS": "CLEGHORN RD, GOLLOGLY RD, LUDLOW RD, ROLLEY RD",
         "SUBURBS": "HERBERTON, WONDECLA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              145.942265,
-              -22.760032
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  145.691344,
-                  -22.950676
-                ],
-                [
-                  145.916144,
-                  -23.008806
-                ],
-                [
-                  145.916649,
-                  -23.008662
-                ],
-                [
-                  146.132929,
-                  -22.769349
-                ],
-                [
-                  146.133029,
-                  -22.769163
-                ],
-                [
-                  146.193301,
-                  -22.530372
-                ],
-                [
-                  146.193312,
-                  -22.530307
-                ],
-                [
-                  146.193498,
-                  -22.528305
-                ],
-                [
-                  146.193154,
-                  -22.527834
-                ],
-                [
-                  146.134169,
-                  -22.511258
-                ],
-                [
-                  146.133729,
-                  -22.511334
-                ],
-                [
-                  145.782305,
-                  -22.765001
-                ],
-                [
-                  145.78216,
-                  -22.765171
-                ],
-                [
-                  145.691032,
-                  -22.950054
-                ],
-                [
-                  145.691344,
-                  -22.950676
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "25CA11559",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "17",
-        "REASON": "The loss of supply is due to damage requiring emergency repairs. Fault finding is in progress.",
-        "STATUS": "Work delayed - crews unable to continue",
-        "START": "4:46PM 03 Sep 2025",
-        "EST_FIX_TIME": "Under Investigation",
-        "STREETS": "CLARE-CLUNIE VALE RD, DUNROBIN RD, JERICHO-ARAMAC RD, JERICHO-TOR CREEK RD, OFF JERICHO-TOR CK RD, THE LAKE RD",
-        "SUBURBS": "ARAMAC, JERICHO"
       }
     },
     {
@@ -264,5 +264,5 @@
   ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1756936502.456739"
+  "extracted": "1756936801.424112"
 }
