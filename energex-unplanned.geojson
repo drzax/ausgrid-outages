@@ -1,8 +1,83 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.567483,
+              -27.563202
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.56594,
+                  -27.56285
+                ],
+                [
+                  152.566368,
+                  -27.563615
+                ],
+                [
+                  152.566569,
+                  -27.563804
+                ],
+                [
+                  152.568354,
+                  -27.564722
+                ],
+                [
+                  152.568977,
+                  -27.564639
+                ],
+                [
+                  152.569027,
+                  -27.564079
+                ],
+                [
+                  152.567217,
+                  -27.561682
+                ],
+                [
+                  152.566344,
+                  -27.561731
+                ],
+                [
+                  152.565941,
+                  -27.562446
+                ],
+                [
+                  152.56594,
+                  -27.56285
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-885368-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "4",
+        "REASON": "Emergency repairs in-progress",
+        "STATUS": "Awaiting",
+        "START": "11:25AM 05 Sep 2025",
+        "EST_FIX_TIME": "2:30PM 05 Sep 2025",
+        "STREETS": "PIEPERS RD",
+        "SUBURBS": "MARBURG",
+        "ETR_FLAG": "Y"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757033400.511651"
+  "extracted": "1757035803.501898"
 }
