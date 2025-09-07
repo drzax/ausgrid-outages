@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.02563,
+              -28.034183
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.025975,
+                  -28.035019
+                ],
+                [
+                  153.026286,
+                  -28.03351
+                ],
+                [
+                  153.025879,
+                  -28.032985
+                ],
+                [
+                  153.025286,
+                  -28.033345
+                ],
+                [
+                  153.025087,
+                  -28.034288
+                ],
+                [
+                  153.025087,
+                  -28.034292
+                ],
+                [
+                  153.024973,
+                  -28.034859
+                ],
+                [
+                  153.025384,
+                  -28.035382
+                ],
+                [
+                  153.025975,
+                  -28.035019
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-885594-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Under Investigation",
+        "STATUS": "Awaiting",
+        "START": "12:28PM 07 Sep 2025",
+        "EST_FIX_TIME": "2:00PM 07 Sep 2025",
+        "STREETS": "KERRY RD",
+        "SUBURBS": "BEAUDESERT, KERRY",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757211001.735792"
+  "extracted": "1757212801.24843"
 }
