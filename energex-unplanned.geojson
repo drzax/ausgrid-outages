@@ -1,8 +1,75 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.43606,
+              -28.069845
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.435643,
+                  -28.07017
+                ],
+                [
+                  153.436044,
+                  -28.070369
+                ],
+                [
+                  153.436673,
+                  -28.070275
+                ],
+                [
+                  153.436704,
+                  -28.06971
+                ],
+                [
+                  153.436383,
+                  -28.06932
+                ],
+                [
+                  153.435495,
+                  -28.069428
+                ],
+                [
+                  153.435415,
+                  -28.069619
+                ],
+                [
+                  153.435643,
+                  -28.07017
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-885737-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "12:38PM 08 Sep 2025",
+        "EST_FIX_TIME": "3:00PM 08 Sep 2025",
+        "STREETS": "GAYE PDE, LESLEY AVE",
+        "SUBURBS": "MIAMI",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757297401.688141"
+  "extracted": "1757299501.664001"
 }
