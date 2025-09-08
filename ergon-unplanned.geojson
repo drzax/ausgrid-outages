@@ -1,8 +1,78 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.015462,
+              -26.701192
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  152.012443,
+                  -26.701457
+                ],
+                [
+                  152.015294,
+                  -26.701701
+                ],
+                [
+                  152.01532,
+                  -26.701703
+                ],
+                [
+                  152.018411,
+                  -26.701824
+                ],
+                [
+                  152.018933,
+                  -26.7014
+                ],
+                [
+                  152.018467,
+                  -26.700926
+                ],
+                [
+                  152.012525,
+                  -26.70056
+                ],
+                [
+                  152.011991,
+                  -26.700973
+                ],
+                [
+                  152.012443,
+                  -26.701457
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "25WB9168",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "The loss of supply is due to damage requiring emergency repairs. ",
+        "STATUS": "Outage reported",
+        "START": "4:48AM 09 Sep 2025",
+        "EST_FIX_TIME": "Under Investigation",
+        "STREETS": "OLD ESK NORTH RD",
+        "SUBURBS": "NANANGO"
+      }
+    }
+  ],
   "company": "Ergon",
   "state": "Current",
-  "extracted": "1757367300.270301"
+  "extracted": "1757367918.704692"
 }
