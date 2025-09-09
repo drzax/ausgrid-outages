@@ -1,8 +1,79 @@
 {
   "type": "FeatureCollection",
   "name": "UNPLANNED",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              153.430391,
+              -28.017692
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.429445,
+                  -28.018028
+                ],
+                [
+                  153.430624,
+                  -28.018245
+                ],
+                [
+                  153.430817,
+                  -28.018247
+                ],
+                [
+                  153.431318,
+                  -28.018167
+                ],
+                [
+                  153.431736,
+                  -28.017704
+                ],
+                [
+                  153.431274,
+                  -28.017274
+                ],
+                [
+                  153.429595,
+                  -28.017137
+                ],
+                [
+                  153.429046,
+                  -28.01752
+                ],
+                [
+                  153.429445,
+                  -28.018028
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-886001-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "3",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "5:11PM 09 Sep 2025",
+        "EST_FIX_TIME": "8:00PM 09 Sep 2025",
+        "STREETS": "GOLD COAST HWY, SURF PDE",
+        "SUBURBS": "SURFERS PARADISE",
+        "ETR_FLAG": "N"
+      }
+    }
+  ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757401501.125586"
+  "extracted": "1757402101.396119"
 }
