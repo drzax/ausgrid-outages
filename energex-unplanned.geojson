@@ -10,6 +10,84 @@
           {
             "type": "Point",
             "coordinates": [
+              153.40766,
+              -28.029039
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.404919,
+                  -28.030154
+                ],
+                [
+                  153.405115,
+                  -28.030371
+                ],
+                [
+                  153.405557,
+                  -28.030539
+                ],
+                [
+                  153.409546,
+                  -28.030231
+                ],
+                [
+                  153.409992,
+                  -28.029904
+                ],
+                [
+                  153.410401,
+                  -28.028613
+                ],
+                [
+                  153.410023,
+                  -28.02805
+                ],
+                [
+                  153.407483,
+                  -28.02754
+                ],
+                [
+                  153.407005,
+                  -28.027667
+                ],
+                [
+                  153.404951,
+                  -28.029559
+                ],
+                [
+                  153.404919,
+                  -28.030154
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-886120-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "52",
+        "REASON": "Damage to our equipment",
+        "STATUS": "Awaiting",
+        "START": "11:10AM 10 Sep 2025",
+        "EST_FIX_TIME": "3:00PM 10 Sep 2025",
+        "STREETS": "DARNAY RD, IPSLEY DR, SOPHIE AVE, TANNAH CT",
+        "SUBURBS": "BROADBEACH WATERS",
+        "ETR_FLAG": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               153.370682,
               -27.637427
             ]
@@ -106,88 +184,10 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "9:55AM 10 Sep 2025",
-        "EST_FIX_TIME": "2:00PM 10 Sep 2025",
+        "EST_FIX_TIME": "2:30PM 10 Sep 2025",
         "STREETS": "JUNEE PDE, MARYANNE ST, NOYES PDE, THE ESPLANADE, TREASURE ISLAND AVE",
         "SUBURBS": "KARRAGARRA ISLAND",
         "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.40766,
-              -28.029039
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.404919,
-                  -28.030154
-                ],
-                [
-                  153.405115,
-                  -28.030371
-                ],
-                [
-                  153.405557,
-                  -28.030539
-                ],
-                [
-                  153.409546,
-                  -28.030231
-                ],
-                [
-                  153.409992,
-                  -28.029904
-                ],
-                [
-                  153.410401,
-                  -28.028613
-                ],
-                [
-                  153.410023,
-                  -28.02805
-                ],
-                [
-                  153.407483,
-                  -28.02754
-                ],
-                [
-                  153.407005,
-                  -28.027667
-                ],
-                [
-                  153.404951,
-                  -28.029559
-                ],
-                [
-                  153.404919,
-                  -28.030154
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-886120-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "52",
-        "REASON": "Damage to our equipment",
-        "STATUS": "Awaiting",
-        "START": "11:10AM 10 Sep 2025",
-        "EST_FIX_TIME": "3:00PM 10 Sep 2025",
-        "STREETS": "DARNAY RD, IPSLEY DR, SOPHIE AVE, TANNAH CT",
-        "SUBURBS": "BROADBEACH WATERS",
-        "ETR_FLAG": "Y"
       }
     },
     {
@@ -310,7 +310,7 @@
         "REASON": "Under Investigation",
         "STATUS": "In Progress",
         "START": "11:36AM 10 Sep 2025",
-        "EST_FIX_TIME": "1:30PM 10 Sep 2025",
+        "EST_FIX_TIME": "2:30PM 10 Sep 2025",
         "STREETS": "LOCKYER VIEW RD",
         "SUBURBS": "WIVENHOE POCKET",
         "ETR_FLAG": "N"
@@ -413,5 +413,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757474700.820459"
+  "extracted": "1757475301.272005"
 }
