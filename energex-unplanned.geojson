@@ -10,6 +10,100 @@
           {
             "type": "Point",
             "coordinates": [
+              153.102511,
+              -26.65456
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  153.101441,
+                  -26.653715
+                ],
+                [
+                  153.102406,
+                  -26.655908
+                ],
+                [
+                  153.103263,
+                  -26.656027
+                ],
+                [
+                  153.103482,
+                  -26.655785
+                ],
+                [
+                  153.103581,
+                  -26.655394
+                ],
+                [
+                  153.103533,
+                  -26.655217
+                ],
+                [
+                  153.103437,
+                  -26.654864
+                ],
+                [
+                  153.103409,
+                  -26.654789
+                ],
+                [
+                  153.102838,
+                  -26.653624
+                ],
+                [
+                  153.102797,
+                  -26.653557
+                ],
+                [
+                  153.102657,
+                  -26.653367
+                ],
+                [
+                  153.102604,
+                  -26.653295
+                ],
+                [
+                  153.102175,
+                  -26.653093
+                ],
+                [
+                  153.101898,
+                  -26.653098
+                ],
+                [
+                  153.101441,
+                  -26.653715
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "EVENT_ID": "INCD-886134-g",
+        "TYPE": "UNPLANNED",
+        "CUSTOMERS_AFFECTED": "67",
+        "REASON": "Emergency Repairs",
+        "STATUS": "Awaiting",
+        "START": "11:44AM 10 Sep 2025",
+        "EST_FIX_TIME": "2:00PM 10 Sep 2025",
+        "STREETS": "ALEXANDRA PDE",
+        "SUBURBS": "MAROOCHYDORE",
+        "ETR_FLAG": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
               152.617185,
               -27.410926
             ]
@@ -120,105 +214,11 @@
         "TYPE": "UNPLANNED",
         "CUSTOMERS_AFFECTED": "32",
         "REASON": "Under Investigation",
-        "STATUS": "Awaiting",
+        "STATUS": "In Progress",
         "START": "11:36AM 10 Sep 2025",
         "EST_FIX_TIME": "1:30PM 10 Sep 2025",
         "STREETS": "LOCKYER VIEW RD",
         "SUBURBS": "WIVENHOE POCKET",
-        "ETR_FLAG": "N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              153.102511,
-              -26.65456
-            ]
-          },
-          {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  153.101441,
-                  -26.653715
-                ],
-                [
-                  153.102406,
-                  -26.655908
-                ],
-                [
-                  153.103263,
-                  -26.656027
-                ],
-                [
-                  153.103482,
-                  -26.655785
-                ],
-                [
-                  153.103581,
-                  -26.655394
-                ],
-                [
-                  153.103533,
-                  -26.655217
-                ],
-                [
-                  153.103437,
-                  -26.654864
-                ],
-                [
-                  153.103409,
-                  -26.654789
-                ],
-                [
-                  153.102838,
-                  -26.653624
-                ],
-                [
-                  153.102797,
-                  -26.653557
-                ],
-                [
-                  153.102657,
-                  -26.653367
-                ],
-                [
-                  153.102604,
-                  -26.653295
-                ],
-                [
-                  153.102175,
-                  -26.653093
-                ],
-                [
-                  153.101898,
-                  -26.653098
-                ],
-                [
-                  153.101441,
-                  -26.653715
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "EVENT_ID": "INCD-886134-g",
-        "TYPE": "UNPLANNED",
-        "CUSTOMERS_AFFECTED": "67",
-        "REASON": "Emergency Repairs",
-        "STATUS": "Awaiting",
-        "START": "11:44AM 10 Sep 2025",
-        "EST_FIX_TIME": "2:00PM 10 Sep 2025",
-        "STREETS": "ALEXANDRA PDE",
-        "SUBURBS": "MAROOCHYDORE",
         "ETR_FLAG": "N"
       }
     },
@@ -404,7 +404,7 @@
         "REASON": "Under Investigation",
         "STATUS": "Awaiting",
         "START": "9:55AM 10 Sep 2025",
-        "EST_FIX_TIME": "1:00PM 10 Sep 2025",
+        "EST_FIX_TIME": "2:00PM 10 Sep 2025",
         "STREETS": "JUNEE PDE, MARYANNE ST, NOYES PDE, THE ESPLANADE, TREASURE ISLAND AVE",
         "SUBURBS": "KARRAGARRA ISLAND",
         "ETR_FLAG": "N"
@@ -413,5 +413,5 @@
   ],
   "company": "Energex",
   "state": "Current",
-  "extracted": "1757472900.621635"
+  "extracted": "1757473800.698267"
 }
