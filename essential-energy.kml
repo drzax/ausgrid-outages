@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-109961-r">
+<Snippet><![CDATA[INCD-109961-r]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-109961-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>13/09/2025 08:00:00</div><div><span>Est. Time On:</span>13/09/2025 16:00:00</div></div><div><span>No. of Customers affected:</span>6</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>13/09/2025 08:04:23</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5821568,390625000,30066488}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+151.9459916,-31.94229648 151.9459818,-31.94231310 151.9448234,-31.94427324 151.9448136,-31.94428983 151.9447889,-31.94432041 151.9447594,-31.94434782 151.9447258,-31.94437153 151.9447073,-31.94438130 151.9390338,-31.94737475 151.9390223,-31.94738079 151.9389983,-31.94739118 151.9389733,-31.94739978 151.9389476,-31.94740655 151.9389213,-31.94741142 151.9388946,-31.94741437 151.9388676,-31.94741538 151.9388407,-31.94741444 151.9388140,-31.94741154 151.9387877,-31.94740672 151.9387619,-31.94740002 151.9387369,-31.94739146 151.9387128,-31.94738113 151.9386899,-31.94736910 151.9386682,-31.94735545 151.9386480,-31.94734027 151.9386387,-31.94733198 151.9366485,-31.94556139 151.9366383,-31.94555234 151.9366200,-31.94553273 151.9366040,-31.94551175 151.9365902,-31.94548960 151.9365790,-31.94546646 151.9365703,-31.94544252 151.9365642,-31.94541801 151.9365609,-31.94539312 151.9365602,-31.94536807 151.9365623,-31.94534308 151.9365671,-31.94531836 151.9365745,-31.94529413 151.9365845,-31.94527058 151.9365971,-31.94524793 151.9366121,-31.94522637 151.9366293,-31.94520608 151.9366390,-31.94519666 151.9389674,-31.94293222 151.9389763,-31.94292350 151.9389959,-31.94290745 151.9390171,-31.94289289 151.9390396,-31.94287992 151.9390634,-31.94286865 151.9390882,-31.94285916 151.9391138,-31.94285152 151.9391402,-31.94284578 151.9391536,-31.94284388 151.9456473,-31.94192534 151.9456688,-31.94192230 151.9457124,-31.94192130 151.9457558,-31.94192541 151.9457981,-31.94193457 151.9458385,-31.94194857 151.9458763,-31.94196718 151.9459107,-31.94199003 151.9459411,-31.94201669 151.9459541,-31.94203168 151.9459670,-31.94204667 151.9459878,-31.94207938 151.9460031,-31.94211422 151.9460127,-31.94215051 151.9460164,-31.94218759 151.9460140,-31.94222474 151.9460057,-31.94226127 151.9459916,-31.94229648</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5821568,390625000,30066488}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+151.9413177,-31.94433136</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
