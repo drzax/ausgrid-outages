@@ -43,10 +43,50 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
 <Placemark id="INCD-20510-w">
 <Snippet><![CDATA[INCD-20510-w]]></Snippet>
 <styleUrl>#sw_1249554_normal_planned</styleUrl>
@@ -68,6 +108,30 @@
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 143.4049202,-34.99475819</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-261269-q">
+<Snippet><![CDATA[INCD-261269-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-261269-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>13/09/2025 14:54:47</div><div><span>Est. Time On:</span>13/09/2025 19:30:00</div></div><div><span>No. of Customers affected:</span>4</div><div><span>Reason:</span>Power interrupted for safety reasons</div><div><span>Last Updated:</span>13/09/2025 16:11:00</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{6363364,390625000,30067434}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+150.0947328,-36.30603579 150.0947322,-36.30604779 150.0946631,-36.30729692 150.0944343,-36.30879054 150.0944315,-36.30880876 150.0944198,-36.30884425 150.0944024,-36.30887814 150.0943794,-36.30890982 150.0943514,-36.30893869 150.0943188,-36.30896422 150.0942822,-36.30898595 150.0942424,-36.30900348 150.0942211,-36.30900998 150.0931730,-36.30933112 150.0931507,-36.30933794 150.0931043,-36.30934633 150.0930569,-36.30934931 150.0930094,-36.30934681 150.0929628,-36.30933889 150.0929181,-36.30932571 150.0928762,-36.30930754 150.0928379,-36.30928473 150.0928209,-36.30927125 150.0928039,-36.30925777 150.0927750,-36.30922717 150.0927518,-36.30919357 150.0927347,-36.30915765 150.0927241,-36.30912012 150.0927201,-36.30908175 150.0927229,-36.30904332 150.0927324,-36.30900559 150.0927404,-36.30898746 150.0940843,-36.30594475 150.0940893,-36.30593344 150.0941017,-36.30591162 150.0941165,-36.30589079 150.0941335,-36.30587111 150.0941526,-36.30585271 150.0941736,-36.30583576 150.0941964,-36.30582039 150.0942208,-36.30580672 150.0942466,-36.30579485 150.0942736,-36.30578488 150.0943016,-36.30577689 150.0943304,-36.30577094 150.0943597,-36.30576708 150.0943893,-36.30576534 150.0944190,-36.30576574 150.0944485,-36.30576825 150.0944630,-36.30577057 150.0944776,-36.30577289 150.0945061,-36.30577959 150.0945337,-36.30578832 150.0945603,-36.30579899 150.0945856,-36.30581154 150.0946095,-36.30582585 150.0946317,-36.30584182 150.0946520,-36.30585931 150.0946703,-36.30587820 150.0946865,-36.30589833 150.0947005,-36.30591955 150.0947120,-36.30594168 150.0947211,-36.30596455 150.0947276,-36.30598799 150.0947315,-36.30601180 150.0947328,-36.30603579</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{6363364,390625000,30067434}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+150.0937439,-36.30799757</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
