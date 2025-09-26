@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>5 Records</description>
+<description>6 Records</description>
+<Placemark id="INCD-20918-w">
+<Snippet><![CDATA[INCD-20918-w]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-20918-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>27/09/2025 08:00:00</div><div><span>Est. Time On:</span>27/09/2025 15:00:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>27/09/2025 08:01:12</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{3411855,0,30154903}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+144.8661215,-34.82727548 144.8661212,-34.82728877 144.8661211,-34.82729250 144.8661210,-34.82729623 144.8661206,-34.82730951 144.8661168,-34.82733589 144.8661098,-34.82736183 144.8660998,-34.82738709 144.8660869,-34.82741141 144.8660711,-34.82743456 144.8660526,-34.82745633 144.8660316,-34.82747651 144.8660200,-34.82748570 144.8660135,-34.82749087 144.8660018,-34.82750006 144.8659765,-34.82751648 144.8659493,-34.82753077 144.8659206,-34.82754278 144.8658906,-34.82755243 144.8658596,-34.82755960 144.8658278,-34.82756423 144.8657957,-34.82756627 144.8657796,-34.82756599 144.8657751,-34.82756591 144.8657639,-34.82756571 144.8173071,-34.82507995 144.8172918,-34.82507916 144.8172617,-34.82507527 144.8172320,-34.82506906 144.8172033,-34.82506063 144.8171756,-34.82505002 144.8171492,-34.82503733 144.8171243,-34.82502267 144.8171012,-34.82500617 144.8170907,-34.82499707 144.8170844,-34.82499168 144.8170733,-34.82498208 144.8170534,-34.82496118 144.8170361,-34.82493877 144.8170215,-34.82491508 144.8170098,-34.82489032 144.8170011,-34.82486473 144.8169955,-34.82483857 144.8169931,-34.82481208 144.8169934,-34.82479880 144.8169935,-34.82479507 144.8169936,-34.82479134 144.8169940,-34.82477806 144.8169978,-34.82475168 144.8170048,-34.82472575 144.8170148,-34.82470049 144.8170278,-34.82467618 144.8170436,-34.82465303 144.8170621,-34.82463126 144.8170831,-34.82461109 144.8170947,-34.82460191 144.8171012,-34.82459674 144.8171129,-34.82458756 144.8171382,-34.82457115 144.8171654,-34.82455688 144.8171941,-34.82454487 144.8172241,-34.82453524 144.8172552,-34.82452808 144.8172869,-34.82452346 144.8173190,-34.82452143 144.8173351,-34.82452172 144.8173397,-34.82452180 144.8173508,-34.82452201 144.8658073,-34.82700774 144.8658226,-34.82700852 144.8658528,-34.82701240 144.8658824,-34.82701859 144.8659112,-34.82702701 144.8659389,-34.82703761 144.8659653,-34.82705029 144.8659901,-34.82706495 144.8660132,-34.82708144 144.8660238,-34.82709053 144.8660301,-34.82709592 144.8660412,-34.82710551 144.8660611,-34.82712641 144.8660785,-34.82714881 144.8660930,-34.82717250 144.8661047,-34.82719725 144.8661134,-34.82722284 144.8661190,-34.82724900 144.8661215,-34.82727548</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{3411855,0,30154903}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+144.8415568,-34.82604625</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-112195-r">
 <Snippet><![CDATA[INCD-112195-r]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
@@ -74,8 +138,8 @@
 <Placemark id="INCD-262154-q">
 <Snippet><![CDATA[INCD-262154-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
-<description><![CDATA[<h2>INCD-262154-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>27/09/2025 07:27:32</div><div><span>Est. Time On:</span>27/09/2025 08:30:00</div></div><div><span>No. of Customers affected:</span>986</div><div><span>Reason:</span>Wildlife in wires</div><div><span>Last Updated:</span>27/09/2025 07:50:02</div>]]></description><MultiGeometry>
-<Polygon id="external|outage_notification|current_coverage|{5722748,0,30154870}">
+<description><![CDATA[<h2>INCD-262154-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>27/09/2025 07:27:32</div><div><span>Est. Time On:</span>27/09/2025 08:30:00</div></div><div><span>No. of Customers affected:</span>986</div><div><span>Reason:</span>Wildlife in wires</div><div><span>Last Updated:</span>27/09/2025 08:00:02</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5722748,0,30154895}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
@@ -86,7 +150,7 @@
 </LinearRing>
 </outerBoundaryIs>
 </Polygon>
-<Point id="cp_external|outage_notification|current_coverage|{5722748,0,30154870}">
+<Point id="cp_external|outage_notification|current_coverage|{5722748,0,30154895}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
