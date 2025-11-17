@@ -3,46 +3,6 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
-<Style id='sw_1249554_normal_planned'>
-<IconStyle>
-<scale>1.0</scale>
-<Icon>
-<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
-</Icon>
-<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
-</IconStyle>
-<PolyStyle>
-<colorMode>normal</colorMode>
-<fill>1</fill>
-<outline>1</outline>
-<color>8f808000</color>
-</PolyStyle>
-<LineStyle>
-<colorMode>normal</colorMode>
-<color>ff666600</color>
-<width>2</width>
-</LineStyle>
-</Style>
-<Style id='sw_1249554_normal_unplanned'>
-<IconStyle>
-<scale>1.0</scale>
-<Icon>
-<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
-</Icon>
-<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
-</IconStyle>
-<PolyStyle>
-<colorMode>normal</colorMode>
-<fill>1</fill>
-<outline>1</outline>
-<color>8f808000</color>
-</PolyStyle>
-<LineStyle>
-<colorMode>normal</colorMode>
-<color>ff666600</color>
-<width>2</width>
-</LineStyle>
-</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -83,10 +43,74 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
 <description>15 Records</description>
+<Placemark id="INCD-23023-w">
+<Snippet><![CDATA[INCD-23023-w]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-23023-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 13:49:41</div><div><span>Est. Time On:</span>17/11/2025 17:00:00</div></div><div><span>No. of Customers affected:</span>132</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>17/11/2025 13:49:53</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{3400000,0,30511732}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+146.4889491,-33.10603706 146.4889429,-33.10604690 146.4677307,-33.13983258 146.4677216,-33.13984705 146.4676995,-33.13987394 146.4676736,-33.13989837 146.4676444,-33.13992001 146.4676123,-33.13993853 146.4675778,-33.13995366 146.4675414,-33.13996519 146.4675036,-33.13997294 146.4674843,-33.13997487 146.3681188,-33.14985312 146.3680961,-33.14985537 146.3680502,-33.14985441 146.3680051,-33.14984799 146.3679614,-33.14983625 146.3679202,-33.14981944 146.3678822,-33.14979787 146.3678483,-33.14977199 146.3678190,-33.14974233 146.3678070,-33.14972590 146.3368309,-33.10723719 146.3368179,-33.10721942 146.3367988,-33.10718095 146.3367869,-33.10714048 146.3367825,-33.10709895 146.3367858,-33.10705734 146.3367965,-33.10701663 146.3368145,-33.10697780 146.3368394,-33.10694175 146.3368550,-33.10692554 146.3866980,-33.05503420 146.3867094,-33.05502227 146.3867354,-33.05500075 146.3867641,-33.05498183 146.3867951,-33.05496575 146.3868116,-33.05495925 146.3890865,-33.05406176 146.4008455,-33.05082209 146.4008650,-33.05081672 146.4009053,-33.05081024 146.4009463,-33.05080813 146.4009873,-33.05081042 146.4010074,-33.05081376 146.4011784,-33.05084207 146.4249964,-33.05653746 146.4250144,-33.05654176 146.4250490,-33.05655381 146.4250816,-33.05656915 146.4251119,-33.05658759 146.4251257,-33.05659822 146.4888756,-33.10572086 146.4888854,-33.10572837 146.4889034,-33.10574470 146.4889197,-33.10576221 146.4889343,-33.10578080 146.4889470,-33.10580033 146.4889578,-33.10582068 146.4889665,-33.10584169 146.4889732,-33.10586324 146.4889777,-33.10588518 146.4889801,-33.10590736 146.4889803,-33.10592962 146.4889783,-33.10595183 146.4889741,-33.10597382 146.4889679,-33.10599545 146.4889595,-33.10601658 146.4889491,-33.10603706</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{3400000,0,30511732}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+146.4129278,-33.09958218</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-22339-w">
 <Snippet><![CDATA[INCD-22339-w]]></Snippet>
 <styleUrl>#sw_1249554_normal_planned</styleUrl>
@@ -111,35 +135,11 @@
 </Point>
 </MultiGeometry>
 </Placemark>
-<Placemark id="INCD-113331-r">
-<Snippet><![CDATA[INCD-113331-r]]></Snippet>
-<styleUrl>#sw_1249554_normal_planned</styleUrl>
-<description><![CDATA[<h2>INCD-113331-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 09:30:00</div><div><span>Est. Time On:</span>17/11/2025 15:00:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>17/11/2025 09:59:33</div>]]></description><MultiGeometry>
-<Polygon id="external|outage_notification|current_coverage|{5574116,1083984375,30510008}">
-<extrude>0</extrude>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<outerBoundaryIs>
-<LinearRing>
-<coordinates>
-149.4954877,-28.50335039 149.4954886,-28.50336300 149.4955657,-28.50450460 149.4955659,-28.50451359 149.4955660,-28.50451732 149.4955663,-28.50453061 149.4955639,-28.50455712 149.4955587,-28.50458329 149.4955505,-28.50460889 149.4955396,-28.50463366 149.4955260,-28.50465736 149.4955098,-28.50467977 149.4954912,-28.50470067 149.4954808,-28.50471027 149.4954749,-28.50471566 149.4954645,-28.50472525 149.4954416,-28.50474254 149.4954169,-28.50475778 149.4953907,-28.50477079 149.4953631,-28.50478147 149.4953345,-28.50478972 149.4953051,-28.50479545 149.4952752,-28.50479860 149.4952602,-28.50479888 149.4952560,-28.50479896 149.4952517,-28.50479904 149.4952367,-28.50479931 149.4952067,-28.50479726 149.4951771,-28.50479261 149.4951481,-28.50478542 149.4951200,-28.50477576 149.4950932,-28.50476372 149.4950678,-28.50474941 149.4950442,-28.50473297 149.4950333,-28.50472377 149.4950272,-28.50471860 149.4950169,-28.50470985 149.4949982,-28.50469073 149.4949816,-28.50467016 149.4949672,-28.50464830 149.4949552,-28.50462536 149.4949457,-28.50460153 149.4949387,-28.50457702 149.4949343,-28.50455205 149.4949335,-28.50453943 149.4948564,-28.50339783 149.4948562,-28.50338885 149.4948561,-28.50338511 149.4948558,-28.50337182 149.4948581,-28.50334532 149.4948634,-28.50331914 149.4948715,-28.50329354 149.4948825,-28.50326877 149.4948961,-28.50324507 149.4949123,-28.50322266 149.4949309,-28.50320176 149.4949413,-28.50319217 149.4949472,-28.50318677 149.4949576,-28.50317718 149.4949805,-28.50315989 149.4950051,-28.50314466 149.4950314,-28.50313164 149.4950589,-28.50312096 149.4950876,-28.50311271 149.4951170,-28.50310698 149.4951468,-28.50310383 149.4951619,-28.50310355 149.4951661,-28.50310347 149.4951703,-28.50310340 149.4951854,-28.50310312 149.4952154,-28.50310518 149.4952450,-28.50310982 149.4952740,-28.50311701 149.4953020,-28.50312667 149.4953289,-28.50313871 149.4953542,-28.50315302 149.4953779,-28.50316946 149.4953888,-28.50317866 149.4953949,-28.50318383 149.4954052,-28.50319259 149.4954239,-28.50321170 149.4954405,-28.50323227 149.4954549,-28.50325413 149.4954669,-28.50327707 149.4954764,-28.50330090 149.4954834,-28.50332541 149.4954877,-28.50335039</coordinates>
-</LinearRing>
-</outerBoundaryIs>
-</Polygon>
-<Point id="cp_external|outage_notification|current_coverage|{5574116,1083984375,30510008}">
-<extrude>0</extrude>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<coordinates>
-149.4952110,-28.50395122</coordinates>
-</Point>
-</MultiGeometry>
-</Placemark>
 <Placemark id="INCD-114453-r">
 <Snippet><![CDATA[INCD-114453-r]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
-<description><![CDATA[<h2>INCD-114453-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>16/11/2025 01:57:41</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>Wires down</div><div><span>Last Updated:</span>17/11/2025 13:20:02</div>]]></description><MultiGeometry>
-<Polygon id="external|outage_notification|current_coverage|{5598372,488281250,30511557}">
+<description><![CDATA[<h2>INCD-114453-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>16/11/2025 01:57:41</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>Wires down</div><div><span>Last Updated:</span>17/11/2025 13:50:06</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5598372,488281250,30511747}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
@@ -150,12 +150,36 @@
 </LinearRing>
 </outerBoundaryIs>
 </Polygon>
-<Point id="cp_external|outage_notification|current_coverage|{5598372,488281250,30511557}">
+<Point id="cp_external|outage_notification|current_coverage|{5598372,488281250,30511747}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 150.5232235,-29.07743989</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-267455-q">
+<Snippet><![CDATA[INCD-267455-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-267455-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 13:18:33</div><div><span>Est. Time On:</span>18/11/2025 03:00:00</div></div><div><span>No. of Customers affected:</span>17</div><div><span>Reason:</span>Critical repairs</div><div><span>Last Updated:</span>17/11/2025 13:48:34</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5601450,0,30511724}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+152.0827769,-29.01465585 152.0827771,-29.01467377 152.0831033,-29.04134536 152.0831034,-29.04135846 152.0831008,-29.04138457 152.0830954,-29.04141034 152.0830872,-29.04143552 152.0830762,-29.04145988 152.0830626,-29.04148319 152.0830464,-29.04150524 152.0830280,-29.04152580 152.0830073,-29.04154471 152.0829847,-29.04156176 152.0829603,-29.04157681 152.0829343,-29.04158970 152.0829071,-29.04160034 152.0828788,-29.04160860 152.0828497,-29.04161441 152.0828201,-29.04161773 152.0828052,-29.04161811 152.0631088,-29.04213134 152.0630945,-29.04213172 152.0630658,-29.04213011 152.0630375,-29.04212616 152.0630096,-29.04211990 152.0629826,-29.04211139 152.0629566,-29.04210071 152.0629318,-29.04208794 152.0629086,-29.04207319 152.0628977,-29.04206490 152.0519659,-29.03367957 152.0519547,-29.03367098 152.0519343,-29.03365198 152.0519161,-29.03363134 152.0519002,-29.03360926 152.0518868,-29.03358592 152.0518761,-29.03356156 152.0518681,-29.03353641 152.0518629,-29.03351069 152.0518605,-29.03348466 152.0518610,-29.03345854 152.0518644,-29.03343259 152.0518706,-29.03340704 152.0518795,-29.03338214 152.0518912,-29.03335812 152.0519055,-29.03333520 152.0519222,-29.03331360 152.0519317,-29.03330356 152.0550650,-29.02999255 152.0550791,-29.02997762 152.0551119,-29.02995162 152.0551303,-29.02994082 152.0683224,-29.02217950 152.0823065,-29.01444817 152.0823237,-29.01443862 152.0823608,-29.01442371 152.0823998,-29.01441324 152.0824401,-29.01440740 152.0824808,-29.01440628 152.0825214,-29.01440991 152.0825611,-29.01441823 152.0825991,-29.01443109 152.0826170,-29.01443967 152.0826349,-29.01444825 152.0826679,-29.01446942 152.0826973,-29.01449423 152.0827227,-29.01452225 152.0827437,-29.01455297 152.0827600,-29.01458587 152.0827711,-29.01462036 152.0827769,-29.01465585</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5601450,0,30511724}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+152.0677281,-29.03240235</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
@@ -186,8 +210,8 @@
 <Placemark id="INCD-267430-q">
 <Snippet><![CDATA[INCD-267430-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
-<description><![CDATA[<h2>INCD-267430-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 09:04:22</div><div><span>Est. Time On:</span>18/11/2025 01:00:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>Critical repairs</div><div><span>Last Updated:</span>17/11/2025 11:04:04</div>]]></description><MultiGeometry>
-<Polygon id="external|outage_notification|current_coverage|{5620193,1171875000,30510773}">
+<description><![CDATA[<h2>INCD-267430-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 09:04:22</div><div><span>Est. Time On:</span>18/11/2025 01:00:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>Wires down</div><div><span>Last Updated:</span>17/11/2025 13:50:02</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5620193,1171875000,30511743}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
@@ -198,36 +222,12 @@
 </LinearRing>
 </outerBoundaryIs>
 </Polygon>
-<Point id="cp_external|outage_notification|current_coverage|{5620193,1171875000,30510773}">
+<Point id="cp_external|outage_notification|current_coverage|{5620193,1171875000,30511743}">
 <extrude>0</extrude>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 149.4038976,-30.22676175</coordinates>
-</Point>
-</MultiGeometry>
-</Placemark>
-<Placemark id="INCD-114493-r">
-<Snippet><![CDATA[INCD-114493-r]]></Snippet>
-<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
-<description><![CDATA[<h2>INCD-114493-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/11/2025 13:20:12</div><div><span>Est. Time On:</span>17/11/2025 18:00:00</div></div><div><span>No. of Customers affected:</span>2</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>17/11/2025 13:20:12</div>]]></description><MultiGeometry>
-<Polygon id="external|outage_notification|current_coverage|{5620195,0,30511562}">
-<extrude>0</extrude>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<outerBoundaryIs>
-<LinearRing>
-<coordinates>
-149.3436820,-30.19741978 149.3436826,-30.19744184 149.3436827,-30.19744558 149.3436827,-30.19744931 149.3436831,-30.19746260 149.3436807,-30.19748910 149.3436753,-30.19751527 149.3436671,-30.19754087 149.3436559,-30.19756563 149.3436421,-30.19758932 149.3436256,-30.19761173 149.3436067,-30.19763262 149.3435961,-30.19764221 149.3435901,-30.19764760 149.3435795,-30.19765719 149.3435563,-30.19767448 149.3435312,-30.19768970 149.3435045,-30.19770271 149.3434765,-30.19771339 149.3434474,-30.19772163 149.3434175,-30.19772735 149.3433871,-30.19773050 149.3433718,-30.19773077 149.3433675,-30.19773085 149.3433632,-30.19773093 149.3433479,-30.19773120 149.3433174,-30.19772914 149.3432873,-30.19772449 149.3432578,-30.19771730 149.3432293,-30.19770763 149.3432020,-30.19769559 149.3431762,-30.19768127 149.3431522,-30.19766483 149.3431411,-30.19765563 149.3431349,-30.19765046 149.3431220,-30.19763967 149.3430991,-30.19761568 149.3430796,-30.19758957 149.3430637,-30.19756168 149.3430576,-30.19754703 149.3305361,-30.16737440 149.3305275,-30.16735364 149.3305182,-30.16731024 149.3305177,-30.16728818 149.3305176,-30.16728445 149.3305175,-30.16728071 149.3305172,-30.16726742 149.3305196,-30.16724092 149.3305250,-30.16721475 149.3305332,-30.16718915 149.3305444,-30.16716439 149.3305582,-30.16714070 149.3305747,-30.16711830 149.3305936,-30.16709741 149.3306042,-30.16708782 149.3306102,-30.16708243 149.3306208,-30.16707284 149.3306440,-30.16705556 149.3306691,-30.16704033 149.3306958,-30.16702733 149.3307238,-30.16701666 149.3307529,-30.16700842 149.3307828,-30.16700270 149.3308131,-30.16699955 149.3308284,-30.16699928 149.3308327,-30.16699921 149.3308370,-30.16699913 149.3308523,-30.16699886 149.3308828,-30.16700092 149.3309129,-30.16700557 149.3309424,-30.16701277 149.3309709,-30.16702244 149.3309982,-30.16703449 149.3310239,-30.16704880 149.3310480,-30.16706525 149.3310590,-30.16707445 149.3310652,-30.16707962 149.3310782,-30.16709041 149.3311010,-30.16711440 149.3311205,-30.16714052 149.3311365,-30.16716841 149.3311425,-30.16718306 149.3436642,-30.19735563 149.3436728,-30.19737638 149.3436820,-30.19741978</coordinates>
-</LinearRing>
-</outerBoundaryIs>
-</Polygon>
-<Point id="cp_external|outage_notification|current_coverage|{5620195,0,30511562}">
-<extrude>0</extrude>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<coordinates>
-149.3370991,-30.18236525</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
