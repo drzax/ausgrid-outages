@@ -3,6 +3,46 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Style id='sw_1442837_normal_planned'>
 <IconStyle>
 <scale>1.0</scale>
@@ -46,7 +86,31 @@
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>8 Records</description>
+<description>9 Records</description>
+<Placemark id="INCD-116205-r">
+<Snippet><![CDATA[INCD-116205-r]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-116205-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>22/12/2025 18:00:00</div><div><span>Est. Time On:</span>22/12/2025 19:30:00</div></div><div><span>No. of Customers affected:</span>24</div><div><span>Reason:</span>Critical repairs</div><div><span>Last Updated:</span>22/12/2025 17:30:23</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|future_coverage|{5655298,537109375,30894730}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+153.5568345,-28.24477527 153.5568106,-28.24477679 153.5560187,-28.24482711 153.5546154,-28.24489988 153.5546013,-28.24490061 153.5545731,-28.24489976 153.5545451,-28.24489659 153.5545175,-28.24489115 153.5544907,-28.24488348 153.5544648,-28.24487363 153.5544400,-28.24486171 153.5544165,-28.24484780 153.5544056,-28.24483992 153.5528515,-28.24372032 153.5528371,-28.24370996 153.5528114,-28.24368630 153.5528003,-28.24367318 153.5525788,-28.24341223 153.5525695,-28.24340129 153.5525536,-28.24337784 153.5525404,-28.24335308 153.5525301,-28.24332727 153.5525228,-28.24330065 153.5525185,-28.24327352 153.5525175,-28.24324616 153.5525195,-28.24321884 153.5525221,-28.24320534 153.5525247,-28.24319184 153.5525329,-28.24316544 153.5525441,-28.24313992 153.5525582,-28.24311555 153.5525750,-28.24309255 153.5525943,-28.24307118 153.5526160,-28.24305166 153.5526398,-28.24303419 153.5526527,-28.24302657 153.5534745,-28.24253875 153.5534927,-28.24252795 153.5535323,-28.24251119 153.5535741,-28.24249961 153.5536174,-28.24249346 153.5536612,-28.24249287 153.5537047,-28.24249784 153.5537469,-28.24250828 153.5537870,-28.24252397 153.5538055,-28.24253427 153.5569504,-28.24427975 153.5569707,-28.24429100 153.5570068,-28.24431883 153.5570375,-28.24435129 153.5570621,-28.24438761 153.5570800,-28.24442689 153.5570907,-28.24446817 153.5570940,-28.24451042 153.5570899,-28.24455261 153.5570841,-28.24457317 153.5570783,-28.24459372 153.5570596,-28.24463271 153.5570343,-28.24466864 153.5570030,-28.24470064 153.5569664,-28.24472790 153.5569254,-28.24474976 153.5568811,-28.24476568 153.5568345,-28.24477527</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|future_coverage|{5655298,537109375,30894730}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+153.5548115,-28.24397708</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 <Placemark id="INCD-273998-q">
 <Snippet><![CDATA[INCD-273998-q]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
