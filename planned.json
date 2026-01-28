@@ -2996,7 +2996,7 @@
     "Customers": "100",
     "EndDateTime": "2026-02-04T15:00:00",
     "StartDateTime": "2026-02-04T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Ada St, Asquith St, Frederick St, Louisa St, Wonoona Pde",
     "WebId": 87421,
@@ -3357,10 +3357,10 @@
     "Area": "Chatswood",
     "Cause": "Connecting power to a home or business nearby",
     "Detail": "",
-    "Customers": "less than 10",
+    "Customers": "12",
     "EndDateTime": "2026-02-05T09:00:00",
     "StartDateTime": "2026-02-04T18:30:00",
-    "Status": "On Hold",
+    "Status": "Proposed",
     "Reason": null,
     "Streets": "Smith St",
     "WebId": 86260,
@@ -3607,7 +3607,7 @@
     "Customers": "47",
     "EndDateTime": "2026-02-05T15:30:00",
     "StartDateTime": "2026-02-05T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Bella Vista St, Dorset Rd, Oliver St",
     "WebId": 87441,
@@ -3984,7 +3984,7 @@
     "Customers": "87",
     "EndDateTime": "2026-02-06T16:00:00",
     "StartDateTime": "2026-02-06T07:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Arcadia St, Cambridge St, George St",
     "WebId": 87260,
@@ -5505,7 +5505,7 @@
     "Customers": "79",
     "EndDateTime": "2026-02-10T16:00:00",
     "StartDateTime": "2026-02-10T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Parriwi Rd, Warringah Rd",
     "WebId": 86992,
@@ -6656,6 +6656,19 @@
     "JobId": "127977"
   },
   {
+    "Area": "Manly",
+    "Cause": "Replacing or fixing power poles in your community",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-02-12T15:30:00",
+    "StartDateTime": "2026-02-12T08:30:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Bonner Ave",
+    "WebId": 87558,
+    "JobId": "127035"
+  },
+  {
     "Area": "Singleton, Glenridding",
     "Cause": "Servicing high voltage electrical equipment to ensure reliable power for your community",
     "Detail": "",
@@ -7371,30 +7384,17 @@
     "JobId": "126551"
   },
   {
-    "Area": "Wahroonga",
-    "Cause": "Replacing or fixing power poles in your community",
+    "Area": "Caringbah",
+    "Cause": "Replacing or fixing powerlines above ground in your neighbourhood",
     "Detail": "",
-    "Customers": "67",
-    "EndDateTime": "2026-02-16T06:00:00",
-    "StartDateTime": "2026-02-15T20:00:00",
-    "Status": "Proceeding as scheduled",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-02-16T02:00:00",
+    "StartDateTime": "2026-02-15T16:00:00",
+    "Status": "Proposed",
     "Reason": null,
-    "Streets": "Ada Ave, Amaroo Ave, Fox Valley Rd, Herber Pl",
-    "WebId": 85871,
-    "JobId": "127040"
-  },
-  {
-    "Area": "Edgecliff",
-    "Cause": "Working on underground cables or equipment in your area to make your power supply more resilient",
-    "Detail": "",
-    "Customers": "63",
-    "EndDateTime": "2026-02-16T06:00:00",
-    "StartDateTime": "2026-02-15T20:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "New South Head Rd",
-    "WebId": 86905,
-    "JobId": "127886"
+    "Streets": "Koonya Cct, Taren Point Rd, Willarong Rd",
+    "WebId": 87559,
+    "JobId": "126919"
   },
   {
     "Area": "Mascot",
@@ -7421,6 +7421,32 @@
     "Streets": "Bennett Ave, Erina Ave, Lyons Rd, Pine Ave, Trevanion St",
     "WebId": 87447,
     "JobId": "128329"
+  },
+  {
+    "Area": "Wahroonga",
+    "Cause": "Replacing or fixing power poles in your community",
+    "Detail": "",
+    "Customers": "67",
+    "EndDateTime": "2026-02-16T06:00:00",
+    "StartDateTime": "2026-02-15T20:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Ada Ave, Amaroo Ave, Fox Valley Rd, Herber Pl",
+    "WebId": 85871,
+    "JobId": "127040"
+  },
+  {
+    "Area": "Edgecliff",
+    "Cause": "Working on underground cables or equipment in your area to make your power supply more resilient",
+    "Detail": "",
+    "Customers": "63",
+    "EndDateTime": "2026-02-16T06:00:00",
+    "StartDateTime": "2026-02-15T20:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "New South Head Rd",
+    "WebId": 86905,
+    "JobId": "127886"
   },
   {
     "Area": "Coogee, South Coogee",
@@ -8281,6 +8307,19 @@
     "JobId": "127801"
   },
   {
+    "Area": "Broadmeadow",
+    "Cause": "Servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "51",
+    "EndDateTime": "2026-02-17T23:00:00",
+    "StartDateTime": "2026-02-17T20:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Bavin St, Curley Rd, Denney St, Lambton Rd",
+    "WebId": 87556,
+    "JobId": "129223"
+  },
+  {
     "Area": "Coogee, South Coogee",
     "Cause": "Working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -8645,6 +8684,19 @@
     "JobId": "128782"
   },
   {
+    "Area": "Scone, Tomalla",
+    "Cause": "Servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "29",
+    "EndDateTime": "2026-02-18T16:00:00",
+    "StartDateTime": "2026-02-18T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Tomalla Rd",
+    "WebId": 87557,
+    "JobId": "127562"
+  },
+  {
     "Area": "Jilliby, Kiar, Warnervale",
     "Cause": "Replacing or fixing powerlines above ground in your neighbourhood",
     "Detail": "",
@@ -8970,19 +9022,6 @@
     "JobId": "127042"
   },
   {
-    "Area": "Mangrove Mountain",
-    "Cause": "Replacing individual service wires for a home or business nearby",
-    "Detail": "",
-    "Customers": "16",
-    "EndDateTime": "2026-02-19T17:00:00",
-    "StartDateTime": "2026-02-19T07:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Fairymede Rd, Kellynack Rd, Lillicrapps Rd, Lombardy Rd, Maroney Rd, Niclins Rd, Waratah Rd, Wisemans Ferry Rd",
-    "WebId": 87515,
-    "JobId": "129168"
-  },
-  {
     "Area": "Davidson",
     "Cause": "Working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -8994,6 +9033,19 @@
     "Streets": "Barney Pl",
     "WebId": 87551,
     "JobId": "129275"
+  },
+  {
+    "Area": "Mangrove Mountain",
+    "Cause": "Replacing individual service wires for a home or business nearby",
+    "Detail": "",
+    "Customers": "16",
+    "EndDateTime": "2026-02-19T17:00:00",
+    "StartDateTime": "2026-02-19T07:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Fairymede Rd, Kellynack Rd, Lillicrapps Rd, Lombardy Rd, Maroney Rd, Niclins Rd, Waratah Rd, Wisemans Ferry Rd",
+    "WebId": 87515,
+    "JobId": "129168"
   },
   {
     "Area": "Botany, Pagewood",
