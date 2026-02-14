@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-281359-q">
+<Snippet><![CDATA[INCD-281359-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-281359-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>15/02/2026 01:43:01</div><div><span>Est. Time On:</span>15/02/2026 07:00:00</div></div><div><span>No. of Customers affected:</span>35</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>15/02/2026 02:06:50</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5604232,0,31274331}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+151.6291404,-30.48329649 151.6291397,-30.48331722 151.6290617,-30.48556644 151.6290609,-30.48558770 151.6290518,-30.48562950 151.6290352,-30.48566953 151.6290116,-30.48570683 151.6289966,-30.48572366 151.6285150,-30.48626232 151.6187455,-30.49638886 151.6187358,-30.49639892 151.6187142,-30.49641733 151.6186907,-30.49643384 151.6186654,-30.49644830 151.6186386,-30.49646057 151.6186106,-30.49647053 151.6185816,-30.49647808 151.6185518,-30.49648317 151.6185217,-30.49648574 151.6184914,-30.49648577 151.6184612,-30.49648325 151.6184315,-30.49647821 151.6184024,-30.49647070 151.6183744,-30.49646079 151.6183476,-30.49644857 151.6183222,-30.49643416 151.6183105,-30.49642592 151.6173502,-30.49575533 151.6150017,-30.49411323 151.6149912,-30.49410583 151.6149716,-30.49408948 151.6149537,-30.49407171 151.6149376,-30.49405267 151.6149306,-30.49404257 151.6093365,-30.48600873 151.6093278,-30.48599628 151.6093137,-30.48596991 151.6093083,-30.48595615 151.6087581,-30.48455354 151.6087517,-30.48453717 151.6087437,-30.48450328 151.6087409,-30.48446878 151.6087431,-30.48443425 151.6087468,-30.48441725 151.6101568,-30.47785558 151.6101595,-30.47784305 151.6101676,-30.47781853 151.6101783,-30.47779478 151.6101915,-30.47777201 151.6102072,-30.47775043 151.6102252,-30.47773021 151.6102453,-30.47771156 151.6102673,-30.47769462 151.6102910,-30.47767955 151.6103163,-30.47766650 151.6103429,-30.47765556 151.6103706,-30.47764684 151.6103991,-30.47764043 151.6104281,-30.47763635 151.6104575,-30.47763468 151.6104869,-30.47763540 151.6105016,-30.47763697 151.6152959,-30.47814975 151.6261361,-30.47945083 151.6261525,-30.47945281 151.6261847,-30.47945973 151.6262159,-30.47946959 151.6262456,-30.47948225 151.6262737,-30.47949757 151.6262997,-30.47951538 151.6263234,-30.47953549 151.6263445,-30.47955765 151.6263536,-30.47956964 151.6290883,-30.48316041 151.6291015,-30.48317772 151.6291214,-30.48321543 151.6291345,-30.48325533 151.6291404,-30.48329649</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5604232,0,31274331}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+151.6190923,-30.48708411</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
