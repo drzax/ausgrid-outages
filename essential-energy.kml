@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-117476-r">
+<Snippet><![CDATA[INCD-117476-r]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-117476-r</h2><div style="overflow: hidden;"><div><span>Time Off:</span>18/02/2026 07:30:00</div><div><span>Est. Time On:</span>18/02/2026 13:30:00</div></div><div><span>No. of Customers affected:</span>146</div><div><span>Reason:</span>General network maintenance</div><div><span>Last Updated:</span>18/02/2026 07:02:39</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|future_coverage|{5701059,488281250,31292495}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+153.1279849,-30.30474649 153.1279857,-30.30475999 153.1281180,-30.30697609 153.1281189,-30.30699114 153.1281168,-30.30702121 153.1281109,-30.30705091 153.1281012,-30.30707984 153.1280878,-30.30710765 153.1280710,-30.30713400 153.1280508,-30.30715856 153.1280277,-30.30718101 153.1280147,-30.30719105 153.1280018,-30.30720109 153.1279735,-30.30721854 153.1279431,-30.30723314 153.1279110,-30.30724471 153.1278777,-30.30725311 153.1278435,-30.30725824 153.1278088,-30.30726002 153.1277741,-30.30725845 153.1277570,-30.30725599 153.1255251,-30.30693546 153.1255117,-30.30693355 153.1254854,-30.30692769 153.1254599,-30.30691988 153.1254352,-30.30691016 153.1254115,-30.30689861 153.1253892,-30.30688532 153.1253682,-30.30687040 153.1253488,-30.30685394 153.1253400,-30.30684500 153.1236465,-30.30513159 153.1236305,-30.30511538 153.1236047,-30.30507895 153.1235859,-30.30503946 153.1235744,-30.30499788 153.1235707,-30.30495527 153.1235747,-30.30491267 153.1235865,-30.30487116 153.1236056,-30.30483177 153.1236186,-30.30481363 153.1238526,-30.30448749 153.1238611,-30.30447562 153.1238809,-30.30445355 153.1239032,-30.30443336 153.1239278,-30.30441529 153.1239544,-30.30439951 153.1239827,-30.30438621 153.1240125,-30.30437553 153.1240434,-30.30436757 153.1240592,-30.30436500 153.1263310,-30.30399606 153.1269029,-30.30394541 153.1269187,-30.30394401 153.1269505,-30.30394403 153.1269822,-30.30394687 153.1270133,-30.30395250 153.1270437,-30.30396085 153.1270728,-30.30397186 153.1271006,-30.30398538 153.1271266,-30.30400130 153.1271386,-30.30401037 153.1278795,-30.30457072 153.1278913,-30.30457960 153.1279126,-30.30459933 153.1279316,-30.30462081 153.1279479,-30.30464384 153.1279616,-30.30466816 153.1279724,-30.30469355 153.1279801,-30.30471974 153.1279849,-30.30474649</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|future_coverage|{5701059,488281250,31292495}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+153.1258210,-30.30554195</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
