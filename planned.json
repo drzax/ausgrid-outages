@@ -144,13 +144,13 @@
   },
   {
     "Area": "Newtown",
-    "Cause": "Turning off power temporarily for nearby construction. Thanks for helping us keep the network safe",
+    "Cause": "turning off power temporarily for nearby construction",
     "Detail": "",
     "Customers": "84",
     "EndDateTime": "2026-03-02T17:00:00",
     "StartDateTime": "2026-03-02T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
+    "Status": "Outage Extended\r\n(+2 hrs)",
+    "Reason": "an unexpected complication on site",
     "Streets": "King St, Lord St",
     "WebId": 87429,
     "JobId": "128696"
@@ -513,8 +513,8 @@
     "Customers": "16",
     "EndDateTime": "2026-03-02T16:00:00",
     "StartDateTime": "2026-03-02T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
+    "Status": "Outage Extended\r\n(+2 hrs)",
+    "Reason": "an unexpected complication on site",
     "Streets": "Celestial Dr, Edgewater Dr, Morisset Park Rd, Trinity Point Dr",
     "WebId": 88415,
     "JobId": "129425"
@@ -1859,19 +1859,6 @@
     "JobId": "130258"
   },
   {
-    "Area": "Edgeworth",
-    "Cause": "working on underground cables or equipment in your area to make your power supply more resilient",
-    "Detail": "",
-    "Customers": "15",
-    "EndDateTime": "2026-03-04T13:00:00",
-    "StartDateTime": "2026-03-04T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Transfield Ave",
-    "WebId": 88658,
-    "JobId": "130514"
-  },
-  {
     "Area": "Earlwood",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -1883,6 +1870,19 @@
     "Streets": "Homer St, Osroy Ave",
     "WebId": 88669,
     "JobId": "130270"
+  },
+  {
+    "Area": "Edgeworth",
+    "Cause": "working on underground cables or equipment in your area to make your power supply more resilient",
+    "Detail": "",
+    "Customers": "15",
+    "EndDateTime": "2026-03-04T13:00:00",
+    "StartDateTime": "2026-03-04T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Transfield Ave",
+    "WebId": 88658,
+    "JobId": "130514"
   },
   {
     "Area": "Balgowlah",
@@ -2236,19 +2236,6 @@
     "JobId": "129934"
   },
   {
-    "Area": "Strathfield South, Strathfield, Enfield",
-    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
-    "Detail": "",
-    "Customers": "124",
-    "EndDateTime": "2026-03-05T15:00:00",
-    "StartDateTime": "2026-03-05T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Anselm St, Bede St, Liverpool Rd, McEncroe St, River St, St Annes Sq, St Annes Square , Therry St",
-    "WebId": 88511,
-    "JobId": "130331"
-  },
-  {
     "Area": "Caringbah",
     "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
     "Detail": "",
@@ -2260,6 +2247,19 @@
     "Streets": "Balfour Ave, Beresford Rd, Carrington Ave, Chamberlain Ave, Karoola Cres, Kingsway",
     "WebId": 88502,
     "JobId": "130039"
+  },
+  {
+    "Area": "Strathfield South, Strathfield, Enfield",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "124",
+    "EndDateTime": "2026-03-05T15:00:00",
+    "StartDateTime": "2026-03-05T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Anselm St, Bede St, Liverpool Rd, McEncroe St, River St, St Annes Sq, St Annes Square , Therry St",
+    "WebId": 88511,
+    "JobId": "130331"
   },
   {
     "Area": "Tenambit",
@@ -3432,19 +3432,6 @@
     "JobId": "130222"
   },
   {
-    "Area": "West Gosford",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "36",
-    "EndDateTime": "2026-03-08T16:00:00",
-    "StartDateTime": "2026-03-08T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Bowen Cres, Dell Rd, Enterprise Cl",
-    "WebId": 88335,
-    "JobId": "130131"
-  },
-  {
     "Area": "Williamtown, Fern Bay, Fullerton Cove",
     "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
     "Detail": "",
@@ -3456,6 +3443,19 @@
     "Streets": "Cabbage Tree Rd, Dune Dr, Fullerton Cove Rd, Grove St, Ironbark Dr, Jabiru Dr, Jeffries Cct, Lavis La, Monkerai St, Moxey Cl, Munmora Ave, Myrtle St, Nelson Bay Rd, Norfolk St, Oimara St, Providence Ave, Rushland Dr, Sandcastle St, Seaside Bvd, Sheoak St, Slades Rd, Sovereign St, Spinifex St, Stringybark Dr, Sygna St, Technology Pl, Water St, Williamtown Dr",
     "WebId": 88395,
     "JobId": "128825"
+  },
+  {
+    "Area": "West Gosford",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "36",
+    "EndDateTime": "2026-03-08T16:00:00",
+    "StartDateTime": "2026-03-08T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Bowen Cres, Dell Rd, Enterprise Cl",
+    "WebId": 88335,
+    "JobId": "130131"
   },
   {
     "Area": "Revesby",
@@ -3874,19 +3874,6 @@
     "JobId": "130143"
   },
   {
-    "Area": "Avoca Beach",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "124",
-    "EndDateTime": "2026-03-09T16:00:00",
-    "StartDateTime": "2026-03-09T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Ascot Ave, Avoca Dr, Fairscene Cres",
-    "WebId": 88429,
-    "JobId": "127994"
-  },
-  {
     "Area": "Mount White",
     "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
     "Detail": "",
@@ -3898,6 +3885,19 @@
     "Streets": "Ernbrook Rd",
     "WebId": 88433,
     "JobId": "129996"
+  },
+  {
+    "Area": "Avoca Beach",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "124",
+    "EndDateTime": "2026-03-09T16:00:00",
+    "StartDateTime": "2026-03-09T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Ascot Ave, Avoca Dr, Fairscene Cres",
+    "WebId": 88429,
+    "JobId": "127994"
   },
   {
     "Area": "Denman, Muswellbrook",
@@ -4394,19 +4394,6 @@
     "JobId": "128854"
   },
   {
-    "Area": "Central Mangrove",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "20",
-    "EndDateTime": "2026-03-10T16:00:00",
-    "StartDateTime": "2026-03-10T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "George Downes Dr, Wisemans Ferry Rd",
-    "WebId": 88555,
-    "JobId": "127578"
-  },
-  {
     "Area": "Denman",
     "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
     "Detail": "",
@@ -4418,6 +4405,19 @@
     "Streets": "Saddlers Creek Rd",
     "WebId": 88596,
     "JobId": "130397"
+  },
+  {
+    "Area": "Central Mangrove",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "20",
+    "EndDateTime": "2026-03-10T16:00:00",
+    "StartDateTime": "2026-03-10T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "George Downes Dr, Wisemans Ferry Rd",
+    "WebId": 88555,
+    "JobId": "127578"
   },
   {
     "Area": "Nelson Bay",
@@ -5109,19 +5109,6 @@
     "JobId": "130453"
   },
   {
-    "Area": "Bexley",
-    "Cause": "turning off power temporarily for nearby construction",
-    "Detail": "",
-    "Customers": "57",
-    "EndDateTime": "2026-03-11T15:00:00",
-    "StartDateTime": "2026-03-11T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Connemarra St, Harrow Rd",
-    "WebId": 88534,
-    "JobId": "129769"
-  },
-  {
     "Area": "Mooney Mooney, Cheero Point, Brooklyn",
     "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
     "Detail": "",
@@ -5133,6 +5120,19 @@
     "Streets": "Caramara Pky , Cararma Pkwy, Cheero Point Rd, Freeway , Kowan Rd, Kowan St, Mara Cres, Milloo Pde, Mooney Mooney St, Pacific Hwy, Peat Isld, Point Rd, Sydney-Newcastle Freeway",
     "WebId": 88583,
     "JobId": "128342"
+  },
+  {
+    "Area": "Bexley",
+    "Cause": "turning off power temporarily for nearby construction",
+    "Detail": "",
+    "Customers": "57",
+    "EndDateTime": "2026-03-11T15:00:00",
+    "StartDateTime": "2026-03-11T07:30:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Connemarra St, Harrow Rd",
+    "WebId": 88534,
+    "JobId": "129769"
   },
   {
     "Area": "Mount View, Millfield, Pokolbin",
@@ -5174,32 +5174,6 @@
     "JobId": "130063"
   },
   {
-    "Area": "Sans Souci, Ramsgate, Ramsgate Beach",
-    "Cause": "turning off power temporarily for nearby construction",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-11T19:00:00",
-    "StartDateTime": "2026-03-11T08:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Grand Pde, Ramsgate Rd, the Grand Pde",
-    "WebId": 88623,
-    "JobId": "130474"
-  },
-  {
-    "Area": "Macmasters Beach",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "162",
-    "EndDateTime": "2026-03-11T16:30:00",
-    "StartDateTime": "2026-03-11T08:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Beachview Esp, Ocean Dr, South Pacific Dr, the Scenic Rd",
-    "WebId": 88643,
-    "JobId": "130467"
-  },
-  {
     "Area": "Maryville",
     "Cause": "connecting power to a home or business nearby",
     "Detail": "",
@@ -5237,6 +5211,32 @@
     "Streets": "Seamist Cl",
     "WebId": 88419,
     "JobId": "130009"
+  },
+  {
+    "Area": "Sans Souci, Ramsgate, Ramsgate Beach",
+    "Cause": "turning off power temporarily for nearby construction",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-11T19:00:00",
+    "StartDateTime": "2026-03-11T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Grand Pde, Ramsgate Rd, the Grand Pde",
+    "WebId": 88623,
+    "JobId": "130474"
+  },
+  {
+    "Area": "Macmasters Beach",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "162",
+    "EndDateTime": "2026-03-11T16:30:00",
+    "StartDateTime": "2026-03-11T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Beachview Esp, Ocean Dr, South Pacific Dr, the Scenic Rd",
+    "WebId": 88643,
+    "JobId": "130467"
   },
   {
     "Area": "Ourimbah",
@@ -5733,19 +5733,6 @@
     "JobId": "127473"
   },
   {
-    "Area": "Scone",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-12T15:00:00",
-    "StartDateTime": "2026-03-12T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Liverpool St",
-    "WebId": 88612,
-    "JobId": "130440"
-  },
-  {
     "Area": "Muswellbrook",
     "Cause": "upgrading the electricity network to support new community and businesses in your area",
     "Detail": "",
@@ -5770,6 +5757,19 @@
     "Streets": "Cunningham Rd, Hume Bvd, Macarthur St, Shortland Ave, Wyong Rd",
     "WebId": 88594,
     "JobId": "128657"
+  },
+  {
+    "Area": "Scone",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-12T15:00:00",
+    "StartDateTime": "2026-03-12T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Liverpool St",
+    "WebId": 88612,
+    "JobId": "130440"
   },
   {
     "Area": "Bonnells Bay, Morisset",
@@ -6110,19 +6110,6 @@
     "JobId": "127799"
   },
   {
-    "Area": "Padstow",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "177",
-    "EndDateTime": "2026-03-13T16:30:00",
-    "StartDateTime": "2026-03-13T07:00:00",
-    "Status": "Cancelled",
-    "Reason": "an unforeseen issue that has prevented the work from being carried out",
-    "Streets": "Davies Rd, Lock Ave, Ryan Rd, Trevone St, Truro Pde",
-    "WebId": 88557,
-    "JobId": "130188"
-  },
-  {
     "Area": "Jilliby",
     "Cause": "upgrading the electricity network to support new community and businesses in your area",
     "Detail": "",
@@ -6134,6 +6121,19 @@
     "Streets": "Burlington Ave, Dicksons Rd, Francis Byrne Cl, Hue Hue Rd, Treelands Dr",
     "WebId": 88604,
     "JobId": "127251"
+  },
+  {
+    "Area": "Padstow",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "177",
+    "EndDateTime": "2026-03-13T16:30:00",
+    "StartDateTime": "2026-03-13T07:00:00",
+    "Status": "Cancelled",
+    "Reason": "an unforeseen issue that has prevented the work from being carried out",
+    "Streets": "Davies Rd, Lock Ave, Ryan Rd, Trevone St, Truro Pde",
+    "WebId": 88557,
+    "JobId": "130188"
   },
   {
     "Area": "Mount Colah",
@@ -6383,32 +6383,6 @@
     "JobId": "128850"
   },
   {
-    "Area": "Mayfield West",
-    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-30T13:00:00",
-    "StartDateTime": "2026-03-13T15:30:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Industrial Dr",
-    "WebId": 88407,
-    "JobId": "130193"
-  },
-  {
-    "Area": "Yagoona, Bankstown",
-    "Cause": "trimming trees to ensure reliable power for your neighbourhood",
-    "Detail": "",
-    "Customers": "198",
-    "EndDateTime": "2026-03-14T14:00:00",
-    "StartDateTime": "2026-03-14T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Auburn Rd, Dutton St, Fenwick St, Glassop St, Hume Hwy, William St",
-    "WebId": 88526,
-    "JobId": "129280"
-  },
-  {
     "Area": "Hornsby, Hornsby Heights, Asquith",
     "Cause": "Connecting power to a home or business nearby",
     "Detail": "",
@@ -6433,6 +6407,19 @@
     "Streets": "Giffnock Ave",
     "WebId": 88126,
     "JobId": "129846"
+  },
+  {
+    "Area": "Yagoona, Bankstown",
+    "Cause": "trimming trees to ensure reliable power for your neighbourhood",
+    "Detail": "",
+    "Customers": "198",
+    "EndDateTime": "2026-03-14T14:00:00",
+    "StartDateTime": "2026-03-14T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Auburn Rd, Dutton St, Fenwick St, Glassop St, Hume Hwy, William St",
+    "WebId": 88526,
+    "JobId": "129280"
   },
   {
     "Area": "Ultimo",
@@ -6812,6 +6799,19 @@
     "JobId": "130212"
   },
   {
+    "Area": "Hornsby",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "81",
+    "EndDateTime": "2026-03-16T12:30:00",
+    "StartDateTime": "2026-03-16T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Lisgar La, Lisgar Rd, William St",
+    "WebId": 88649,
+    "JobId": "129984"
+  },
+  {
     "Area": "East Ryde, North Ryde, Ryde",
     "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
     "Detail": "",
@@ -6890,19 +6890,6 @@
     "JobId": "129347"
   },
   {
-    "Area": "Hornsby",
-    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
-    "Detail": "",
-    "Customers": "81",
-    "EndDateTime": "2026-03-16T12:30:00",
-    "StartDateTime": "2026-03-16T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Lisgar La, Lisgar Rd, William St",
-    "WebId": 88649,
-    "JobId": "129984"
-  },
-  {
     "Area": "Lidcombe",
     "Cause": "connecting power to a home or business nearby",
     "Detail": "",
@@ -6916,19 +6903,6 @@
     "JobId": "130268"
   },
   {
-    "Area": "Avalon Beach",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "82",
-    "EndDateTime": "2026-03-16T16:00:00",
-    "StartDateTime": "2026-03-16T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Avalon Pde, Chisholm Ave",
-    "WebId": 88929,
-    "JobId": "130808"
-  },
-  {
     "Area": "Chatswood",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -6940,6 +6914,19 @@
     "Streets": "Carr St, Centennial Ave",
     "WebId": 88908,
     "JobId": "130313"
+  },
+  {
+    "Area": "Avalon Beach",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "82",
+    "EndDateTime": "2026-03-16T16:00:00",
+    "StartDateTime": "2026-03-16T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Avalon Pde, Chisholm Ave",
+    "WebId": 88929,
+    "JobId": "130808"
   },
   {
     "Area": "Hillsborough, Branxton, Lambs Valley, Dalwood, Rosebrook",
@@ -7085,6 +7072,19 @@
     "JobId": "129012"
   },
   {
+    "Area": "Wallsend",
+    "Cause": "turning off power temporarily for nearby construction",
+    "Detail": "",
+    "Customers": "61",
+    "EndDateTime": "2026-03-16T18:00:00",
+    "StartDateTime": "2026-03-16T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Campbell St, Cowper St, Metcalfe St, Murnin St",
+    "WebId": 88737,
+    "JobId": "130587"
+  },
+  {
     "Area": "Umina Beach, Umina",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -7109,19 +7109,6 @@
     "Streets": "Avignon St, Curzon Ave, Gwydir St, Margherita Ave, Promenade Ave, Richmond Cl",
     "WebId": 88705,
     "JobId": "130549"
-  },
-  {
-    "Area": "Wallsend",
-    "Cause": "turning off power temporarily for nearby construction",
-    "Detail": "",
-    "Customers": "61",
-    "EndDateTime": "2026-03-16T18:00:00",
-    "StartDateTime": "2026-03-16T08:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Campbell St, Cowper St, Metcalfe St, Murnin St",
-    "WebId": 88737,
-    "JobId": "130587"
   },
   {
     "Area": "Macquarie Hills",
@@ -7761,19 +7748,6 @@
     "JobId": "129500"
   },
   {
-    "Area": "Muswellbrook",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-17T15:00:00",
-    "StartDateTime": "2026-03-17T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Aberdeen St, New England Hwy",
-    "WebId": 88614,
-    "JobId": "130462"
-  },
-  {
     "Area": "Long Jetty, Toowoon Bay",
     "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
     "Detail": "",
@@ -7785,6 +7759,19 @@
     "Streets": "Centennial Ave, Fraser Rd, Toowoon Bay Rd",
     "WebId": 88610,
     "JobId": "130077"
+  },
+  {
+    "Area": "Muswellbrook",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-17T15:00:00",
+    "StartDateTime": "2026-03-17T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Aberdeen St, New England Hwy",
+    "WebId": 88614,
+    "JobId": "130462"
   },
   {
     "Area": "Cessnock",
@@ -7800,32 +7787,6 @@
     "JobId": "129140"
   },
   {
-    "Area": "Saratoga",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-17T15:00:00",
-    "StartDateTime": "2026-03-17T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Warilda St",
-    "WebId": 88853,
-    "JobId": "130716"
-  },
-  {
-    "Area": "Saratoga, Davistown",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "41",
-    "EndDateTime": "2026-03-17T14:00:00",
-    "StartDateTime": "2026-03-17T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Centennial Ave, Davistown Rd, Malumba Ave, Wilkie King Ave, Wilkie-King Ave",
-    "WebId": 88857,
-    "JobId": "130714"
-  },
-  {
     "Area": "Adamstown, Adamstown Heights",
     "Cause": "replacing or fixing power poles in your community",
     "Detail": "",
@@ -7839,6 +7800,19 @@
     "JobId": "124060"
   },
   {
+    "Area": "Saratoga",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-17T15:00:00",
+    "StartDateTime": "2026-03-17T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Warilda St",
+    "WebId": 88853,
+    "JobId": "130716"
+  },
+  {
     "Area": "Terrigal",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -7850,6 +7824,19 @@
     "Streets": "Anniversary Ave, Bellbird Ave, Grasslands Ave, Havenview Rd, Lorikeet St, Maralinga Rd, Tilanbi Cl, Yarang Cl",
     "WebId": 88962,
     "JobId": "130628"
+  },
+  {
+    "Area": "Saratoga, Davistown",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "41",
+    "EndDateTime": "2026-03-17T14:00:00",
+    "StartDateTime": "2026-03-17T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Centennial Ave, Davistown Rd, Malumba Ave, Wilkie King Ave, Wilkie-King Ave",
+    "WebId": 88857,
+    "JobId": "130714"
   },
   {
     "Area": "Singleton Heights",
@@ -8996,19 +8983,6 @@
     "JobId": "130866"
   },
   {
-    "Area": "Sandringham",
-    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
-    "Detail": "",
-    "Customers": "21",
-    "EndDateTime": "2026-03-19T15:30:00",
-    "StartDateTime": "2026-03-19T07:30:00",
-    "Status": "Cancelled",
-    "Reason": "an unforeseen issue that has prevented the work from being carried out",
-    "Streets": "Sanoni Ave",
-    "WebId": 88775,
-    "JobId": "129644"
-  },
-  {
     "Area": "Windella, Melville, Oakhampton, Lochinvar, Rutherford",
     "Cause": "replacing individual service wires for a home or business nearby",
     "Detail": "",
@@ -9020,6 +8994,19 @@
     "Streets": "Camilla Cl, Denton Cl, Dickensons Rd, Kezia Rd, Malia Cres, Melville Ford Rd, New England Hwy, Winders La",
     "WebId": 88851,
     "JobId": "130720"
+  },
+  {
+    "Area": "Sandringham",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "21",
+    "EndDateTime": "2026-03-19T15:30:00",
+    "StartDateTime": "2026-03-19T07:30:00",
+    "Status": "Cancelled",
+    "Reason": "an unforeseen issue that has prevented the work from being carried out",
+    "Streets": "Sanoni Ave",
+    "WebId": 88775,
+    "JobId": "129644"
   },
   {
     "Area": "Tuggerah",
@@ -9321,19 +9308,6 @@
     "JobId": "129649"
   },
   {
-    "Area": "Jilliby, Alison",
-    "Cause": "upgrading the electricity network to support new community and businesses in your area",
-    "Detail": "",
-    "Customers": "61",
-    "EndDateTime": "2026-03-20T18:00:00",
-    "StartDateTime": "2026-03-20T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Brolga Way, Grasslands Cl, Hue Hue Rd, Jascaren Cl, Kiera La, Treelands Dr",
-    "WebId": 88624,
-    "JobId": "130463"
-  },
-  {
     "Area": "Kirrawee",
     "Cause": "trimming trees to ensure reliable power for your neighbourhood",
     "Detail": "",
@@ -9345,6 +9319,19 @@
     "Streets": "Corella Rd, Forest Rd, Hunter St, Maitland Pl, Singleton Pl",
     "WebId": 88636,
     "JobId": "129339"
+  },
+  {
+    "Area": "Jilliby, Alison",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
+    "Detail": "",
+    "Customers": "61",
+    "EndDateTime": "2026-03-20T18:00:00",
+    "StartDateTime": "2026-03-20T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Brolga Way, Grasslands Cl, Hue Hue Rd, Jascaren Cl, Kiera La, Treelands Dr",
+    "WebId": 88624,
+    "JobId": "130463"
   },
   {
     "Area": "Padstow",
@@ -9945,19 +9932,6 @@
     "JobId": "130217"
   },
   {
-    "Area": "Balgowlah",
-    "Cause": "upgrading the electricity network to support new community and businesses in your area",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-23T06:00:00",
-    "StartDateTime": "2026-03-22T20:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Condamine St",
-    "WebId": 88549,
-    "JobId": "129578"
-  },
-  {
     "Area": "Wahroonga",
     "Cause": "replacing or fixing power poles in your community",
     "Detail": "",
@@ -9995,6 +9969,19 @@
     "Streets": "Central Coast Hwy, Marbarry Ave, Pacific Hwy, Wakefield Cl, Woy Woy Rd",
     "WebId": 88608,
     "JobId": "128602"
+  },
+  {
+    "Area": "Balgowlah",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-23T06:00:00",
+    "StartDateTime": "2026-03-22T20:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Condamine St",
+    "WebId": 88549,
+    "JobId": "129578"
   },
   {
     "Area": "Edgecliff",
@@ -10218,6 +10205,19 @@
     "JobId": "129393"
   },
   {
+    "Area": "Pearl Beach",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "86",
+    "EndDateTime": "2026-03-23T16:00:00",
+    "StartDateTime": "2026-03-23T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Cornelian Rd, Diamond Rd, Jade Pl, Onyx Rd, Pearl Beach Dr",
+    "WebId": 88986,
+    "JobId": "127822"
+  },
+  {
     "Area": "St Ives",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -10242,19 +10242,6 @@
     "Streets": "Powderworks Rd",
     "WebId": 88923,
     "JobId": "130768"
-  },
-  {
-    "Area": "Pearl Beach",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
-    "Detail": "",
-    "Customers": "86",
-    "EndDateTime": "2026-03-23T16:00:00",
-    "StartDateTime": "2026-03-23T08:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Cornelian Rd, Diamond Rd, Jade Pl, Onyx Rd, Pearl Beach Dr",
-    "WebId": 88986,
-    "JobId": "127822"
   },
   {
     "Area": "Cardiff",
@@ -10432,7 +10419,7 @@
     "Customers": "157",
     "EndDateTime": "2026-03-24T07:00:00",
     "StartDateTime": "2026-03-23T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Barney St, Gipps St, Lyons Rd, Moore St",
     "WebId": 88877,
@@ -10835,7 +10822,7 @@
     "Customers": "188",
     "EndDateTime": "2026-03-25T06:00:00",
     "StartDateTime": "2026-03-24T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Byrne Ave, Hampden Rd, Lyons Rd, Mons St",
     "WebId": 88889,
@@ -11830,19 +11817,6 @@
     "JobId": "128388"
   },
   {
-    "Area": "Maitland, Horseshoe Bend",
-    "Cause": "replacing individual service wires for a home or business nearby",
-    "Detail": "",
-    "Customers": "13",
-    "EndDateTime": "2026-03-27T17:30:00",
-    "StartDateTime": "2026-03-27T07:30:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Analby St, Carrington St, Cohen St, Denman St, Hannan St, Mount Pleasant St, Portland St",
-    "WebId": 88993,
-    "JobId": "130769"
-  },
-  {
     "Area": "New Lambton, Lambton",
     "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
     "Detail": "",
@@ -11854,6 +11828,19 @@
     "Streets": "Astbury St, Avondale Rd, Baker St, Clarence Rd, Collaroy Rd, Evescourt Rd, Gwydir Rd, Hobart Rd, Lambton Rd, Noela Ave, Owen La, Railway Rd, Regent La, Regent St, Rosmar St, Rugby Rd, Russell Rd, Tyrone Rd, Westcourt Rd",
     "WebId": 88742,
     "JobId": "129153"
+  },
+  {
+    "Area": "Maitland, Horseshoe Bend",
+    "Cause": "replacing individual service wires for a home or business nearby",
+    "Detail": "",
+    "Customers": "13",
+    "EndDateTime": "2026-03-27T17:30:00",
+    "StartDateTime": "2026-03-27T07:30:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Analby St, Carrington St, Cohen St, Denman St, Hannan St, Mount Pleasant St, Portland St",
+    "WebId": 88993,
+    "JobId": "130769"
   },
   {
     "Area": "Fairlight",
@@ -11908,6 +11895,45 @@
     "JobId": "129461"
   },
   {
+    "Area": "Farley",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-27T17:00:00",
+    "StartDateTime": "2026-03-27T08:30:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Becher Rd, Loane Cct",
+    "WebId": 89017,
+    "JobId": "129961"
+  },
+  {
+    "Area": "Ashfield",
+    "Cause": "Supporting an electricity retailer in replacing existing metering at your property",
+    "Detail": "",
+    "Customers": "16",
+    "EndDateTime": "2026-03-27T16:00:00",
+    "StartDateTime": "2026-03-27T08:45:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Liverpool Rd",
+    "WebId": 88275,
+    "JobId": "130083"
+  },
+  {
+    "Area": "Padstow",
+    "Cause": "Supporting an electricity retailer in replacing existing metering at your property",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-03-27T16:00:00",
+    "StartDateTime": "2026-03-27T08:45:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Alma Rd",
+    "WebId": 88281,
+    "JobId": "130087"
+  },
+  {
     "Area": "Silverwater",
     "Cause": "Supporting an electricity retailer in replacing existing metering at your property",
     "Detail": "",
@@ -11958,32 +11984,6 @@
     "Streets": "Maroubra Rd",
     "WebId": 86809,
     "JobId": "128482"
-  },
-  {
-    "Area": "Ashfield",
-    "Cause": "Supporting an electricity retailer in replacing existing metering at your property",
-    "Detail": "",
-    "Customers": "16",
-    "EndDateTime": "2026-03-27T16:00:00",
-    "StartDateTime": "2026-03-27T08:45:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Liverpool Rd",
-    "WebId": 88275,
-    "JobId": "130083"
-  },
-  {
-    "Area": "Padstow",
-    "Cause": "Supporting an electricity retailer in replacing existing metering at your property",
-    "Detail": "",
-    "Customers": "less than 10",
-    "EndDateTime": "2026-03-27T16:00:00",
-    "StartDateTime": "2026-03-27T08:45:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Alma Rd",
-    "WebId": 88281,
-    "JobId": "130087"
   },
   {
     "Area": "Toukley",
@@ -12844,19 +12844,6 @@
     "JobId": "130742"
   },
   {
-    "Area": "Mayfield, Mayfield East",
-    "Cause": "turning off power temporarily for nearby construction",
-    "Detail": "",
-    "Customers": "72",
-    "EndDateTime": "2026-03-31T16:00:00",
-    "StartDateTime": "2026-03-31T08:00:00",
-    "Status": "Proposed",
-    "Reason": null,
-    "Streets": "Greaves St, Mounter St, Smith St",
-    "WebId": 88753,
-    "JobId": "130604"
-  },
-  {
     "Area": "Lochinvar",
     "Cause": "turning off power temporarily for nearby construction",
     "Detail": "",
@@ -12868,6 +12855,19 @@
     "Streets": "Lilac Ave",
     "WebId": 88722,
     "JobId": "130393"
+  },
+  {
+    "Area": "Mayfield, Mayfield East",
+    "Cause": "turning off power temporarily for nearby construction",
+    "Detail": "",
+    "Customers": "72",
+    "EndDateTime": "2026-03-31T16:00:00",
+    "StartDateTime": "2026-03-31T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Greaves St, Mounter St, Smith St",
+    "WebId": 88753,
+    "JobId": "130604"
   },
   {
     "Area": "Buchanan, Heddon Greta",
