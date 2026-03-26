@@ -214,8 +214,8 @@
     "Customers": "80",
     "EndDateTime": "2026-03-26T17:00:00",
     "StartDateTime": "2026-03-26T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
+    "Status": "Outage Extended\r\n(+2 hrs)",
+    "Reason": "an unforeseen issue",
     "Streets": "David St, Iluka Rd, Kardinia Rd, Morella Rd",
     "WebId": 88710,
     "JobId": "130104"
@@ -3191,7 +3191,7 @@
     "Customers": "17",
     "EndDateTime": "2026-04-01T06:00:00",
     "StartDateTime": "2026-03-31T20:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Breust Pl",
     "WebId": 88728,
@@ -3282,8 +3282,8 @@
     "Customers": "176",
     "EndDateTime": "2026-04-01T17:00:00",
     "StartDateTime": "2026-04-01T07:00:00",
-    "Status": "Proposed",
-    "Reason": null,
+    "Status": "Cancelled",
+    "Reason": "an unexpected complication on site",
     "Streets": "Darley St, Forbes St, Liverpool St, Thomson St",
     "WebId": 88955,
     "JobId": "129980"
@@ -4205,7 +4205,7 @@
     "Customers": "54",
     "EndDateTime": "2026-04-02T15:00:00",
     "StartDateTime": "2026-04-02T07:30:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Greenway Dr, Hesperus St, Latona St, Yarrara Rd",
     "WebId": 90229,
@@ -8580,6 +8580,19 @@
     "JobId": "131942"
   },
   {
+    "Area": "Hamlyn Terrace, Warnervale",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "69",
+    "EndDateTime": "2026-04-13T14:00:00",
+    "StartDateTime": "2026-04-13T09:30:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Brush Box Pl, Ebony Dr, Grey Gum Cl, Oregon Pl, Spruce Cl, Teak Cl, Warnervale Rd",
+    "WebId": 90368,
+    "JobId": "132333"
+  },
+  {
     "Area": "Largs",
     "Cause": "working on underground cables or equipment in your area to make your power supply more resilient",
     "Detail": "",
@@ -9592,6 +9605,19 @@
     "Streets": "Bridge St, Cooper Ave, Fassifern Rd, Macquarie Rd, Miller Rd, Wallsend Rd, Wallsend St, Wangi Rd",
     "WebId": 90305,
     "JobId": "131671"
+  },
+  {
+    "Area": "Lane Cove, Lane Cove West",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "94",
+    "EndDateTime": "2026-04-15T15:30:00",
+    "StartDateTime": "2026-04-15T07:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Avalon Ave, Banksia Cl, Cullen St, Hallam Ave, Lloyd Rees Dr, Mars Rd, Wood St",
+    "WebId": 90362,
+    "JobId": "131068"
   },
   {
     "Area": "Miranda, Yowie Bay",
@@ -12285,6 +12311,19 @@
     "JobId": "131758"
   },
   {
+    "Area": "Kayuga, Muswellbrook",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
+    "Detail": "",
+    "Customers": "14",
+    "EndDateTime": "2026-04-21T17:30:00",
+    "StartDateTime": "2026-04-21T08:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Back Muswellbrook Rd, Castlerock Rd, Dorset Rd, Kayuga Rd, Lawries La",
+    "WebId": 90364,
+    "JobId": "132384"
+  },
+  {
     "Area": "Jesmond, North Lambton, Lambton, Shortland",
     "Cause": "replacing or fixing powerlines above ground in your neighbourhood",
     "Detail": "",
@@ -13078,30 +13117,17 @@
     "JobId": "131170"
   },
   {
-    "Area": "Mount Colah",
-    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Area": "Kogarah",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
     "Detail": "",
-    "Customers": "114",
-    "EndDateTime": "2026-04-23T16:00:00",
-    "StartDateTime": "2026-04-23T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Acorn Cl, Acorn Pl, Beryl Ave, Caribbean Pl, Carribean Pl, Janita Cres, Red Cedar Dr, Stonehaven Rd",
-    "WebId": 89767,
-    "JobId": "130288"
-  },
-  {
-    "Area": "Narraweena, Dee Why",
-    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
-    "Detail": "",
-    "Customers": "65",
-    "EndDateTime": "2026-04-23T17:00:00",
-    "StartDateTime": "2026-04-23T07:00:00",
+    "Customers": "110",
+    "EndDateTime": "2026-04-23T05:00:00",
+    "StartDateTime": "2026-04-22T20:00:00",
     "Status": "Proposed",
     "Reason": null,
-    "Streets": "Parr Pde, Prescott Ave, Rayner Ave, Victor Rd",
-    "WebId": 89728,
-    "JobId": "131302"
+    "Streets": "Belgrave St, Gray St, Montgomery St",
+    "WebId": 90367,
+    "JobId": "132239"
   },
   {
     "Area": "Belmore",
@@ -13128,6 +13154,32 @@
     "Streets": "Belmont St, Gailes St, Toronto Pde, Waratah St",
     "WebId": 90202,
     "JobId": "131899"
+  },
+  {
+    "Area": "Mount Colah",
+    "Cause": "servicing high voltage electrical equipment to ensure reliable power for your community",
+    "Detail": "",
+    "Customers": "114",
+    "EndDateTime": "2026-04-23T16:00:00",
+    "StartDateTime": "2026-04-23T07:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Acorn Cl, Acorn Pl, Beryl Ave, Caribbean Pl, Carribean Pl, Janita Cres, Red Cedar Dr, Stonehaven Rd",
+    "WebId": 89767,
+    "JobId": "130288"
+  },
+  {
+    "Area": "Narraweena, Dee Why",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "65",
+    "EndDateTime": "2026-04-23T17:00:00",
+    "StartDateTime": "2026-04-23T07:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Parr Pde, Prescott Ave, Rayner Ave, Victor Rd",
+    "WebId": 89728,
+    "JobId": "131302"
   },
   {
     "Area": "Glebe",
@@ -13279,7 +13331,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2026-04-23T15:00:00",
     "StartDateTime": "2026-04-23T08:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Denman Rd",
     "WebId": 90228,
