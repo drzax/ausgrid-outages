@@ -188,8 +188,8 @@
     "Customers": "149",
     "EndDateTime": "2026-03-26T18:00:00",
     "StartDateTime": "2026-03-26T07:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
+    "Status": "Outage Extended\r\n(+3 hrs)",
+    "Reason": "an unforeseen issue that delayed the work commencing",
     "Streets": "Beaconsfield St, Ely St, Milperra Rd, Sherwood St",
     "WebId": 89951,
     "JobId": "131906"
@@ -3425,8 +3425,8 @@
     "Customers": "104",
     "EndDateTime": "2026-04-01T15:30:00",
     "StartDateTime": "2026-04-01T07:30:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
+    "Status": "Cancelled",
+    "Reason": "an unforeseen issue that has prevented the work from being carried out",
     "Streets": "Bon Accord Ave, Flood St, Kenilworth St",
     "WebId": 89708,
     "JobId": "131651"
@@ -4608,7 +4608,7 @@
     "Customers": "less than 10",
     "EndDateTime": "2026-04-03T01:00:00",
     "StartDateTime": "2026-04-02T19:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Villiers St",
     "WebId": 90357,
@@ -7967,6 +7967,19 @@
     "Streets": "Chelmsford Dr, de Lisle Cres, Dudley Cl, Nathan Cl, New England Hwy, Somers Cl, Stafford Cl, Stradbroke Ave, Tennyson St, Wakehurst Cres",
     "WebId": 89949,
     "JobId": "130095"
+  },
+  {
+    "Area": "Singleton",
+    "Cause": "upgrading the electricity network to support new community and businesses in your area",
+    "Detail": "",
+    "Customers": "10",
+    "EndDateTime": "2026-04-12T16:30:00",
+    "StartDateTime": "2026-04-12T08:30:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Glenridding Rd, Waterworks La",
+    "WebId": 90375,
+    "JobId": "132414"
   },
   {
     "Area": "Darlinghurst, Paddington",
@@ -12077,6 +12090,19 @@
     "JobId": "132351"
   },
   {
+    "Area": "Metford, Tenambit, East Maitland, Thornton",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "10",
+    "EndDateTime": "2026-04-21T07:30:00",
+    "StartDateTime": "2026-04-20T20:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Metford Rd, Raymond Terrace Rd",
+    "WebId": 90374,
+    "JobId": "132406"
+  },
+  {
     "Area": "Lakemba, Wiley Park",
     "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
     "Detail": "",
@@ -12114,6 +12140,19 @@
     "Streets": "Awaba St, Bluewater Ave, Bridge St, Brighton St, Fennell St, Lake St, Macquarie Rd, May St, Teralba St, Turnbull St, Wangi Rd",
     "WebId": 90286,
     "JobId": "130776"
+  },
+  {
+    "Area": "Randwick",
+    "Cause": "upgrading power poles in your area to make your electricity supply more resilient",
+    "Detail": "",
+    "Customers": "270",
+    "EndDateTime": "2026-04-21T17:00:00",
+    "StartDateTime": "2026-04-21T07:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Figtree Ave, Gilderthorpe Ave, Hooper St, Park Ave, Pine St",
+    "WebId": 90372,
+    "JobId": "132405"
   },
   {
     "Area": "Como",
@@ -12298,19 +12337,6 @@
     "JobId": "131537"
   },
   {
-    "Area": "Mosman",
-    "Cause": "connecting power to a home or business nearby",
-    "Detail": "",
-    "Customers": "24",
-    "EndDateTime": "2026-04-21T16:00:00",
-    "StartDateTime": "2026-04-21T08:00:00",
-    "Status": "Proceeding as scheduled",
-    "Reason": null,
-    "Streets": "Parriwi Rd, Spit Rd",
-    "WebId": 90223,
-    "JobId": "131758"
-  },
-  {
     "Area": "Kayuga, Muswellbrook",
     "Cause": "upgrading the electricity network to support new community and businesses in your area",
     "Detail": "",
@@ -12322,6 +12348,19 @@
     "Streets": "Back Muswellbrook Rd, Castlerock Rd, Dorset Rd, Kayuga Rd, Lawries La",
     "WebId": 90364,
     "JobId": "132384"
+  },
+  {
+    "Area": "Mosman",
+    "Cause": "connecting power to a home or business nearby",
+    "Detail": "",
+    "Customers": "24",
+    "EndDateTime": "2026-04-21T16:00:00",
+    "StartDateTime": "2026-04-21T08:00:00",
+    "Status": "Proceeding as scheduled",
+    "Reason": null,
+    "Streets": "Parriwi Rd, Spit Rd",
+    "WebId": 90223,
+    "JobId": "131758"
   },
   {
     "Area": "Jesmond, North Lambton, Lambton, Shortland",
@@ -12571,13 +12610,26 @@
     "JobId": "131152"
   },
   {
+    "Area": "Long Jetty, Toowoon Bay",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "166",
+    "EndDateTime": "2026-04-22T00:00:00",
+    "StartDateTime": "2026-04-21T19:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Gordon Rd, the Entrance Rd, Toowoon Bay Rd, Tuggerah Pde",
+    "WebId": 90378,
+    "JobId": "132418"
+  },
+  {
     "Area": "Ryde",
     "Cause": "connecting power to a home or business nearby",
     "Detail": "",
     "Customers": "55",
     "EndDateTime": "2026-04-22T05:00:00",
     "StartDateTime": "2026-04-21T19:00:00",
-    "Status": "Proposed",
+    "Status": "Proceeding as scheduled",
     "Reason": null,
     "Streets": "Lane Cove Rd, Myra Ave",
     "WebId": 89939,
@@ -13115,6 +13167,19 @@
     "Streets": "Tenth Ave",
     "WebId": 89270,
     "JobId": "131170"
+  },
+  {
+    "Area": "Kariong",
+    "Cause": "working on overhead powerlines in your neighbourhood to prevent future outages and improve service",
+    "Detail": "",
+    "Customers": "less than 10",
+    "EndDateTime": "2026-04-22T22:00:00",
+    "StartDateTime": "2026-04-22T17:00:00",
+    "Status": "Proposed",
+    "Reason": null,
+    "Streets": "Kariong Pumping Station , Mt Penang School",
+    "WebId": 90376,
+    "JobId": "132040"
   },
   {
     "Area": "Kogarah",
