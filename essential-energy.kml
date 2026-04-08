@@ -43,10 +43,50 @@
 <width>2</width>
 </LineStyle>
 </Style>
+<Style id='sw_1249554_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1249554_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f808000</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff666600</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>3 Records</description>
+<description>4 Records</description>
 <Placemark id="INCD-120230-r">
 <Snippet><![CDATA[INCD-120230-r]]></Snippet>
 <styleUrl>#sw_1442837_normal_unplanned</styleUrl>
@@ -68,6 +108,30 @@
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>
 150.5324206,-28.75537485</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark id="INCD-27268-w">
+<Snippet><![CDATA[INCD-27268-w]]></Snippet>
+<styleUrl>#sw_1249554_normal_planned</styleUrl>
+<description><![CDATA[<h2>INCD-27268-w</h2><div style="overflow: hidden;"><div><span>Time Off:</span>09/04/2026 07:00:00</div><div><span>Est. Time On:</span>09/04/2026 09:00:00</div></div><div><span>No. of Customers affected:</span>9</div><div><span>Reason:</span>Critical repairs</div><div><span>Last Updated:</span>09/04/2026 07:06:20</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5809350,0,31631461}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+148.5412871,-33.60442941 148.5412763,-33.60442226 148.5372562,-33.60176446 148.5334936,-33.59885798 148.5291363,-33.59424099 148.5291245,-33.59422852 148.5291047,-33.59420145 148.5290887,-33.59417261 148.5290769,-33.59414241 148.5290731,-33.59412684 148.5255310,-33.57943303 148.5255282,-33.57942119 148.5255250,-33.57939717 148.5255244,-33.57937302 148.5255264,-33.57934892 148.5255309,-33.57932505 148.5255380,-33.57930164 148.5255475,-33.57927883 148.5255595,-33.57925682 148.5255737,-33.57923580 148.5255901,-33.57921592 148.5256085,-33.57919734 148.5256289,-33.57918020 148.5256510,-33.57916466 148.5256746,-33.57915083 148.5256997,-33.57913881 148.5257259,-33.57912872 148.5257395,-33.57912467 148.5257531,-33.57912062 148.5257810,-33.57911458 148.5258095,-33.57911065 148.5258383,-33.57910886 148.5258671,-33.57910922 148.5258959,-33.57911174 148.5259242,-33.57911639 148.5259519,-33.57912313 148.5259788,-33.57913192 148.5260046,-33.57914267 148.5260292,-33.57915531 148.5260524,-33.57916973 148.5260739,-33.57918583 148.5260936,-33.57920346 148.5261114,-33.57922250 148.5261271,-33.57924279 148.5261338,-33.57925347 148.5417627,-33.60408391 148.5417691,-33.60409410 148.5417799,-33.60411533 148.5417884,-33.60413724 148.5417946,-33.60415968 148.5417986,-33.60418249 148.5418002,-33.60420549 148.5417995,-33.60422852 148.5417965,-33.60425143 148.5417911,-33.60427404 148.5417835,-33.60429617 148.5417736,-33.60431769 148.5417616,-33.60433842 148.5417475,-33.60435822 148.5417314,-33.60437696 148.5417136,-33.60439448 148.5416940,-33.60441066 148.5416834,-33.60441803 148.5416728,-33.60442539 148.5416502,-33.60443856 148.5416263,-33.60445008 148.5416014,-33.60445986 148.5415755,-33.60446782 148.5415490,-33.60447392 148.5415219,-33.60447811 148.5414945,-33.60448035 148.5414670,-33.60448064 148.5414395,-33.60447896 148.5414123,-33.60447534 148.5413856,-33.60446980 148.5413595,-33.60446237 148.5413343,-33.60445311 148.5413101,-33.60444211 148.5412871,-33.60442941</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5809350,0,31631461}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+148.5337210,-33.59517076</coordinates>
 </Point>
 </MultiGeometry>
 </Placemark>
