@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-296015-q">
+<Snippet><![CDATA[INCD-296015-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-296015-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>17/08/2026 05:52:58</div><div><span>Est. Time On:</span>17/08/2026 10:30:00</div></div><div><span>No. of Customers affected:</span>22</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>17/08/2026 05:52:59</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{3405000,0,32298187}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+145.3366845,-33.40622439 145.3366687,-33.40623504 145.3069719,-33.42625419 145.3069548,-33.42626574 145.3069170,-33.42628474 145.3068766,-33.42629926 145.3068341,-33.42630904 145.3068123,-33.42631147 144.9919732,-33.46097990 144.9919601,-33.46098132 144.9919336,-33.46098236 144.9919072,-33.46098159 144.9918809,-33.46097900 144.9918549,-33.46097461 144.9918295,-33.46096846 144.9918047,-33.46096057 144.9917808,-33.46095101 144.9917579,-33.46093985 144.9917362,-33.46092714 144.9917158,-33.46091300 144.9916968,-33.46089750 144.9916795,-33.46088074 144.9916638,-33.46086285 144.9916499,-33.46084394 144.9916379,-33.46082415 144.9916329,-33.46081387 144.9400222,-33.35467605 144.9400152,-33.35466156 144.9400052,-33.35463140 144.9399994,-33.35460047 144.9399979,-33.35456919 144.9400007,-33.35453797 144.9400078,-33.35450724 144.9400191,-33.35447739 144.9400344,-33.35444883 144.9400439,-33.35443539 144.9400535,-33.35442195 144.9400762,-33.35439710 144.9401021,-33.35437461 144.9401310,-33.35435477 144.9401624,-33.35433787 144.9401959,-33.35432411 144.9402310,-33.35431370 144.9402674,-33.35430675 144.9402860,-33.35430507 144.9628861,-33.35224729 144.9628993,-33.35224610 144.9629256,-33.35224551 144.9629388,-33.35224612 145.2371231,-33.36473656 145.2371394,-33.36473729 145.2371717,-33.36474150 145.2372033,-33.36474842 145.2372339,-33.36475799 145.2372486,-33.36476404 145.3366088,-33.40578145 145.3366270,-33.40578894 145.3366609,-33.40580763 145.3366916,-33.40582973 145.3367189,-33.40585488 145.3367422,-33.40588270 145.3367611,-33.40591274 145.3367754,-33.40594453 145.3367849,-33.40597758 145.3367871,-33.40599447 145.3367894,-33.40601136 145.3367887,-33.40604534 145.3367831,-33.40607900 145.3367724,-33.40611178 145.3367569,-33.40614320 145.3367369,-33.40617274 145.3367126,-33.40619994 145.3366845,-33.40622439</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{3405000,0,32298187}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+145.1375368,-33.40272463</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
