@@ -3,10 +3,74 @@
 <Document>
 <name>\\SMWDAZEAPP01\kmzfiles\current.kml</name>
 <open>0</open>
+<Style id='sw_1442837_normal_planned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/planned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
+<Style id='sw_1442837_normal_unplanned'>
+<IconStyle>
+<scale>1.0</scale>
+<Icon>
+<href>http://essentialenergy.com.au/Asset/img/icons/unplanned-outage-marker.png</href>
+</Icon>
+<hotSpot x="0" y="0" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+<color>8f000080</color>
+</PolyStyle>
+<LineStyle>
+<colorMode>normal</colorMode>
+<color>ff120066</color>
+<width>2</width>
+</LineStyle>
+</Style>
 <Folder>
 <name><![CDATA[unset]]></name>
 <open>0</open>
-<description>2 Records</description>
+<description>3 Records</description>
+<Placemark id="INCD-296648-q">
+<Snippet><![CDATA[INCD-296648-q]]></Snippet>
+<styleUrl>#sw_1442837_normal_unplanned</styleUrl>
+<description><![CDATA[<h2>INCD-296648-q</h2><div style="overflow: hidden;"><div><span>Time Off:</span>25/08/2026 22:04:10</div><div><span>Est. Time On:</span></div></div><div><span>No. of Customers affected:</span>151</div><div><span>Reason:</span>We are investigating</div><div><span>Last Updated:</span>25/08/2026 22:32:32</div>]]></description><MultiGeometry>
+<Polygon id="external|outage_notification|current_coverage|{5615625,0,32347279}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+149.4708689,-29.11756725 149.4708574,-29.11757706 149.2585280,-29.29764136 149.2585153,-29.29765211 149.2584873,-29.29767090 149.2584570,-29.29768679 149.2584249,-29.29769954 149.2584081,-29.29770427 149.2383718,-29.30334475 149.2383591,-29.30334832 149.2383331,-29.30335352 149.2383199,-29.30335513 149.0965510,-29.32053379 148.9120303,-29.33601660 148.7194435,-29.35102300 148.7194277,-29.35102422 148.7193959,-29.35102381 148.7193644,-29.35102054 148.7193334,-29.35101446 148.7193033,-29.35100564 148.7192744,-29.35099415 148.7192469,-29.35098013 148.7192213,-29.35096372 148.7192095,-29.35095440 148.7191977,-29.35094509 148.7191764,-29.35092444 148.7191577,-29.35090199 148.7191416,-29.35087797 148.7191285,-29.35085264 148.7191184,-29.35082627 148.7191115,-29.35079913 148.7191077,-29.35077150 148.7191075,-29.35075759 148.7185195,-29.31775922 148.7185193,-29.31774816 148.7185210,-29.31772606 148.7185247,-29.31770415 148.7185304,-29.31768259 148.7185343,-29.31767205 148.7402690,-29.25847884 148.7402741,-29.25846498 148.7402876,-29.25843840 148.7403043,-29.25841323 148.7403239,-29.25838978 148.7403351,-29.25837904 149.0160467,-28.99319749 149.0160620,-28.99318271 149.0160972,-28.99315742 149.0161168,-28.99314719 149.1263382,-28.93537465 149.1669533,-28.91995379 149.1669687,-28.91994791 149.1670010,-28.91993919 149.1670341,-28.91993363 149.1670677,-28.91993128 149.1671014,-28.91993219 149.1671348,-28.91993634 149.1671675,-28.91994366 149.1671991,-28.91995409 149.1672141,-28.91996079 149.2627385,-28.96245556 149.2627545,-28.96246266 149.2627844,-28.96248003 149.2627981,-28.96249018 149.3903474,-29.05689138 149.4708429,-29.11717671 149.4708551,-29.11718586 149.4708773,-29.11720629 149.4708969,-29.11722862 149.4709138,-29.11725264 149.4709277,-29.11727806 149.4709385,-29.11730462 149.4709462,-29.11733202 149.4709505,-29.11735997 149.4709510,-29.11737407 149.4709516,-29.11738817 149.4709492,-29.11741631 149.4709436,-29.11744408 149.4709347,-29.11747118 149.4709226,-29.11749733 149.4709075,-29.11752224 149.4708896,-29.11754563 149.4708689,-29.11756725</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Point id="cp_external|outage_notification|current_coverage|{5615625,0,32347279}">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+149.0934963,-29.13749941</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
 </Folder>
 </Document>
 </kml>
